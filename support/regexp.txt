@@ -1,0 +1,1 @@
+:EMMO_[a-z0-9\_]+( rdf:type .+\r\n.+\r\n [ ]+skos:prefLabel "([A-Za-z ]+)")
