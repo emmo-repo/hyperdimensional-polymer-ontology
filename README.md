@@ -1,4 +1,4 @@
-# Hyperdimensional Polymer Ontology
+# Hyper-dimensional Polymer Ontology
 
 | ![Dimensions](./graphics/dimensions.png) | An ontology to capture the staggering diversity of polymeric materials and their applications. |
 | ---------------------------------------- | ------------------------------------------------------------ |
