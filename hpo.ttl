@@ -1145,13 +1145,10 @@ emmo:ThermodynamicTemperature owl:equivalentClass emmo:EMMO_affe07e4_e9bc_4852_8
 emmo:Thickness owl:equivalentClass emmo:EMMO_43003c86_9d15_433b_9789_ee2940920656 .
 ### emmo:Tool                                            -> disciplines-manufacturing           EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe
 emmo:Tool owl:equivalentClass emmo:EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe .
-<<<<<<< HEAD
 ### emmo:PolymericMaterial
 emmo:PolymericMaterial owl:equivalentClass emmo:EMMO_fb27e6d6_159e_48a6_9c29_76dc31d8a860 .
-=======
 ### emmo:Width                                           -> disciplines-isq                     EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0
 emmo:Width owl:equivalentClass emmo:EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0 .
->>>>>>> 1a8bc6656e1be3bfe5c97d3d6355af1efab26c74
 
 ### ObjectProperties:
 ### emmo:contacts                                        -> mereocausality-mereocausality       EMMO_8785be5a_2493_4b12_8f39_31907ab11748
