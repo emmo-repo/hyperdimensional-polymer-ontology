@@ -25,7 +25,7 @@
 	dcterms:creator "Otello Maria Roscioni" ,
 	"Gerhard Goldbeck" ,
 	"Daniele Toti" ;
-	dcterms:description "Battery Testing Ontology"@en ;
+	dcterms:description "An ontology to capture the staggering diversity of polymeric materials and their applications."@en ;
 	dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode" ;
 	dcterms:publisher "EMMC ASBL" ;
 	dcterms:title "Hyperdimensional Polymer Ontology"@en ;
@@ -73,6 +73,8 @@ hpo:ComponentManufacturing rdf:type owl:Class ;
 	owl:onProperty emmo:hasStage ;
 	owl:someValuesFrom hpo:Stacking
 	] ;
+	emmo:elucidation "The manufacturing of a component made of a composite material."@en ;
+	rdfs:comment "The manufacturing of a component made of a composite material."@en ;
 	skos:prefLabel "ComponentManufacturing"@en .
 
 hpo:CoverToolProperty rdf:type owl:Class ;
@@ -180,6 +182,8 @@ hpo:ComponentManufacturingLine rdf:type owl:Class ;
 	owl:onProperty emmo:hasConstituent ;
 	owl:someValuesFrom hpo:CoverTool
 	] ;
+	emmo:elucidation "A manufacturing line processing a composite material into a component."@en ;
+	rdfs:comment "A manufacturing line processing a composite material into a component."@en ;
 	skos:prefLabel "ComponentManufacturingLine"@en .
 
 hpo:FormulatedResinCuringTime rdf:type owl:Class ;
@@ -216,6 +220,8 @@ hpo:ResinPreparation rdf:type owl:Class ;
 	owl:onProperty <http://emmo.info/emmo/middle/manufacturing#hasInput> ;
 	owl:someValuesFrom hpo:Resin
 	] ;
+	emmo:elucidation "Preparing a resin involves mixing the precursor (monomers) with a hardener or a catalyst, fillers, and additives."@en ;
+	rdfs:comment "Preparing a resin involves mixing the precursor (monomers) with a hardener or a catalyst, fillers, and additives."@en ;
 	skos:prefLabel "ResinPreparation"@en .
 
 hpo:FormulatedResinViscosity rdf:type owl:Class ;
@@ -292,6 +298,9 @@ hpo:HeatingRateDuringStep rdf:type owl:Class ;
 
 hpo:MouldReleaseLayer rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ReleaseLayer ;
+	emmo:elucidation "A lubricant used to prevent a part from sticking to a mold surface."@en ;
+	rdfs:comment "A lubricant used to prevent a part from sticking to a mold surface."@en ;
+	rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
 	skos:prefLabel "MouldReleaseLayer"@en .
 
 hpo:MouldToolWidth rdf:type owl:Class ;
@@ -706,6 +715,9 @@ hpo:Prepreg rdf:type owl:Class ;
 
 hpo:CoverReleaseLayer rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ReleaseLayer ;
+	emmo:elucidation "A release layer applied to a cover placed over the laminate."@en ;
+	rdfs:comment "A release layer applied to a cover placed over the laminate."@en ;
+	rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
 	skos:prefLabel "CoverReleaseLayer"@en .
 
 hpo:FibreVolumeContent rdf:type owl:Class ;
@@ -773,6 +785,8 @@ hpo:ElongationAtBreak rdf:type owl:Class ;
 
 hpo:ManufacturingLine rdf:type owl:Class ;
 	rdfs:subClassOf emmo:ManufacturingSystem ;
+	emmo:elucidation "A manufacturing line is a set of sequential operations in a factory where materials are processed, assembled, and/or refined to produce a finished product or an intermediate product for further processing."@en ;
+	rdfs:comment "A manufacturing line is a set of sequential operations in a factory where materials are processed, assembled, and/or refined to produce a finished product or an intermediate product for further processing."@en ;
 	skos:prefLabel "ManufacturingLine"@en .
 
 hpo:PrepregWidth rdf:type owl:Class ;
@@ -799,7 +813,7 @@ hpo:ReleaseLayer rdf:type owl:Class ;
 	emmo:ManufacturedProduct ;
 	emmo:elucidation "A specially formulated material placed between the mold and uncured resin/fiber (usually sprayed or painted on the mold surface) to prevent permanent bonding between the two during cure and facilitates demolding after cure."@en ;
 	rdfs:comment "A specially formulated material placed between the mold and uncured resin/fiber (usually sprayed or painted on the mold surface) to prevent permanent bonding between the two during cure and facilitates demolding after cure."@en ;
-	rdfs:isDefinedBy "COMP WORLD"@en ;
+	rdfs:isDefinedBy "https://compositesuk.co.uk/composite-materials/glossary-terms"^^xsd:anyURI ;
 	skos:prefLabel "ReleaseLayer"@en .
 
 hpo:FormulatedResinCuringTemperature rdf:type owl:Class ;
@@ -857,6 +871,8 @@ hpo:WorkingStepsOrder rdf:type owl:Class ;
 
 hpo:PrepregLine rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ManufacturingLine ;
+	emmo:elucidation "A manufacturing line processing a prepreg for later use."@en ;
+	rdfs:comment "A manufacturing line processing a prepreg for later use."@en ;
 	skos:prefLabel "PrepregLine"@en .
 
 hpo:TextileFabricThickness rdf:type owl:Class ;
@@ -913,7 +929,31 @@ hpo:StackedPrepreg rdf:type owl:Class ;
 	owl:onProperty emmo:contacts ;
 	owl:someValuesFrom hpo:PrepregPiece
 	] ;
+	emmo:elucidation "Arrangement of ply prepregs in a laminate."@en ;
+	rdfs:comment  "Arrangement of ply prepregs in a laminate."@en ;
+	rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
 	skos:prefLabel "StackedPrepreg"@en .
+
+hpo:Filler rdf:type owl:Class ;
+	rdfs:subClassOf hpo:ResinIngredient ;
+	emmo:elucidation "A material (usually low cost) added to a resin to extend it, or give special properties"@en ;
+	rdfs:comment "A material (usually low cost) added to a resin to extend it, or give special properties"@en ;
+	rdfs:isDefinedBy "https://compositesuk.co.uk/composite-materials/glossary-of-terms/"^^xsd:anyURI ;
+	skos:prefLabel "Filler"@en .
+
+hpo:Volatiles rdf:type owl:Class ;
+	rdfs:subClassOf hpo:ResinIngredient ;
+	emmo:elucidation "Solvents, such as water and alcohol, in a sizing or resin formulation that can be vaporized at ambient or slightly elevated temperatures."@en ;
+	rdfs:comment "Solvents, such as water and alcohol, in a sizing or resin formulation that can be vaporized at ambient or slightly elevated temperatures."@en ;
+	rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
+	skos:prefLabel "Volatiles"@en .
+
+hpo:Monomer rdf:type owl:Class ;
+	rdfs:subClassOf hpo:ResinIngredient ;
+	emmo:elucidation "A single molecule that reacts with like or unlike molecules to form a polymer. "@en ;
+	rdfs:comment "A single molecule that reacts with like or unlike molecules to form a polymer. "@en ;
+	rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
+	skos:prefLabel "Monomer"@en .
 
 #########################################
 ### Equivalent classes and properties ###
@@ -940,6 +980,8 @@ emmo:Mixture owl:equivalentClass emmo:EMMO_ec2c8ac8_98c5_4c74_b85b_ff8e8ca6655c 
 emmo:Objective owl:equivalentClass emmo:EMMO_2a888cdf_ec4a_4ec5_af1c_0343372fc978 .
 ### emmo:Tool                                            -> disciplines-manufacturing           EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe
 emmo:Tool owl:equivalentClass emmo:EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe .
+### emmo:PolymericMaterial
+emmo:PolymericMaterial owl:equivalentClass emmo:EMMO_fb27e6d6_159e_48a6_9c29_76dc31d8a860 .
 
 ### ObjectProperties:
 ### emmo:contacts                                        -> mereocausality-mereocausality       EMMO_8785be5a_2493_4b12_8f39_31907ab11748
