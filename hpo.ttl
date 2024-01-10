@@ -86,6 +86,7 @@ hpo:CoverToolProperty rdf:type owl:Class ;
 
 hpo:CatalystViscosity rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CatalystProperty ;
+	rdfs:subClassOf emmo:DynamicViscosity ;
 	emmo:elucidation "Catalyst viscosity at 25°C."@en ;
 	rdfs:comment "Catalyst viscosity at 25°C."@en ;
 	skos:prefLabel "CatalystViscosity"@en .
@@ -128,6 +129,7 @@ hpo:ResinIngredient rdf:type owl:Class ;
 
 hpo:StackedPrepregNominalThickness rdf:type owl:Class ;
 	rdfs:subClassOf hpo:StackedPrepregProperty ;
+	rdfs:subClassOf emmo:Thickness ;
 	emmo:elucidation "Sum of the thicknesses of prepreg layer."@en ;
 	rdfs:comment "Sum of the thicknesses of prepreg layer."@en ;
 	skos:prefLabel "StackedPrepregNominalThickness"@en .
@@ -140,6 +142,7 @@ hpo:CatalystCommercialName rdf:type owl:Class ;
 
 hpo:ResinViscosity rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ResinProperty ;
+	rdfs:subClassOf emmo:DynamicViscosity ;
 	emmo:elucidation "Viscosity at 25°C."@en ;
 	rdfs:comment "Viscosity at 25°C."@en ;
 	skos:prefLabel "ResinViscosity"@en .
@@ -152,12 +155,14 @@ hpo:PrepregFibreVolumeContent rdf:type owl:Class ;
 
 hpo:MouldToolLength rdf:type owl:Class ;
 	rdfs:subClassOf hpo:MouldToolProperty ;
+	rdfs:subClassOf emmo:Length ;
 	emmo:elucidation "Length (contributing to the size of the tool)."@en ;
 	rdfs:comment "Length (contributing to the size of the tool)."@en ;
 	skos:prefLabel "MouldToolLength"@en .
 
 hpo:FormulatedResinGlassTransitionTemperature rdf:type owl:Class ;
 	rdfs:subClassOf hpo:FormulatedResinProperty ;
+	rdfs:subClassOf emmo:ThermodynamicTemperature ;
 	emmo:elucidation "Process in which a polymer melt changes on cooling to a polymer glass or a polymer glass changes on heating to a polymer melt."@en ;
 	rdfs:comment "Process in which a polymer melt changes on cooling to a polymer glass or a polymer glass changes on heating to a polymer melt."@en ;
 	skos:prefLabel "FormulatedResinGlassTransitionTemperature"@en .
@@ -220,12 +225,14 @@ hpo:ResinPreparation rdf:type owl:Class ;
 
 hpo:FormulatedResinViscosity rdf:type owl:Class ;
 	rdfs:subClassOf hpo:FormulatedResinProperty ;
+	rdfs:subClassOf emmo:DynamicViscosity ;
 	emmo:elucidation "Dynamic viscosity of the resin."@en ;
 	rdfs:comment "Dynamic viscosity of the resin."@en ;
 	skos:prefLabel "FormulatedResinViscosity"@en .
 
 hpo:StepDuration rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ComponentManufacturingProperty ;
+	rdfs:subClassOf emmo:Duration ;
 	emmo:elucidation "Step duration"@en ;
 	rdfs:comment "Step duration"@en ;
 	skos:prefLabel "StepDuration"@en .
@@ -254,24 +261,28 @@ hpo:PrepregRoll rdf:type owl:Class ;
 
 hpo:StackedPrepregWidth rdf:type owl:Class ;
 	rdfs:subClassOf hpo:StackedPrepregProperty ;
+	rdfs:subClassOf emmo:Width ;
 	emmo:elucidation "Width (contributing to the size of the object)."@en ;
 	rdfs:comment "Width (contributing to the size of the object)."@en ;
 	skos:prefLabel "StackedPrepregWidth"@en .
 
 hpo:FibreDensity rdf:type owl:Class ;
 	rdfs:subClassOf hpo:TextileFabricProperty ;
+	rdfs:subClassOf emmo:Density ;
 	emmo:elucidation "Mass per unit volume of the facbric."@en ;
 	rdfs:comment "Mass per unit volume of the facbric."@en ;
 	skos:prefLabel "FibreDensity"@en .
 
 hpo:DegassingStepDuration rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ComponentManufacturingProperty ;
+	rdfs:subClassOf emmo:Duration ;
 	emmo:elucidation "Duration of the degassing."@en ;
 	rdfs:comment "Duration of the degassing."@en ;
 	skos:prefLabel "DegassingStepDuration"@en .
 
 hpo:CoverToolWidth rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CoverToolProperty ;
+	rdfs:subClassOf emmo:Width ;
 	emmo:elucidation "Width (contributing to the size of the tool)."@en ;
 	rdfs:comment "Width (contributing to the size of the tool)."@en ;
 	skos:prefLabel "CoverToolWidth"@en .
@@ -296,6 +307,7 @@ hpo:MouldReleaseLayer rdf:type owl:Class ;
 
 hpo:MouldToolWidth rdf:type owl:Class ;
 	rdfs:subClassOf hpo:MouldToolProperty ;
+	rdfs:subClassOf emmo:Width ;
 	emmo:elucidation "Width (contributing to the size of the tool)."@en ;
 	rdfs:comment "Width (contributing to the size of the tool)."@en ;
 	skos:prefLabel "MouldToolWidth"@en .
@@ -311,6 +323,7 @@ hpo:StackedPrepregProperty rdf:type owl:Class ;
 
 hpo:PrepregGlassTransitionTemperature rdf:type owl:Class ;
 	rdfs:subClassOf hpo:PrepregProperty ;
+	rdfs:subClassOf emmo:ThermodynamicTemperature ;
 	emmo:elucidation "Characteristic temperature (range) of the process in which a polymer melt changes on cooling to a polymer glass or a polymer glass changes on heating to a polymer melt."@en ;
 	rdfs:comment "Characteristic temperature (range) of the process in which a polymer melt changes on cooling to a polymer glass or a polymer glass changes on heating to a polymer melt."@en ;
 	skos:prefLabel "PrepregGlassTransitionTemperature"@en .
@@ -344,6 +357,7 @@ hpo:ResinReactivity rdf:type owl:Class ;
 
 hpo:ResinpH rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ResinProperty ;
+	rdfs:subClassOf emmo:PH ;
 	emmo:elucidation "pH of the resin."@en ;
 	rdfs:comment "pH of the resin."@en ;
 	skos:prefLabel "ResinpH"@en .
@@ -365,6 +379,7 @@ hpo:Catalyst rdf:type owl:Class ;
 
 hpo:PrepregDensity rdf:type owl:Class ;
 	rdfs:subClassOf hpo:PrepregProperty ;
+	rdfs:subClassOf emmo:Density ;
 	emmo:elucidation "Mass per unit volume of the prepreg."@en ;
 	rdfs:comment "Mass per unit volume of the prepreg."@en ;
 	skos:prefLabel "PrepregDensity"@en .
@@ -405,18 +420,21 @@ hpo:ComponentManufacturingProperty rdf:type owl:Class ;
 
 hpo:TextileFabricWidth rdf:type owl:Class ;
 	rdfs:subClassOf hpo:TextileFabricProperty ;
+	rdfs:subClassOf emmo:Width ;
 	emmo:elucidation "Width of the fabric."@en ;
 	rdfs:comment "Width of the fabric."@en ;
 	skos:prefLabel "TextileFabricWidth"@en .
 
 hpo:InitialStepPressure rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ComponentManufacturingProperty ;
+	rdfs:subClassOf emmo:Pressure ;
 	emmo:elucidation "Pressure during step."@en ;
 	rdfs:comment "Pressure during step."@en ;
 	skos:prefLabel "InitialStepPressure"@en .
 
 hpo:CoverToolSizeOfHoles rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CoverToolProperty ;
+	rdfs:subClassOf emmo:Diameter ;
 	emmo:elucidation "Average diameter of holes."@en ;
 	rdfs:comment "Average diameter of holes."@en ;
 	skos:prefLabel "CoverToolSizeOfHoles"@en .
@@ -480,12 +498,14 @@ hpo:MouldTool rdf:type owl:Class ;
 
 hpo:InitialStepTemperature rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ComponentManufacturingProperty ;
+	rdfs:subClassOf emmo:ThermodynamicTemperature ;
 	emmo:elucidation "Initial temperature of the container during step."@en ;
 	rdfs:comment "Initial temperature of the container during step."@en ;
 	skos:prefLabel "InitialStepTemperature"@en .
 
 hpo:GlassTransitionTemperature rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CompositeLaminateProperty ;
+	rdfs:subClassOf emmo:ThermodynamicTemperature ;
 	emmo:elucidation "Temperature for transition from glassy state into a viscous one."@en ;
 	rdfs:comment "Temperature for transition from glassy state into a viscous one."@en ;
 	skos:prefLabel "GlassTransitionTemperature"@en .
@@ -565,6 +585,7 @@ hpo:CompositeLaminateBulkPorosity rdf:type owl:Class ;
 
 hpo:FinalStepTemperature rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ComponentManufacturingProperty ;
+	rdfs:subClassOf emmo:ThermodynamicTemperature ;
 	emmo:elucidation "Final temperature of the container during step."@en ;
 	rdfs:comment "Final temperature of the container during step."@en ;
 	skos:prefLabel "FinalStepTemperature"@en .
@@ -605,12 +626,14 @@ hpo:PrepregExpectedFlexualModulus rdf:type owl:Class ;
 
 hpo:PrepregThickness rdf:type owl:Class ;
 	rdfs:subClassOf hpo:PrepregProperty ;
+	rdfs:subClassOf emmo:Thickness ;
 	emmo:elucidation "Thickness of the prepreg."@en ;
 	rdfs:comment "Thickness of the prepreg."@en ;
 	skos:prefLabel "PrepregThickness"@en .
 
 hpo:ResinDensity rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ResinProperty ;
+	rdfs:subClassOf emmo:Density ;
 	emmo:elucidation "Mass density of the resin."@en ;
 	rdfs:comment "Mass density of the resin."@en ;
 	skos:prefLabel "ResinDensity"@en .
@@ -623,6 +646,7 @@ hpo:CompositeLaminateSurfaceRegionPorosity rdf:type owl:Class ;
 
 hpo:CatalystDensity rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CatalystProperty ;
+	rdfs:subClassOf emmo:Density ;
 	emmo:elucidation "Mass density of the catalyst."@en ;
 	rdfs:comment "Mass density of the catalyst."@en ;
 	skos:prefLabel "CatalystDensity"@en .
@@ -659,6 +683,7 @@ hpo:CompositeLaminateVisualSurfaceFinish rdf:type owl:Class ;
 
 hpo:StackedPrepregLength rdf:type owl:Class ;
 	rdfs:subClassOf hpo:StackedPrepregProperty ;
+	rdfs:subClassOf emmo:Length ;
 	emmo:elucidation "Length (contributing to the size of the object)."@en ;
 	rdfs:comment "Length (contributing to the size of the object)."@en ;
 	skos:prefLabel "StackedPrepregLength"@en .
@@ -728,6 +753,7 @@ hpo:InterlaminarShearStrength rdf:type owl:Class ;
 
 hpo:FinalStepPressure rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ComponentManufacturingProperty ;
+	rdfs:subClassOf emmo:Pressure ;
 	emmo:elucidation "Final pressure of the container during step."@en ;
 	rdfs:comment "Final pressure of the container during step."@en ;
 	skos:prefLabel "FinalStepPressure"@en .
@@ -777,12 +803,14 @@ hpo:ManufacturingLine rdf:type owl:Class ;
 
 hpo:PrepregWidth rdf:type owl:Class ;
 	rdfs:subClassOf hpo:PrepregProperty ;
+	rdfs:subClassOf emmo:Width ;
 	emmo:elucidation "Width of the prepreg."@en ;
 	rdfs:comment "Width of the prepreg."@en ;
 	skos:prefLabel "PrepregWidth"@en .
 
 hpo:CoverToolLength rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CoverToolProperty ;
+	rdfs:subClassOf emmo:Length ;
 	emmo:elucidation "Length (contributing to the size of the tool)."@en ;
 	rdfs:comment "Length (contributing to the size of the tool)."@en ;
 	skos:prefLabel "CoverToolLength"@en .
@@ -804,6 +832,7 @@ hpo:ReleaseLayer rdf:type owl:Class ;
 
 hpo:FormulatedResinCuringTemperature rdf:type owl:Class ;
 	rdfs:subClassOf hpo:FormulatedResinProperty ;
+	rdfs:subClassOf emmo:ThermodynamicTemperature ;
 	emmo:elucidation "Temperature required to start the process of cure of the resin."@en ;
 	rdfs:comment "Temperature required to start the process of cure of the resin."@en ;
 	skos:prefLabel "FormulatedResinCuringTemperature"@en .
@@ -861,6 +890,7 @@ hpo:PrepregLine rdf:type owl:Class ;
 
 hpo:TextileFabricThickness rdf:type owl:Class ;
 	rdfs:subClassOf hpo:TextileFabricProperty ;
+	rdfs:subClassOf emmo:Thickness ;
 	emmo:elucidation "Textile fabric thickness"@en ;
 	rdfs:comment "Textile fabric thickness"@en ;
 	skos:prefLabel "TextileFabricThickness"@en .
@@ -887,7 +917,7 @@ hpo:MouldToolSurfaceRoughness rdf:type owl:Class ;
 	rdfs:subClassOf hpo:MouldToolProperty ;
 	emmo:elucidation "Arithmetic average of the absolute values of the profile height deviations from the mean line, recorded within the evaluation length."@en ;
 	rdfs:comment "Arithmetic average of the absolute values of the profile height deviations from the mean line, recorded within the evaluation length."@en ;
-	skos:prefLabel "MouldToolSurface Roughness"@en .
+	skos:prefLabel "MouldToolSurfaceRoughness"@en .
 
 hpo:TensileModulus rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CompositeLaminateProperty ;
@@ -897,6 +927,7 @@ hpo:TensileModulus rdf:type owl:Class ;
 
 hpo:FibreDiameter rdf:type owl:Class ;
 	rdfs:subClassOf hpo:TextileFabricProperty ;
+	rdfs:subClassOf emmo:Diameter ;
 	emmo:elucidation "Diameter of the fibre composing the fabric."@en ;
 	rdfs:comment "Diameter of the fibre composing the fabric."@en ;
 	skos:prefLabel "FibreDiameter"@en .
@@ -920,6 +951,16 @@ hpo:StackedPrepreg rdf:type owl:Class ;
 #########################################
 
 ### Classes:
+### emmo:Density                                         -> disciplines-isq                     EMMO_06448f64_8db6_4304_8b2c_e785dba82044
+emmo:Density owl:equivalentClass emmo:EMMO_06448f64_8db6_4304_8b2c_e785dba82044 .
+### emmo:Diameter                                        -> disciplines-isq                     EMMO_c1c8ac3c_8a1c_4777_8e0b_14c1f9f9b0c6
+emmo:Diameter owl:equivalentClass emmo:EMMO_c1c8ac3c_8a1c_4777_8e0b_14c1f9f9b0c6 .
+### emmo:Duration                                        -> disciplines-isq                     EMMO_0adabf6f_7404_44cb_9f65_32d83d8101a3
+emmo:Duration owl:equivalentClass emmo:EMMO_0adabf6f_7404_44cb_9f65_32d83d8101a3 .
+### emmo:DynamicViscosity                                -> disciplines-isq                     EMMO_908da3d5_775e_425e_af96_33914618eb66
+emmo:DynamicViscosity owl:equivalentClass emmo:EMMO_908da3d5_775e_425e_af96_33914618eb66 .
+### emmo:Length                                          -> disciplines-isq                     EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac
+emmo:Length owl:equivalentClass emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac .
 ### emmo:ManufacturedMaterial                            -> disciplines-manufacturing           EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356
 emmo:ManufacturedMaterial owl:equivalentClass emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 .
 ### emmo:ManufacturedProduct                             -> disciplines-manufacturing           EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad
@@ -938,8 +979,18 @@ emmo:Measurement owl:equivalentClass emmo:EMMO_463bcfda_867b_41d9_a967_211d4d437
 emmo:Mixture owl:equivalentClass emmo:EMMO_ec2c8ac8_98c5_4c74_b85b_ff8e8ca6655c .
 ### emmo:Objective                                       -> perspectives-semiotics              EMMO_2a888cdf_ec4a_4ec5_af1c_0343372fc978
 emmo:Objective owl:equivalentClass emmo:EMMO_2a888cdf_ec4a_4ec5_af1c_0343372fc978 .
+### emmo:PH                                              -> disciplines-isq                     EMMO_80fe82d4_f4c1_43a1_98dc_ee5fc7927e19
+emmo:PH owl:equivalentClass emmo:EMMO_80fe82d4_f4c1_43a1_98dc_ee5fc7927e19 .
+### emmo:Pressure                                        -> disciplines-isq                     EMMO_50a44256_9dc5_434b_bad4_74a4d9a29989
+emmo:Pressure owl:equivalentClass emmo:EMMO_50a44256_9dc5_434b_bad4_74a4d9a29989 .
+### emmo:ThermodynamicTemperature                        -> disciplines-isq                     EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f
+emmo:ThermodynamicTemperature owl:equivalentClass emmo:EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f .
+### emmo:Thickness                                       -> disciplines-isq                     EMMO_43003c86_9d15_433b_9789_ee2940920656
+emmo:Thickness owl:equivalentClass emmo:EMMO_43003c86_9d15_433b_9789_ee2940920656 .
 ### emmo:Tool                                            -> disciplines-manufacturing           EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe
 emmo:Tool owl:equivalentClass emmo:EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe .
+### emmo:Width                                           -> disciplines-isq                     EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0
+emmo:Width owl:equivalentClass emmo:EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0 .
 
 ### ObjectProperties:
 ### emmo:contacts                                        -> mereocausality-mereocausality       EMMO_8785be5a_2493_4b12_8f39_31907ab11748
