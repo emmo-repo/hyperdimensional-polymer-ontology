@@ -1137,6 +1137,8 @@ emmo:Mixture owl:equivalentClass emmo:EMMO_ec2c8ac8_98c5_4c74_b85b_ff8e8ca6655c 
 emmo:Objective owl:equivalentClass emmo:EMMO_2a888cdf_ec4a_4ec5_af1c_0343372fc978 .
 ### emmo:PH                                              -> disciplines-isq                     EMMO_80fe82d4_f4c1_43a1_98dc_ee5fc7927e19
 emmo:PH owl:equivalentClass emmo:EMMO_80fe82d4_f4c1_43a1_98dc_ee5fc7927e19 .
+### emmo:PolymericMaterial                               -> disciplines-materials               EMMO_fb27e6d6_159e_48a6_9c29_76dc31d8a860
+emmo:PolymericMaterial owl:equivalentClass emmo:EMMO_fb27e6d6_159e_48a6_9c29_76dc31d8a860 .
 ### emmo:Pressure                                        -> disciplines-isq                     EMMO_50a44256_9dc5_434b_bad4_74a4d9a29989
 emmo:Pressure owl:equivalentClass emmo:EMMO_50a44256_9dc5_434b_bad4_74a4d9a29989 .
 ### emmo:ThermodynamicTemperature                        -> disciplines-isq                     EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f
@@ -1145,8 +1147,6 @@ emmo:ThermodynamicTemperature owl:equivalentClass emmo:EMMO_affe07e4_e9bc_4852_8
 emmo:Thickness owl:equivalentClass emmo:EMMO_43003c86_9d15_433b_9789_ee2940920656 .
 ### emmo:Tool                                            -> disciplines-manufacturing           EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe
 emmo:Tool owl:equivalentClass emmo:EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe .
-### emmo:PolymericMaterial
-emmo:PolymericMaterial owl:equivalentClass emmo:EMMO_fb27e6d6_159e_48a6_9c29_76dc31d8a860 .
 ### emmo:Width                                           -> disciplines-isq                     EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0
 emmo:Width owl:equivalentClass emmo:EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0 .
 
