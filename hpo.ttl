@@ -49,11 +49,13 @@
 hpo:PrepregWaterDiffusionCoefficient rdf:type owl:Class ;
 	rdfs:subClassOf hpo:PrepregProperty ;
 	emmo:elucidation "Effective and anisotropic proportionality constant between the molar (or mass) flux due to molecular diffusion (out of the prepreg specimen)."@en ;
+	rdfs:comment "Effective and anisotropic proportionality constant between the molar (or mass) flux due to molecular diffusion (out of the prepreg specimen)."@en ;
 	skos:prefLabel "PrepregWaterDiffusionCoefficient"@en .
 
 hpo:Composite rdf:type owl:Class ;
 	rdfs:subClassOf emmo:ManufacturedMaterial ;
 	emmo:elucidation "A material made up of resin and reinforcement (usually fibre)."@en ;
+	rdfs:comment "A material made up of resin and reinforcement (usually fibre)."@en ;
 	skos:prefLabel "Composite"@en .
 [ rdf:type owl:Axiom ;
 	owl:annotatedSource hpo:Composite ;
@@ -90,6 +92,7 @@ hpo:CoverToolProperty rdf:type owl:Class ;
 hpo:CatalystViscosity rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CatalystProperty ;
 	emmo:elucidation "Catalyst viscosity at 25°C."@en ;
+	rdfs:comment "Catalyst viscosity at 25°C."@en ;
 	skos:prefLabel "CatalystViscosity"@en .
 
 hpo:CompositeLaminateProperty rdf:type owl:Class ;
@@ -104,11 +107,13 @@ hpo:CompositeLaminateProperty rdf:type owl:Class ;
 hpo:FlexuralStrength rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CompositeLaminateProperty ;
 	emmo:elucidation "Maximum value of the stress-strain curve under flexural stress."@en ;
+	rdfs:comment "Maximum value of the stress-strain curve under flexural stress."@en ;
 	skos:prefLabel "FlexuralStrength"@en .
 
 hpo:FlexualModulus rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CompositeLaminateProperty ;
 	emmo:elucidation "Tangent of the stress-strain curve under flexural stress."@en ;
+	rdfs:comment "Tangent of the stress-strain curve under flexural stress."@en ;
 	skos:prefLabel "FlexualModulus"@en .
 
 hpo:TextileFabricProperty rdf:type owl:Class ;
@@ -123,36 +128,43 @@ hpo:TextileFabricProperty rdf:type owl:Class ;
 hpo:ResinIngredient rdf:type owl:Class ;
 	rdfs:subClassOf emmo:Material ;
 	emmo:elucidation "Intermediate mixture to make a formulation that allows formulated resin differentiation."@en ;
+	rdfs:comment "Intermediate mixture to make a formulation that allows formulated resin differentiation."@en ;
 	skos:prefLabel "ResinIngredient"@en .
 
 hpo:StackedPrepregNominalThickness rdf:type owl:Class ;
 	rdfs:subClassOf hpo:StackedPrepregProperty ;
 	emmo:elucidation "Sum of the thicknesses of prepreg layer."@en ;
+	rdfs:comment "Sum of the thicknesses of prepreg layer."@en ;
 	skos:prefLabel "StackedPrepregNominalThickness"@en .
 
 hpo:CatalystCommercialName rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CatalystProperty ;
 	emmo:elucidation "Catalyst suppliers trade name for the purchased catalyst formulation."@en ;
+	rdfs:comment "Catalyst suppliers trade name for the purchased catalyst formulation."@en ;
 	skos:prefLabel "CatalystCommercialName"@en .
 
 hpo:ResinViscosity rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ResinProperty ;
 	emmo:elucidation "Viscosity at 25°C."@en ;
+	rdfs:comment "Viscosity at 25°C."@en ;
 	skos:prefLabel "ResinViscosity"@en .
 
 hpo:PrepregFibreVolumeContent rdf:type owl:Class ;
 	rdfs:subClassOf hpo:PrepregProperty ;
 	emmo:elucidation "Ratio between the volume of fibre and the volume of the composite."@en ;
+	rdfs:comment "Ratio between the volume of fibre and the volume of the composite."@en ;
 	skos:prefLabel "PrepregFibreVolumeContent"@en .
 
 hpo:MouldToolLength rdf:type owl:Class ;
 	rdfs:subClassOf hpo:MouldToolProperty ;
 	emmo:elucidation "Length (contributing to the size of the tool)."@en ;
+	rdfs:comment "Length (contributing to the size of the tool)."@en ;
 	skos:prefLabel "MouldToolLength"@en .
 
 hpo:FormulatedResinGlassTransitionTemperature rdf:type owl:Class ;
 	rdfs:subClassOf hpo:FormulatedResinProperty ;
 	emmo:elucidation "Process in which a polymer melt changes on cooling to a polymer glass or a polymer glass changes on heating to a polymer melt."@en ;
+	rdfs:comment "Process in which a polymer melt changes on cooling to a polymer glass or a polymer glass changes on heating to a polymer melt."@en ;
 	skos:prefLabel "FormulatedResinGlassTransitionTemperature"@en .
 
 hpo:ComponentManufacturingLine rdf:type owl:Class ;
@@ -178,11 +190,13 @@ hpo:ComponentManufacturingLine rdf:type owl:Class ;
 hpo:FormulatedResinCuringTime rdf:type owl:Class ;
 	rdfs:subClassOf hpo:FormulatedResinProperty ;
 	emmo:elucidation "Time at which the curing temperature must be held to achieve a certain level of cure."@en ;
+	rdfs:comment "Time at which the curing temperature must be held to achieve a certain level of cure."@en ;
 	skos:prefLabel "FormulatedResinCuringTime"@en .
 
 hpo:MouldReleaseLayerIdentifier rdf:type owl:Class ;
 	rdfs:subClassOf hpo:MouldReleaseLayerProperty ;
 	emmo:elucidation "Commercial name of the applied consumable (product), differentiating available product providers and product lots."@en ;
+	rdfs:comment "Commercial name of the applied consumable (product), differentiating available product providers and product lots."@en ;
 	skos:prefLabel "MouldReleaseLayerIdentifier"@en .
 
 hpo:ResinPreparation rdf:type owl:Class ;
@@ -212,16 +226,19 @@ hpo:ResinPreparation rdf:type owl:Class ;
 hpo:FormulatedResinViscosity rdf:type owl:Class ;
 	rdfs:subClassOf hpo:FormulatedResinProperty ;
 	emmo:elucidation "Dynamic viscosity of the resin."@en ;
+	rdfs:comment "Dynamic viscosity of the resin."@en ;
 	skos:prefLabel "FormulatedResinViscosity"@en .
 
 hpo:StepDuration rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ComponentManufacturingProperty ;
 	emmo:elucidation "Step duration"@en ;
+	rdfs:comment "Step duration"@en ;
 	skos:prefLabel "StepDuration"@en .
 
 hpo:PrepregExpectedTensileModulus rdf:type owl:Class ;
 	rdfs:subClassOf hpo:PrepregProperty ;
 	emmo:elucidation "EXPECTED Tangent of the stress-strain curve under tensile stress AFTER CURING."@en ;
+	rdfs:comment "EXPECTED Tangent of the stress-strain curve under tensile stress AFTER CURING."@en ;
 	skos:prefLabel "PrepregExpectedTensileModulus"@en .
 
 hpo:PrepregRoll rdf:type owl:Class ;
@@ -237,31 +254,37 @@ hpo:PrepregRoll rdf:type owl:Class ;
 	owl:someValuesFrom hpo:FormulatedResin
 	] ;
 	emmo:elucidation "A roll of prepreg material."@en ;
+	rdfs:comment "A roll of prepreg material."@en ;
 	skos:prefLabel "PrepregRoll"@en .
 
 hpo:StackedPrepregWidth rdf:type owl:Class ;
 	rdfs:subClassOf hpo:StackedPrepregProperty ;
 	emmo:elucidation "Width (contributing to the size of the object)."@en ;
+	rdfs:comment "Width (contributing to the size of the object)."@en ;
 	skos:prefLabel "StackedPrepregWidth"@en .
 
 hpo:FibreDensity rdf:type owl:Class ;
 	rdfs:subClassOf hpo:TextileFabricProperty ;
 	emmo:elucidation "Mass per unit volume of the facbric."@en ;
+	rdfs:comment "Mass per unit volume of the facbric."@en ;
 	skos:prefLabel "FibreDensity"@en .
 
 hpo:DegassingStepDuration rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ComponentManufacturingProperty ;
 	emmo:elucidation "Duration of the degassing."@en ;
+	rdfs:comment "Duration of the degassing."@en ;
 	skos:prefLabel "DegassingStepDuration"@en .
 
 hpo:CoverToolWidth rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CoverToolProperty ;
 	emmo:elucidation "Width (contributing to the size of the tool)."@en ;
+	rdfs:comment "Width (contributing to the size of the tool)."@en ;
 	skos:prefLabel "CoverToolWidth"@en .
 
 hpo:Additive rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ResinIngredient ;
 	emmo:elucidation "A term used for a large number of specialist chemicals which are added to compounds to impart specific properties."@en ;
+	rdfs:comment "A term used for a large number of specialist chemicals which are added to compounds to impart specific properties."@en ;
 	emmo:example "An additive can provide flame retardancy and UV resistance properties to a resin."@en ;
 	rdfs:isDefinedBy "https://compositesuk.co.uk/composite-materials/glossary-terms"^^xsd:anyURI ;
 	skos:prefLabel "Additive"@en .
@@ -269,6 +292,7 @@ hpo:Additive rdf:type owl:Class ;
 hpo:HeatingRateDuringStep rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ComponentManufacturingProperty ;
 	emmo:elucidation "Heating rate during step."@en ;
+	rdfs:comment "Heating rate during step."@en ;
 	skos:prefLabel "HeatingRateDuringStep"@en .
 
 hpo:MouldReleaseLayer rdf:type owl:Class ;
@@ -278,6 +302,7 @@ hpo:MouldReleaseLayer rdf:type owl:Class ;
 hpo:MouldToolWidth rdf:type owl:Class ;
 	rdfs:subClassOf hpo:MouldToolProperty ;
 	emmo:elucidation "Width (contributing to the size of the tool)."@en ;
+	rdfs:comment "Width (contributing to the size of the tool)."@en ;
 	skos:prefLabel "MouldToolWidth"@en .
 
 hpo:StackedPrepregProperty rdf:type owl:Class ;
@@ -292,16 +317,19 @@ hpo:StackedPrepregProperty rdf:type owl:Class ;
 hpo:PrepregGlassTransitionTemperature rdf:type owl:Class ;
 	rdfs:subClassOf hpo:PrepregProperty ;
 	emmo:elucidation "Characteristic temperature (range) of the process in which a polymer melt changes on cooling to a polymer glass or a polymer glass changes on heating to a polymer melt."@en ;
+	rdfs:comment "Characteristic temperature (range) of the process in which a polymer melt changes on cooling to a polymer glass or a polymer glass changes on heating to a polymer melt."@en ;
 	skos:prefLabel "PrepregGlassTransitionTemperature"@en .
 
 hpo:PrepregExpectedElongationAtBreak rdf:type owl:Class ;
 	rdfs:subClassOf hpo:PrepregProperty ;
 	emmo:elucidation "EXPECTED ratio between increased length and initial length after breakage AFTER CURING."@en ;
+	rdfs:comment "EXPECTED ratio between increased length and initial length after breakage AFTER CURING."@en ;
 	skos:prefLabel "PrepregExpectedElongationAtBreak"@en .
 
 hpo:StackedPrepregStackingSequence rdf:type owl:Class ;
 	rdfs:subClassOf hpo:StackedPrepregProperty ;
 	emmo:elucidation "List of the orientation (degreees) of each prepreg layer."@en ;
+	rdfs:comment "List of the orientation (degreees) of each prepreg layer."@en ;
 	skos:prefLabel "StackedPrepregStackingSequence"@en .
 
 hpo:CompositeLaminate rdf:type owl:Class ;
@@ -316,11 +344,13 @@ hpo:CompositeLaminate rdf:type owl:Class ;
 hpo:ResinReactivity rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ResinProperty ;
 	emmo:elucidation "Maximum amount of energy released in case of complete conversion."@en ;
+	rdfs:comment "Maximum amount of energy released in case of complete conversion."@en ;
 	skos:prefLabel "ResinReactivity"@en .
 
 hpo:ResinpH rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ResinProperty ;
 	emmo:elucidation "pH of the resin."@en ;
+	rdfs:comment "pH of the resin."@en ;
 	skos:prefLabel "ResinpH"@en .
 
 hpo:CompositeLaminate rdf:type owl:Class ;
@@ -334,22 +364,26 @@ hpo:CompositeLaminate rdf:type owl:Class ;
 hpo:Catalyst rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ResinIngredient ;
 	emmo:elucidation "A substance that increases the rate of a reaction without modifying the overall standard Gibbs energy change in the reaction."@en ;
+	rdfs:comment "A substance that increases the rate of a reaction without modifying the overall standard Gibbs energy change in the reaction."@en ;
 	rdfs:seeAlso "https://doi.org/10.1351/goldbook.C00876"@en ;
 	skos:prefLabel "Catalyst"@en .
 
 hpo:PrepregDensity rdf:type owl:Class ;
 	rdfs:subClassOf hpo:PrepregProperty ;
 	emmo:elucidation "Mass per unit volume of the prepreg."@en ;
+	rdfs:comment "Mass per unit volume of the prepreg."@en ;
 	skos:prefLabel "PrepregDensity"@en .
 
 hpo:ResinMixer rdf:type owl:Class ;
 	rdfs:subClassOf emmo:ManufacturingDevice ;
 	emmo:elucidation "A batch resin mixer."@en ;
+	rdfs:comment "A batch resin mixer."@en ;
 	skos:prefLabel "ResinMixer"@en .
 
 hpo:PrepregSpecificCondensateFormation rdf:type owl:Class ;
 	rdfs:subClassOf hpo:PrepregProperty ;
 	emmo:elucidation "Mass of water released per mass of prepreg throughout the applied chemical (curing) reaction."@en ;
+	rdfs:comment "Mass of water released per mass of prepreg throughout the applied chemical (curing) reaction."@en ;
 	skos:prefLabel "PrepregSpecificCondensateFormation"@en .
 
 hpo:PrepregPiece rdf:type owl:Class ;
@@ -360,6 +394,7 @@ hpo:PrepregPiece rdf:type owl:Class ;
 	owl:someValuesFrom hpo:PrepregRoll
 	] ;
 	emmo:elucidation "A prepreg a piece cut from a prepreg roll, which can be stacked."@en ;
+	rdfs:comment "A prepreg a piece cut from a prepreg roll, which can be stacked."@en ;
 	skos:altLabel "Ply"@en ,
 	"PrepregPart"@en ;
 	skos:prefLabel "PrepregPiece"@en .
@@ -376,21 +411,25 @@ hpo:ComponentManufacturingProperty rdf:type owl:Class ;
 hpo:TextileFabricWidth rdf:type owl:Class ;
 	rdfs:subClassOf hpo:TextileFabricProperty ;
 	emmo:elucidation "Width of the fabric."@en ;
+	rdfs:comment "Width of the fabric."@en ;
 	skos:prefLabel "TextileFabricWidth"@en .
 
 hpo:InitialStepPressure rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ComponentManufacturingProperty ;
 	emmo:elucidation "Pressure during step."@en ;
+	rdfs:comment "Pressure during step."@en ;
 	skos:prefLabel "InitialStepPressure"@en .
 
 hpo:CoverToolSizeOfHoles rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CoverToolProperty ;
 	emmo:elucidation "Average diameter of holes."@en ;
+	rdfs:comment "Average diameter of holes."@en ;
 	skos:prefLabel "CoverToolSizeOfHoles"@en .
 
 hpo:FibreIdentifier rdf:type owl:Class ;
 	rdfs:subClassOf hpo:TextileFabricProperty ;
 	emmo:elucidation "Commercial name of the applied consumable (product), differentiating available product providers and product lots."@en ;
+	rdfs:comment "Commercial name of the applied consumable (product), differentiating available product providers and product lots."@en ;
 	skos:prefLabel "FibreIdentifier"@en .
 
 hpo:ShapingAndCuring rdf:type owl:Class ;
@@ -420,6 +459,7 @@ hpo:ShapingAndCuring rdf:type owl:Class ;
 	owl:someValuesFrom hpo:StackedPrepreg
 	] ;
 	emmo:elucidation "The process of shaping composite materials into a solid mass of prescribed shape and size, using a mold or tool."@en ;
+	rdfs:comment "The process of shaping composite materials into a solid mass of prescribed shape and size, using a mold or tool."@en ;
 	rdfs:isDefinedBy "https://www.compositesworld.com/glossary"@en ;
 	skos:altLabel "Moulding"@en ;
 	skos:prefLabel "ShapingAndCuring"@en .
@@ -427,16 +467,19 @@ hpo:ShapingAndCuring rdf:type owl:Class ;
 hpo:PrepregExpectedFlexuralStrength rdf:type owl:Class ;
 	rdfs:subClassOf hpo:PrepregProperty ;
 	emmo:elucidation "EXPECTED Maximum value of the stress-strain curve under flexural stress AFTER CURING."@en ;
+	rdfs:comment "EXPECTED Maximum value of the stress-strain curve under flexural stress AFTER CURING."@en ;
 	skos:prefLabel "PrepregExpectedFlexuralStrength"@en .
 
 hpo:CoverToolHoleDistance rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CoverToolProperty ;
 	emmo:elucidation "Average distance between holes."@en ;
+	rdfs:comment "Average distance between holes."@en ;
 	skos:prefLabel "CoverToolHoleDistance"@en .
 
 hpo:MouldTool rdf:type owl:Class ;
 	rdfs:subClassOf emmo:Tool ;
 	emmo:elucidation "The mold, either one- or two-sided and either open or closed, in or upon which composite material is placed in order to make a part."@en ;
+	rdfs:comment "The mold, either one- or two-sided and either open or closed, in or upon which composite material is placed in order to make a part."@en ;
 	skos:prefLabel "MouldTool"@en .
 [ rdf:type owl:Axiom ;
 	owl:annotatedSource hpo:MouldTool ;
@@ -448,16 +491,19 @@ hpo:MouldTool rdf:type owl:Class ;
 hpo:InitialStepTemperature rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ComponentManufacturingProperty ;
 	emmo:elucidation "Initial temperature of the container during step."@en ;
+	rdfs:comment "Initial temperature of the container during step."@en ;
 	skos:prefLabel "InitialStepTemperature"@en .
 
 hpo:GlassTransitionTemperature rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CompositeLaminateProperty ;
 	emmo:elucidation "Temperature for transition from glassy state into a viscous one."@en ;
+	rdfs:comment "Temperature for transition from glassy state into a viscous one."@en ;
 	skos:prefLabel "GlassTransitionTemperature"@en .
 
 hpo:StorageModulus rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CompositeLaminateProperty ;
 	emmo:elucidation "The storage modulus in viscoelastic materials measure the stored energy representing the elastic portion."@en ;
+	rdfs:comment "The storage modulus in viscoelastic materials measure the stored energy representing the elastic portion."@en ;
 	skos:prefLabel "StorageModulus"@en .
 
 hpo:Stacking rdf:type owl:Class ;
@@ -475,6 +521,7 @@ hpo:Stacking rdf:type owl:Class ;
 	owl:someValuesFrom hpo:PrepregRoll
 	] ;
 	emmo:elucidation "An arrangement of prepreg parts (ply) orientations and material components in a laminate specified with respect to some reference direction."@en ;
+	rdfs:comment "An arrangement of prepreg parts (ply) orientations and material components in a laminate specified with respect to some reference direction."@en ;
 	skos:prefLabel "Stacking"@en .
 [ rdf:type owl:Axiom ;
 	owl:annotatedSource hpo:Stacking ;
@@ -495,16 +542,19 @@ hpo:MouldReleaseLayerProperty rdf:type owl:Class ;
 hpo:PrepregWaterContent rdf:type owl:Class ;
 	rdfs:subClassOf hpo:PrepregProperty ;
 	emmo:elucidation "Weight percentage of water in the prepreg (that can be dried and is not formed during the curing reaction)."@en ;
+	rdfs:comment "Weight percentage of water in the prepreg (that can be dried and is not formed during the curing reaction)."@en ;
 	skos:prefLabel "PrepregWaterContent"@en .
 
 hpo:StackedPrepregNumberOfLayers rdf:type owl:Class ;
 	rdfs:subClassOf hpo:StackedPrepregProperty ;
 	emmo:elucidation "Number of stacked prepreg layers"@en ;
+	rdfs:comment "Number of stacked prepreg layers"@en ;
 	skos:prefLabel "StackedPrepregNumberOfLayers"@en .
 
 hpo:ResinMolecularWeight rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ResinProperty ;
 	emmo:elucidation "Average molecular weight of the main resin molecular consituents."@en ;
+	rdfs:comment "Average molecular weight of the main resin molecular consituents."@en ;
 	skos:prefLabel "ResinMolecularWeight"@en .
 
 hpo:ResinProperty rdf:type owl:Class ;
@@ -519,16 +569,19 @@ hpo:ResinProperty rdf:type owl:Class ;
 hpo:CatalystMolecularWeight rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CatalystProperty ;
 	emmo:elucidation "Average molecular weight of the catalyst molecular consituents."@en ;
+	rdfs:comment "Average molecular weight of the catalyst molecular consituents."@en ;
 	skos:prefLabel "CatalystMolecularWeight"@en .
 
 hpo:CompositeLaminateBulkPorosity rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CompositeLaminateProperty ;
 	emmo:elucidation "After performing a cross-cut perpendicular to the specimen surface, based on a light microscopy image, the apparent surface area fraction occupied by pores is evaluated."@en ;
+	rdfs:comment "After performing a cross-cut perpendicular to the specimen surface, based on a light microscopy image, the apparent surface area fraction occupied by pores is evaluated."@en ;
 	skos:prefLabel "CompositeLaminateBulkPorosity"@en .
 
 hpo:FinalStepTemperature rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ComponentManufacturingProperty ;
 	emmo:elucidation "Final temperature of the container during step."@en ;
+	rdfs:comment "Final temperature of the container during step."@en ;
 	skos:prefLabel "FinalStepTemperature"@en .
 
 hpo:Prepregging rdf:type owl:Class ;
@@ -550,36 +603,43 @@ hpo:Prepregging rdf:type owl:Class ;
 	owl:someValuesFrom hpo:FormulatedResin
 	] ;
 	emmo:elucidation "The process of prepreg manufacturing."@en ;
+	rdfs:comment "The process of prepreg manufacturing."@en ;
 	skos:prefLabel "Prepregging"@en .
 
 hpo:ResinComposition rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ResinProperty ;
 	emmo:elucidation "Total composition of the resin."@en ;
+	rdfs:comment "Total composition of the resin."@en ;
 	skos:prefLabel "ResinComposition"@en .
 
 hpo:PrepregExpectedFlexualModulus rdf:type owl:Class ;
 	rdfs:subClassOf hpo:PrepregProperty ;
 	emmo:elucidation "EXPECTED Tangent of the stress-strain curve under flexural stress AFTER CURING."@en ;
+	rdfs:comment "EXPECTED Tangent of the stress-strain curve under flexural stress AFTER CURING."@en ;
 	skos:prefLabel "PrepregExpectedFlexualModulus"@en .
 
 hpo:PrepregThickness rdf:type owl:Class ;
 	rdfs:subClassOf hpo:PrepregProperty ;
 	emmo:elucidation "Thickness of the prepreg."@en ;
+	rdfs:comment "Thickness of the prepreg."@en ;
 	skos:prefLabel "PrepregThickness"@en .
 
 hpo:ResinDensity rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ResinProperty ;
 	emmo:elucidation "Mass density of the resin."@en ;
+	rdfs:comment "Mass density of the resin."@en ;
 	skos:prefLabel "ResinDensity"@en .
 
 hpo:CompositeLaminateSurfaceRegionPorosity rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CompositeLaminateProperty ;
 	emmo:elucidation "Based on a light microscopy image of the smoother surface (i.e. the one visible to a user) of the composite laminate, the apparent surface area fraction occupied by pores is evaluated."@en ;
+	rdfs:comment "Based on a light microscopy image of the smoother surface (i.e. the one visible to a user) of the composite laminate, the apparent surface area fraction occupied by pores is evaluated."@en ;
 	skos:prefLabel "CompositeLaminateSurfaceRegionPorosity"@en .
 
 hpo:CatalystDensity rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CatalystProperty ;
 	emmo:elucidation "Mass density of the catalyst."@en ;
+	rdfs:comment "Mass density of the catalyst."@en ;
 	skos:prefLabel "CatalystDensity"@en .
 
 hpo:FormulatedResinProperty rdf:type owl:Class ;
@@ -603,16 +663,19 @@ hpo:PrepregProperty rdf:type owl:Class ;
 hpo:COMPEVODSCAnalysis rdf:type owl:Class ;
 	rdfs:subClassOf emmo:Measurement ;
 	emmo:elucidation "Experimental procedure for resin reactivity measurement."@en ;
+	rdfs:comment "Experimental procedure for resin reactivity measurement."@en ;
 	skos:prefLabel "COMPEVODSCAnalysis"@en .
 
 hpo:CompositeLaminateVisualSurfaceFinish rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CompositeLaminateProperty ;
 	emmo:elucidation "Using a (set of) specimen illumination settings, the appearance is compared with the appearance of a specified set of (reference) specimens."@en ;
+	rdfs:comment "Using a (set of) specimen illumination settings, the appearance is compared with the appearance of a specified set of (reference) specimens."@en ;
 	skos:prefLabel "CompositeLaminateVisualSurfaceFinish"@en .
 
 hpo:StackedPrepregLength rdf:type owl:Class ;
 	rdfs:subClassOf hpo:StackedPrepregProperty ;
 	emmo:elucidation "Length (contributing to the size of the object)."@en ;
+	rdfs:comment "Length (contributing to the size of the object)."@en ;
 	skos:prefLabel "StackedPrepregLength"@en .
 
 hpo:CoverReleaseLayerProperty rdf:type owl:Class ;
@@ -627,27 +690,32 @@ hpo:CoverReleaseLayerProperty rdf:type owl:Class ;
 hpo:PorosityInferredFromDensity rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CompositeLaminateProperty ;
 	emmo:elucidation "After cutting a test sample out of the specimen to be tested, gravimetric and volumetric findings are used to calculate an (average) density that is compared to the density of a qualified (reference) “in order (i.o.)” specimen."@en ;
+	rdfs:comment "After cutting a test sample out of the specimen to be tested, gravimetric and volumetric findings are used to calculate an (average) density that is compared to the density of a qualified (reference) “in order (i.o.)” specimen."@en ;
 	skos:prefLabel "PorosityInferredFromDensity"@en .
 
 hpo:PartsTurnover rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ComponentManufacturingProperty ;
 	emmo:elucidation "Parts manufactured per minute."@en ;
+	rdfs:comment "Parts manufactured per minute."@en ;
 	skos:prefLabel "PartsTurnover"@en .
 
 hpo:TensileStrength rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CompositeLaminateProperty ;
 	emmo:elucidation "Maximum value of the stress-strain curve under tensile stress."@en ;
+	rdfs:comment "Maximum value of the stress-strain curve under tensile stress."@en ;
 	skos:prefLabel "TensileStrength"@en .
 
 hpo:TextileFabricWeaveStyle rdf:type owl:Class ;
 	rdfs:subClassOf hpo:TextileFabricProperty ;
 	emmo:elucidation "Pattern of fibre weaving."@en ;
+	rdfs:comment "Pattern of fibre weaving."@en ;
 	skos:altLabel "TextileConstruction"@en ;
 	skos:prefLabel "TextileFabricWeaveStyle"@en .
 
 hpo:Prepreg rdf:type owl:Class ;
 	rdfs:subClassOf emmo:ManufacturedProduct ;
 	emmo:elucidation "A factory-made combination of reactive resins and reinforcing fibres, plus other necessary additive chemicals, ready to be moulded."@en ;
+	rdfs:comment "A factory-made combination of reactive resins and reinforcing fibres, plus other necessary additive chemicals, ready to be moulded."@en ;
 	skos:prefLabel "Prepreg"@en .
 [ rdf:type owl:Axiom ;
 	owl:annotatedSource hpo:Prepreg ;
@@ -663,26 +731,31 @@ hpo:CoverReleaseLayer rdf:type owl:Class ;
 hpo:FibreVolumeContent rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CompositeLaminateProperty ;
 	emmo:elucidation "Ratio between the volume of fibre and the volume of the composite laminate."@en ;
+	rdfs:comment "Ratio between the volume of fibre and the volume of the composite laminate."@en ;
 	skos:prefLabel "FibreVolumeContent"@en .
 
 hpo:PrepregCuringDegree rdf:type owl:Class ;
 	rdfs:subClassOf hpo:PrepregProperty ;
 	emmo:elucidation "Percentage of the (feasible) curing (that is no more available for cross-linking reaction(s))"@en ;
+	rdfs:comment "Percentage of the (feasible) curing (that is no more available for cross-linking reaction(s))"@en ;
 	skos:prefLabel "PrepregCuringDegree"@en .
 
 hpo:InterlaminarShearStrength rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CompositeLaminateProperty ;
 	emmo:elucidation "Mechanical property associated with the matrix-fibre interaction."@en ;
+	rdfs:comment "Mechanical property associated with the matrix-fibre interaction."@en ;
 	skos:prefLabel "InterlaminarShearStrength"@en .
 
 hpo:FinalStepPressure rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ComponentManufacturingProperty ;
 	emmo:elucidation "Final pressure of the container during step."@en ;
+	rdfs:comment "Final pressure of the container during step."@en ;
 	skos:prefLabel "FinalStepPressure"@en .
 
 hpo:Laminate rdf:type owl:Class ;
 	rdfs:subClassOf emmo:ManufacturedMaterial ;
 	emmo:elucidation "The structure resulting from the curing of multiple stacked prepreg plies."@en ;
+	rdfs:comment "The structure resulting from the curing of multiple stacked prepreg plies."@en ;
 	skos:prefLabel "Laminate"@en .
 [ rdf:type owl:Axiom ;
 	owl:annotatedSource hpo:Laminate ;
@@ -694,11 +767,13 @@ hpo:Laminate rdf:type owl:Class ;
 hpo:CoverToolNumberOfHoles rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CoverToolProperty ;
 	emmo:elucidation "Amount of holes."@en ;
+	rdfs:comment "Amount of holes."@en ;
 	skos:prefLabel "CoverToolNumberOfHoles"@en .
 
 hpo:CoverTool rdf:type owl:Class ;
 	rdfs:subClassOf emmo:Tool ;
 	emmo:elucidation "The mold, either one- or two-sided and either open or closed, in or upon which composite material is placed in order to make a part."@en ;
+	rdfs:comment "The mold, either one- or two-sided and either open or closed, in or upon which composite material is placed in order to make a part."@en ;
 	skos:prefLabel "CoverTool"@en .
 [ rdf:type owl:Axiom ;
 	owl:annotatedSource hpo:CoverTool ;
@@ -710,17 +785,20 @@ hpo:CoverTool rdf:type owl:Class ;
 hpo:PrepregExpectedTensileStrength rdf:type owl:Class ;
 	rdfs:subClassOf hpo:PrepregProperty ;
 	emmo:elucidation "EXPECTED Maximum value of the stress-strain curve under tensile stress AFTER CURING."@en ;
+	rdfs:comment "EXPECTED Maximum value of the stress-strain curve under tensile stress AFTER CURING."@en ;
 	skos:prefLabel "PrepregExpectedTensileStrength"@en .
 
 hpo:TextileFabric rdf:type owl:Class ;
 	rdfs:subClassOf emmo:Material ,
 	emmo:ManufacturedProduct ;
 	emmo:elucidation "A planar textile constructed with fibres (or yarns), which can be either woven (interlaced using a weaving process) or non-woven (not interlaced)."@en ;
+	rdfs:comment "A planar textile constructed with fibres (or yarns), which can be either woven (interlaced using a weaving process) or non-woven (not interlaced)."@en ;
 	skos:prefLabel "TextileFabric"@en .
 
 hpo:ElongationAtBreak rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CompositeLaminateProperty ;
 	emmo:elucidation "Ratio between increased length and initial length after breakage."@en ;
+	rdfs:comment "Ratio between increased length and initial length after breakage."@en ;
 	skos:prefLabel "ElongationAtBreak"@en .
 
 hpo:ManufacturingLine rdf:type owl:Class ;
@@ -730,16 +808,19 @@ hpo:ManufacturingLine rdf:type owl:Class ;
 hpo:PrepregWidth rdf:type owl:Class ;
 	rdfs:subClassOf hpo:PrepregProperty ;
 	emmo:elucidation "Width of the prepreg."@en ;
+	rdfs:comment "Width of the prepreg."@en ;
 	skos:prefLabel "PrepregWidth"@en .
 
 hpo:CoverToolLength rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CoverToolProperty ;
 	emmo:elucidation "Length (contributing to the size of the tool)."@en ;
+	rdfs:comment "Length (contributing to the size of the tool)."@en ;
 	skos:prefLabel "CoverToolLength"@en .
 
 hpo:Resin rdf:type owl:Class ;
 	rdfs:subClassOf emmo:Material ;
 	emmo:elucidation "Soft solid or highly viscous substance, usually containing prepolymers with reactive groups."@en ;
+	rdfs:comment "Soft solid or highly viscous substance, usually containing prepolymers with reactive groups."@en ;
 	rdfs:seeAlso "https://doi.org/10.1351/goldbook.RT07166"@en ;
 	skos:prefLabel "Resin"@en .
 
@@ -747,22 +828,26 @@ hpo:ReleaseLayer rdf:type owl:Class ;
 	rdfs:subClassOf emmo:Material ,
 	emmo:ManufacturedProduct ;
 	emmo:elucidation "A specially formulated material placed between the mold and uncured resin/fiber (usually sprayed or painted on the mold surface) to prevent permanent bonding between the two during cure and facilitates demolding after cure."@en ;
+	rdfs:comment "A specially formulated material placed between the mold and uncured resin/fiber (usually sprayed or painted on the mold surface) to prevent permanent bonding between the two during cure and facilitates demolding after cure."@en ;
 	rdfs:isDefinedBy "COMP WORLD"@en ;
 	skos:prefLabel "ReleaseLayer"@en .
 
 hpo:FormulatedResinCuringTemperature rdf:type owl:Class ;
 	rdfs:subClassOf hpo:FormulatedResinProperty ;
 	emmo:elucidation "Temperature required to start the process of cure of the resin."@en ;
+	rdfs:comment "Temperature required to start the process of cure of the resin."@en ;
 	skos:prefLabel "FormulatedResinCuringTemperature"@en .
 
 hpo:ResinWaterContent rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ResinProperty ;
 	emmo:elucidation "Percentage of water in the base resin."@en ;
+	rdfs:comment "Percentage of water in the base resin."@en ;
 	skos:prefLabel "ResinWaterContent"@en .
 
 hpo:CoverReleaseLayerIdentifier rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CoverReleaseLayerProperty ;
 	emmo:elucidation "Commercial name of the applied consumable (product), differentiating available product providers and product lots."@en ;
+	rdfs:comment "Commercial name of the applied consumable (product), differentiating available product providers and product lots."@en ;
 	skos:prefLabel "CoverReleaseLayerIdentifier"@en .
 
 hpo:FormulatedResin rdf:type owl:Class ;
@@ -785,16 +870,19 @@ hpo:FormulatedResin rdf:type owl:Class ;
 	owl:someValuesFrom hpo:Resin
 	] ;
 	emmo:elucidation "A manufactured mixture of a resin and ingredients."@en ;
+	rdfs:comment "A manufactured mixture of a resin and ingredients."@en ;
 	skos:prefLabel "FormulatedResin"@en .
 
 hpo:FormulatedResinWaterContent rdf:type owl:Class ;
 	rdfs:subClassOf hpo:FormulatedResinProperty ;
 	emmo:elucidation "Weight percentage of (dissolved and freezable) water in the base resin."@en ;
+	rdfs:comment "Weight percentage of (dissolved and freezable) water in the base resin."@en ;
 	skos:prefLabel "FormulatedResinWaterContent"@en .
 
 hpo:WorkingStepsOrder rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ComponentManufacturingProperty ;
 	emmo:elucidation "List of steps for the mixing process."@en ;
+	rdfs:comment "List of steps for the mixing process."@en ;
 	skos:prefLabel "WorkingStepsOrder"@en .
 
 hpo:PrepregLine rdf:type owl:Class ;
@@ -804,6 +892,7 @@ hpo:PrepregLine rdf:type owl:Class ;
 hpo:TextileFabricThickness rdf:type owl:Class ;
 	rdfs:subClassOf hpo:TextileFabricProperty ;
 	emmo:elucidation "Textile fabric thickness"@en ;
+	rdfs:comment "Textile fabric thickness"@en ;
 	skos:prefLabel "TextileFabricThickness"@en .
 
 hpo:MouldToolProperty rdf:type owl:Class ;
@@ -827,21 +916,25 @@ hpo:CatalystProperty rdf:type owl:Class ;
 hpo:MouldToolSurfaceRoughness rdf:type owl:Class ;
 	rdfs:subClassOf hpo:MouldToolProperty ;
 	emmo:elucidation "Arithmetic average of the absolute values of the profile height deviations from the mean line, recorded within the evaluation length."@en ;
+	rdfs:comment "Arithmetic average of the absolute values of the profile height deviations from the mean line, recorded within the evaluation length."@en ;
 	skos:prefLabel "MouldToolSurface Roughness"@en .
 
 hpo:TensileModulus rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CompositeLaminateProperty ;
 	emmo:elucidation "Tangent of the stress-strain curve under tensile stress."@en ;
+	rdfs:comment "Tangent of the stress-strain curve under tensile stress."@en ;
 	skos:prefLabel "TensileModulus"@en .
 
 hpo:FibreDiameter rdf:type owl:Class ;
 	rdfs:subClassOf hpo:TextileFabricProperty ;
 	emmo:elucidation "Diameter of the fibre composing the fabric."@en ;
+	rdfs:comment "Diameter of the fibre composing the fabric."@en ;
 	skos:prefLabel "FibreDiameter"@en .
 
 hpo:FormulatedResinSpecificCondensateFormation rdf:type owl:Class ;
 	rdfs:subClassOf hpo:FormulatedResinProperty ;
 	emmo:elucidation "Mass of water released per mass of resin throughout the applied chemical (curing) reaction."@en ;
+	rdfs:comment "Mass of water released per mass of resin throughout the applied chemical (curing) reaction."@en ;
 	skos:prefLabel "FormulatedResinSpecificCondensateFormation"@en .
 
 hpo:StackedPrepreg rdf:type owl:Class ;
