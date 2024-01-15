@@ -1165,9 +1165,9 @@ hpo:CrosslinkedPolymer rdf:type owl:Class ;
 	emmo:example "Bakelite, vulcanised rubber."@en ;
 	skos:prefLabel "CrosslinkedPolymer"@en .
 
-# Check the use of NetworkPolymer.
+# Sometimes the name NetworkPolymer is used to refer to ThermosettingPolymer and/or CrosslinkedPolymer. Use skos:AltLabel?
 
-# Based on ChemicalComposition.
+# Based on TotalComposition (a subclass of emmo:ChemicalComposition).
 
 hpo:HomoPolymer rdf:type owl:Class ;
 	rdfs:subClassOf emmo:PolymericMaterial ;
