@@ -87,7 +87,6 @@ hpo:CoverToolProperty rdf:type owl:Class ;
 	] ;
 	owl:allValuesFrom hpo:CoverTool
 	] ;
-	rdfs:comment "A collection of the properties of a tool."@en ;
 	rdfs:label "CoverToolProperty"@en ;
 	skos:prefLabel "CoverToolProperty"@en .
 
@@ -106,7 +105,6 @@ hpo:CompositeLaminateProperty rdf:type owl:Class ;
 	] ;
 	owl:allValuesFrom hpo:CompositeLaminate
 	] ;
-	rdfs:comment "A collection of properties associated with a composite laminate."@en ;
 	rdfs:label "CompositeLaminateProperty"@en ;
 	skos:prefLabel "CompositeLaminateProperty"@en .
 
@@ -132,6 +130,7 @@ hpo:TextileFabricProperty rdf:type owl:Class ;
 	owl:allValuesFrom hpo:TextileFabric
 	] ;
 	emmo:elucidation "A collection of the properties of textile fabrics."@en ;
+	rdfs:comment "A collection of the properties of textile fabrics."@en ;
 	rdfs:label "TextileFabricProperty"@en ;
 	skos:prefLabel "TextileFabricProperty"@en .
 
@@ -364,6 +363,7 @@ hpo:StackedPrepregProperty rdf:type owl:Class ;
 	owl:allValuesFrom hpo:StackedPrepreg
 	] ;
 	emmo:elucidation "A collection of the properties of stacked prepregs."@en ;
+	rdfs:comment "A collection of the properties of stacked prepregs."@en ;
 	rdfs:label "StackedPrepregProperty"@en ;
 	skos:prefLabel "StackedPrepregProperty"@en .
 
@@ -462,8 +462,8 @@ hpo:PrepregPiece rdf:type owl:Class ;
 	] ;
 	emmo:elucidation "A prepreg a piece cut from a prepreg roll, which can be stacked."@en ;
 	rdfs:comment "A prepreg a piece cut from a prepreg roll, which can be stacked."@en ;
-	skos:altLabel "Ply"@en ,
-	"PrepregPart"@en ;
+	skos:altLabel "Ply"@en ;
+	skos:altLabel "PrepregPart"@en ;
 	rdfs:label "PrepregPiece"@en ;
 	skos:prefLabel "PrepregPiece"@en .
 
@@ -474,7 +474,6 @@ hpo:ComponentManufacturingProperty rdf:type owl:Class ;
 	] ;
 	owl:allValuesFrom hpo:ComponentManufacturing
 	] ;
-	rdfs:comment "A collection of properties associated with the manufacturing process of a component made of a composite material."@en ;
 	rdfs:label "ComponentManufacturingProperty"@en ;
 	skos:prefLabel "ComponentManufacturingProperty"@en .
 
@@ -559,6 +558,7 @@ hpo:CoverToolHoleDistance rdf:type owl:Class ;
 hpo:MouldTool rdf:type owl:Class ;
 	rdfs:subClassOf emmo:Tool ;
 	emmo:elucidation "An enclosed cavity or open form from which a composite component takes its shape, size and exterior surface appearance (also known as a tool)."@en ;
+	rdfs:comment "An enclosed cavity or open form from which a composite component takes its shape, size and exterior surface appearance (also known as a tool)."@en ;
 	rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
 	rdfs:label "MouldTool"@en ;
 	skos:prefLabel "MouldTool"@en .
@@ -614,6 +614,7 @@ hpo:MouldReleaseLayerProperty rdf:type owl:Class ;
 	owl:allValuesFrom hpo:MouldReleaseLayer
 	] ;
 	emmo:elucidation "A collection of the properties of the release layer of a mould or tool."@en ;
+	rdfs:comment "A collection of the properties of the release layer of a mould or tool."@en ;
 	rdfs:label "MouldReleaseLayerProperty"@en ;
 	skos:prefLabel "MouldReleaseLayerProperty"@en .
 
@@ -646,6 +647,7 @@ hpo:ResinProperty rdf:type owl:Class ;
 	owl:allValuesFrom hpo:Resin
 	] ;
 	emmo:elucidation "A collection of the properties of resins."@en ;
+	rdfs:comment "A collection of the properties of resins."@en ;
 	rdfs:label "ResinProperty"@en ;
 	skos:prefLabel "ResinProperty"@en .
 
@@ -747,6 +749,7 @@ hpo:FormulatedResinProperty rdf:type owl:Class ;
 	owl:allValuesFrom hpo:FormulatedResin
 	] ;
 	emmo:elucidation "A collection of the properties of formulated resins."@en ;
+	rdfs:comment "A collection of the properties of formulated resins."@en ;
 	rdfs:label "FormulatedResinProperty"@en ;
 	skos:prefLabel "FormulatedResinProperty"@en .
 
@@ -758,6 +761,7 @@ hpo:PrepregProperty rdf:type owl:Class ;
 	owl:allValuesFrom hpo:Prepreg
 	] ;
 	emmo:elucidation "A collection of the properties of prepregs."@en ;
+	rdfs:comment "A collection of the properties of prepregs."@en ;
 	rdfs:label "PrepregProperty"@en ;
 	skos:prefLabel "PrepregProperty"@en .
 
@@ -790,7 +794,6 @@ hpo:CoverReleaseLayerProperty rdf:type owl:Class ;
 	] ;
 	owl:allValuesFrom hpo:CoverReleaseLayer
 	] ;
-	rdfs:comment "A collection of properties associated with the release layer of a cover."@en ;
 	rdfs:label "CoverReleaseLayerProperty"@en ;
 	skos:prefLabel "CoverReleaseLayerProperty"@en .
 
@@ -1038,6 +1041,7 @@ hpo:MouldToolProperty rdf:type owl:Class ;
 	owl:allValuesFrom hpo:MouldTool
 	] ;
 	emmo:elucidation "A collection of the properties of moulds or tools."@en ;
+	rdfs:comment "A collection of the properties of moulds or tools."@en ;
 	rdfs:label "MouldToolProperty"@en ;
 	skos:prefLabel "MouldToolProperty"@en .
 
@@ -1048,7 +1052,6 @@ hpo:CatalystProperty rdf:type owl:Class ;
 	] ;
 	owl:allValuesFrom hpo:Catalyst
 	] ;
-	rdfs:comment "A collection of properties associated with catalysts."@en ;
 	rdfs:label "CatalystProperty"@en ;
 	skos:prefLabel "CatalystProperty"@en .
 
@@ -1088,7 +1091,7 @@ hpo:StackedPrepreg rdf:type owl:Class ;
 	owl:someValuesFrom hpo:PrepregPiece
 	] ;
 	emmo:elucidation "Arrangement of ply prepregs in a laminate."@en ;
-	rdfs:comment  "Arrangement of ply prepregs in a laminate."@en ;
+	rdfs:comment "Arrangement of ply prepregs in a laminate."@en ;
 	rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
 	rdfs:label "StackedPrepreg"@en ;
 	skos:prefLabel "StackedPrepreg"@en .
@@ -1098,6 +1101,7 @@ hpo:Filler rdf:type owl:Class ;
 	emmo:elucidation "A material (usually low cost) added to a resin to extend it, or give special properties"@en ;
 	rdfs:comment "A material (usually low cost) added to a resin to extend it, or give special properties"@en ;
 	rdfs:isDefinedBy "https://compositesuk.co.uk/composite-materials/glossary-of-terms/"^^xsd:anyURI ;
+	rdfs:label "Filler"@en ;
 	skos:prefLabel "Filler"@en .
 
 hpo:Volatile rdf:type owl:Class ;
@@ -1106,6 +1110,7 @@ hpo:Volatile rdf:type owl:Class ;
 	rdfs:comment "Solvents, such as water and alcohol, in a sizing or resin formulation that can be vaporized at ambient or slightly elevated temperatures."@en ;
 	rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
 	skos:altLabel "Solvent"@en ;
+	rdfs:label "Volatile"@en ;
 	skos:prefLabel "Volatile"@en .
 
 hpo:Monomer rdf:type owl:Class ;
@@ -1113,6 +1118,7 @@ hpo:Monomer rdf:type owl:Class ;
 	emmo:elucidation "A single molecule that reacts with like or unlike molecules to form a polymer. "@en ;
 	rdfs:comment "A single molecule that reacts with like or unlike molecules to form a polymer. "@en ;
 	rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
+	rdfs:label "Monomer"@en ;
 	skos:prefLabel "Monomer"@en .
 
 # Polymer classification:
@@ -1120,25 +1126,31 @@ hpo:Monomer rdf:type owl:Class ;
 
 hpo:NaturalPolymer rdf:type owl:Class ;
 	rdfs:subClassOf emmo:PolymericMaterial ;
-	rdfs:subClassOf emmo:EMMO_75fe4fd1_0f7e_429b_b91d_59d248561bae ;
+	rdfs:subClassOf emmo:NaturalMaterial ;
 	emmo:elucidation "A naturally occurring polymer produced by living organisms."@en ;
+	rdfs:comment "A naturally occurring polymer produced by living organisms."@en ;
 	emmo:example "DNA, cellulose."@en ;
+	rdfs:label "NaturalPolymer"@en ;
 	skos:prefLabel "NaturalPolymer"@en .
 
 hpo:SemiSyntheticPolymer rdf:type owl:Class ;
 	rdfs:subClassOf emmo:PolymericMaterial ;
-	rdfs:subClassOf emmo:EMMO_75fe4fd1_0f7e_429b_b91d_59d248561bae ;
+	rdfs:subClassOf emmo:NaturalMaterial ;
 	rdfs:subClassOf emmo:ManufacturedMaterial ;
 	emmo:elucidation "A polymer synthesised from biomass sources."@en ;
+	rdfs:comment "A polymer synthesised from biomass sources."@en ;
 	emmo:example "Polylactic acid, celluloid."@en ;
 	skos:altLabel "Bioplastics"@en ;
+	rdfs:label "SemiSyntheticPolymer"@en ;
 	skos:prefLabel "SemiSyntheticPolymer"@en .
 
 hpo:SyntheticPolymer rdf:type owl:Class ;
 	rdfs:subClassOf emmo:PolymericMaterial ;
 	rdfs:subClassOf emmo:ManufacturedMaterial ;
 	emmo:elucidation "A polymer synthesised from other manufactured chemicals."@en ;
+	rdfs:comment "A polymer synthesised from other manufactured chemicals."@en ;
 	emmo:example "Polyethylene, polystyrene."@en ;
+	rdfs:label "SyntheticPolymer"@en ;
 	skos:prefLabel "SyntheticPolymer"@en .
 
 # Based on structure.
@@ -1148,21 +1160,27 @@ hpo:LinearPolymer rdf:type owl:Class ;
 	rdfs:subClassOf emmo:PolymericMaterial ;
 	rdfs:subClassOf hpo:Linear ;
 	emmo:elucidation "A polymer whose molecular structure is characterised by a linear chain of repeating units."@en ;
+	rdfs:comment "A polymer whose molecular structure is characterised by a linear chain of repeating units."@en ;
 	emmo:example "Polyethylene, polystyrene."@en ;
+	rdfs:label "LinearPolymer"@en ;
 	skos:prefLabel "LinearPolymer"@en .
 
 hpo:BranchedChainPolymer rdf:type owl:Class ;
 	rdfs:subClassOf emmo:PolymericMaterial ;
 	rdfs:subClassOf hpo:Branched ;
 	emmo:elucidation "A polymer whose molecular structure is characterised by a regular or irregular attachment of side chains to the main backbone chain. ."@en ;
+	rdfs:comment "A polymer whose molecular structure is characterised by a regular or irregular attachment of side chains to the main backbone chain. ."@en ;
 	emmo:example "Glycogen, Star-polymers."@en ;
+	rdfs:label "BranchedChainPolymer"@en ;
 	skos:prefLabel "BranchedChainPolymer"@en .
 
 hpo:CrosslinkedPolymer rdf:type owl:Class ;
 	rdfs:subClassOf emmo:PolymericMaterial ;
 	rdfs:subClassOf hpo:Crosslinked ;
 	emmo:elucidation "A polymer whose molecular structure is characterised by additional covalent bonds connecting several chains together."@en ;
+	rdfs:comment "A polymer whose molecular structure is characterised by additional covalent bonds connecting several chains together."@en ;
 	emmo:example "Bakelite, vulcanised rubber."@en ;
+	rdfs:label "CrosslinkedPolymer"@en ;
 	skos:prefLabel "CrosslinkedPolymer"@en .
 
 # Sometimes the name NetworkPolymer is used to refer to ThermosettingPolymer and/or CrosslinkedPolymer. Use skos:AltLabel?
@@ -1171,14 +1189,18 @@ hpo:CrosslinkedPolymer rdf:type owl:Class ;
 
 hpo:HomoPolymer rdf:type owl:Class ;
 	rdfs:subClassOf emmo:PolymericMaterial ;
-	rdfs:subClassOf emmo:EMMO_0eabfde6_c6c5_4b1f_bf10_e4e0e06e9b2e ;
+	rdfs:subClassOf emmo:TotalComposition ;
 	emmo:elucidation "A polymer derived from the polymerisation of one kind of monomer."@en ;
+	rdfs:comment "A polymer derived from the polymerisation of one kind of monomer."@en ;
+	rdfs:label "HomoPolymer"@en ;
 	skos:prefLabel "HomoPolymer"@en .
 
 hpo:CoPolymer rdf:type owl:Class ;
 	rdfs:subClassOf emmo:PolymericMaterial ;
-	rdfs:subClassOf emmo:EMMO_0eabfde6_c6c5_4b1f_bf10_e4e0e06e9b2e ;
+	rdfs:subClassOf emmo:TotalComposition ;
 	emmo:elucidation "A polymer derived from the polymerisation of more than one species of monomer."@en ;
+	rdfs:comment "A polymer derived from the polymerisation of more than one species of monomer."@en ;
+	rdfs:label "CoPolymer"@en ;
 	skos:prefLabel "CoPolymer"@en .
 
 # Based on molecular forces.
@@ -1186,25 +1208,33 @@ hpo:CoPolymer rdf:type owl:Class ;
 hpo:Elastomer rdf:type owl:Class ;
 	rdfs:subClassOf emmo:PolymericMaterial ;
 	emmo:elucidation "A polymer characterised by weak intermolecular forces and viscoelasticity."@en ;
+	rdfs:comment "A polymer characterised by weak intermolecular forces and viscoelasticity."@en ;
 	emmo:example "Neoprene, rubber."@en ;
+	rdfs:label "Elastomer"@en ;
 	skos:prefLabel "Elastomer"@en .
 
 hpo:Fibre rdf:type owl:Class ;
 	rdfs:subClassOf emmo:PolymericMaterial ;
 	emmo:elucidation "A polymer characterised by strong intermolecular forces and high tensile strength."@en ;
+	rdfs:comment "A polymer characterised by strong intermolecular forces and high tensile strength."@en ;
 	emmo:example "Cotton, Nylon."@en ;
+	rdfs:label "Fibre"@en ;
 	skos:prefLabel "Fibre"@en .
 
 hpo:ThermoplasticPolymer rdf:type owl:Class ;
 	rdfs:subClassOf emmo:PolymericMaterial ;
 	emmo:elucidation "A polymer that becomes pliable and mouldable (i.e. plastic) above a certain temperature, and that reversibly solidifies upon cooling. Thermoplastics typically have linear chains and high molecular weight, increasing the strength of intermolecular interactions."@en ;
+	rdfs:comment "A polymer that becomes pliable and mouldable (i.e. plastic) above a certain temperature, and that reversibly solidifies upon cooling. Thermoplastics typically have linear chains and high molecular weight, increasing the strength of intermolecular interactions."@en ;
 	emmo:example "Polyacrylic acids, Polylactic acid, Polycarbonate."@en ;
+	rdfs:label "ThermoplasticPolymer"@en ;
 	skos:prefLabel "ThermoplasticPolymer"@en .
 
 hpo:ThermosettingPolymer rdf:type owl:Class ;
 	rdfs:subClassOf emmo:PolymericMaterial ;
 	emmo:elucidation "A polymer that becomes irreversibly hard by creating an extensive network of cross-linking between the individual chains."@en ;
+	rdfs:comment "A polymer that becomes irreversibly hard by creating an extensive network of cross-linking between the individual chains."@en ;
 	emmo:example "Epoxy resins, Polyurethanes."@en ;
+	rdfs:label "ThermosettingPolymer"@en ;
 	skos:prefLabel "ThermosettingPolymer"@en .
 
 # Based on polymerisation mechanism.
@@ -1214,11 +1244,15 @@ hpo:ThermosettingPolymer rdf:type owl:Class ;
 hpo:AdditionPolymer rdf:type owl:Class ;
 	rdfs:subClassOf emmo:PolymericMaterial ;
 	emmo:elucidation "A polymer obtained through an addition reaction, that is, a reaction involving the creation of a single bond between the atoms of different molecules which are involved in a double or triple bond."@en ;
+	rdfs:comment "A polymer obtained through an addition reaction, that is, a reaction involving the creation of a single bond between the atoms of different molecules which are involved in a double or triple bond."@en ;
+	rdfs:label "AdditionPolymer"@en ;
 	skos:prefLabel "AdditionPolymer"@en .
 
 hpo:CondensationPolymer rdf:type owl:Class ;
 	rdfs:subClassOf emmo:PolymericMaterial ;
 	emmo:elucidation "A polymer obtained through a condensation reaction, that is, where two molecules form a chemical bond by eliminating a small molecule such as water."@en ;
+	rdfs:comment "A polymer obtained through a condensation reaction, that is, where two molecules form a chemical bond by eliminating a small molecule such as water."@en ;
+	rdfs:label "CondensationPolymer"@en ;
 	skos:prefLabel "CondensationPolymer"@en .
 
 # OrganicSemiconductorPolymer or SemiconductorPolymer?
@@ -1226,25 +1260,32 @@ hpo:CondensationPolymer rdf:type owl:Class ;
 
 # Type of structures.
 hpo:SkeletalFormula rdf:type owl:Class ;
-	rdfs:subClassOf emmo:EMMO_ecc4efe9_77a2_47e3_8190_f9a883d54ac6 ;
+	rdfs:subClassOf emmo:ChemicalRepresentation ;
 	emmo:elucidation "A 2-dimensional representation of chemical structures of organic compounds, showing the chemical bonds as lines, carbon atoms as vertices, and hetero atoms with labels. Hydrogen atoms are omitted in the representation since their presence can be derived from the valence of carbon atoms."@en ;
+	rdfs:comment "A 2-dimensional representation of chemical structures of organic compounds, showing the chemical bonds as lines, carbon atoms as vertices, and hetero atoms with labels. Hydrogen atoms are omitted in the representation since their presence can be derived from the valence of carbon atoms."@en ;
+	rdfs:label "SkeletalFormula"@en ;
 	skos:prefLabel "SkeletalFormula"@en .
 
 hpo:Linear rdf:type owl:Class ;
 	rdfs:subClassOf hpo:SkeletalFormula ;
 	emmo:elucidation "A class of structures characterised by a linear skeleton."@en ;
+	rdfs:comment "A class of structures characterised by a linear skeleton."@en ;
+	rdfs:label "Linear"@en ;
 	skos:prefLabel "Linear"@en .
 
 hpo:Branched rdf:type owl:Class ;
 	rdfs:subClassOf hpo:SkeletalFormula ;
 	emmo:elucidation "A class of structures characterised by a branched skeleton."@en ;
+	rdfs:comment "A class of structures characterised by a branched skeleton."@en ;
+	rdfs:label "Branched"@en ;
 	skos:prefLabel "Branched"@en .
 
 hpo:Crosslinked rdf:type owl:Class ;
 	rdfs:subClassOf hpo:SkeletalFormula ;
 	emmo:elucidation "A class of structures characterised by a bond or a short sequence of bonds connecting different macromolecules."@en ;
+	rdfs:comment "A class of structures characterised by a bond or a short sequence of bonds connecting different macromolecules."@en ;
+	rdfs:label "Crosslinked"@en ;
 	skos:prefLabel "Crosslinked"@en .
-
 
 
 
@@ -1253,6 +1294,8 @@ hpo:Crosslinked rdf:type owl:Class ;
 #########################################
 
 ### Classes:
+### emmo:ChemicalRepresentation                          -> disciplines-chemistry               EMMO_ecc4efe9_77a2_47e3_8190_f9a883d54ac6
+emmo:ChemicalRepresentation owl:equivalentClass emmo:EMMO_ecc4efe9_77a2_47e3_8190_f9a883d54ac6 .
 ### emmo:Density                                         -> disciplines-isq                     EMMO_06448f64_8db6_4304_8b2c_e785dba82044
 emmo:Density owl:equivalentClass emmo:EMMO_06448f64_8db6_4304_8b2c_e785dba82044 .
 ### emmo:Diameter                                        -> disciplines-isq                     EMMO_c1c8ac3c_8a1c_4777_8e0b_14c1f9f9b0c6
@@ -1279,6 +1322,8 @@ emmo:Material owl:equivalentClass emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94
 emmo:Measurement owl:equivalentClass emmo:EMMO_463bcfda_867b_41d9_a967_211d4d437cfb .
 ### emmo:Mixture                                         -> perspectives-physicalistic          EMMO_ec2c8ac8_98c5_4c74_b85b_ff8e8ca6655c
 emmo:Mixture owl:equivalentClass emmo:EMMO_ec2c8ac8_98c5_4c74_b85b_ff8e8ca6655c .
+### emmo:NaturalMaterial                                 -> disciplines-materials               EMMO_75fe4fd1_0f7e_429b_b91d_59d248561bae
+emmo:NaturalMaterial owl:equivalentClass emmo:EMMO_75fe4fd1_0f7e_429b_b91d_59d248561bae .
 ### emmo:Objective                                       -> perspectives-semiotics              EMMO_2a888cdf_ec4a_4ec5_af1c_0343372fc978
 emmo:Objective owl:equivalentClass emmo:EMMO_2a888cdf_ec4a_4ec5_af1c_0343372fc978 .
 ### emmo:PH                                              -> disciplines-isq                     EMMO_80fe82d4_f4c1_43a1_98dc_ee5fc7927e19
@@ -1293,6 +1338,8 @@ emmo:ThermodynamicTemperature owl:equivalentClass emmo:EMMO_affe07e4_e9bc_4852_8
 emmo:Thickness owl:equivalentClass emmo:EMMO_43003c86_9d15_433b_9789_ee2940920656 .
 ### emmo:Tool                                            -> disciplines-manufacturing           EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe
 emmo:Tool owl:equivalentClass emmo:EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe .
+### emmo:TotalComposition                                -> disciplines-chemistry               EMMO_0eabfde6_c6c5_4b1f_bf10_e4e0e06e9b2e
+emmo:TotalComposition owl:equivalentClass emmo:EMMO_0eabfde6_c6c5_4b1f_bf10_e4e0e06e9b2e .
 ### emmo:Width                                           -> disciplines-isq                     EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0
 emmo:Width owl:equivalentClass emmo:EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0 .
 
