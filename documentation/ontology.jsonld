@@ -1,0 +1,4132 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#Catalyst"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#ComponentManufacturing"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://emmo.info/emmo#hasProperty"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://emmo.info/emmo/application/hpo#Composite"
+    }, {
+      "@id" : "http://emmo.info/emmo/application/hpo#Laminate"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid16"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#StackedPrepreg"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://emmo.info/emmo#hasNext"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CompositeLaminate"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid18"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://emmo.info/emmo#hasProperty"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CoverReleaseLayer"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid20"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://emmo.info/emmo#hasProperty"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://emmo.info/emmo#hasProperty"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CoverTool"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid22"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://emmo.info/emmo#hasProperty"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid24"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#Additive"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://emmo.info/emmo#hasNext"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid26"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#Catalyst"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://emmo.info/emmo#hasNext"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid28"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#Resin"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://emmo.info/emmo#hasNext"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#FormulatedResin"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid30"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#hasParticipant"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#ComponentManufacturingLine"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://emmo.info/emmo#hasProperty"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#MouldReleaseLayer"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid32"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://emmo.info/emmo#hasProperty"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#MouldTool"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid34"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://emmo.info/emmo#hasProperty"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid36"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#PrepregRoll"
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://emmo.info/emmo#hasNext"
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#Prepreg"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid38"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://emmo.info/emmo#hasProperty"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid40"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#FormulatedResin"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#hasStage"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#ShapingAndCuring"
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://emmo.info/emmo#hasNext"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid42"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#TextileFabric"
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://emmo.info/emmo#hasNext"
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#hasManufacturedOutput"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#PrepregRoll"
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#hasParticipant"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#PrepregLine"
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo/middle/manufacturing#hasInput"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#FormulatedResin"
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo/middle/manufacturing#hasInput"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#TextileFabric"
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#hasManufacturedOutput"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#FormulatedResin"
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#hasParticipant"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#ResinMixer"
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo/middle/manufacturing#hasInput"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#Additive"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#hasStage"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#Stacking"
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo/middle/manufacturing#hasInput"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#Catalyst"
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo/middle/manufacturing#hasInput"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#Resin"
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#Resin"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid53"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://emmo.info/emmo#hasProperty"
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#hasManufacturedOutput"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CompositeLaminate"
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#hasParticipant"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CoverReleaseLayer"
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#hasParticipant"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CoverTool"
+  } ]
+}, {
+  "@id" : "_:genid57",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#hasParticipant"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#MouldReleaseLayer"
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#hasParticipant"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#MouldTool"
+  } ]
+}, {
+  "@id" : "_:genid59",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo/middle/manufacturing#hasInput"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#StackedPrepreg"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#hasConstituent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CoverReleaseLayer"
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#contacts"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#PrepregPiece"
+  } ]
+}, {
+  "@id" : "_:genid61",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#StackedPrepreg"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid62"
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://emmo.info/emmo#hasProperty"
+  } ]
+}, {
+  "@id" : "_:genid63",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#hasManufacturedOutput"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#StackedPrepreg"
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#hasParticipant"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#PrepregPiece"
+  } ]
+}, {
+  "@id" : "_:genid65",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo/middle/manufacturing#hasInput"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#PrepregRoll"
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#TextileFabric"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "_:genid67"
+  } ]
+}, {
+  "@id" : "_:genid67",
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://emmo.info/emmo#hasProperty"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#hasConstituent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CoverTool"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#hasConstituent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#MouldReleaseLayer"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://emmo.info/emmo#hasConstituent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#MouldTool"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#ChemicalRepresentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_ecc4efe9_77a2_47e3_8190_f9a883d54ac6"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#Density",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_06448f64_8db6_4304_8b2c_e785dba82044"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#Diameter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_c1c8ac3c_8a1c_4777_8e0b_14c1f9f9b0c6"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#Duration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_0adabf6f_7404_44cb_9f65_32d83d8101a3"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#DynamicViscosity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://emmo.info/emmo#EMMO_908da3d5_775e_425e_af96_33914618eb66"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_06448f64_8db6_4304_8b2c_e785dba82044",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_0adabf6f_7404_44cb_9f65_32d83d8101a3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_0eabfde6_c6c5_4b1f_bf10_e4e0e06e9b2e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://emmo.info/emmo#TotalComposition"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_16cc6deb_d9f8_4ede_900a_a17cc86e57c4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://emmo.info/emmo#ManufacturingSystem"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_2a888cdf_ec4a_4ec5_af1c_0343372fc978",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://emmo.info/emmo#Objective"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://emmo.info/emmo#Material"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_43003c86_9d15_433b_9789_ee2940920656",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://emmo.info/emmo#Thickness"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_463bcfda_867b_41d9_a967_211d4d437cfb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://emmo.info/emmo#Measurement"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_50a44256_9dc5_434b_bad4_74a4d9a29989",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://emmo.info/emmo#Pressure"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://emmo.info/emmo#Tool"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_75fe4fd1_0f7e_429b_b91d_59d248561bae",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://emmo.info/emmo#NaturalMaterial"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_80fe82d4_f4c1_43a1_98dc_ee5fc7927e19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://emmo.info/emmo#PH"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_86a305d1_7644_48be_b84c_1f976679b904",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://emmo.info/emmo#ManufacturingDevice"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://emmo.info/emmo#ManufacturedProduct"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_908da3d5_775e_425e_af96_33914618eb66",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://emmo.info/emmo#Manufacturing"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://emmo.info/emmo#ThermodynamicTemperature"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_c1c8ac3c_8a1c_4777_8e0b_14c1f9f9b0c6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://emmo.info/emmo#Length"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://emmo.info/emmo#Width"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_ec2c8ac8_98c5_4c74_b85b_ff8e8ca6655c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://emmo.info/emmo#Mixture"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://emmo.info/emmo#ManufacturedMaterial"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_ecc4efe9_77a2_47e3_8190_f9a883d54ac6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://emmo.info/emmo#EMMO_fb27e6d6_159e_48a6_9c29_76dc31d8a860",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://emmo.info/emmo#PolymericMaterial"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo#Length",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://emmo.info/emmo#ManufacturedMaterial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://emmo.info/emmo#ManufacturedProduct",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://emmo.info/emmo#Manufacturing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://emmo.info/emmo#ManufacturingDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://emmo.info/emmo#ManufacturingSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://emmo.info/emmo#Material",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://emmo.info/emmo#Measurement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://emmo.info/emmo#Mixture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://emmo.info/emmo#NaturalMaterial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://emmo.info/emmo#Objective",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://emmo.info/emmo#PH",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://emmo.info/emmo#PolymericMaterial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://emmo.info/emmo#Pressure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://emmo.info/emmo#ThermodynamicTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://emmo.info/emmo#Thickness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://emmo.info/emmo#Tool",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://emmo.info/emmo#TotalComposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://emmo.info/emmo#Width",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://emmo.info/emmo#contacts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://emmo.info/emmo#elucidation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://emmo.info/emmo#example",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://emmo.info/emmo#hasConstituent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://emmo.info/emmo#hasManufacturedOutput",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://emmo.info/emmo#hasNext",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://emmo.info/emmo#hasParticipant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://emmo.info/emmo#hasProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://emmo.info/emmo#hasStage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/abstract" : [ {
+    "@language" : "en",
+    "@value" : "Hyperdimensional Polymer Ontology."
+  } ],
+  "http://purl.org/dc/terms/bibliographicCitation" : [ {
+    "@value" : "Work under review - not available yet"
+  } ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@value" : "Goldbeck Consulting Ltd (UK)"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@value" : "2023-03-09"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "Daniele Toti"
+  }, {
+    "@value" : "Gerhard Goldbeck"
+  }, {
+    "@value" : "Otello Maria Roscioni"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "An ontology to capture the staggering diversity of polymeric materials and their applications."
+  } ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@value" : ""
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@value" : "https://creativecommons.org/licenses/by/4.0/legalcode"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@value" : ""
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@value" : "EMMC ASBL"
+  } ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : ""
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Hyperdimensional Polymer Ontology"
+  } ],
+  "http://purl.org/ontology/bibo/doi" : [ {
+    "@value" : ""
+  } ],
+  "http://purl.org/ontology/bibo/status" : [ {
+    "@value" : ""
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@language" : "en",
+    "@value" : "hpo"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "http://emmo.info/emmo/application/hpo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contacts:\n\tGerhard Goldbeck\n\tGoldbeck Consulting Ltd (UK)\n\temail: gerhard@goldbeck-consulting.com"
+  } ],
+  "http://www.w3.org/2002/07/owl#backwardCompatibleWith" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2002/07/owl#priorVersion" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "1.0.0"
+  } ],
+  "http://xmlns.com/foaf/0.1/logo" : [ {
+    "@value" : ""
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#AdditionPolymer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A polymer obtained through an addition reaction, that is, a reaction involving the creation of a single bond between the atoms of different molecules which are involved in a double or triple bond."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A polymer obtained through an addition reaction, that is, a reaction involving the creation of a single bond between the atoms of different molecules which are involved in a double or triple bond."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AdditionPolymer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#PolymericMaterial"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "AdditionPolymer"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#Additive",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A term used for a large number of specialist chemicals which are added to compounds to impart specific properties."
+  } ],
+  "http://emmo.info/emmo#example" : [ {
+    "@language" : "en",
+    "@value" : "An additive can provide flame retardancy and UV resistance properties to a resin."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A term used for a large number of specialist chemicals which are added to compounds to impart specific properties."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://compositesuk.co.uk/composite-materials/glossary-terms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Additive"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#ResinIngredient"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Additive"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#Branched",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A class of structures characterised by a branched skeleton."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A class of structures characterised by a branched skeleton."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Branched"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#SkeletalFormula"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Branched"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#BranchedChainPolymer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A polymer whose molecular structure is characterised by a regular or irregular attachment of side chains to the main backbone chain. ."
+  } ],
+  "http://emmo.info/emmo#example" : [ {
+    "@language" : "en",
+    "@value" : "Glycogen, Star-polymers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A polymer whose molecular structure is characterised by a regular or irregular attachment of side chains to the main backbone chain. ."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "BranchedChainPolymer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#PolymericMaterial"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#Branched"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "BranchedChainPolymer"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#COMPEVODSCAnalysis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Experimental procedure for resin reactivity measurement."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Experimental procedure for resin reactivity measurement."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "COMPEVODSCAnalysis"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Measurement"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "COMPEVODSCAnalysis"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#Catalyst",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A substance that increases the rate of a reaction without modifying the overall standard Gibbs energy change in the reaction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A substance that increases the rate of a reaction without modifying the overall standard Gibbs energy change in the reaction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Catalyst"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "https://doi.org/10.1351/goldbook.C00876"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#ResinIngredient"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Catalyst"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#CatalystCommercialName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Catalyst suppliers trade name for the purchased catalyst formulation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Catalyst suppliers trade name for the purchased catalyst formulation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CatalystCommercialName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CatalystProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CatalystCommercialName"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#CatalystDensity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Mass density of the catalyst."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Mass density of the catalyst."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CatalystDensity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Density"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#CatalystProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CatalystDensity"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#CatalystMolecularWeight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Average molecular weight of the catalyst molecular consituents."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Average molecular weight of the catalyst molecular consituents."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CatalystMolecularWeight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CatalystProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CatalystMolecularWeight"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#CatalystProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CatalystProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Objective"
+  }, {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CatalystProperty"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#CatalystViscosity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Catalyst viscosity at 25°C."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Catalyst viscosity at 25°C."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CatalystViscosity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#DynamicViscosity"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#CatalystProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CatalystViscosity"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#CoPolymer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A polymer derived from the polymerisation of more than one species of monomer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A polymer derived from the polymerisation of more than one species of monomer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CoPolymer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#PolymericMaterial"
+  }, {
+    "@id" : "http://emmo.info/emmo#TotalComposition"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CoPolymer"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#ComponentManufacturing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "The manufacturing of a component made of a composite material."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The manufacturing of a component made of a composite material."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ComponentManufacturing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Manufacturing"
+  }, {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  }, {
+    "@id" : "_:genid5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ComponentManufacturing"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#ComponentManufacturingLine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A manufacturing line processing a composite material into a component."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A manufacturing line processing a composite material into a component."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ComponentManufacturingLine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#ManufacturingLine"
+  }, {
+    "@id" : "_:genid6"
+  }, {
+    "@id" : "_:genid7"
+  }, {
+    "@id" : "_:genid8"
+  }, {
+    "@id" : "_:genid9"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ComponentManufacturingLine"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#ComponentManufacturingProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ComponentManufacturingProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Objective"
+  }, {
+    "@id" : "_:genid10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ComponentManufacturingProperty"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#Composite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A material made up of resin and reinforcement (usually fibre)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A material made up of resin and reinforcement (usually fibre)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://compositesuk.co.uk/composite-materials/glossary-terms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Composite"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#ManufacturedMaterial"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Composite"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#CompositeLaminate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CompositeLaminate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#ManufacturedProduct"
+  }, {
+    "@id" : "_:genid15"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid12"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CompositeLaminate"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#CompositeLaminateBulkPorosity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "After performing a cross-cut perpendicular to the specimen surface, based on a light microscopy image, the apparent surface area fraction occupied by pores is evaluated."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "After performing a cross-cut perpendicular to the specimen surface, based on a light microscopy image, the apparent surface area fraction occupied by pores is evaluated."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CompositeLaminateBulkPorosity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CompositeLaminateBulkPorosity"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#CompositeLaminateProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CompositeLaminateProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Objective"
+  }, {
+    "@id" : "_:genid17"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CompositeLaminateProperty"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#CompositeLaminateSurfaceRegionPorosity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Based on a light microscopy image of the smoother surface (i.e. the one visible to a user) of the composite laminate, the apparent surface area fraction occupied by pores is evaluated."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Based on a light microscopy image of the smoother surface (i.e. the one visible to a user) of the composite laminate, the apparent surface area fraction occupied by pores is evaluated."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CompositeLaminateSurfaceRegionPorosity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CompositeLaminateSurfaceRegionPorosity"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#CompositeLaminateVisualSurfaceFinish",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Using a (set of) specimen illumination settings, the appearance is compared with the appearance of a specified set of (reference) specimens."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Using a (set of) specimen illumination settings, the appearance is compared with the appearance of a specified set of (reference) specimens."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CompositeLaminateVisualSurfaceFinish"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CompositeLaminateVisualSurfaceFinish"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#CondensationPolymer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A polymer obtained through a condensation reaction, that is, where two molecules form a chemical bond by eliminating a small molecule such as water."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A polymer obtained through a condensation reaction, that is, where two molecules form a chemical bond by eliminating a small molecule such as water."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CondensationPolymer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#PolymericMaterial"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CondensationPolymer"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#CoverReleaseLayer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A release layer applied to a cover placed over the laminate."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A release layer applied to a cover placed over the laminate."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.compositesworld.com/glossary"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CoverReleaseLayer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#ReleaseLayer"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CoverReleaseLayer"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#CoverReleaseLayerIdentifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Commercial name of the applied consumable (product), differentiating available product providers and product lots."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Commercial name of the applied consumable (product), differentiating available product providers and product lots."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CoverReleaseLayerIdentifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CoverReleaseLayerProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CoverReleaseLayerIdentifier"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#CoverReleaseLayerProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CoverReleaseLayerProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Objective"
+  }, {
+    "@id" : "_:genid19"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CoverReleaseLayerProperty"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#CoverTool",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "The mold, either one- or two-sided and either open or closed, in or upon which composite material is placed in order to make a part."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The mold, either one- or two-sided and either open or closed, in or upon which composite material is placed in order to make a part."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.compositesworld.com/glossary"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CoverTool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Tool"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CoverTool"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#CoverToolHoleDistance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Average distance between holes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Average distance between holes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CoverToolHoleDistance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CoverToolProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CoverToolHoleDistance"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#CoverToolLength",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Length (contributing to the size of the tool)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Length (contributing to the size of the tool)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CoverToolLength"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Length"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#CoverToolProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CoverToolLength"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#CoverToolNumberOfHoles",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Amount of holes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Amount of holes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CoverToolNumberOfHoles"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CoverToolProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CoverToolNumberOfHoles"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#CoverToolProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CoverToolProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Objective"
+  }, {
+    "@id" : "_:genid21"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CoverToolProperty"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#CoverToolSizeOfHoles",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Average diameter of holes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Average diameter of holes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CoverToolSizeOfHoles"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Diameter"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#CoverToolProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CoverToolSizeOfHoles"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#CoverToolWidth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Width (contributing to the size of the tool)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Width (contributing to the size of the tool)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CoverToolWidth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Width"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#CoverToolProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CoverToolWidth"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#Crosslinked",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A class of structures characterised by a bond or a short sequence of bonds connecting different macromolecules."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A class of structures characterised by a bond or a short sequence of bonds connecting different macromolecules."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Crosslinked"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#SkeletalFormula"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Crosslinked"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#CrosslinkedPolymer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A polymer whose molecular structure is characterised by additional covalent bonds connecting several chains together."
+  } ],
+  "http://emmo.info/emmo#example" : [ {
+    "@language" : "en",
+    "@value" : "Bakelite, vulcanised rubber."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A polymer whose molecular structure is characterised by additional covalent bonds connecting several chains together."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CrosslinkedPolymer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#PolymericMaterial"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#Crosslinked"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "CrosslinkedPolymer"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#DegassingStepDuration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Duration of the degassing."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Duration of the degassing."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "DegassingStepDuration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Duration"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#ComponentManufacturingProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "DegassingStepDuration"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#Elastomer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A polymer characterised by weak intermolecular forces and viscoelasticity."
+  } ],
+  "http://emmo.info/emmo#example" : [ {
+    "@language" : "en",
+    "@value" : "Neoprene, rubber."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A polymer characterised by weak intermolecular forces and viscoelasticity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Elastomer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#PolymericMaterial"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Elastomer"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#ElongationAtBreak",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Ratio between increased length and initial length after breakage."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Ratio between increased length and initial length after breakage."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ElongationAtBreak"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ElongationAtBreak"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#Fibre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A polymer characterised by strong intermolecular forces and high tensile strength."
+  } ],
+  "http://emmo.info/emmo#example" : [ {
+    "@language" : "en",
+    "@value" : "Cotton, Nylon."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A polymer characterised by strong intermolecular forces and high tensile strength."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fibre"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#PolymericMaterial"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Fibre"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#FibreDensity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Mass per unit volume of the facbric."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Mass per unit volume of the facbric."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FibreDensity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Density"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#TextileFabricProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "FibreDensity"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#FibreDiameter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Diameter of the fibre composing the fabric."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Diameter of the fibre composing the fabric."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FibreDiameter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Diameter"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#TextileFabricProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "FibreDiameter"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#FibreIdentifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Commercial name of the applied consumable (product), differentiating available product providers and product lots."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Commercial name of the applied consumable (product), differentiating available product providers and product lots."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FibreIdentifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#TextileFabricProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "FibreIdentifier"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#FibreVolumeContent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Ratio between the volume of fibre and the volume of the composite laminate."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Ratio between the volume of fibre and the volume of the composite laminate."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FibreVolumeContent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "FibreVolumeContent"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#Filler",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A material (usually low cost) added to a resin to extend it, or give special properties"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A material (usually low cost) added to a resin to extend it, or give special properties"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://compositesuk.co.uk/composite-materials/glossary-of-terms/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Filler"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#ResinIngredient"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Filler"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#FinalStepPressure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Final pressure of the container during step."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Final pressure of the container during step."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FinalStepPressure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Pressure"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#ComponentManufacturingProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "FinalStepPressure"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#FinalStepTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Final temperature of the container during step."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Final temperature of the container during step."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FinalStepTemperature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#ThermodynamicTemperature"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#ComponentManufacturingProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "FinalStepTemperature"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#FlexualModulus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Tangent of the stress-strain curve under flexural stress."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Tangent of the stress-strain curve under flexural stress."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FlexualModulus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "FlexualModulus"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#FlexuralStrength",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Maximum value of the stress-strain curve under flexural stress."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Maximum value of the stress-strain curve under flexural stress."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FlexuralStrength"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "FlexuralStrength"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#FormulatedResin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A manufactured mixture of a resin and ingredients."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A manufactured mixture of a resin and ingredients."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FormulatedResin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#ManufacturedMaterial"
+  }, {
+    "@id" : "http://emmo.info/emmo#Mixture"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#Resin"
+  }, {
+    "@id" : "_:genid23"
+  }, {
+    "@id" : "_:genid25"
+  }, {
+    "@id" : "_:genid27"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "FormulatedResin"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#FormulatedResinCuringTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Temperature required to start the process of cure of the resin."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Temperature required to start the process of cure of the resin."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FormulatedResinCuringTemperature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#ThermodynamicTemperature"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#FormulatedResinProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "FormulatedResinCuringTemperature"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#FormulatedResinCuringTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Time at which the curing temperature must be held to achieve a certain level of cure."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Time at which the curing temperature must be held to achieve a certain level of cure."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FormulatedResinCuringTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#FormulatedResinProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "FormulatedResinCuringTime"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#FormulatedResinGlassTransitionTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Process in which a polymer melt changes on cooling to a polymer glass or a polymer glass changes on heating to a polymer melt."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Process in which a polymer melt changes on cooling to a polymer glass or a polymer glass changes on heating to a polymer melt."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FormulatedResinGlassTransitionTemperature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#ThermodynamicTemperature"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#FormulatedResinProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "FormulatedResinGlassTransitionTemperature"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#FormulatedResinProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A collection of the properties of formulated resins."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A collection of the properties of formulated resins."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FormulatedResinProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Objective"
+  }, {
+    "@id" : "_:genid29"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "FormulatedResinProperty"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#FormulatedResinSpecificCondensateFormation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Mass of water released per mass of resin throughout the applied chemical (curing) reaction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Mass of water released per mass of resin throughout the applied chemical (curing) reaction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FormulatedResinSpecificCondensateFormation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#FormulatedResinProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "FormulatedResinSpecificCondensateFormation"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#FormulatedResinViscosity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Dynamic viscosity of the resin."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Dynamic viscosity of the resin."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FormulatedResinViscosity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#DynamicViscosity"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#FormulatedResinProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "FormulatedResinViscosity"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#FormulatedResinWaterContent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Weight percentage of (dissolved and freezable) water in the base resin."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Weight percentage of (dissolved and freezable) water in the base resin."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FormulatedResinWaterContent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#FormulatedResinProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "FormulatedResinWaterContent"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#GlassTransitionTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Temperature for transition from glassy state into a viscous one."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Temperature for transition from glassy state into a viscous one."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "GlassTransitionTemperature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#ThermodynamicTemperature"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "GlassTransitionTemperature"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#HeatingRateDuringStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Heating rate during step."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Heating rate during step."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "HeatingRateDuringStep"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#ComponentManufacturingProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "HeatingRateDuringStep"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#HomoPolymer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A polymer derived from the polymerisation of one kind of monomer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A polymer derived from the polymerisation of one kind of monomer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "HomoPolymer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#PolymericMaterial"
+  }, {
+    "@id" : "http://emmo.info/emmo#TotalComposition"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "HomoPolymer"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#InitialStepPressure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Pressure during step."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Pressure during step."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "InitialStepPressure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Pressure"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#ComponentManufacturingProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "InitialStepPressure"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#InitialStepTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Initial temperature of the container during step."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Initial temperature of the container during step."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "InitialStepTemperature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#ThermodynamicTemperature"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#ComponentManufacturingProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "InitialStepTemperature"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#InterlaminarShearStrength",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Mechanical property associated with the matrix-fibre interaction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Mechanical property associated with the matrix-fibre interaction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "InterlaminarShearStrength"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "InterlaminarShearStrength"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#Laminate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "The structure resulting from the curing of multiple stacked prepreg plies."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The structure resulting from the curing of multiple stacked prepreg plies."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://compositesuk.co.uk/composite-materials/glossary-terms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Laminate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#ManufacturedMaterial"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Laminate"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#Linear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A class of structures characterised by a linear skeleton."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A class of structures characterised by a linear skeleton."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Linear"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#SkeletalFormula"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Linear"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#LinearPolymer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A polymer whose molecular structure is characterised by a linear chain of repeating units."
+  } ],
+  "http://emmo.info/emmo#example" : [ {
+    "@language" : "en",
+    "@value" : "Polyethylene, polystyrene."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A polymer whose molecular structure is characterised by a linear chain of repeating units."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "LinearPolymer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#PolymericMaterial"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#Linear"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "LinearPolymer"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#ManufacturingLine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A manufacturing line is a set of sequential operations in a factory where materials are processed, assembled, and/or refined to produce a finished product or an intermediate product for further processing."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A manufacturing line is a set of sequential operations in a factory where materials are processed, assembled, and/or refined to produce a finished product or an intermediate product for further processing."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ManufacturingLine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#ManufacturingSystem"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ManufacturingLine"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#Monomer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A single molecule that reacts with like or unlike molecules to form a polymer. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A single molecule that reacts with like or unlike molecules to form a polymer. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.compositesworld.com/glossary"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Monomer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#ResinIngredient"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Monomer"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#MouldReleaseLayer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A lubricant used to prevent a part from sticking to a mold surface."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A lubricant used to prevent a part from sticking to a mold surface."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.compositesworld.com/glossary"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MouldReleaseLayer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#ReleaseLayer"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MouldReleaseLayer"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#MouldReleaseLayerIdentifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Commercial name of the applied consumable (product), differentiating available product providers and product lots."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Commercial name of the applied consumable (product), differentiating available product providers and product lots."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MouldReleaseLayerIdentifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#MouldReleaseLayerProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MouldReleaseLayerIdentifier"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#MouldReleaseLayerProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A collection of the properties of the release layer of a mould or tool."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A collection of the properties of the release layer of a mould or tool."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MouldReleaseLayerProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Objective"
+  }, {
+    "@id" : "_:genid31"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MouldReleaseLayerProperty"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#MouldTool",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "An enclosed cavity or open form from which a composite component takes its shape, size and exterior surface appearance (also known as a tool)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An enclosed cavity or open form from which a composite component takes its shape, size and exterior surface appearance (also known as a tool)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.compositesworld.com/glossary"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MouldTool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Tool"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MouldTool"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#MouldToolLength",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Length (contributing to the size of the tool)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Length (contributing to the size of the tool)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MouldToolLength"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Length"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#MouldToolProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MouldToolLength"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#MouldToolProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A collection of the properties of moulds or tools."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A collection of the properties of moulds or tools."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MouldToolProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Objective"
+  }, {
+    "@id" : "_:genid33"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MouldToolProperty"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#MouldToolSurfaceRoughness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Arithmetic average of the absolute values of the profile height deviations from the mean line, recorded within the evaluation length."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Arithmetic average of the absolute values of the profile height deviations from the mean line, recorded within the evaluation length."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MouldToolSurfaceRoughness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#MouldToolProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MouldToolSurfaceRoughness"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#MouldToolWidth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Width (contributing to the size of the tool)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Width (contributing to the size of the tool)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MouldToolWidth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Width"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#MouldToolProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "MouldToolWidth"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#NaturalPolymer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A naturally occurring polymer produced by living organisms."
+  } ],
+  "http://emmo.info/emmo#example" : [ {
+    "@language" : "en",
+    "@value" : "DNA, cellulose."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A naturally occurring polymer produced by living organisms."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NaturalPolymer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#NaturalMaterial"
+  }, {
+    "@id" : "http://emmo.info/emmo#PolymericMaterial"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "NaturalPolymer"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#PartsTurnover",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Parts manufactured per minute."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Parts manufactured per minute."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PartsTurnover"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#ComponentManufacturingProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PartsTurnover"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#PorosityInferredFromDensity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "After cutting a test sample out of the specimen to be tested, gravimetric and volumetric findings are used to calculate an (average) density that is compared to the density of a qualified (reference) “in order (i.o.)” specimen."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "After cutting a test sample out of the specimen to be tested, gravimetric and volumetric findings are used to calculate an (average) density that is compared to the density of a qualified (reference) “in order (i.o.)” specimen."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PorosityInferredFromDensity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PorosityInferredFromDensity"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#Prepreg",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A factory-made combination of reactive resins and reinforcing fibres, plus other necessary additive chemicals, ready to be moulded."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A factory-made combination of reactive resins and reinforcing fibres, plus other necessary additive chemicals, ready to be moulded."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://compositesuk.co.uk/composite-materials/glossary-terms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Prepreg"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#ManufacturedProduct"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Prepreg"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#PrepregCuringDegree",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Percentage of the (feasible) curing (that is no more available for cross-linking reaction(s))"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Percentage of the (feasible) curing (that is no more available for cross-linking reaction(s))"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PrepregCuringDegree"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#PrepregProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PrepregCuringDegree"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#PrepregDensity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Mass per unit volume of the prepreg."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Mass per unit volume of the prepreg."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PrepregDensity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Density"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#PrepregProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PrepregDensity"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#PrepregExpectedElongationAtBreak",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "EXPECTED ratio between increased length and initial length after breakage AFTER CURING."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "EXPECTED ratio between increased length and initial length after breakage AFTER CURING."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PrepregExpectedElongationAtBreak"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#PrepregProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PrepregExpectedElongationAtBreak"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#PrepregExpectedFlexualModulus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "EXPECTED Tangent of the stress-strain curve under flexural stress AFTER CURING."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "EXPECTED Tangent of the stress-strain curve under flexural stress AFTER CURING."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PrepregExpectedFlexualModulus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#PrepregProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PrepregExpectedFlexualModulus"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#PrepregExpectedFlexuralStrength",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "EXPECTED Maximum value of the stress-strain curve under flexural stress AFTER CURING."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "EXPECTED Maximum value of the stress-strain curve under flexural stress AFTER CURING."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PrepregExpectedFlexuralStrength"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#PrepregProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PrepregExpectedFlexuralStrength"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#PrepregExpectedTensileModulus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "EXPECTED Tangent of the stress-strain curve under tensile stress AFTER CURING."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "EXPECTED Tangent of the stress-strain curve under tensile stress AFTER CURING."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PrepregExpectedTensileModulus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#PrepregProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PrepregExpectedTensileModulus"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#PrepregExpectedTensileStrength",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "EXPECTED Maximum value of the stress-strain curve under tensile stress AFTER CURING."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "EXPECTED Maximum value of the stress-strain curve under tensile stress AFTER CURING."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PrepregExpectedTensileStrength"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#PrepregProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PrepregExpectedTensileStrength"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#PrepregFibreVolumeContent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Ratio between the volume of fibre and the volume of the composite."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Ratio between the volume of fibre and the volume of the composite."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PrepregFibreVolumeContent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#PrepregProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PrepregFibreVolumeContent"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#PrepregGlassTransitionTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Characteristic temperature (range) of the process in which a polymer melt changes on cooling to a polymer glass or a polymer glass changes on heating to a polymer melt."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Characteristic temperature (range) of the process in which a polymer melt changes on cooling to a polymer glass or a polymer glass changes on heating to a polymer melt."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PrepregGlassTransitionTemperature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#ThermodynamicTemperature"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#PrepregProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PrepregGlassTransitionTemperature"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#PrepregLine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A manufacturing line processing a prepreg for later use."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A manufacturing line processing a prepreg for later use."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PrepregLine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#ManufacturingLine"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PrepregLine"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#PrepregPiece",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A prepreg a piece cut from a prepreg roll, which can be stacked."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A prepreg a piece cut from a prepreg roll, which can be stacked."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PrepregPiece"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#Prepreg"
+  }, {
+    "@id" : "_:genid35"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Ply"
+  }, {
+    "@language" : "en",
+    "@value" : "PrepregPart"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PrepregPiece"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#PrepregProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A collection of the properties of prepregs."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A collection of the properties of prepregs."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PrepregProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Objective"
+  }, {
+    "@id" : "_:genid37"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PrepregProperty"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#PrepregRoll",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A roll of prepreg material."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A roll of prepreg material."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PrepregRoll"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#Prepreg"
+  }, {
+    "@id" : "_:genid39"
+  }, {
+    "@id" : "_:genid41"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PrepregRoll"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#PrepregSpecificCondensateFormation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Mass of water released per mass of prepreg throughout the applied chemical (curing) reaction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Mass of water released per mass of prepreg throughout the applied chemical (curing) reaction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PrepregSpecificCondensateFormation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#PrepregProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PrepregSpecificCondensateFormation"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#PrepregThickness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Thickness of the prepreg."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Thickness of the prepreg."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PrepregThickness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Thickness"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#PrepregProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PrepregThickness"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#PrepregWaterContent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Weight percentage of water in the prepreg (that can be dried and is not formed during the curing reaction)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Weight percentage of water in the prepreg (that can be dried and is not formed during the curing reaction)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PrepregWaterContent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#PrepregProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PrepregWaterContent"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#PrepregWaterDiffusionCoefficient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Effective and anisotropic proportionality constant between the molar (or mass) flux due to molecular diffusion (out of the prepreg specimen)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Effective and anisotropic proportionality constant between the molar (or mass) flux due to molecular diffusion (out of the prepreg specimen)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PrepregWaterDiffusionCoefficient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#PrepregProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PrepregWaterDiffusionCoefficient"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#PrepregWidth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Width of the prepreg."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Width of the prepreg."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PrepregWidth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Width"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#PrepregProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "PrepregWidth"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#Prepregging",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "The process of prepreg manufacturing."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The process of prepreg manufacturing."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Prepregging"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Manufacturing"
+  }, {
+    "@id" : "_:genid43"
+  }, {
+    "@id" : "_:genid44"
+  }, {
+    "@id" : "_:genid45"
+  }, {
+    "@id" : "_:genid46"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Prepregging"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#ReleaseLayer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A specially formulated material placed between the mold and uncured resin/fiber (usually sprayed or painted on the mold surface) to prevent permanent bonding between the two during cure and facilitates demolding after cure."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A specially formulated material placed between the mold and uncured resin/fiber (usually sprayed or painted on the mold surface) to prevent permanent bonding between the two during cure and facilitates demolding after cure."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://compositesuk.co.uk/composite-materials/glossary-terms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ReleaseLayer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#ManufacturedProduct"
+  }, {
+    "@id" : "http://emmo.info/emmo#Material"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ReleaseLayer"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#Resin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Soft solid or highly viscous substance, usually containing prepolymers with reactive groups."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Soft solid or highly viscous substance, usually containing prepolymers with reactive groups."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Resin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "https://doi.org/10.1351/goldbook.RT07166"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Material"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#ThermosettingPolymer"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Resin"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#ResinComposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Total composition of the resin."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Total composition of the resin."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ResinComposition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#ResinProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ResinComposition"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#ResinDensity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Mass density of the resin."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Mass density of the resin."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ResinDensity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Density"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#ResinProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ResinDensity"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#ResinIngredient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Intermediate mixture to make a formulation that allows formulated resin differentiation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Intermediate mixture to make a formulation that allows formulated resin differentiation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ResinIngredient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Material"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ResinIngredient"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#ResinMixer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A batch resin mixer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A batch resin mixer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ResinMixer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#ManufacturingDevice"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ResinMixer"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#ResinMolecularWeight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Average molecular weight of the main resin molecular consituents."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Average molecular weight of the main resin molecular consituents."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ResinMolecularWeight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#ResinProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ResinMolecularWeight"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#ResinPreparation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Preparing a resin involves mixing the precursor (monomers) with a hardener or a catalyst, fillers, and additives."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Preparing a resin involves mixing the precursor (monomers) with a hardener or a catalyst, fillers, and additives."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ResinPreparation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Manufacturing"
+  }, {
+    "@id" : "_:genid47"
+  }, {
+    "@id" : "_:genid48"
+  }, {
+    "@id" : "_:genid49"
+  }, {
+    "@id" : "_:genid50"
+  }, {
+    "@id" : "_:genid51"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ResinPreparation"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#ResinProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A collection of the properties of resins."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A collection of the properties of resins."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ResinProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Objective"
+  }, {
+    "@id" : "_:genid52"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ResinProperty"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#ResinReactivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Maximum amount of energy released in case of complete conversion."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Maximum amount of energy released in case of complete conversion."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ResinReactivity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#ResinProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ResinReactivity"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#ResinViscosity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Viscosity at 25°C."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Viscosity at 25°C."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ResinViscosity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#DynamicViscosity"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#ResinProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ResinViscosity"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#ResinWaterContent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Percentage of water in the base resin."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Percentage of water in the base resin."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ResinWaterContent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#ResinProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ResinWaterContent"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#ResinpH",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "pH of the resin."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "pH of the resin."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ResinpH"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#PH"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#ResinProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ResinpH"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#SemiSyntheticPolymer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A polymer synthesised from biomass sources."
+  } ],
+  "http://emmo.info/emmo#example" : [ {
+    "@language" : "en",
+    "@value" : "Polylactic acid, celluloid."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A polymer synthesised from biomass sources."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "SemiSyntheticPolymer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#ManufacturedMaterial"
+  }, {
+    "@id" : "http://emmo.info/emmo#NaturalMaterial"
+  }, {
+    "@id" : "http://emmo.info/emmo#PolymericMaterial"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Bioplastics"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SemiSyntheticPolymer"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#ShapingAndCuring",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "The process of shaping composite materials into a solid mass of prescribed shape and size, using a mold or tool."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The process of shaping composite materials into a solid mass of prescribed shape and size, using a mold or tool."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://www.compositesworld.com/glossary"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ShapingAndCuring"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Manufacturing"
+  }, {
+    "@id" : "_:genid54"
+  }, {
+    "@id" : "_:genid55"
+  }, {
+    "@id" : "_:genid56"
+  }, {
+    "@id" : "_:genid57"
+  }, {
+    "@id" : "_:genid58"
+  }, {
+    "@id" : "_:genid59"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Moulding"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ShapingAndCuring"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#SkeletalFormula",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A 2-dimensional representation of chemical structures of organic compounds, showing the chemical bonds as lines, carbon atoms as vertices, and hetero atoms with labels. Hydrogen atoms are omitted in the representation since their presence can be derived from the valence of carbon atoms."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A 2-dimensional representation of chemical structures of organic compounds, showing the chemical bonds as lines, carbon atoms as vertices, and hetero atoms with labels. Hydrogen atoms are omitted in the representation since their presence can be derived from the valence of carbon atoms."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "SkeletalFormula"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#ChemicalRepresentation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SkeletalFormula"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#StackedPrepreg",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Arrangement of ply prepregs in a laminate."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Arrangement of ply prepregs in a laminate."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.compositesworld.com/glossary"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "StackedPrepreg"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#ManufacturedProduct"
+  }, {
+    "@id" : "_:genid60"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "StackedPrepreg"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#StackedPrepregLength",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Length (contributing to the size of the object)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Length (contributing to the size of the object)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "StackedPrepregLength"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Length"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#StackedPrepregProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "StackedPrepregLength"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#StackedPrepregNominalThickness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Sum of the thicknesses of prepreg layer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Sum of the thicknesses of prepreg layer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "StackedPrepregNominalThickness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Thickness"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#StackedPrepregProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "StackedPrepregNominalThickness"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#StackedPrepregNumberOfLayers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Number of stacked prepreg layers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Number of stacked prepreg layers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "StackedPrepregNumberOfLayers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#StackedPrepregProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "StackedPrepregNumberOfLayers"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#StackedPrepregProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A collection of the properties of stacked prepregs."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A collection of the properties of stacked prepregs."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "StackedPrepregProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Objective"
+  }, {
+    "@id" : "_:genid61"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "StackedPrepregProperty"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#StackedPrepregStackingSequence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "List of the orientation (degreees) of each prepreg layer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "List of the orientation (degreees) of each prepreg layer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "StackedPrepregStackingSequence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#StackedPrepregProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "StackedPrepregStackingSequence"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#StackedPrepregWidth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Width (contributing to the size of the object)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Width (contributing to the size of the object)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "StackedPrepregWidth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Width"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#StackedPrepregProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "StackedPrepregWidth"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#Stacking",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "An arrangement of prepreg parts (ply) orientations and material components in a laminate specified with respect to some reference direction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An arrangement of prepreg parts (ply) orientations and material components in a laminate specified with respect to some reference direction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.compositesworld.com/glossary"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Stacking"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Manufacturing"
+  }, {
+    "@id" : "_:genid63"
+  }, {
+    "@id" : "_:genid64"
+  }, {
+    "@id" : "_:genid65"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Stacking"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#StepDuration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Step duration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Step duration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "StepDuration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Duration"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#ComponentManufacturingProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "StepDuration"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#StorageModulus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "The storage modulus in viscoelastic materials measure the stored energy representing the elastic portion."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The storage modulus in viscoelastic materials measure the stored energy representing the elastic portion."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "StorageModulus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "StorageModulus"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#SyntheticPolymer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A polymer synthesised from other manufactured chemicals."
+  } ],
+  "http://emmo.info/emmo#example" : [ {
+    "@language" : "en",
+    "@value" : "Polyethylene, polystyrene."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A polymer synthesised from other manufactured chemicals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "SyntheticPolymer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#ManufacturedMaterial"
+  }, {
+    "@id" : "http://emmo.info/emmo#PolymericMaterial"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "SyntheticPolymer"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#TensileModulus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Tangent of the stress-strain curve under tensile stress."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Tangent of the stress-strain curve under tensile stress."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "TensileModulus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "TensileModulus"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#TensileStrength",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Maximum value of the stress-strain curve under tensile stress."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Maximum value of the stress-strain curve under tensile stress."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "TensileStrength"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "TensileStrength"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#TextileFabric",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A planar textile constructed with fibres (or yarns), which can be either woven (interlaced using a weaving process) or non-woven (not interlaced)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A planar textile constructed with fibres (or yarns), which can be either woven (interlaced using a weaving process) or non-woven (not interlaced)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "TextileFabric"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#ManufacturedProduct"
+  }, {
+    "@id" : "http://emmo.info/emmo#Material"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "TextileFabric"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#TextileFabricProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A collection of the properties of textile fabrics."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A collection of the properties of textile fabrics."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "TextileFabricProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Objective"
+  }, {
+    "@id" : "_:genid66"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "TextileFabricProperty"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#TextileFabricThickness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Textile fabric thickness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Textile fabric thickness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "TextileFabricThickness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Thickness"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#TextileFabricProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "TextileFabricThickness"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#TextileFabricWeaveStyle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Pattern of fibre weaving."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Pattern of fibre weaving."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "TextileFabricWeaveStyle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#TextileFabricProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "TextileConstruction"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "TextileFabricWeaveStyle"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#TextileFabricWidth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Width of the fabric."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Width of the fabric."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "TextileFabricWidth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#Width"
+  }, {
+    "@id" : "http://emmo.info/emmo/application/hpo#TextileFabricProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "TextileFabricWidth"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#ThermoplasticPolymer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A polymer that becomes pliable and mouldable (i.e. plastic) above a certain temperature, and that reversibly solidifies upon cooling. Thermoplastics typically have linear chains and high molecular weight, increasing the strength of intermolecular interactions."
+  } ],
+  "http://emmo.info/emmo#example" : [ {
+    "@language" : "en",
+    "@value" : "Polyacrylic acids, Polylactic acid, Polycarbonate."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A polymer that becomes pliable and mouldable (i.e. plastic) above a certain temperature, and that reversibly solidifies upon cooling. Thermoplastics typically have linear chains and high molecular weight, increasing the strength of intermolecular interactions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ThermoplasticPolymer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#PolymericMaterial"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ThermoplasticPolymer"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#ThermosettingPolymer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "A polymer that becomes irreversibly hard by creating an extensive network of cross-linking between the individual chains."
+  } ],
+  "http://emmo.info/emmo#example" : [ {
+    "@language" : "en",
+    "@value" : "Epoxy resins, Polyurethanes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A polymer that becomes irreversibly hard by creating an extensive network of cross-linking between the individual chains."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ThermosettingPolymer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo#PolymericMaterial"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ThermosettingPolymer"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#Volatile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "Solvents, such as water and alcohol, in a sizing or resin formulation that can be vaporized at ambient or slightly elevated temperatures."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Solvents, such as water and alcohol, in a sizing or resin formulation that can be vaporized at ambient or slightly elevated temperatures."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.compositesworld.com/glossary"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Volatile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#ResinIngredient"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Solvent"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Volatile"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/application/hpo#WorkingStepsOrder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://emmo.info/emmo#elucidation" : [ {
+    "@language" : "en",
+    "@value" : "List of steps for the mixing process."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "List of steps for the mixing process."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "WorkingStepsOrder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://emmo.info/emmo/application/hpo#ComponentManufacturingProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "WorkingStepsOrder"
+  } ]
+}, {
+  "@id" : "http://emmo.info/emmo/middle/manufacturing#hasInput",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/abstract",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/bibliographicCitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/issued",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/ontology/bibo/doi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/ontology/bibo/status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#altLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/logo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

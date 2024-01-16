@@ -1,0 +1,2849 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://emmo.info/emmo/application/hpo#"
+     xml:base="http://emmo.info/emmo/application/hpo"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:emmo="http://emmo.info/emmo#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://emmo.info/emmo/application/hpo">
+        <owl:versionIRI rdf:resource="http://emmo.info/emmo/application/hpo"/>
+        <terms:abstract xml:lang="en">Hyperdimensional Polymer Ontology.</terms:abstract>
+        <terms:bibliographicCitation>Work under review - not available yet</terms:bibliographicCitation>
+        <terms:contributor>Goldbeck Consulting Ltd (UK)</terms:contributor>
+        <terms:created>2023-03-09</terms:created>
+        <terms:creator>Daniele Toti</terms:creator>
+        <terms:creator>Gerhard Goldbeck</terms:creator>
+        <terms:creator>Otello Maria Roscioni</terms:creator>
+        <terms:description xml:lang="en">An ontology to capture the staggering diversity of polymeric materials and their applications.</terms:description>
+        <terms:issued></terms:issued>
+        <terms:license>https://creativecommons.org/licenses/by/4.0/legalcode</terms:license>
+        <terms:modified></terms:modified>
+        <terms:publisher>EMMC ASBL</terms:publisher>
+        <terms:source></terms:source>
+        <terms:title xml:lang="en">Hyperdimensional Polymer Ontology</terms:title>
+        <bibo:doi></bibo:doi>
+        <bibo:status></bibo:status>
+        <vann:preferredNamespacePrefix xml:lang="en">hpo</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>http://emmo.info/emmo/application/hpo</vann:preferredNamespaceUri>
+        <rdfs:comment xml:lang="en">Contacts:
+	Gerhard Goldbeck
+	Goldbeck Consulting Ltd (UK)
+	email: gerhard@goldbeck-consulting.com</rdfs:comment>
+        <owl:backwardCompatibleWith></owl:backwardCompatibleWith>
+        <owl:priorVersion></owl:priorVersion>
+        <owl:versionInfo>1.0.0</owl:versionInfo>
+        <foaf:logo></foaf:logo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://emmo.info/emmo#elucidation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://emmo.info/emmo#elucidation"/>
+    
+
+
+    <!-- http://emmo.info/emmo#example -->
+
+
+    <owl:AnnotationProperty rdf:about="http://emmo.info/emmo#example"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/abstract -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/doi -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/doi"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/status -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/status"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/logo -->
+
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/logo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://emmo.info/emmo#contacts -->
+
+
+    <owl:ObjectProperty rdf:about="http://emmo.info/emmo#contacts"/>
+    
+
+
+    <!-- http://emmo.info/emmo#hasConstituent -->
+
+
+    <owl:ObjectProperty rdf:about="http://emmo.info/emmo#hasConstituent"/>
+    
+
+
+    <!-- http://emmo.info/emmo#hasManufacturedOutput -->
+
+
+    <owl:ObjectProperty rdf:about="http://emmo.info/emmo#hasManufacturedOutput"/>
+    
+
+
+    <!-- http://emmo.info/emmo#hasNext -->
+
+
+    <owl:ObjectProperty rdf:about="http://emmo.info/emmo#hasNext"/>
+    
+
+
+    <!-- http://emmo.info/emmo#hasParticipant -->
+
+
+    <owl:ObjectProperty rdf:about="http://emmo.info/emmo#hasParticipant"/>
+    
+
+
+    <!-- http://emmo.info/emmo#hasProperty -->
+
+
+    <owl:ObjectProperty rdf:about="http://emmo.info/emmo#hasProperty"/>
+    
+
+
+    <!-- http://emmo.info/emmo#hasStage -->
+
+
+    <owl:ObjectProperty rdf:about="http://emmo.info/emmo#hasStage"/>
+    
+
+
+    <!-- http://emmo.info/emmo/middle/manufacturing#hasInput -->
+
+
+    <owl:ObjectProperty rdf:about="http://emmo.info/emmo/middle/manufacturing#hasInput"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://emmo.info/emmo#ChemicalRepresentation -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#ChemicalRepresentation">
+        <owl:equivalentClass rdf:resource="http://emmo.info/emmo#EMMO_ecc4efe9_77a2_47e3_8190_f9a883d54ac6"/>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#Density -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#Density">
+        <owl:equivalentClass rdf:resource="http://emmo.info/emmo#EMMO_06448f64_8db6_4304_8b2c_e785dba82044"/>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#Diameter -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#Diameter">
+        <owl:equivalentClass rdf:resource="http://emmo.info/emmo#EMMO_c1c8ac3c_8a1c_4777_8e0b_14c1f9f9b0c6"/>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#Duration -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#Duration">
+        <owl:equivalentClass rdf:resource="http://emmo.info/emmo#EMMO_0adabf6f_7404_44cb_9f65_32d83d8101a3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#DynamicViscosity -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#DynamicViscosity">
+        <owl:equivalentClass rdf:resource="http://emmo.info/emmo#EMMO_908da3d5_775e_425e_af96_33914618eb66"/>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_06448f64_8db6_4304_8b2c_e785dba82044 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_06448f64_8db6_4304_8b2c_e785dba82044"/>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_0adabf6f_7404_44cb_9f65_32d83d8101a3 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_0adabf6f_7404_44cb_9f65_32d83d8101a3"/>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_0eabfde6_c6c5_4b1f_bf10_e4e0e06e9b2e -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_0eabfde6_c6c5_4b1f_bf10_e4e0e06e9b2e">
+        <owl:equivalentClass rdf:resource="http://emmo.info/emmo#TotalComposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_16cc6deb_d9f8_4ede_900a_a17cc86e57c4 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_16cc6deb_d9f8_4ede_900a_a17cc86e57c4">
+        <owl:equivalentClass rdf:resource="http://emmo.info/emmo#ManufacturingSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_2a888cdf_ec4a_4ec5_af1c_0343372fc978 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_2a888cdf_ec4a_4ec5_af1c_0343372fc978">
+        <owl:equivalentClass rdf:resource="http://emmo.info/emmo#Objective"/>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94">
+        <owl:equivalentClass rdf:resource="http://emmo.info/emmo#Material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_43003c86_9d15_433b_9789_ee2940920656 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_43003c86_9d15_433b_9789_ee2940920656">
+        <owl:equivalentClass rdf:resource="http://emmo.info/emmo#Thickness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_463bcfda_867b_41d9_a967_211d4d437cfb -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_463bcfda_867b_41d9_a967_211d4d437cfb">
+        <owl:equivalentClass rdf:resource="http://emmo.info/emmo#Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_50a44256_9dc5_434b_bad4_74a4d9a29989 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_50a44256_9dc5_434b_bad4_74a4d9a29989">
+        <owl:equivalentClass rdf:resource="http://emmo.info/emmo#Pressure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe">
+        <owl:equivalentClass rdf:resource="http://emmo.info/emmo#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_75fe4fd1_0f7e_429b_b91d_59d248561bae -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_75fe4fd1_0f7e_429b_b91d_59d248561bae">
+        <owl:equivalentClass rdf:resource="http://emmo.info/emmo#NaturalMaterial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_80fe82d4_f4c1_43a1_98dc_ee5fc7927e19 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_80fe82d4_f4c1_43a1_98dc_ee5fc7927e19">
+        <owl:equivalentClass rdf:resource="http://emmo.info/emmo#PH"/>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_86a305d1_7644_48be_b84c_1f976679b904 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_86a305d1_7644_48be_b84c_1f976679b904">
+        <owl:equivalentClass rdf:resource="http://emmo.info/emmo#ManufacturingDevice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad">
+        <owl:equivalentClass rdf:resource="http://emmo.info/emmo#ManufacturedProduct"/>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_908da3d5_775e_425e_af96_33914618eb66 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_908da3d5_775e_425e_af96_33914618eb66"/>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b">
+        <owl:equivalentClass rdf:resource="http://emmo.info/emmo#Manufacturing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f">
+        <owl:equivalentClass rdf:resource="http://emmo.info/emmo#ThermodynamicTemperature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_c1c8ac3c_8a1c_4777_8e0b_14c1f9f9b0c6 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_c1c8ac3c_8a1c_4777_8e0b_14c1f9f9b0c6"/>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac">
+        <owl:equivalentClass rdf:resource="http://emmo.info/emmo#Length"/>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0">
+        <owl:equivalentClass rdf:resource="http://emmo.info/emmo#Width"/>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_ec2c8ac8_98c5_4c74_b85b_ff8e8ca6655c -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_ec2c8ac8_98c5_4c74_b85b_ff8e8ca6655c">
+        <owl:equivalentClass rdf:resource="http://emmo.info/emmo#Mixture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356">
+        <owl:equivalentClass rdf:resource="http://emmo.info/emmo#ManufacturedMaterial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_ecc4efe9_77a2_47e3_8190_f9a883d54ac6 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_ecc4efe9_77a2_47e3_8190_f9a883d54ac6"/>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_fb27e6d6_159e_48a6_9c29_76dc31d8a860 -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_fb27e6d6_159e_48a6_9c29_76dc31d8a860">
+        <owl:equivalentClass rdf:resource="http://emmo.info/emmo#PolymericMaterial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#Length -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#Length"/>
+    
+
+
+    <!-- http://emmo.info/emmo#ManufacturedMaterial -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#ManufacturedMaterial"/>
+    
+
+
+    <!-- http://emmo.info/emmo#ManufacturedProduct -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#ManufacturedProduct"/>
+    
+
+
+    <!-- http://emmo.info/emmo#Manufacturing -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#Manufacturing"/>
+    
+
+
+    <!-- http://emmo.info/emmo#ManufacturingDevice -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#ManufacturingDevice"/>
+    
+
+
+    <!-- http://emmo.info/emmo#ManufacturingSystem -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#ManufacturingSystem"/>
+    
+
+
+    <!-- http://emmo.info/emmo#Material -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#Material"/>
+    
+
+
+    <!-- http://emmo.info/emmo#Measurement -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#Measurement"/>
+    
+
+
+    <!-- http://emmo.info/emmo#Mixture -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#Mixture"/>
+    
+
+
+    <!-- http://emmo.info/emmo#NaturalMaterial -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#NaturalMaterial"/>
+    
+
+
+    <!-- http://emmo.info/emmo#Objective -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#Objective"/>
+    
+
+
+    <!-- http://emmo.info/emmo#PH -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#PH"/>
+    
+
+
+    <!-- http://emmo.info/emmo#PolymericMaterial -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#PolymericMaterial"/>
+    
+
+
+    <!-- http://emmo.info/emmo#Pressure -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#Pressure"/>
+    
+
+
+    <!-- http://emmo.info/emmo#ThermodynamicTemperature -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#ThermodynamicTemperature"/>
+    
+
+
+    <!-- http://emmo.info/emmo#Thickness -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#Thickness"/>
+    
+
+
+    <!-- http://emmo.info/emmo#Tool -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#Tool"/>
+    
+
+
+    <!-- http://emmo.info/emmo#TotalComposition -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#TotalComposition"/>
+    
+
+
+    <!-- http://emmo.info/emmo#Width -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo#Width"/>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#AdditionPolymer -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#AdditionPolymer">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#PolymericMaterial"/>
+        <emmo:elucidation xml:lang="en">A polymer obtained through an addition reaction, that is, a reaction involving the creation of a single bond between the atoms of different molecules which are involved in a double or triple bond.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A polymer obtained through an addition reaction, that is, a reaction involving the creation of a single bond between the atoms of different molecules which are involved in a double or triple bond.</rdfs:comment>
+        <rdfs:label xml:lang="en">AdditionPolymer</rdfs:label>
+        <skos:prefLabel xml:lang="en">AdditionPolymer</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#Additive -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#Additive">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ResinIngredient"/>
+        <emmo:elucidation xml:lang="en">A term used for a large number of specialist chemicals which are added to compounds to impart specific properties.</emmo:elucidation>
+        <emmo:example xml:lang="en">An additive can provide flame retardancy and UV resistance properties to a resin.</emmo:example>
+        <rdfs:comment xml:lang="en">A term used for a large number of specialist chemicals which are added to compounds to impart specific properties.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://compositesuk.co.uk/composite-materials/glossary-terms</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Additive</rdfs:label>
+        <skos:prefLabel xml:lang="en">Additive</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#Branched -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#Branched">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#SkeletalFormula"/>
+        <emmo:elucidation xml:lang="en">A class of structures characterised by a branched skeleton.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A class of structures characterised by a branched skeleton.</rdfs:comment>
+        <rdfs:label xml:lang="en">Branched</rdfs:label>
+        <skos:prefLabel xml:lang="en">Branched</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#BranchedChainPolymer -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#BranchedChainPolymer">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#PolymericMaterial"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#Branched"/>
+        <emmo:elucidation xml:lang="en">A polymer whose molecular structure is characterised by a regular or irregular attachment of side chains to the main backbone chain. .</emmo:elucidation>
+        <emmo:example xml:lang="en">Glycogen, Star-polymers.</emmo:example>
+        <rdfs:comment xml:lang="en">A polymer whose molecular structure is characterised by a regular or irregular attachment of side chains to the main backbone chain. .</rdfs:comment>
+        <rdfs:label xml:lang="en">BranchedChainPolymer</rdfs:label>
+        <skos:prefLabel xml:lang="en">BranchedChainPolymer</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#COMPEVODSCAnalysis -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#COMPEVODSCAnalysis">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Measurement"/>
+        <emmo:elucidation xml:lang="en">Experimental procedure for resin reactivity measurement.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Experimental procedure for resin reactivity measurement.</rdfs:comment>
+        <rdfs:label xml:lang="en">COMPEVODSCAnalysis</rdfs:label>
+        <skos:prefLabel xml:lang="en">COMPEVODSCAnalysis</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#Catalyst -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#Catalyst">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ResinIngredient"/>
+        <emmo:elucidation xml:lang="en">A substance that increases the rate of a reaction without modifying the overall standard Gibbs energy change in the reaction.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A substance that increases the rate of a reaction without modifying the overall standard Gibbs energy change in the reaction.</rdfs:comment>
+        <rdfs:label xml:lang="en">Catalyst</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">https://doi.org/10.1351/goldbook.C00876</rdfs:seeAlso>
+        <skos:prefLabel xml:lang="en">Catalyst</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#CatalystCommercialName -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#CatalystCommercialName">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#CatalystProperty"/>
+        <emmo:elucidation xml:lang="en">Catalyst suppliers trade name for the purchased catalyst formulation.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Catalyst suppliers trade name for the purchased catalyst formulation.</rdfs:comment>
+        <rdfs:label xml:lang="en">CatalystCommercialName</rdfs:label>
+        <skos:prefLabel xml:lang="en">CatalystCommercialName</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#CatalystDensity -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#CatalystDensity">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Density"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#CatalystProperty"/>
+        <emmo:elucidation xml:lang="en">Mass density of the catalyst.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Mass density of the catalyst.</rdfs:comment>
+        <rdfs:label xml:lang="en">CatalystDensity</rdfs:label>
+        <skos:prefLabel xml:lang="en">CatalystDensity</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#CatalystMolecularWeight -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#CatalystMolecularWeight">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#CatalystProperty"/>
+        <emmo:elucidation xml:lang="en">Average molecular weight of the catalyst molecular consituents.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Average molecular weight of the catalyst molecular consituents.</rdfs:comment>
+        <rdfs:label xml:lang="en">CatalystMolecularWeight</rdfs:label>
+        <skos:prefLabel xml:lang="en">CatalystMolecularWeight</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#CatalystProperty -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#CatalystProperty">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Objective"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo#hasProperty"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:allValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#Catalyst"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">CatalystProperty</rdfs:label>
+        <skos:prefLabel xml:lang="en">CatalystProperty</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#CatalystViscosity -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#CatalystViscosity">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#DynamicViscosity"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#CatalystProperty"/>
+        <emmo:elucidation xml:lang="en">Catalyst viscosity at 25°C.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Catalyst viscosity at 25°C.</rdfs:comment>
+        <rdfs:label xml:lang="en">CatalystViscosity</rdfs:label>
+        <skos:prefLabel xml:lang="en">CatalystViscosity</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#CoPolymer -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#CoPolymer">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#PolymericMaterial"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#TotalComposition"/>
+        <emmo:elucidation xml:lang="en">A polymer derived from the polymerisation of more than one species of monomer.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A polymer derived from the polymerisation of more than one species of monomer.</rdfs:comment>
+        <rdfs:label xml:lang="en">CoPolymer</rdfs:label>
+        <skos:prefLabel xml:lang="en">CoPolymer</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#ComponentManufacturing -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#ComponentManufacturing">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Manufacturing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#ComponentManufacturingLine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#hasStage"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#ShapingAndCuring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#hasStage"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#Stacking"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <emmo:elucidation xml:lang="en">The manufacturing of a component made of a composite material.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">The manufacturing of a component made of a composite material.</rdfs:comment>
+        <rdfs:label xml:lang="en">ComponentManufacturing</rdfs:label>
+        <skos:prefLabel xml:lang="en">ComponentManufacturing</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#ComponentManufacturingLine -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#ComponentManufacturingLine">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ManufacturingLine"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#hasConstituent"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#CoverReleaseLayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#hasConstituent"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#CoverTool"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#hasConstituent"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#MouldReleaseLayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#hasConstituent"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#MouldTool"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <emmo:elucidation xml:lang="en">A manufacturing line processing a composite material into a component.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A manufacturing line processing a composite material into a component.</rdfs:comment>
+        <rdfs:label xml:lang="en">ComponentManufacturingLine</rdfs:label>
+        <skos:prefLabel xml:lang="en">ComponentManufacturingLine</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#ComponentManufacturingProperty -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#ComponentManufacturingProperty">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Objective"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo#hasProperty"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:allValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#ComponentManufacturing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">ComponentManufacturingProperty</rdfs:label>
+        <skos:prefLabel xml:lang="en">ComponentManufacturingProperty</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#Composite -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#Composite">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#ManufacturedMaterial"/>
+        <emmo:elucidation xml:lang="en">A material made up of resin and reinforcement (usually fibre).</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A material made up of resin and reinforcement (usually fibre).</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://compositesuk.co.uk/composite-materials/glossary-terms</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Composite</rdfs:label>
+        <skos:prefLabel xml:lang="en">Composite</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#CompositeLaminate -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#CompositeLaminate">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://emmo.info/emmo/application/hpo#Composite"/>
+                    <rdf:Description rdf:about="http://emmo.info/emmo/application/hpo#Laminate"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#ManufacturedProduct"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo#hasNext"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#StackedPrepreg"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">CompositeLaminate</rdfs:label>
+        <skos:prefLabel xml:lang="en">CompositeLaminate</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#CompositeLaminateBulkPorosity -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#CompositeLaminateBulkPorosity">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"/>
+        <emmo:elucidation xml:lang="en">After performing a cross-cut perpendicular to the specimen surface, based on a light microscopy image, the apparent surface area fraction occupied by pores is evaluated.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">After performing a cross-cut perpendicular to the specimen surface, based on a light microscopy image, the apparent surface area fraction occupied by pores is evaluated.</rdfs:comment>
+        <rdfs:label xml:lang="en">CompositeLaminateBulkPorosity</rdfs:label>
+        <skos:prefLabel xml:lang="en">CompositeLaminateBulkPorosity</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#CompositeLaminateProperty -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#CompositeLaminateProperty">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Objective"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo#hasProperty"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:allValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#CompositeLaminate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">CompositeLaminateProperty</rdfs:label>
+        <skos:prefLabel xml:lang="en">CompositeLaminateProperty</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#CompositeLaminateSurfaceRegionPorosity -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#CompositeLaminateSurfaceRegionPorosity">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"/>
+        <emmo:elucidation xml:lang="en">Based on a light microscopy image of the smoother surface (i.e. the one visible to a user) of the composite laminate, the apparent surface area fraction occupied by pores is evaluated.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Based on a light microscopy image of the smoother surface (i.e. the one visible to a user) of the composite laminate, the apparent surface area fraction occupied by pores is evaluated.</rdfs:comment>
+        <rdfs:label xml:lang="en">CompositeLaminateSurfaceRegionPorosity</rdfs:label>
+        <skos:prefLabel xml:lang="en">CompositeLaminateSurfaceRegionPorosity</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#CompositeLaminateVisualSurfaceFinish -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#CompositeLaminateVisualSurfaceFinish">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"/>
+        <emmo:elucidation xml:lang="en">Using a (set of) specimen illumination settings, the appearance is compared with the appearance of a specified set of (reference) specimens.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Using a (set of) specimen illumination settings, the appearance is compared with the appearance of a specified set of (reference) specimens.</rdfs:comment>
+        <rdfs:label xml:lang="en">CompositeLaminateVisualSurfaceFinish</rdfs:label>
+        <skos:prefLabel xml:lang="en">CompositeLaminateVisualSurfaceFinish</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#CondensationPolymer -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#CondensationPolymer">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#PolymericMaterial"/>
+        <emmo:elucidation xml:lang="en">A polymer obtained through a condensation reaction, that is, where two molecules form a chemical bond by eliminating a small molecule such as water.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A polymer obtained through a condensation reaction, that is, where two molecules form a chemical bond by eliminating a small molecule such as water.</rdfs:comment>
+        <rdfs:label xml:lang="en">CondensationPolymer</rdfs:label>
+        <skos:prefLabel xml:lang="en">CondensationPolymer</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#CoverReleaseLayer -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#CoverReleaseLayer">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ReleaseLayer"/>
+        <emmo:elucidation xml:lang="en">A release layer applied to a cover placed over the laminate.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A release layer applied to a cover placed over the laminate.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.compositesworld.com/glossary</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">CoverReleaseLayer</rdfs:label>
+        <skos:prefLabel xml:lang="en">CoverReleaseLayer</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#CoverReleaseLayerIdentifier -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#CoverReleaseLayerIdentifier">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#CoverReleaseLayerProperty"/>
+        <emmo:elucidation xml:lang="en">Commercial name of the applied consumable (product), differentiating available product providers and product lots.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Commercial name of the applied consumable (product), differentiating available product providers and product lots.</rdfs:comment>
+        <rdfs:label xml:lang="en">CoverReleaseLayerIdentifier</rdfs:label>
+        <skos:prefLabel xml:lang="en">CoverReleaseLayerIdentifier</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#CoverReleaseLayerProperty -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#CoverReleaseLayerProperty">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Objective"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo#hasProperty"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:allValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#CoverReleaseLayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">CoverReleaseLayerProperty</rdfs:label>
+        <skos:prefLabel xml:lang="en">CoverReleaseLayerProperty</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#CoverTool -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#CoverTool">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Tool"/>
+        <emmo:elucidation xml:lang="en">The mold, either one- or two-sided and either open or closed, in or upon which composite material is placed in order to make a part.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">The mold, either one- or two-sided and either open or closed, in or upon which composite material is placed in order to make a part.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.compositesworld.com/glossary</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">CoverTool</rdfs:label>
+        <skos:prefLabel xml:lang="en">CoverTool</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#CoverToolHoleDistance -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#CoverToolHoleDistance">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#CoverToolProperty"/>
+        <emmo:elucidation xml:lang="en">Average distance between holes.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Average distance between holes.</rdfs:comment>
+        <rdfs:label xml:lang="en">CoverToolHoleDistance</rdfs:label>
+        <skos:prefLabel xml:lang="en">CoverToolHoleDistance</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#CoverToolLength -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#CoverToolLength">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Length"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#CoverToolProperty"/>
+        <emmo:elucidation xml:lang="en">Length (contributing to the size of the tool).</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Length (contributing to the size of the tool).</rdfs:comment>
+        <rdfs:label xml:lang="en">CoverToolLength</rdfs:label>
+        <skos:prefLabel xml:lang="en">CoverToolLength</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#CoverToolNumberOfHoles -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#CoverToolNumberOfHoles">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#CoverToolProperty"/>
+        <emmo:elucidation xml:lang="en">Amount of holes.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Amount of holes.</rdfs:comment>
+        <rdfs:label xml:lang="en">CoverToolNumberOfHoles</rdfs:label>
+        <skos:prefLabel xml:lang="en">CoverToolNumberOfHoles</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#CoverToolProperty -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#CoverToolProperty">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Objective"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo#hasProperty"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:allValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#CoverTool"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">CoverToolProperty</rdfs:label>
+        <skos:prefLabel xml:lang="en">CoverToolProperty</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#CoverToolSizeOfHoles -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#CoverToolSizeOfHoles">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Diameter"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#CoverToolProperty"/>
+        <emmo:elucidation xml:lang="en">Average diameter of holes.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Average diameter of holes.</rdfs:comment>
+        <rdfs:label xml:lang="en">CoverToolSizeOfHoles</rdfs:label>
+        <skos:prefLabel xml:lang="en">CoverToolSizeOfHoles</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#CoverToolWidth -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#CoverToolWidth">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Width"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#CoverToolProperty"/>
+        <emmo:elucidation xml:lang="en">Width (contributing to the size of the tool).</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Width (contributing to the size of the tool).</rdfs:comment>
+        <rdfs:label xml:lang="en">CoverToolWidth</rdfs:label>
+        <skos:prefLabel xml:lang="en">CoverToolWidth</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#Crosslinked -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#Crosslinked">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#SkeletalFormula"/>
+        <emmo:elucidation xml:lang="en">A class of structures characterised by a bond or a short sequence of bonds connecting different macromolecules.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A class of structures characterised by a bond or a short sequence of bonds connecting different macromolecules.</rdfs:comment>
+        <rdfs:label xml:lang="en">Crosslinked</rdfs:label>
+        <skos:prefLabel xml:lang="en">Crosslinked</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#CrosslinkedPolymer -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#CrosslinkedPolymer">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#PolymericMaterial"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#Crosslinked"/>
+        <emmo:elucidation xml:lang="en">A polymer whose molecular structure is characterised by additional covalent bonds connecting several chains together.</emmo:elucidation>
+        <emmo:example xml:lang="en">Bakelite, vulcanised rubber.</emmo:example>
+        <rdfs:comment xml:lang="en">A polymer whose molecular structure is characterised by additional covalent bonds connecting several chains together.</rdfs:comment>
+        <rdfs:label xml:lang="en">CrosslinkedPolymer</rdfs:label>
+        <skos:prefLabel xml:lang="en">CrosslinkedPolymer</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#DegassingStepDuration -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#DegassingStepDuration">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Duration"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ComponentManufacturingProperty"/>
+        <emmo:elucidation xml:lang="en">Duration of the degassing.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Duration of the degassing.</rdfs:comment>
+        <rdfs:label xml:lang="en">DegassingStepDuration</rdfs:label>
+        <skos:prefLabel xml:lang="en">DegassingStepDuration</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#Elastomer -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#Elastomer">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#PolymericMaterial"/>
+        <emmo:elucidation xml:lang="en">A polymer characterised by weak intermolecular forces and viscoelasticity.</emmo:elucidation>
+        <emmo:example xml:lang="en">Neoprene, rubber.</emmo:example>
+        <rdfs:comment xml:lang="en">A polymer characterised by weak intermolecular forces and viscoelasticity.</rdfs:comment>
+        <rdfs:label xml:lang="en">Elastomer</rdfs:label>
+        <skos:prefLabel xml:lang="en">Elastomer</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#ElongationAtBreak -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#ElongationAtBreak">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"/>
+        <emmo:elucidation xml:lang="en">Ratio between increased length and initial length after breakage.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Ratio between increased length and initial length after breakage.</rdfs:comment>
+        <rdfs:label xml:lang="en">ElongationAtBreak</rdfs:label>
+        <skos:prefLabel xml:lang="en">ElongationAtBreak</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#Fibre -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#Fibre">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#PolymericMaterial"/>
+        <emmo:elucidation xml:lang="en">A polymer characterised by strong intermolecular forces and high tensile strength.</emmo:elucidation>
+        <emmo:example xml:lang="en">Cotton, Nylon.</emmo:example>
+        <rdfs:comment xml:lang="en">A polymer characterised by strong intermolecular forces and high tensile strength.</rdfs:comment>
+        <rdfs:label xml:lang="en">Fibre</rdfs:label>
+        <skos:prefLabel xml:lang="en">Fibre</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#FibreDensity -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#FibreDensity">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Density"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#TextileFabricProperty"/>
+        <emmo:elucidation xml:lang="en">Mass per unit volume of the facbric.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Mass per unit volume of the facbric.</rdfs:comment>
+        <rdfs:label xml:lang="en">FibreDensity</rdfs:label>
+        <skos:prefLabel xml:lang="en">FibreDensity</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#FibreDiameter -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#FibreDiameter">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Diameter"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#TextileFabricProperty"/>
+        <emmo:elucidation xml:lang="en">Diameter of the fibre composing the fabric.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Diameter of the fibre composing the fabric.</rdfs:comment>
+        <rdfs:label xml:lang="en">FibreDiameter</rdfs:label>
+        <skos:prefLabel xml:lang="en">FibreDiameter</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#FibreIdentifier -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#FibreIdentifier">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#TextileFabricProperty"/>
+        <emmo:elucidation xml:lang="en">Commercial name of the applied consumable (product), differentiating available product providers and product lots.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Commercial name of the applied consumable (product), differentiating available product providers and product lots.</rdfs:comment>
+        <rdfs:label xml:lang="en">FibreIdentifier</rdfs:label>
+        <skos:prefLabel xml:lang="en">FibreIdentifier</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#FibreVolumeContent -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#FibreVolumeContent">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"/>
+        <emmo:elucidation xml:lang="en">Ratio between the volume of fibre and the volume of the composite laminate.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Ratio between the volume of fibre and the volume of the composite laminate.</rdfs:comment>
+        <rdfs:label xml:lang="en">FibreVolumeContent</rdfs:label>
+        <skos:prefLabel xml:lang="en">FibreVolumeContent</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#Filler -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#Filler">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ResinIngredient"/>
+        <emmo:elucidation xml:lang="en">A material (usually low cost) added to a resin to extend it, or give special properties</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A material (usually low cost) added to a resin to extend it, or give special properties</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://compositesuk.co.uk/composite-materials/glossary-of-terms/</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Filler</rdfs:label>
+        <skos:prefLabel xml:lang="en">Filler</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#FinalStepPressure -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#FinalStepPressure">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Pressure"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ComponentManufacturingProperty"/>
+        <emmo:elucidation xml:lang="en">Final pressure of the container during step.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Final pressure of the container during step.</rdfs:comment>
+        <rdfs:label xml:lang="en">FinalStepPressure</rdfs:label>
+        <skos:prefLabel xml:lang="en">FinalStepPressure</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#FinalStepTemperature -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#FinalStepTemperature">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#ThermodynamicTemperature"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ComponentManufacturingProperty"/>
+        <emmo:elucidation xml:lang="en">Final temperature of the container during step.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Final temperature of the container during step.</rdfs:comment>
+        <rdfs:label xml:lang="en">FinalStepTemperature</rdfs:label>
+        <skos:prefLabel xml:lang="en">FinalStepTemperature</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#FlexualModulus -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#FlexualModulus">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"/>
+        <emmo:elucidation xml:lang="en">Tangent of the stress-strain curve under flexural stress.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Tangent of the stress-strain curve under flexural stress.</rdfs:comment>
+        <rdfs:label xml:lang="en">FlexualModulus</rdfs:label>
+        <skos:prefLabel xml:lang="en">FlexualModulus</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#FlexuralStrength -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#FlexuralStrength">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"/>
+        <emmo:elucidation xml:lang="en">Maximum value of the stress-strain curve under flexural stress.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Maximum value of the stress-strain curve under flexural stress.</rdfs:comment>
+        <rdfs:label xml:lang="en">FlexuralStrength</rdfs:label>
+        <skos:prefLabel xml:lang="en">FlexuralStrength</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#FormulatedResin -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#FormulatedResin">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#ManufacturedMaterial"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Mixture"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#Resin"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo#hasNext"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#Additive"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo#hasNext"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#Catalyst"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo#hasNext"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#Resin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <emmo:elucidation xml:lang="en">A manufactured mixture of a resin and ingredients.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A manufactured mixture of a resin and ingredients.</rdfs:comment>
+        <rdfs:label xml:lang="en">FormulatedResin</rdfs:label>
+        <skos:prefLabel xml:lang="en">FormulatedResin</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#FormulatedResinCuringTemperature -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#FormulatedResinCuringTemperature">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#ThermodynamicTemperature"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#FormulatedResinProperty"/>
+        <emmo:elucidation xml:lang="en">Temperature required to start the process of cure of the resin.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Temperature required to start the process of cure of the resin.</rdfs:comment>
+        <rdfs:label xml:lang="en">FormulatedResinCuringTemperature</rdfs:label>
+        <skos:prefLabel xml:lang="en">FormulatedResinCuringTemperature</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#FormulatedResinCuringTime -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#FormulatedResinCuringTime">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#FormulatedResinProperty"/>
+        <emmo:elucidation xml:lang="en">Time at which the curing temperature must be held to achieve a certain level of cure.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Time at which the curing temperature must be held to achieve a certain level of cure.</rdfs:comment>
+        <rdfs:label xml:lang="en">FormulatedResinCuringTime</rdfs:label>
+        <skos:prefLabel xml:lang="en">FormulatedResinCuringTime</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#FormulatedResinGlassTransitionTemperature -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#FormulatedResinGlassTransitionTemperature">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#ThermodynamicTemperature"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#FormulatedResinProperty"/>
+        <emmo:elucidation xml:lang="en">Process in which a polymer melt changes on cooling to a polymer glass or a polymer glass changes on heating to a polymer melt.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Process in which a polymer melt changes on cooling to a polymer glass or a polymer glass changes on heating to a polymer melt.</rdfs:comment>
+        <rdfs:label xml:lang="en">FormulatedResinGlassTransitionTemperature</rdfs:label>
+        <skos:prefLabel xml:lang="en">FormulatedResinGlassTransitionTemperature</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#FormulatedResinProperty -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#FormulatedResinProperty">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Objective"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo#hasProperty"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:allValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#FormulatedResin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <emmo:elucidation xml:lang="en">A collection of the properties of formulated resins.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A collection of the properties of formulated resins.</rdfs:comment>
+        <rdfs:label xml:lang="en">FormulatedResinProperty</rdfs:label>
+        <skos:prefLabel xml:lang="en">FormulatedResinProperty</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#FormulatedResinSpecificCondensateFormation -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#FormulatedResinSpecificCondensateFormation">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#FormulatedResinProperty"/>
+        <emmo:elucidation xml:lang="en">Mass of water released per mass of resin throughout the applied chemical (curing) reaction.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Mass of water released per mass of resin throughout the applied chemical (curing) reaction.</rdfs:comment>
+        <rdfs:label xml:lang="en">FormulatedResinSpecificCondensateFormation</rdfs:label>
+        <skos:prefLabel xml:lang="en">FormulatedResinSpecificCondensateFormation</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#FormulatedResinViscosity -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#FormulatedResinViscosity">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#DynamicViscosity"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#FormulatedResinProperty"/>
+        <emmo:elucidation xml:lang="en">Dynamic viscosity of the resin.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Dynamic viscosity of the resin.</rdfs:comment>
+        <rdfs:label xml:lang="en">FormulatedResinViscosity</rdfs:label>
+        <skos:prefLabel xml:lang="en">FormulatedResinViscosity</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#FormulatedResinWaterContent -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#FormulatedResinWaterContent">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#FormulatedResinProperty"/>
+        <emmo:elucidation xml:lang="en">Weight percentage of (dissolved and freezable) water in the base resin.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Weight percentage of (dissolved and freezable) water in the base resin.</rdfs:comment>
+        <rdfs:label xml:lang="en">FormulatedResinWaterContent</rdfs:label>
+        <skos:prefLabel xml:lang="en">FormulatedResinWaterContent</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#GlassTransitionTemperature -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#GlassTransitionTemperature">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#ThermodynamicTemperature"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"/>
+        <emmo:elucidation xml:lang="en">Temperature for transition from glassy state into a viscous one.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Temperature for transition from glassy state into a viscous one.</rdfs:comment>
+        <rdfs:label xml:lang="en">GlassTransitionTemperature</rdfs:label>
+        <skos:prefLabel xml:lang="en">GlassTransitionTemperature</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#HeatingRateDuringStep -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#HeatingRateDuringStep">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ComponentManufacturingProperty"/>
+        <emmo:elucidation xml:lang="en">Heating rate during step.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Heating rate during step.</rdfs:comment>
+        <rdfs:label xml:lang="en">HeatingRateDuringStep</rdfs:label>
+        <skos:prefLabel xml:lang="en">HeatingRateDuringStep</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#HomoPolymer -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#HomoPolymer">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#PolymericMaterial"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#TotalComposition"/>
+        <emmo:elucidation xml:lang="en">A polymer derived from the polymerisation of one kind of monomer.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A polymer derived from the polymerisation of one kind of monomer.</rdfs:comment>
+        <rdfs:label xml:lang="en">HomoPolymer</rdfs:label>
+        <skos:prefLabel xml:lang="en">HomoPolymer</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#InitialStepPressure -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#InitialStepPressure">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Pressure"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ComponentManufacturingProperty"/>
+        <emmo:elucidation xml:lang="en">Pressure during step.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Pressure during step.</rdfs:comment>
+        <rdfs:label xml:lang="en">InitialStepPressure</rdfs:label>
+        <skos:prefLabel xml:lang="en">InitialStepPressure</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#InitialStepTemperature -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#InitialStepTemperature">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#ThermodynamicTemperature"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ComponentManufacturingProperty"/>
+        <emmo:elucidation xml:lang="en">Initial temperature of the container during step.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Initial temperature of the container during step.</rdfs:comment>
+        <rdfs:label xml:lang="en">InitialStepTemperature</rdfs:label>
+        <skos:prefLabel xml:lang="en">InitialStepTemperature</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#InterlaminarShearStrength -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#InterlaminarShearStrength">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"/>
+        <emmo:elucidation xml:lang="en">Mechanical property associated with the matrix-fibre interaction.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Mechanical property associated with the matrix-fibre interaction.</rdfs:comment>
+        <rdfs:label xml:lang="en">InterlaminarShearStrength</rdfs:label>
+        <skos:prefLabel xml:lang="en">InterlaminarShearStrength</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#Laminate -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#Laminate">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#ManufacturedMaterial"/>
+        <emmo:elucidation xml:lang="en">The structure resulting from the curing of multiple stacked prepreg plies.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">The structure resulting from the curing of multiple stacked prepreg plies.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://compositesuk.co.uk/composite-materials/glossary-terms</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Laminate</rdfs:label>
+        <skos:prefLabel xml:lang="en">Laminate</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#Linear -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#Linear">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#SkeletalFormula"/>
+        <emmo:elucidation xml:lang="en">A class of structures characterised by a linear skeleton.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A class of structures characterised by a linear skeleton.</rdfs:comment>
+        <rdfs:label xml:lang="en">Linear</rdfs:label>
+        <skos:prefLabel xml:lang="en">Linear</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#LinearPolymer -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#LinearPolymer">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#PolymericMaterial"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#Linear"/>
+        <emmo:elucidation xml:lang="en">A polymer whose molecular structure is characterised by a linear chain of repeating units.</emmo:elucidation>
+        <emmo:example xml:lang="en">Polyethylene, polystyrene.</emmo:example>
+        <rdfs:comment xml:lang="en">A polymer whose molecular structure is characterised by a linear chain of repeating units.</rdfs:comment>
+        <rdfs:label xml:lang="en">LinearPolymer</rdfs:label>
+        <skos:prefLabel xml:lang="en">LinearPolymer</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#ManufacturingLine -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#ManufacturingLine">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#ManufacturingSystem"/>
+        <emmo:elucidation xml:lang="en">A manufacturing line is a set of sequential operations in a factory where materials are processed, assembled, and/or refined to produce a finished product or an intermediate product for further processing.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A manufacturing line is a set of sequential operations in a factory where materials are processed, assembled, and/or refined to produce a finished product or an intermediate product for further processing.</rdfs:comment>
+        <rdfs:label xml:lang="en">ManufacturingLine</rdfs:label>
+        <skos:prefLabel xml:lang="en">ManufacturingLine</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#Monomer -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#Monomer">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ResinIngredient"/>
+        <emmo:elucidation xml:lang="en">A single molecule that reacts with like or unlike molecules to form a polymer. </emmo:elucidation>
+        <rdfs:comment xml:lang="en">A single molecule that reacts with like or unlike molecules to form a polymer. </rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.compositesworld.com/glossary</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Monomer</rdfs:label>
+        <skos:prefLabel xml:lang="en">Monomer</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#MouldReleaseLayer -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#MouldReleaseLayer">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ReleaseLayer"/>
+        <emmo:elucidation xml:lang="en">A lubricant used to prevent a part from sticking to a mold surface.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A lubricant used to prevent a part from sticking to a mold surface.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.compositesworld.com/glossary</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">MouldReleaseLayer</rdfs:label>
+        <skos:prefLabel xml:lang="en">MouldReleaseLayer</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#MouldReleaseLayerIdentifier -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#MouldReleaseLayerIdentifier">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#MouldReleaseLayerProperty"/>
+        <emmo:elucidation xml:lang="en">Commercial name of the applied consumable (product), differentiating available product providers and product lots.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Commercial name of the applied consumable (product), differentiating available product providers and product lots.</rdfs:comment>
+        <rdfs:label xml:lang="en">MouldReleaseLayerIdentifier</rdfs:label>
+        <skos:prefLabel xml:lang="en">MouldReleaseLayerIdentifier</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#MouldReleaseLayerProperty -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#MouldReleaseLayerProperty">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Objective"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo#hasProperty"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:allValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#MouldReleaseLayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <emmo:elucidation xml:lang="en">A collection of the properties of the release layer of a mould or tool.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A collection of the properties of the release layer of a mould or tool.</rdfs:comment>
+        <rdfs:label xml:lang="en">MouldReleaseLayerProperty</rdfs:label>
+        <skos:prefLabel xml:lang="en">MouldReleaseLayerProperty</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#MouldTool -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#MouldTool">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Tool"/>
+        <emmo:elucidation xml:lang="en">An enclosed cavity or open form from which a composite component takes its shape, size and exterior surface appearance (also known as a tool).</emmo:elucidation>
+        <rdfs:comment xml:lang="en">An enclosed cavity or open form from which a composite component takes its shape, size and exterior surface appearance (also known as a tool).</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.compositesworld.com/glossary</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">MouldTool</rdfs:label>
+        <skos:prefLabel xml:lang="en">MouldTool</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#MouldToolLength -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#MouldToolLength">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Length"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#MouldToolProperty"/>
+        <emmo:elucidation xml:lang="en">Length (contributing to the size of the tool).</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Length (contributing to the size of the tool).</rdfs:comment>
+        <rdfs:label xml:lang="en">MouldToolLength</rdfs:label>
+        <skos:prefLabel xml:lang="en">MouldToolLength</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#MouldToolProperty -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#MouldToolProperty">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Objective"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo#hasProperty"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:allValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#MouldTool"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <emmo:elucidation xml:lang="en">A collection of the properties of moulds or tools.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A collection of the properties of moulds or tools.</rdfs:comment>
+        <rdfs:label xml:lang="en">MouldToolProperty</rdfs:label>
+        <skos:prefLabel xml:lang="en">MouldToolProperty</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#MouldToolSurfaceRoughness -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#MouldToolSurfaceRoughness">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#MouldToolProperty"/>
+        <emmo:elucidation xml:lang="en">Arithmetic average of the absolute values of the profile height deviations from the mean line, recorded within the evaluation length.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Arithmetic average of the absolute values of the profile height deviations from the mean line, recorded within the evaluation length.</rdfs:comment>
+        <rdfs:label xml:lang="en">MouldToolSurfaceRoughness</rdfs:label>
+        <skos:prefLabel xml:lang="en">MouldToolSurfaceRoughness</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#MouldToolWidth -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#MouldToolWidth">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Width"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#MouldToolProperty"/>
+        <emmo:elucidation xml:lang="en">Width (contributing to the size of the tool).</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Width (contributing to the size of the tool).</rdfs:comment>
+        <rdfs:label xml:lang="en">MouldToolWidth</rdfs:label>
+        <skos:prefLabel xml:lang="en">MouldToolWidth</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#NaturalPolymer -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#NaturalPolymer">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#NaturalMaterial"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#PolymericMaterial"/>
+        <emmo:elucidation xml:lang="en">A naturally occurring polymer produced by living organisms.</emmo:elucidation>
+        <emmo:example xml:lang="en">DNA, cellulose.</emmo:example>
+        <rdfs:comment xml:lang="en">A naturally occurring polymer produced by living organisms.</rdfs:comment>
+        <rdfs:label xml:lang="en">NaturalPolymer</rdfs:label>
+        <skos:prefLabel xml:lang="en">NaturalPolymer</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#PartsTurnover -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#PartsTurnover">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ComponentManufacturingProperty"/>
+        <emmo:elucidation xml:lang="en">Parts manufactured per minute.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Parts manufactured per minute.</rdfs:comment>
+        <rdfs:label xml:lang="en">PartsTurnover</rdfs:label>
+        <skos:prefLabel xml:lang="en">PartsTurnover</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#PorosityInferredFromDensity -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#PorosityInferredFromDensity">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"/>
+        <emmo:elucidation xml:lang="en">After cutting a test sample out of the specimen to be tested, gravimetric and volumetric findings are used to calculate an (average) density that is compared to the density of a qualified (reference) “in order (i.o.)” specimen.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">After cutting a test sample out of the specimen to be tested, gravimetric and volumetric findings are used to calculate an (average) density that is compared to the density of a qualified (reference) “in order (i.o.)” specimen.</rdfs:comment>
+        <rdfs:label xml:lang="en">PorosityInferredFromDensity</rdfs:label>
+        <skos:prefLabel xml:lang="en">PorosityInferredFromDensity</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#Prepreg -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#Prepreg">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#ManufacturedProduct"/>
+        <emmo:elucidation xml:lang="en">A factory-made combination of reactive resins and reinforcing fibres, plus other necessary additive chemicals, ready to be moulded.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A factory-made combination of reactive resins and reinforcing fibres, plus other necessary additive chemicals, ready to be moulded.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://compositesuk.co.uk/composite-materials/glossary-terms</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Prepreg</rdfs:label>
+        <skos:prefLabel xml:lang="en">Prepreg</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#PrepregCuringDegree -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#PrepregCuringDegree">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#PrepregProperty"/>
+        <emmo:elucidation xml:lang="en">Percentage of the (feasible) curing (that is no more available for cross-linking reaction(s))</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Percentage of the (feasible) curing (that is no more available for cross-linking reaction(s))</rdfs:comment>
+        <rdfs:label xml:lang="en">PrepregCuringDegree</rdfs:label>
+        <skos:prefLabel xml:lang="en">PrepregCuringDegree</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#PrepregDensity -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#PrepregDensity">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Density"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#PrepregProperty"/>
+        <emmo:elucidation xml:lang="en">Mass per unit volume of the prepreg.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Mass per unit volume of the prepreg.</rdfs:comment>
+        <rdfs:label xml:lang="en">PrepregDensity</rdfs:label>
+        <skos:prefLabel xml:lang="en">PrepregDensity</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#PrepregExpectedElongationAtBreak -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#PrepregExpectedElongationAtBreak">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#PrepregProperty"/>
+        <emmo:elucidation xml:lang="en">EXPECTED ratio between increased length and initial length after breakage AFTER CURING.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">EXPECTED ratio between increased length and initial length after breakage AFTER CURING.</rdfs:comment>
+        <rdfs:label xml:lang="en">PrepregExpectedElongationAtBreak</rdfs:label>
+        <skos:prefLabel xml:lang="en">PrepregExpectedElongationAtBreak</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#PrepregExpectedFlexualModulus -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#PrepregExpectedFlexualModulus">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#PrepregProperty"/>
+        <emmo:elucidation xml:lang="en">EXPECTED Tangent of the stress-strain curve under flexural stress AFTER CURING.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">EXPECTED Tangent of the stress-strain curve under flexural stress AFTER CURING.</rdfs:comment>
+        <rdfs:label xml:lang="en">PrepregExpectedFlexualModulus</rdfs:label>
+        <skos:prefLabel xml:lang="en">PrepregExpectedFlexualModulus</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#PrepregExpectedFlexuralStrength -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#PrepregExpectedFlexuralStrength">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#PrepregProperty"/>
+        <emmo:elucidation xml:lang="en">EXPECTED Maximum value of the stress-strain curve under flexural stress AFTER CURING.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">EXPECTED Maximum value of the stress-strain curve under flexural stress AFTER CURING.</rdfs:comment>
+        <rdfs:label xml:lang="en">PrepregExpectedFlexuralStrength</rdfs:label>
+        <skos:prefLabel xml:lang="en">PrepregExpectedFlexuralStrength</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#PrepregExpectedTensileModulus -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#PrepregExpectedTensileModulus">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#PrepregProperty"/>
+        <emmo:elucidation xml:lang="en">EXPECTED Tangent of the stress-strain curve under tensile stress AFTER CURING.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">EXPECTED Tangent of the stress-strain curve under tensile stress AFTER CURING.</rdfs:comment>
+        <rdfs:label xml:lang="en">PrepregExpectedTensileModulus</rdfs:label>
+        <skos:prefLabel xml:lang="en">PrepregExpectedTensileModulus</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#PrepregExpectedTensileStrength -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#PrepregExpectedTensileStrength">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#PrepregProperty"/>
+        <emmo:elucidation xml:lang="en">EXPECTED Maximum value of the stress-strain curve under tensile stress AFTER CURING.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">EXPECTED Maximum value of the stress-strain curve under tensile stress AFTER CURING.</rdfs:comment>
+        <rdfs:label xml:lang="en">PrepregExpectedTensileStrength</rdfs:label>
+        <skos:prefLabel xml:lang="en">PrepregExpectedTensileStrength</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#PrepregFibreVolumeContent -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#PrepregFibreVolumeContent">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#PrepregProperty"/>
+        <emmo:elucidation xml:lang="en">Ratio between the volume of fibre and the volume of the composite.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Ratio between the volume of fibre and the volume of the composite.</rdfs:comment>
+        <rdfs:label xml:lang="en">PrepregFibreVolumeContent</rdfs:label>
+        <skos:prefLabel xml:lang="en">PrepregFibreVolumeContent</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#PrepregGlassTransitionTemperature -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#PrepregGlassTransitionTemperature">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#ThermodynamicTemperature"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#PrepregProperty"/>
+        <emmo:elucidation xml:lang="en">Characteristic temperature (range) of the process in which a polymer melt changes on cooling to a polymer glass or a polymer glass changes on heating to a polymer melt.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Characteristic temperature (range) of the process in which a polymer melt changes on cooling to a polymer glass or a polymer glass changes on heating to a polymer melt.</rdfs:comment>
+        <rdfs:label xml:lang="en">PrepregGlassTransitionTemperature</rdfs:label>
+        <skos:prefLabel xml:lang="en">PrepregGlassTransitionTemperature</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#PrepregLine -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#PrepregLine">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ManufacturingLine"/>
+        <emmo:elucidation xml:lang="en">A manufacturing line processing a prepreg for later use.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A manufacturing line processing a prepreg for later use.</rdfs:comment>
+        <rdfs:label xml:lang="en">PrepregLine</rdfs:label>
+        <skos:prefLabel xml:lang="en">PrepregLine</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#PrepregPiece -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#PrepregPiece">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#Prepreg"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo#hasNext"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#PrepregRoll"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <emmo:elucidation xml:lang="en">A prepreg a piece cut from a prepreg roll, which can be stacked.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A prepreg a piece cut from a prepreg roll, which can be stacked.</rdfs:comment>
+        <rdfs:label xml:lang="en">PrepregPiece</rdfs:label>
+        <skos:altLabel xml:lang="en">Ply</skos:altLabel>
+        <skos:altLabel xml:lang="en">PrepregPart</skos:altLabel>
+        <skos:prefLabel xml:lang="en">PrepregPiece</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#PrepregProperty -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#PrepregProperty">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Objective"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo#hasProperty"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:allValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#Prepreg"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <emmo:elucidation xml:lang="en">A collection of the properties of prepregs.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A collection of the properties of prepregs.</rdfs:comment>
+        <rdfs:label xml:lang="en">PrepregProperty</rdfs:label>
+        <skos:prefLabel xml:lang="en">PrepregProperty</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#PrepregRoll -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#PrepregRoll">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#Prepreg"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo#hasNext"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#FormulatedResin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo#hasNext"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#TextileFabric"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <emmo:elucidation xml:lang="en">A roll of prepreg material.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A roll of prepreg material.</rdfs:comment>
+        <rdfs:label xml:lang="en">PrepregRoll</rdfs:label>
+        <skos:prefLabel xml:lang="en">PrepregRoll</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#PrepregSpecificCondensateFormation -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#PrepregSpecificCondensateFormation">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#PrepregProperty"/>
+        <emmo:elucidation xml:lang="en">Mass of water released per mass of prepreg throughout the applied chemical (curing) reaction.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Mass of water released per mass of prepreg throughout the applied chemical (curing) reaction.</rdfs:comment>
+        <rdfs:label xml:lang="en">PrepregSpecificCondensateFormation</rdfs:label>
+        <skos:prefLabel xml:lang="en">PrepregSpecificCondensateFormation</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#PrepregThickness -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#PrepregThickness">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Thickness"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#PrepregProperty"/>
+        <emmo:elucidation xml:lang="en">Thickness of the prepreg.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Thickness of the prepreg.</rdfs:comment>
+        <rdfs:label xml:lang="en">PrepregThickness</rdfs:label>
+        <skos:prefLabel xml:lang="en">PrepregThickness</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#PrepregWaterContent -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#PrepregWaterContent">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#PrepregProperty"/>
+        <emmo:elucidation xml:lang="en">Weight percentage of water in the prepreg (that can be dried and is not formed during the curing reaction).</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Weight percentage of water in the prepreg (that can be dried and is not formed during the curing reaction).</rdfs:comment>
+        <rdfs:label xml:lang="en">PrepregWaterContent</rdfs:label>
+        <skos:prefLabel xml:lang="en">PrepregWaterContent</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#PrepregWaterDiffusionCoefficient -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#PrepregWaterDiffusionCoefficient">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#PrepregProperty"/>
+        <emmo:elucidation xml:lang="en">Effective and anisotropic proportionality constant between the molar (or mass) flux due to molecular diffusion (out of the prepreg specimen).</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Effective and anisotropic proportionality constant between the molar (or mass) flux due to molecular diffusion (out of the prepreg specimen).</rdfs:comment>
+        <rdfs:label xml:lang="en">PrepregWaterDiffusionCoefficient</rdfs:label>
+        <skos:prefLabel xml:lang="en">PrepregWaterDiffusionCoefficient</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#PrepregWidth -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#PrepregWidth">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Width"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#PrepregProperty"/>
+        <emmo:elucidation xml:lang="en">Width of the prepreg.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Width of the prepreg.</rdfs:comment>
+        <rdfs:label xml:lang="en">PrepregWidth</rdfs:label>
+        <skos:prefLabel xml:lang="en">PrepregWidth</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#Prepregging -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#Prepregging">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Manufacturing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#hasManufacturedOutput"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#PrepregRoll"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#PrepregLine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/manufacturing#hasInput"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#FormulatedResin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/manufacturing#hasInput"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#TextileFabric"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <emmo:elucidation xml:lang="en">The process of prepreg manufacturing.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">The process of prepreg manufacturing.</rdfs:comment>
+        <rdfs:label xml:lang="en">Prepregging</rdfs:label>
+        <skos:prefLabel xml:lang="en">Prepregging</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#ReleaseLayer -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#ReleaseLayer">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#ManufacturedProduct"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Material"/>
+        <emmo:elucidation xml:lang="en">A specially formulated material placed between the mold and uncured resin/fiber (usually sprayed or painted on the mold surface) to prevent permanent bonding between the two during cure and facilitates demolding after cure.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A specially formulated material placed between the mold and uncured resin/fiber (usually sprayed or painted on the mold surface) to prevent permanent bonding between the two during cure and facilitates demolding after cure.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://compositesuk.co.uk/composite-materials/glossary-terms</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">ReleaseLayer</rdfs:label>
+        <skos:prefLabel xml:lang="en">ReleaseLayer</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#Resin -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#Resin">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Material"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ThermosettingPolymer"/>
+        <emmo:elucidation xml:lang="en">Soft solid or highly viscous substance, usually containing prepolymers with reactive groups.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Soft solid or highly viscous substance, usually containing prepolymers with reactive groups.</rdfs:comment>
+        <rdfs:label xml:lang="en">Resin</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">https://doi.org/10.1351/goldbook.RT07166</rdfs:seeAlso>
+        <skos:prefLabel xml:lang="en">Resin</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#ResinComposition -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#ResinComposition">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ResinProperty"/>
+        <emmo:elucidation xml:lang="en">Total composition of the resin.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Total composition of the resin.</rdfs:comment>
+        <rdfs:label xml:lang="en">ResinComposition</rdfs:label>
+        <skos:prefLabel xml:lang="en">ResinComposition</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#ResinDensity -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#ResinDensity">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Density"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ResinProperty"/>
+        <emmo:elucidation xml:lang="en">Mass density of the resin.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Mass density of the resin.</rdfs:comment>
+        <rdfs:label xml:lang="en">ResinDensity</rdfs:label>
+        <skos:prefLabel xml:lang="en">ResinDensity</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#ResinIngredient -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#ResinIngredient">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Material"/>
+        <emmo:elucidation xml:lang="en">Intermediate mixture to make a formulation that allows formulated resin differentiation.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Intermediate mixture to make a formulation that allows formulated resin differentiation.</rdfs:comment>
+        <rdfs:label xml:lang="en">ResinIngredient</rdfs:label>
+        <skos:prefLabel xml:lang="en">ResinIngredient</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#ResinMixer -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#ResinMixer">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#ManufacturingDevice"/>
+        <emmo:elucidation xml:lang="en">A batch resin mixer.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A batch resin mixer.</rdfs:comment>
+        <rdfs:label xml:lang="en">ResinMixer</rdfs:label>
+        <skos:prefLabel xml:lang="en">ResinMixer</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#ResinMolecularWeight -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#ResinMolecularWeight">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ResinProperty"/>
+        <emmo:elucidation xml:lang="en">Average molecular weight of the main resin molecular consituents.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Average molecular weight of the main resin molecular consituents.</rdfs:comment>
+        <rdfs:label xml:lang="en">ResinMolecularWeight</rdfs:label>
+        <skos:prefLabel xml:lang="en">ResinMolecularWeight</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#ResinPreparation -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#ResinPreparation">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Manufacturing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#hasManufacturedOutput"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#FormulatedResin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#ResinMixer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/manufacturing#hasInput"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#Additive"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/manufacturing#hasInput"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#Catalyst"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/manufacturing#hasInput"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#Resin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <emmo:elucidation xml:lang="en">Preparing a resin involves mixing the precursor (monomers) with a hardener or a catalyst, fillers, and additives.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Preparing a resin involves mixing the precursor (monomers) with a hardener or a catalyst, fillers, and additives.</rdfs:comment>
+        <rdfs:label xml:lang="en">ResinPreparation</rdfs:label>
+        <skos:prefLabel xml:lang="en">ResinPreparation</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#ResinProperty -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#ResinProperty">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Objective"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo#hasProperty"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:allValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#Resin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <emmo:elucidation xml:lang="en">A collection of the properties of resins.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A collection of the properties of resins.</rdfs:comment>
+        <rdfs:label xml:lang="en">ResinProperty</rdfs:label>
+        <skos:prefLabel xml:lang="en">ResinProperty</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#ResinReactivity -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#ResinReactivity">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ResinProperty"/>
+        <emmo:elucidation xml:lang="en">Maximum amount of energy released in case of complete conversion.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Maximum amount of energy released in case of complete conversion.</rdfs:comment>
+        <rdfs:label xml:lang="en">ResinReactivity</rdfs:label>
+        <skos:prefLabel xml:lang="en">ResinReactivity</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#ResinViscosity -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#ResinViscosity">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#DynamicViscosity"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ResinProperty"/>
+        <emmo:elucidation xml:lang="en">Viscosity at 25°C.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Viscosity at 25°C.</rdfs:comment>
+        <rdfs:label xml:lang="en">ResinViscosity</rdfs:label>
+        <skos:prefLabel xml:lang="en">ResinViscosity</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#ResinWaterContent -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#ResinWaterContent">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ResinProperty"/>
+        <emmo:elucidation xml:lang="en">Percentage of water in the base resin.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Percentage of water in the base resin.</rdfs:comment>
+        <rdfs:label xml:lang="en">ResinWaterContent</rdfs:label>
+        <skos:prefLabel xml:lang="en">ResinWaterContent</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#ResinpH -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#ResinpH">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#PH"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ResinProperty"/>
+        <emmo:elucidation xml:lang="en">pH of the resin.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">pH of the resin.</rdfs:comment>
+        <rdfs:label xml:lang="en">ResinpH</rdfs:label>
+        <skos:prefLabel xml:lang="en">ResinpH</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#SemiSyntheticPolymer -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#SemiSyntheticPolymer">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#ManufacturedMaterial"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#NaturalMaterial"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#PolymericMaterial"/>
+        <emmo:elucidation xml:lang="en">A polymer synthesised from biomass sources.</emmo:elucidation>
+        <emmo:example xml:lang="en">Polylactic acid, celluloid.</emmo:example>
+        <rdfs:comment xml:lang="en">A polymer synthesised from biomass sources.</rdfs:comment>
+        <rdfs:label xml:lang="en">SemiSyntheticPolymer</rdfs:label>
+        <skos:altLabel xml:lang="en">Bioplastics</skos:altLabel>
+        <skos:prefLabel xml:lang="en">SemiSyntheticPolymer</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#ShapingAndCuring -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#ShapingAndCuring">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Manufacturing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#hasManufacturedOutput"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#CompositeLaminate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#CoverReleaseLayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#CoverTool"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#MouldReleaseLayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#MouldTool"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/manufacturing#hasInput"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#StackedPrepreg"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <emmo:elucidation xml:lang="en">The process of shaping composite materials into a solid mass of prescribed shape and size, using a mold or tool.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">The process of shaping composite materials into a solid mass of prescribed shape and size, using a mold or tool.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://www.compositesworld.com/glossary</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">ShapingAndCuring</rdfs:label>
+        <skos:altLabel xml:lang="en">Moulding</skos:altLabel>
+        <skos:prefLabel xml:lang="en">ShapingAndCuring</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#SkeletalFormula -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#SkeletalFormula">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#ChemicalRepresentation"/>
+        <emmo:elucidation xml:lang="en">A 2-dimensional representation of chemical structures of organic compounds, showing the chemical bonds as lines, carbon atoms as vertices, and hetero atoms with labels. Hydrogen atoms are omitted in the representation since their presence can be derived from the valence of carbon atoms.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A 2-dimensional representation of chemical structures of organic compounds, showing the chemical bonds as lines, carbon atoms as vertices, and hetero atoms with labels. Hydrogen atoms are omitted in the representation since their presence can be derived from the valence of carbon atoms.</rdfs:comment>
+        <rdfs:label xml:lang="en">SkeletalFormula</rdfs:label>
+        <skos:prefLabel xml:lang="en">SkeletalFormula</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#StackedPrepreg -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#StackedPrepreg">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#ManufacturedProduct"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#contacts"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#PrepregPiece"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <emmo:elucidation xml:lang="en">Arrangement of ply prepregs in a laminate.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Arrangement of ply prepregs in a laminate.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.compositesworld.com/glossary</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">StackedPrepreg</rdfs:label>
+        <skos:prefLabel xml:lang="en">StackedPrepreg</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#StackedPrepregLength -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#StackedPrepregLength">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Length"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#StackedPrepregProperty"/>
+        <emmo:elucidation xml:lang="en">Length (contributing to the size of the object).</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Length (contributing to the size of the object).</rdfs:comment>
+        <rdfs:label xml:lang="en">StackedPrepregLength</rdfs:label>
+        <skos:prefLabel xml:lang="en">StackedPrepregLength</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#StackedPrepregNominalThickness -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#StackedPrepregNominalThickness">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Thickness"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#StackedPrepregProperty"/>
+        <emmo:elucidation xml:lang="en">Sum of the thicknesses of prepreg layer.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Sum of the thicknesses of prepreg layer.</rdfs:comment>
+        <rdfs:label xml:lang="en">StackedPrepregNominalThickness</rdfs:label>
+        <skos:prefLabel xml:lang="en">StackedPrepregNominalThickness</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#StackedPrepregNumberOfLayers -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#StackedPrepregNumberOfLayers">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#StackedPrepregProperty"/>
+        <emmo:elucidation xml:lang="en">Number of stacked prepreg layers</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Number of stacked prepreg layers</rdfs:comment>
+        <rdfs:label xml:lang="en">StackedPrepregNumberOfLayers</rdfs:label>
+        <skos:prefLabel xml:lang="en">StackedPrepregNumberOfLayers</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#StackedPrepregProperty -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#StackedPrepregProperty">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Objective"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo#hasProperty"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:allValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#StackedPrepreg"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <emmo:elucidation xml:lang="en">A collection of the properties of stacked prepregs.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A collection of the properties of stacked prepregs.</rdfs:comment>
+        <rdfs:label xml:lang="en">StackedPrepregProperty</rdfs:label>
+        <skos:prefLabel xml:lang="en">StackedPrepregProperty</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#StackedPrepregStackingSequence -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#StackedPrepregStackingSequence">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#StackedPrepregProperty"/>
+        <emmo:elucidation xml:lang="en">List of the orientation (degreees) of each prepreg layer.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">List of the orientation (degreees) of each prepreg layer.</rdfs:comment>
+        <rdfs:label xml:lang="en">StackedPrepregStackingSequence</rdfs:label>
+        <skos:prefLabel xml:lang="en">StackedPrepregStackingSequence</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#StackedPrepregWidth -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#StackedPrepregWidth">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Width"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#StackedPrepregProperty"/>
+        <emmo:elucidation xml:lang="en">Width (contributing to the size of the object).</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Width (contributing to the size of the object).</rdfs:comment>
+        <rdfs:label xml:lang="en">StackedPrepregWidth</rdfs:label>
+        <skos:prefLabel xml:lang="en">StackedPrepregWidth</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#Stacking -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#Stacking">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Manufacturing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#hasManufacturedOutput"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#StackedPrepreg"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#PrepregPiece"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/manufacturing#hasInput"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#PrepregRoll"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <emmo:elucidation xml:lang="en">An arrangement of prepreg parts (ply) orientations and material components in a laminate specified with respect to some reference direction.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">An arrangement of prepreg parts (ply) orientations and material components in a laminate specified with respect to some reference direction.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.compositesworld.com/glossary</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Stacking</rdfs:label>
+        <skos:prefLabel xml:lang="en">Stacking</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#StepDuration -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#StepDuration">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Duration"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ComponentManufacturingProperty"/>
+        <emmo:elucidation xml:lang="en">Step duration</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Step duration</rdfs:comment>
+        <rdfs:label xml:lang="en">StepDuration</rdfs:label>
+        <skos:prefLabel xml:lang="en">StepDuration</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#StorageModulus -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#StorageModulus">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"/>
+        <emmo:elucidation xml:lang="en">The storage modulus in viscoelastic materials measure the stored energy representing the elastic portion.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">The storage modulus in viscoelastic materials measure the stored energy representing the elastic portion.</rdfs:comment>
+        <rdfs:label xml:lang="en">StorageModulus</rdfs:label>
+        <skos:prefLabel xml:lang="en">StorageModulus</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#SyntheticPolymer -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#SyntheticPolymer">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#ManufacturedMaterial"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#PolymericMaterial"/>
+        <emmo:elucidation xml:lang="en">A polymer synthesised from other manufactured chemicals.</emmo:elucidation>
+        <emmo:example xml:lang="en">Polyethylene, polystyrene.</emmo:example>
+        <rdfs:comment xml:lang="en">A polymer synthesised from other manufactured chemicals.</rdfs:comment>
+        <rdfs:label xml:lang="en">SyntheticPolymer</rdfs:label>
+        <skos:prefLabel xml:lang="en">SyntheticPolymer</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#TensileModulus -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#TensileModulus">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"/>
+        <emmo:elucidation xml:lang="en">Tangent of the stress-strain curve under tensile stress.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Tangent of the stress-strain curve under tensile stress.</rdfs:comment>
+        <rdfs:label xml:lang="en">TensileModulus</rdfs:label>
+        <skos:prefLabel xml:lang="en">TensileModulus</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#TensileStrength -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#TensileStrength">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#CompositeLaminateProperty"/>
+        <emmo:elucidation xml:lang="en">Maximum value of the stress-strain curve under tensile stress.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Maximum value of the stress-strain curve under tensile stress.</rdfs:comment>
+        <rdfs:label xml:lang="en">TensileStrength</rdfs:label>
+        <skos:prefLabel xml:lang="en">TensileStrength</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#TextileFabric -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#TextileFabric">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#ManufacturedProduct"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Material"/>
+        <emmo:elucidation xml:lang="en">A planar textile constructed with fibres (or yarns), which can be either woven (interlaced using a weaving process) or non-woven (not interlaced).</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A planar textile constructed with fibres (or yarns), which can be either woven (interlaced using a weaving process) or non-woven (not interlaced).</rdfs:comment>
+        <rdfs:label xml:lang="en">TextileFabric</rdfs:label>
+        <skos:prefLabel xml:lang="en">TextileFabric</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#TextileFabricProperty -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#TextileFabricProperty">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Objective"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo#hasProperty"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:allValuesFrom rdf:resource="http://emmo.info/emmo/application/hpo#TextileFabric"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <emmo:elucidation xml:lang="en">A collection of the properties of textile fabrics.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">A collection of the properties of textile fabrics.</rdfs:comment>
+        <rdfs:label xml:lang="en">TextileFabricProperty</rdfs:label>
+        <skos:prefLabel xml:lang="en">TextileFabricProperty</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#TextileFabricThickness -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#TextileFabricThickness">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Thickness"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#TextileFabricProperty"/>
+        <emmo:elucidation xml:lang="en">Textile fabric thickness</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Textile fabric thickness</rdfs:comment>
+        <rdfs:label xml:lang="en">TextileFabricThickness</rdfs:label>
+        <skos:prefLabel xml:lang="en">TextileFabricThickness</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#TextileFabricWeaveStyle -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#TextileFabricWeaveStyle">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#TextileFabricProperty"/>
+        <emmo:elucidation xml:lang="en">Pattern of fibre weaving.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Pattern of fibre weaving.</rdfs:comment>
+        <rdfs:label xml:lang="en">TextileFabricWeaveStyle</rdfs:label>
+        <skos:altLabel xml:lang="en">TextileConstruction</skos:altLabel>
+        <skos:prefLabel xml:lang="en">TextileFabricWeaveStyle</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#TextileFabricWidth -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#TextileFabricWidth">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#Width"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#TextileFabricProperty"/>
+        <emmo:elucidation xml:lang="en">Width of the fabric.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Width of the fabric.</rdfs:comment>
+        <rdfs:label xml:lang="en">TextileFabricWidth</rdfs:label>
+        <skos:prefLabel xml:lang="en">TextileFabricWidth</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#ThermoplasticPolymer -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#ThermoplasticPolymer">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#PolymericMaterial"/>
+        <emmo:elucidation xml:lang="en">A polymer that becomes pliable and mouldable (i.e. plastic) above a certain temperature, and that reversibly solidifies upon cooling. Thermoplastics typically have linear chains and high molecular weight, increasing the strength of intermolecular interactions.</emmo:elucidation>
+        <emmo:example xml:lang="en">Polyacrylic acids, Polylactic acid, Polycarbonate.</emmo:example>
+        <rdfs:comment xml:lang="en">A polymer that becomes pliable and mouldable (i.e. plastic) above a certain temperature, and that reversibly solidifies upon cooling. Thermoplastics typically have linear chains and high molecular weight, increasing the strength of intermolecular interactions.</rdfs:comment>
+        <rdfs:label xml:lang="en">ThermoplasticPolymer</rdfs:label>
+        <skos:prefLabel xml:lang="en">ThermoplasticPolymer</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#ThermosettingPolymer -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#ThermosettingPolymer">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#PolymericMaterial"/>
+        <emmo:elucidation xml:lang="en">A polymer that becomes irreversibly hard by creating an extensive network of cross-linking between the individual chains.</emmo:elucidation>
+        <emmo:example xml:lang="en">Epoxy resins, Polyurethanes.</emmo:example>
+        <rdfs:comment xml:lang="en">A polymer that becomes irreversibly hard by creating an extensive network of cross-linking between the individual chains.</rdfs:comment>
+        <rdfs:label xml:lang="en">ThermosettingPolymer</rdfs:label>
+        <skos:prefLabel xml:lang="en">ThermosettingPolymer</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#Volatile -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#Volatile">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ResinIngredient"/>
+        <emmo:elucidation xml:lang="en">Solvents, such as water and alcohol, in a sizing or resin formulation that can be vaporized at ambient or slightly elevated temperatures.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">Solvents, such as water and alcohol, in a sizing or resin formulation that can be vaporized at ambient or slightly elevated temperatures.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.compositesworld.com/glossary</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Volatile</rdfs:label>
+        <skos:altLabel xml:lang="en">Solvent</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Volatile</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo/application/hpo#WorkingStepsOrder -->
+
+
+    <owl:Class rdf:about="http://emmo.info/emmo/application/hpo#WorkingStepsOrder">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/application/hpo#ComponentManufacturingProperty"/>
+        <emmo:elucidation xml:lang="en">List of steps for the mixing process.</emmo:elucidation>
+        <rdfs:comment xml:lang="en">List of steps for the mixing process.</rdfs:comment>
+        <rdfs:label xml:lang="en">WorkingStepsOrder</rdfs:label>
+        <skos:prefLabel xml:lang="en">WorkingStepsOrder</skos:prefLabel>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18.2021-07-30T21:49:07Z) https://github.com/owlcs/owlapi/ -->
+
+
