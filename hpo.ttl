@@ -87,6 +87,7 @@ hpo:CoverToolProperty rdf:type owl:Class ;
 	] ;
 	owl:allValuesFrom hpo:CoverTool
 	] ;
+	rdfs:comment "" ;
 	rdfs:label "CoverToolProperty"@en ;
 	skos:prefLabel "CoverToolProperty"@en .
 
@@ -105,6 +106,7 @@ hpo:CompositeLaminateProperty rdf:type owl:Class ;
 	] ;
 	owl:allValuesFrom hpo:CompositeLaminate
 	] ;
+	rdfs:comment "" ;
 	rdfs:label "CompositeLaminateProperty"@en ;
 	skos:prefLabel "CompositeLaminateProperty"@en .
 
@@ -396,6 +398,7 @@ hpo:CompositeLaminate rdf:type owl:Class ;
 	] ;
 	owl:someValuesFrom hpo:StackedPrepreg
 	] ;
+	rdfs:comment "" ;
 	rdfs:label "CompositeLaminate"@en ;
 	skos:prefLabel "CompositeLaminate"@en .
 
@@ -474,6 +477,7 @@ hpo:ComponentManufacturingProperty rdf:type owl:Class ;
 	] ;
 	owl:allValuesFrom hpo:ComponentManufacturing
 	] ;
+	rdfs:comment "" ;
 	rdfs:label "ComponentManufacturingProperty"@en ;
 	skos:prefLabel "ComponentManufacturingProperty"@en .
 
@@ -794,6 +798,7 @@ hpo:CoverReleaseLayerProperty rdf:type owl:Class ;
 	] ;
 	owl:allValuesFrom hpo:CoverReleaseLayer
 	] ;
+	rdfs:comment "" ;
 	rdfs:label "CoverReleaseLayerProperty"@en ;
 	skos:prefLabel "CoverReleaseLayerProperty"@en .
 
@@ -1052,6 +1057,7 @@ hpo:CatalystProperty rdf:type owl:Class ;
 	] ;
 	owl:allValuesFrom hpo:Catalyst
 	] ;
+	rdfs:comment "" ;
 	rdfs:label "CatalystProperty"@en ;
 	skos:prefLabel "CatalystProperty"@en .
 
