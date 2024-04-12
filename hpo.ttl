@@ -1,7 +1,7 @@
 @prefix : <http://w3id.org/emmo-hpo/hpo#> .
 @prefix hpo: <http://w3id.org/emmo-hpo/hpo#> .
-@prefix emmo: <http://emmo.info/emmo#> .
-@prefix chameo: <http://emmo.info/emmo/domain/chameo/chameo#> .
+@prefix emmo: <http://w3id.org/emmo#> .
+@prefix chameo: <http://w3id.org/emmo-chameo/chameo#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -14,9 +14,9 @@
 
 <http://w3id.org/emmo-hpo/hpo> rdf:type owl:Ontology ;
 	owl:versionIRI <http://w3id.org/emmo-hpo/1.0.0-beta1/hpo> ;
-	#owl:imports 
-	#          <http://emmo.info/emmo/domain/chameo/chameo> ,
-	#          <http://emmo.info/emmo/perspectives/physicalistic> ;
+	owl:imports 
+	          <http://w3id.org/emmo-chameo/chameo> ,
+	          <http://w3id.org/emmo/perspectives/physicalistic> ;
 	            	            
 	dcterms:abstract "The Hyperdimensional Polymer Ontology (HPO) is an ontology meant to capture the staggering diversity of polymeric materials and their applications."@en ;
 	dcterms:bibliographicCitation "Work under review - not available yet" ;
@@ -252,15 +252,15 @@ hpo:ResinPreparation rdf:type owl:Class ;
 	owl:someValuesFrom hpo:ResinMixer
 	] ,
 	[ rdf:type owl:Restriction ;
-	owl:onProperty <http://emmo.info/emmo/middle/manufacturing#hasInput> ;
+	owl:onProperty emmo:hasInput ;
 	owl:someValuesFrom hpo:Additive
 	] ,
 	[ rdf:type owl:Restriction ;
-	owl:onProperty <http://emmo.info/emmo/middle/manufacturing#hasInput> ;
+	owl:onProperty emmo:hasInput ;
 	owl:someValuesFrom hpo:Catalyst
 	] ,
 	[ rdf:type owl:Restriction ;
-	owl:onProperty <http://emmo.info/emmo/middle/manufacturing#hasInput> ;
+	owl:onProperty emmo:hasInput ;
 	owl:someValuesFrom hpo:Resin
 	] ;
 	emmo:elucidation "Preparing a resin involves mixing the precursor (monomers) with a hardener or a catalyst, fillers, and additives."@en ;
@@ -550,7 +550,7 @@ hpo:ShapingAndCuring rdf:type owl:Class ;
 	owl:someValuesFrom hpo:CoverTool
 	] ,
 	[ rdf:type owl:Restriction ;
-	owl:onProperty <http://emmo.info/emmo/middle/manufacturing#hasInput> ;
+	owl:onProperty emmo:hasInput ;
 	owl:someValuesFrom hpo:StackedPrepreg
 	] ;
 	emmo:elucidation "The process of shaping composite materials into a solid mass of prescribed shape and size, using a mold or tool."@en ;
@@ -616,7 +616,7 @@ hpo:Stacking rdf:type owl:Class ;
 	owl:someValuesFrom hpo:PrepregPiece
 	] ,
 	[ rdf:type owl:Restriction ;
-	owl:onProperty <http://emmo.info/emmo/middle/manufacturing#hasInput> ;
+	owl:onProperty emmo:hasInput ;
 	owl:someValuesFrom hpo:PrepregRoll
 	] ;
 	emmo:elucidation "An arrangement of prepreg parts (ply) orientations and material components in a laminate specified with respect to some reference direction."@en ;
@@ -703,11 +703,11 @@ hpo:Prepregging rdf:type owl:Class ;
 	owl:someValuesFrom hpo:PrepregLine
 	] ,
 	[ rdf:type owl:Restriction ;
-	owl:onProperty <http://emmo.info/emmo/middle/manufacturing#hasInput> ;
+	owl:onProperty emmo:hasInput ;
 	owl:someValuesFrom hpo:TextileFabric
 	] ,
 	[ rdf:type owl:Restriction ;
-	owl:onProperty <http://emmo.info/emmo/middle/manufacturing#hasInput> ;
+	owl:onProperty emmo:hasInput ;
 	owl:someValuesFrom hpo:FormulatedResin
 	] ;
 	emmo:elucidation "The process of prepreg manufacturing."@en ;
