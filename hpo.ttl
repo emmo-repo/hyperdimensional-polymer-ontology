@@ -18,18 +18,18 @@
 	          <http://w3id.org/emmo-chameo/chameo> ,
 	          <http://w3id.org/emmo/perspectives/physicalistic> ;
 	            	            
-	dcterms:abstract "Hyperdimensional Polymer Ontology."@en ;
+	dcterms:abstract "The Hyperdimensional Polymer Ontology (HPO) is an ontology meant to capture the staggering diversity of polymeric materials and their applications."@en ;
 	dcterms:bibliographicCitation "Work under review - not available yet" ;
 	dcterms:contributor <https://orcid.org/0000-0002-9668-6961>, <https://orcid.org/0000-0002-5174-8508>, <https://orcid.org/0000-0002-4181-2852> ;
 	dcterms:creator <https://orcid.org/0000-0002-9668-6961>, <https://orcid.org/0000-0002-5174-8508>, <https://orcid.org/0000-0002-4181-2852> ;
-	dcterms:created "2023-03-09" ;
+	dcterms:created "2023-12-22" ;
 	dcterms:description "An ontology to capture the staggering diversity of polymeric materials and their applications."@en ;
 	dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode" ;
 	dcterms:publisher "EMMC ASBL" ;
 	dcterms:title "Hyperdimensional Polymer Ontology"@en ;
-	dcterms:modified "" ;
+	dcterms:modified "2024-04-12" ;
 	dcterms:source "" ;
-	dcterms:issued "" ;
+	dcterms:issued "2024-04-12" ;
 	<http://purl.org/vocab/vann/preferredNamespacePrefix> "hpo"@en ;
 	<http://purl.org/vocab/vann/preferredNamespaceUri> "http://w3id.org/emmo-hpo/hpo" ;
 	rdfs:comment """Contacts:
