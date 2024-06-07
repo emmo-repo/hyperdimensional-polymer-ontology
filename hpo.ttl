@@ -1224,10 +1224,18 @@ hpo:CoPolymer rdf:type owl:Class ;
 	rdfs:label "CoPolymer"@en ;
 	skos:prefLabel "CoPolymer"@en .
 
-# Based on molecular forces.
+# Based on behaviour (due to differences in molecular forces).
+# Here I have used a restriction like "emmo:hasBehaviour only hpo:SomeBehaviour" to
+# distinguish the sibling classes. Is it possible to infer a taxonomy from this
+# restriction? e.g. have all the classes with the hasBehaviour restriction grouped
+# in a separate group.
 
 hpo:Elastomer rdf:type owl:Class ;
-	rdfs:subClassOf emmo:PolymericMaterial ;
+	rdfs:subClassOf emmo:PolymericMaterial ,
+	[ rdf:type owl:Restriction ;
+    owl:onProperty emmo:EMMO_ebc8c324_8e7a_4b09_bcb5_306e0c461d24 ;
+    owl:allValuesFrom hpo:Elasticity
+    ] ;
 	emmo:elucidation "A polymer characterised by weak intermolecular forces and viscoelasticity."@en ;
 	rdfs:comment "A polymer characterised by weak intermolecular forces and viscoelasticity."@en ;
 	emmo:example "Neoprene, rubber."@en ;
@@ -1235,7 +1243,11 @@ hpo:Elastomer rdf:type owl:Class ;
 	skos:prefLabel "Elastomer"@en .
 
 hpo:Fibre rdf:type owl:Class ;
-	rdfs:subClassOf emmo:PolymericMaterial ;
+	rdfs:subClassOf emmo:PolymericMaterial ,
+	[ rdf:type owl:Restriction ;
+    owl:onProperty emmo:EMMO_ebc8c324_8e7a_4b09_bcb5_306e0c461d24 ;
+    owl:allValuesFrom hpo:Inelasticity
+    ] ;
 	emmo:elucidation "A polymer characterised by strong intermolecular forces and high tensile strength."@en ;
 	rdfs:comment "A polymer characterised by strong intermolecular forces and high tensile strength."@en ;
 	emmo:example "Cotton, Nylon."@en ;
@@ -1243,7 +1255,11 @@ hpo:Fibre rdf:type owl:Class ;
 	skos:prefLabel "Fibre"@en .
 
 hpo:ThermoplasticPolymer rdf:type owl:Class ;
-	rdfs:subClassOf emmo:PolymericMaterial ;
+	rdfs:subClassOf emmo:PolymericMaterial ,
+	[ rdf:type owl:Restriction ;
+    owl:onProperty emmo:EMMO_ebc8c324_8e7a_4b09_bcb5_306e0c461d24 ;
+    owl:allValuesFrom hpo:Thermoplastic
+    ] ;
 	emmo:elucidation "A polymer that becomes pliable and mouldable (i.e. plastic) above a certain temperature, and that reversibly solidifies upon cooling. Thermoplastics typically have linear chains and high molecular weight, increasing the strength of intermolecular interactions."@en ;
 	rdfs:comment "A polymer that becomes pliable and mouldable (i.e. plastic) above a certain temperature, and that reversibly solidifies upon cooling. Thermoplastics typically have linear chains and high molecular weight, increasing the strength of intermolecular interactions."@en ;
 	emmo:example "Polyacrylic acids, Polylactic acid, Polycarbonate."@en ;
@@ -1251,7 +1267,11 @@ hpo:ThermoplasticPolymer rdf:type owl:Class ;
 	skos:prefLabel "ThermoplasticPolymer"@en .
 
 hpo:ThermosettingPolymer rdf:type owl:Class ;
-	rdfs:subClassOf emmo:PolymericMaterial ;
+	rdfs:subClassOf emmo:PolymericMaterial ,
+	[ rdf:type owl:Restriction ;
+    owl:onProperty emmo:EMMO_ebc8c324_8e7a_4b09_bcb5_306e0c461d24 ;
+    owl:allValuesFrom hpo:Thermosetting
+    ] ;
 	emmo:elucidation "A polymer that becomes irreversibly hard by creating an extensive network of cross-linking between the individual chains."@en ;
 	rdfs:comment "A polymer that becomes irreversibly hard by creating an extensive network of cross-linking between the individual chains."@en ;
 	emmo:example "Epoxy resins, Polyurethanes."@en ;
@@ -1308,7 +1328,48 @@ hpo:Crosslinked rdf:type owl:Class ;
 	rdfs:label "Crosslinked"@en ;
 	skos:prefLabel "Crosslinked"@en .
 
+# Behaviour of materials.
+hpo:ThermalBehaviour rdf:type owl:Class ;
+	rdfs:subClassOf emmo:EMMO_210e7e99_c1cf_44cc_87c7_310a10ff068b ;
+	emmo:elucidation "The response of a material as a function of its temperature."@en ;
+	rdfs:label "ThermalBehaviour"@en ;
+	skos:prefLabel "ThermalBehaviour"@en .
 
+hpo:Thermoplastic rdf:type owl:Class ;
+	rdfs:subClassOf hpo:ThermalBehaviour ;
+	emmo:elucidation ""@en ;
+	rdfs:label "Thermoplastic"@en ;
+	skos:prefLabel "Thermoplastic"@en .
+
+hpo:Thermosetting rdf:type owl:Class ;
+	rdfs:subClassOf hpo:ThermalBehaviour ;
+	emmo:elucidation ""@en ;
+	rdfs:label "Thermosetting"@en ;
+	skos:prefLabel "Thermosetting"@en .
+
+hpo:Elasticity rdf:type owl:Class ;
+	rdfs:subClassOf emmo:EMMO_210e7e99_c1cf_44cc_87c7_310a10ff068b ;
+	emmo:elucidation "It is the capacity of an object or material to return to its original shape after being deformed by a force."@en ;
+	rdfs:label "Elasticity"@en ;
+	skos:prefLabel "Elasticity"@en .
+
+hpo:Inelasticity rdf:type owl:Class ;
+	rdfs:subClassOf emmo:EMMO_210e7e99_c1cf_44cc_87c7_310a10ff068b ;
+	emmo:elucidation "It is the inability of an object or material to stretch in response to an applied force."@en ;
+	rdfs:label "Inelasticity"@en ;
+	skos:prefLabel "Inelasticity"@en .
+
+hpo:Plasticity rdf:type owl:Class ;
+	rdfs:subClassOf emmo:EMMO_210e7e99_c1cf_44cc_87c7_310a10ff068b ;
+	emmo:elucidation "It is the capacity of an object or material to retain a permanent deformation when an applied force exceeds a certain limit."@en ;
+	rdfs:label "Plasticity"@en ;
+	skos:prefLabel "Plasticity"@en .
+
+	hpo:Stiffness rdf:type owl:Class ;
+	rdfs:subClassOf emmo:EMMO_210e7e99_c1cf_44cc_87c7_310a10ff068b ;
+	emmo:elucidation "It is the capacity of an object or material to retain a permanent deformation when an applied force exceeds a certain limit."@en ;
+	rdfs:label "Stiffness"@en ;
+	skos:prefLabel "Stiffness"@en .
 
 #########################################
 ### Equivalent classes and properties ###
