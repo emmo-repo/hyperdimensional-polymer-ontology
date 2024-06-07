@@ -1233,7 +1233,7 @@ hpo:CoPolymer rdf:type owl:Class ;
 hpo:Elastomer rdf:type owl:Class ;
 	rdfs:subClassOf emmo:PolymericMaterial ,
 	[ rdf:type owl:Restriction ;
-    owl:onProperty emmo:EMMO_ebc8c324_8e7a_4b09_bcb5_306e0c461d24 ;
+    owl:onProperty emmo:hasBehaviour ;
     owl:allValuesFrom hpo:Elasticity
     ] ;
 	emmo:elucidation "A polymer characterised by weak intermolecular forces and viscoelasticity."@en ;
@@ -1245,7 +1245,7 @@ hpo:Elastomer rdf:type owl:Class ;
 hpo:Fibre rdf:type owl:Class ;
 	rdfs:subClassOf emmo:PolymericMaterial ,
 	[ rdf:type owl:Restriction ;
-    owl:onProperty emmo:EMMO_ebc8c324_8e7a_4b09_bcb5_306e0c461d24 ;
+    owl:onProperty emmo:hasBehaviour ;
     owl:allValuesFrom hpo:Inelasticity
     ] ;
 	emmo:elucidation "A polymer characterised by strong intermolecular forces and high tensile strength."@en ;
@@ -1257,7 +1257,7 @@ hpo:Fibre rdf:type owl:Class ;
 hpo:ThermoplasticPolymer rdf:type owl:Class ;
 	rdfs:subClassOf emmo:PolymericMaterial ,
 	[ rdf:type owl:Restriction ;
-    owl:onProperty emmo:EMMO_ebc8c324_8e7a_4b09_bcb5_306e0c461d24 ;
+    owl:onProperty emmo:hasBehaviour ;
     owl:allValuesFrom hpo:Thermoplastic
     ] ;
 	emmo:elucidation "A polymer that becomes pliable and mouldable (i.e. plastic) above a certain temperature, and that reversibly solidifies upon cooling. Thermoplastics typically have linear chains and high molecular weight, increasing the strength of intermolecular interactions."@en ;
@@ -1269,7 +1269,7 @@ hpo:ThermoplasticPolymer rdf:type owl:Class ;
 hpo:ThermosettingPolymer rdf:type owl:Class ;
 	rdfs:subClassOf emmo:PolymericMaterial ,
 	[ rdf:type owl:Restriction ;
-    owl:onProperty emmo:EMMO_ebc8c324_8e7a_4b09_bcb5_306e0c461d24 ;
+    owl:onProperty emmo:hasBehaviour ;
     owl:allValuesFrom hpo:Thermosetting
     ] ;
 	emmo:elucidation "A polymer that becomes irreversibly hard by creating an extensive network of cross-linking between the individual chains."@en ;
@@ -1330,7 +1330,7 @@ hpo:Crosslinked rdf:type owl:Class ;
 
 # Behaviour of materials.
 hpo:ThermalBehaviour rdf:type owl:Class ;
-	rdfs:subClassOf emmo:EMMO_210e7e99_c1cf_44cc_87c7_310a10ff068b ;
+	rdfs:subClassOf emmo:Behaviour ;
 	emmo:elucidation "The response of a material as a function of its temperature."@en ;
 	rdfs:label "ThermalBehaviour"@en ;
 	skos:prefLabel "ThermalBehaviour"@en .
@@ -1348,25 +1348,25 @@ hpo:Thermosetting rdf:type owl:Class ;
 	skos:prefLabel "Thermosetting"@en .
 
 hpo:Elasticity rdf:type owl:Class ;
-	rdfs:subClassOf emmo:EMMO_210e7e99_c1cf_44cc_87c7_310a10ff068b ;
+	rdfs:subClassOf emmo:Behaviour ;
 	emmo:elucidation "It is the capacity of an object or material to return to its original shape after being deformed by a force."@en ;
 	rdfs:label "Elasticity"@en ;
 	skos:prefLabel "Elasticity"@en .
 
 hpo:Inelasticity rdf:type owl:Class ;
-	rdfs:subClassOf emmo:EMMO_210e7e99_c1cf_44cc_87c7_310a10ff068b ;
+	rdfs:subClassOf emmo:Behaviour ;
 	emmo:elucidation "It is the inability of an object or material to stretch in response to an applied force."@en ;
 	rdfs:label "Inelasticity"@en ;
 	skos:prefLabel "Inelasticity"@en .
 
 hpo:Plasticity rdf:type owl:Class ;
-	rdfs:subClassOf emmo:EMMO_210e7e99_c1cf_44cc_87c7_310a10ff068b ;
+	rdfs:subClassOf emmo:Behaviour ;
 	emmo:elucidation "It is the capacity of an object or material to retain a permanent deformation when an applied force exceeds a certain limit."@en ;
 	rdfs:label "Plasticity"@en ;
 	skos:prefLabel "Plasticity"@en .
 
 	hpo:Stiffness rdf:type owl:Class ;
-	rdfs:subClassOf emmo:EMMO_210e7e99_c1cf_44cc_87c7_310a10ff068b ;
+	rdfs:subClassOf emmo:Behaviour ;
 	emmo:elucidation "It is the capacity of an object or material to retain a permanent deformation when an applied force exceeds a certain limit."@en ;
 	rdfs:label "Stiffness"@en ;
 	skos:prefLabel "Stiffness"@en .
@@ -1376,77 +1376,116 @@ hpo:Plasticity rdf:type owl:Class ;
 #########################################
 
 ### Classes:
+emmo:Behaviour a owl:Class ;
+	owl:equivalentClass emmo:EMMO_210e7e99_c1cf_44cc_87c7_310a10ff068b .
 ### emmo:ChemicalRepresentation                          -> disciplines-chemistry               EMMO_ecc4efe9_77a2_47e3_8190_f9a883d54ac6
-emmo:ChemicalRepresentation owl:equivalentClass emmo:EMMO_ecc4efe9_77a2_47e3_8190_f9a883d54ac6 .
+emmo:ChemicalRepresentation a owl:Class;
+	owl:equivalentClass emmo:EMMO_ecc4efe9_77a2_47e3_8190_f9a883d54ac6 .
 ### emmo:Density                                         -> disciplines-isq                     EMMO_06448f64_8db6_4304_8b2c_e785dba82044
-emmo:Density owl:equivalentClass emmo:EMMO_06448f64_8db6_4304_8b2c_e785dba82044 .
+emmo:Density a owl:Class;
+	owl:equivalentClass emmo:EMMO_06448f64_8db6_4304_8b2c_e785dba82044 .
 ### emmo:Diameter                                        -> disciplines-isq                     EMMO_c1c8ac3c_8a1c_4777_8e0b_14c1f9f9b0c6
-emmo:Diameter owl:equivalentClass emmo:EMMO_c1c8ac3c_8a1c_4777_8e0b_14c1f9f9b0c6 .
+emmo:Diameter a owl:Class;
+	owl:equivalentClass emmo:EMMO_c1c8ac3c_8a1c_4777_8e0b_14c1f9f9b0c6 .
 ### emmo:Duration                                        -> disciplines-isq                     EMMO_0adabf6f_7404_44cb_9f65_32d83d8101a3
-emmo:Duration owl:equivalentClass emmo:EMMO_0adabf6f_7404_44cb_9f65_32d83d8101a3 .
+emmo:Duration a owl:Class;
+	owl:equivalentClass emmo:EMMO_0adabf6f_7404_44cb_9f65_32d83d8101a3 .
 ### emmo:DynamicViscosity                                -> disciplines-isq                     EMMO_908da3d5_775e_425e_af96_33914618eb66
-emmo:DynamicViscosity owl:equivalentClass emmo:EMMO_908da3d5_775e_425e_af96_33914618eb66 .
+emmo:DynamicViscosity a owl:Class;
+	owl:equivalentClass emmo:EMMO_908da3d5_775e_425e_af96_33914618eb66 .
 ### emmo:Length                                          -> disciplines-isq                     EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac
-emmo:Length owl:equivalentClass emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac .
+emmo:Length a owl:Class;
+	owl:equivalentClass emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac .
 ### emmo:ManufacturedMaterial                            -> disciplines-manufacturing           EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356
-emmo:ManufacturedMaterial owl:equivalentClass emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 .
+emmo:ManufacturedMaterial a owl:Class;
+	owl:equivalentClass emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 .
 ### emmo:ManufacturedProduct                             -> disciplines-manufacturing           EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad
-emmo:ManufacturedProduct owl:equivalentClass emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad .
+emmo:ManufacturedProduct a owl:Class;
+	owl:equivalentClass emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad .
 ### emmo:Manufacturing                                   -> disciplines-manufacturing           EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b
-emmo:Manufacturing owl:equivalentClass emmo:EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b .
+emmo:Manufacturing a owl:Class;
+	owl:equivalentClass emmo:EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b .
 ### emmo:ManufacturingDevice                             -> disciplines-manufacturing           EMMO_86a305d1_7644_48be_b84c_1f976679b904
-emmo:ManufacturingDevice owl:equivalentClass emmo:EMMO_86a305d1_7644_48be_b84c_1f976679b904 .
+emmo:ManufacturingDevice a owl:Class;
+	owl:equivalentClass emmo:EMMO_86a305d1_7644_48be_b84c_1f976679b904 .
 ### emmo:ManufacturingSystem                             -> disciplines-manufacturing           EMMO_16cc6deb_d9f8_4ede_900a_a17cc86e57c4
-emmo:ManufacturingSystem owl:equivalentClass emmo:EMMO_16cc6deb_d9f8_4ede_900a_a17cc86e57c4 .
+emmo:ManufacturingSystem a owl:Class;
+	owl:equivalentClass emmo:EMMO_16cc6deb_d9f8_4ede_900a_a17cc86e57c4 .
 ### emmo:Material                                        -> perspectives-physicalistic          EMMO_4207e895_8b83_4318_996a_72cfb32acd94
-emmo:Material owl:equivalentClass emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94 .
+emmo:Material a owl:Class;
+	owl:equivalentClass emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94 .
 ### emmo:Measurement                                     -> disciplines-metrology               EMMO_463bcfda_867b_41d9_a967_211d4d437cfb
-emmo:Measurement owl:equivalentClass emmo:EMMO_463bcfda_867b_41d9_a967_211d4d437cfb .
+emmo:Measurement a owl:Class;
+	owl:equivalentClass emmo:EMMO_463bcfda_867b_41d9_a967_211d4d437cfb .
 ### emmo:Mixture                                         -> perspectives-physicalistic          EMMO_ec2c8ac8_98c5_4c74_b85b_ff8e8ca6655c
-emmo:Mixture owl:equivalentClass emmo:EMMO_ec2c8ac8_98c5_4c74_b85b_ff8e8ca6655c .
+emmo:Mixture a owl:Class;
+	owl:equivalentClass emmo:EMMO_ec2c8ac8_98c5_4c74_b85b_ff8e8ca6655c .
 ### emmo:NaturalMaterial                                 -> disciplines-materials               EMMO_75fe4fd1_0f7e_429b_b91d_59d248561bae
-emmo:NaturalMaterial owl:equivalentClass emmo:EMMO_75fe4fd1_0f7e_429b_b91d_59d248561bae .
+emmo:NaturalMaterial a owl:Class;
+	owl:equivalentClass emmo:EMMO_75fe4fd1_0f7e_429b_b91d_59d248561bae .
 ### emmo:Objective                                       -> perspectives-semiotics              EMMO_2a888cdf_ec4a_4ec5_af1c_0343372fc978
-emmo:Objective owl:equivalentClass emmo:EMMO_2a888cdf_ec4a_4ec5_af1c_0343372fc978 .
+emmo:Objective a owl:Class;
+	owl:equivalentClass emmo:EMMO_2a888cdf_ec4a_4ec5_af1c_0343372fc978 .
 ### emmo:PH                                              -> disciplines-isq                     EMMO_80fe82d4_f4c1_43a1_98dc_ee5fc7927e19
-emmo:PH owl:equivalentClass emmo:EMMO_80fe82d4_f4c1_43a1_98dc_ee5fc7927e19 .
+emmo:PH a owl:Class;
+	owl:equivalentClass emmo:EMMO_80fe82d4_f4c1_43a1_98dc_ee5fc7927e19 .
 ### emmo:PolymericMaterial                               -> disciplines-materials               EMMO_fb27e6d6_159e_48a6_9c29_76dc31d8a860
-emmo:PolymericMaterial owl:equivalentClass emmo:EMMO_fb27e6d6_159e_48a6_9c29_76dc31d8a860 .
+emmo:PolymericMaterial a owl:Class;
+	owl:equivalentClass emmo:EMMO_fb27e6d6_159e_48a6_9c29_76dc31d8a860 .
 ### emmo:Pressure                                        -> disciplines-isq                     EMMO_50a44256_9dc5_434b_bad4_74a4d9a29989
-emmo:Pressure owl:equivalentClass emmo:EMMO_50a44256_9dc5_434b_bad4_74a4d9a29989 .
+emmo:Pressure a owl:Class;
+	owl:equivalentClass emmo:EMMO_50a44256_9dc5_434b_bad4_74a4d9a29989 .
 ### emmo:ThermodynamicTemperature                        -> disciplines-isq                     EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f
-emmo:ThermodynamicTemperature owl:equivalentClass emmo:EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f .
+emmo:ThermodynamicTemperature a owl:Class;
+	owl:equivalentClass emmo:EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f .
 ### emmo:Thickness                                       -> disciplines-isq                     EMMO_43003c86_9d15_433b_9789_ee2940920656
-emmo:Thickness owl:equivalentClass emmo:EMMO_43003c86_9d15_433b_9789_ee2940920656 .
+emmo:Thickness a owl:Class;
+	owl:equivalentClass emmo:EMMO_43003c86_9d15_433b_9789_ee2940920656 .
 ### emmo:Tool                                            -> disciplines-manufacturing           EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe
-emmo:Tool owl:equivalentClass emmo:EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe .
+emmo:Tool a owl:Class;
+	owl:equivalentClass emmo:EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe .
 ### emmo:TotalComposition                                -> disciplines-chemistry               EMMO_0eabfde6_c6c5_4b1f_bf10_e4e0e06e9b2e
-emmo:TotalComposition owl:equivalentClass emmo:EMMO_0eabfde6_c6c5_4b1f_bf10_e4e0e06e9b2e .
+emmo:TotalComposition a owl:Class;
+	owl:equivalentClass emmo:EMMO_0eabfde6_c6c5_4b1f_bf10_e4e0e06e9b2e .
 ### emmo:Width                                           -> disciplines-isq                     EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0
-emmo:Width owl:equivalentClass emmo:EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0 .
+emmo:Width a owl:Class;
+	owl:equivalentClass emmo:EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0 .
 
 ### ObjectProperties:
 ### emmo:contacts                                        -> mereocausality-mereocausality       EMMO_8785be5a_2493_4b12_8f39_31907ab11748
-emmo:contacts owl:equivalentProperty emmo:EMMO_8785be5a_2493_4b12_8f39_31907ab11748 .
+emmo:contacts a owl:ObjectProperty ;
+	owl:equivalentProperty emmo:EMMO_8785be5a_2493_4b12_8f39_31907ab11748 .
+### emmo:hasBehaviour                                    -> multiperspective-persholistic       EMMO_ebc8c324_8e7a_4b09_bcb5_306e0c461d24
+emmo:hasBehaviour a owl:ObjectProperty ;
+	owl:equivalentProperty emmo:EMMO_ebc8c324_8e7a_4b09_bcb5_306e0c461d24 .
 ### emmo:hasConstituent                                  -> multiperspective-persholistic       EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec
-emmo:hasConstituent owl:equivalentProperty emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec .
+emmo:hasConstituent a owl:ObjectProperty ;
+	owl:equivalentProperty emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec .
 ### emmo:hasInput                                        -> multiperspective-persholistic       EMMO_36e69413_8c59_4799_946c_10b05d266e22
-emmo:hasInput owl:equivalentProperty emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 .
+emmo:hasInput a owl:ObjectProperty ;
+	owl:equivalentProperty emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 .
 ### emmo:hasManufacturedOutput                           -> disciplines-manufacturing           EMMO_0e86a108_9d4d_4582_8126_f0c527d81901
-emmo:hasManufacturedOutput owl:equivalentProperty emmo:EMMO_0e86a108_9d4d_4582_8126_f0c527d81901 .
+emmo:hasManufacturedOutput a owl:ObjectProperty ;
+	owl:equivalentProperty emmo:EMMO_0e86a108_9d4d_4582_8126_f0c527d81901 .
 ### emmo:hasNext                                         -> mereocausality-mereocausality       EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d
-emmo:hasNext owl:equivalentProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d .
+emmo:hasNext a owl:ObjectProperty ;
+	owl:equivalentProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d .
 ### emmo:hasParticipant                                  -> multiperspective-persholistic       EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a
-emmo:hasParticipant owl:equivalentProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a .
+emmo:hasParticipant a owl:ObjectProperty ;
+	owl:equivalentProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a .
 ### emmo:hasProperty                                     -> perspectives-semiotics              EMMO_e1097637_70d2_4895_973f_2396f04fa204
-emmo:hasProperty owl:equivalentProperty emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 .
+emmo:hasProperty a owl:ObjectProperty ;
+	owl:equivalentProperty emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 .
 ### emmo:hasStage                                        -> multiperspective-persholistic       EMMO_f22abf74_4538_4f50_ab85_09908cdda707
-emmo:hasStage owl:equivalentProperty emmo:EMMO_f22abf74_4538_4f50_ab85_09908cdda707 .
+emmo:hasStage a owl:ObjectProperty ;
+	owl:equivalentProperty emmo:EMMO_f22abf74_4538_4f50_ab85_09908cdda707 .
 
 ### DatatypeProperties:
 
 ### AnnotationProperties:
 ### emmo:elucidation                                     -> mereocausality-mereocausality       EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9
-emmo:elucidation owl:equivalentProperty emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 .
+emmo:elucidation a owl:AnnotationProperty ;
+	owl:equivalentProperty emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 .
 ### emmo:example                                         -> mereocausality-mereocausality       EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a
-emmo:example owl:equivalentProperty emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a .
+emmo:example a owl:AnnotationProperty ;
+	owl:equivalentProperty emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a .
