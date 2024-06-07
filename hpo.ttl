@@ -784,12 +784,12 @@ hpo:PrepregProperty rdf:type owl:Class ;
 	rdfs:label "PrepregProperty"@en ;
 	skos:prefLabel "PrepregProperty"@en .
 
-hpo:COMPEVODSCAnalysis rdf:type owl:Class ;
+hpo:DSCAnalysis rdf:type owl:Class ;
 	rdfs:subClassOf emmo:Measurement ;
 	emmo:elucidation "Experimental procedure for resin reactivity measurement."@en ;
 	rdfs:comment "Experimental procedure for resin reactivity measurement."@en ;
-	rdfs:label "COMPEVODSCAnalysis"@en ;
-	skos:prefLabel "COMPEVODSCAnalysis"@en .
+	rdfs:label "DSCAnalysis"@en ;
+	skos:prefLabel "DSCAnalysis"@en .
 
 hpo:CompositeLaminateVisualSurfaceFinish rdf:type owl:Class ;
 	rdfs:subClassOf hpo:CompositeLaminateProperty ;
