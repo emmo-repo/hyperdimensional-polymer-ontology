@@ -1,7 +1,7 @@
-@prefix : <http://w3id.org/emmo-hpo/hpo#> .
-@prefix hpo: <http://w3id.org/emmo-hpo/hpo#> .
-@prefix emmo: <http://w3id.org/emmo#> .
-@prefix chameo: <http://w3id.org/emmo-chameo/chameo#> .
+@prefix : <https://w3id.org/emmo-hpo/hpo#> .
+@prefix hpo: <https://w3id.org/emmo-hpo/hpo#> .
+@prefix emmo: <https://w3id.org/emmo#> .
+@prefix chameo: <https://w3id.org/emmo/domain/chameo#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -1186,14 +1186,14 @@ hpo:LinearPolymer rdf:type owl:Class ;
 	rdfs:label "LinearPolymer"@en ;
 	skos:prefLabel "LinearPolymer"@en .
 
-hpo:BranchedChainPolymer rdf:type owl:Class ;
+hpo:BranchedPolymer rdf:type owl:Class ;
 	rdfs:subClassOf emmo:PolymericMaterial ;
 	rdfs:subClassOf hpo:Branched ;
 	emmo:elucidation "A polymer whose molecular structure is characterised by a regular or irregular attachment of side chains to the main backbone chain. ."@en ;
 	rdfs:comment "A polymer whose molecular structure is characterised by a regular or irregular attachment of side chains to the main backbone chain. ."@en ;
 	emmo:example "Glycogen, Star-polymers."@en ;
-	rdfs:label "BranchedChainPolymer"@en ;
-	skos:prefLabel "BranchedChainPolymer"@en .
+	rdfs:label "BranchedPolymer"@en ;
+	skos:prefLabel "BranchedPolymer"@en .
 
 hpo:CrosslinkedPolymer rdf:type owl:Class ;
 	rdfs:subClassOf emmo:PolymericMaterial ;
