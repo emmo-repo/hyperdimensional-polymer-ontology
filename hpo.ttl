@@ -567,6 +567,13 @@ hpo:ShapingAndCuring rdf:type owl:Class ;
 	rdfs:label "ShapingAndCuring"@en ;
 	skos:prefLabel "ShapingAndCuring"@en .
 
+hpo:Curing rdf:type owl:Class ;
+	rdfs:subClassOf emmo:Manufacturing ,
+	emmo:elucidation "The curing process involves the treatement of a polymer with a catalyst and/or thermal treatement that results in the formation of chemical bonds that link the polymer chains together, creating an insoluble network."@en ;
+	rdfs:comment "The curing process involves the treatement of a polymer with a catalyst and/or thermal treatement that results in the formation of chemical bonds that link the polymer chains together, creating an insoluble network."@en ;
+	rdfs:label "Curing"@en ;
+	skos:prefLabel "Curing"@en .
+
 hpo:PrepregExpectedFlexuralStrength rdf:type owl:Class ;
 	rdfs:subClassOf hpo:PrepregProperty ;
 	emmo:elucidation "EXPECTED Maximum value of the stress-strain curve under flexural stress AFTER CURING."@en ;
@@ -1231,7 +1238,7 @@ hpo:CoPolymer rdf:type owl:Class ;
 	rdfs:label "CoPolymer"@en ;
 	skos:prefLabel "CoPolymer"@en .
 
-# Based on behaviour (due to differences in molecular forces).
+# Based on behaviour/mechanical properties (due to differences in molecular forces).
 # Here I have used a restriction like "emmo:hasBehaviour only hpo:SomeBehaviour" to
 # distinguish the sibling classes. Is it possible to infer a taxonomy from this
 # restriction? e.g. have all the classes with the hasBehaviour restriction grouped
@@ -1285,6 +1292,9 @@ hpo:ThermosettingPolymer rdf:type owl:Class ;
 	rdfs:label "ThermosettingPolymer"@en ;
 	skos:prefLabel "ThermosettingPolymer"@en .
 
+# OrganicSemiconductorPolymer could be seen as a polymer with a behaviour.
+# Conjugated Polymers as well?
+
 # Based on polymerisation mechanism.
 # The AdditionPolymer and CondensationPolymer classes should be linked to the concept of Condensation and Addition reactions, both
 # subclasses of ChemicalReaction. Those classes should be added to the EMMO-Chemistry module.
@@ -1303,7 +1313,13 @@ hpo:CondensationPolymer rdf:type owl:Class ;
 	rdfs:label "CondensationPolymer"@en ;
 	skos:prefLabel "CondensationPolymer"@en .
 
-# OrganicSemiconductorPolymer or SemiconductorPolymer?
+hpo:CouplingPolymer rdf:type owl:Class ;
+	rdfs:subClassOf hpo:CondensationPolymer ;
+	emmo:elucidation "A polymer obtained through a coupling reaction, that is, where two molecules form a chemical bond usually with a transition metal catalysing the reaction."@en ;
+	rdfs:comment "A polymer obtained through a coupling reaction, that is, where two molecules form a chemical bond usually with a transition metal catalysing the reaction."@en ;
+	rdfs:label "CouplingPolymer"@en ;
+	skos:prefLabel "CouplingPolymer"@en .
+
 # The original COMPEVO ontology also refers to prepolymers in the elucidation of resin. Check with Gerhard whether to replace them with hpo:Monomer.
 
 # Type of structures.
@@ -1339,42 +1355,50 @@ hpo:Crosslinked rdf:type owl:Class ;
 hpo:ThermalBehaviour rdf:type owl:Class ;
 	rdfs:subClassOf emmo:Behaviour ;
 	emmo:elucidation "The response of a material as a function of its temperature."@en ;
+	rdfs:comment "The response of a material as a function of its temperature."@en ;
 	rdfs:label "ThermalBehaviour"@en ;
 	skos:prefLabel "ThermalBehaviour"@en .
 
 hpo:Thermoplastic rdf:type owl:Class ;
+	rdfs:subClassOf hpo:Plasticity ;
 	rdfs:subClassOf hpo:ThermalBehaviour ;
-	emmo:elucidation ""@en ;
+	emmo:elucidation "It is the ability of a material to exibit plasticity when its temperature exceeds a given value."@en ;
+	rdfs:comment "It is the ability of a material to exibit plasticity when its temperature exceeds a given value."@en ;
 	rdfs:label "Thermoplastic"@en ;
 	skos:prefLabel "Thermoplastic"@en .
 
 hpo:Thermosetting rdf:type owl:Class ;
 	rdfs:subClassOf hpo:ThermalBehaviour ;
-	emmo:elucidation ""@en ;
+	emmo:elucidation "It is a process by which a material becomes irreversibly rigid when heated. "@en ;
+	rdfs:comment "It is a process by which a material becomes irreversibly rigid when heated. "@en ;
 	rdfs:label "Thermosetting"@en ;
 	skos:prefLabel "Thermosetting"@en .
 
 hpo:Elasticity rdf:type owl:Class ;
 	rdfs:subClassOf emmo:Behaviour ;
-	emmo:elucidation "It is the capacity of an object or material to return to its original shape after being deformed by a force."@en ;
+	emmo:elucidation "It is the ability of an object or material to return to its original shape after being deformed by a force."@en ;
+	rdfs:comment "It is the ability of an object or material to return to its original shape after being deformed by a force."@en ;
 	rdfs:label "Elasticity"@en ;
 	skos:prefLabel "Elasticity"@en .
 
 hpo:Inelasticity rdf:type owl:Class ;
 	rdfs:subClassOf emmo:Behaviour ;
 	emmo:elucidation "It is the inability of an object or material to stretch in response to an applied force."@en ;
+	rdfs:comment "It is the inability of an object or material to stretch in response to an applied force."@en ;
 	rdfs:label "Inelasticity"@en ;
 	skos:prefLabel "Inelasticity"@en .
 
 hpo:Plasticity rdf:type owl:Class ;
 	rdfs:subClassOf emmo:Behaviour ;
 	emmo:elucidation "It is the capacity of an object or material to retain a permanent deformation when an applied force exceeds a certain limit."@en ;
+	rdfs:comment "It is the capacity of an object or material to retain a permanent deformation when an applied force exceeds a certain limit."@en ;
 	rdfs:label "Plasticity"@en ;
 	skos:prefLabel "Plasticity"@en .
 
-	hpo:Stiffness rdf:type owl:Class ;
+hpo:Stiffness rdf:type owl:Class ;
 	rdfs:subClassOf emmo:Behaviour ;
 	emmo:elucidation "It is the capacity of an object or material to retain a permanent deformation when an applied force exceeds a certain limit."@en ;
+	rdfs:comment "It is the capacity of an object or material to retain a permanent deformation when an applied force exceeds a certain limit."@en ;
 	rdfs:label "Stiffness"@en ;
 	skos:prefLabel "Stiffness"@en .
 
