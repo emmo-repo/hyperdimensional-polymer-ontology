@@ -32,7 +32,7 @@
 	dcterms:source "" ;
 	dcterms:issued "2024-04-12" ;
 	<http://purl.org/vocab/vann/preferredNamespacePrefix> "hpo"@en ;
-	<http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/emmo-hpo/hpo" ;
+	<http://purl.org/vocab/vann/preferredNamespaceUri> "http://w3id.org/emmo-hpo/hpo" ;
 	rdfs:comment """Contacts:
 	Gerhard Goldbeck
 	Goldbeck Consulting Ltd (UK)
