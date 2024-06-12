@@ -568,7 +568,7 @@ hpo:ShapingAndCuring rdf:type owl:Class ;
 	skos:prefLabel "ShapingAndCuring"@en .
 
 hpo:Curing rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Manufacturing ,
+	rdfs:subClassOf emmo:Manufacturing ;
 	emmo:elucidation "The curing process involves the treatement of a polymer with a catalyst and/or thermal treatement that results in the formation of chemical bonds that link the polymer chains together, creating an insoluble network."@en ;
 	rdfs:comment "The curing process involves the treatement of a polymer with a catalyst and/or thermal treatement that results in the formation of chemical bonds that link the polymer chains together, creating an insoluble network."@en ;
 	rdfs:label "Curing"@en ;
