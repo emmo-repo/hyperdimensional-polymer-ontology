@@ -7,7 +7,7 @@
    height="1259.4248"
    version="1.1"
    id="svg4209"
-   sodipodi:docname="hpo.svg"
+   sodipodi:docname="polymer_taxonomy.svg"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -2925,9 +2925,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="0.71263105"
-     inkscape:cx="834.93415"
-     inkscape:cy="569.71977"
+     inkscape:zoom="1.0078125"
+     inkscape:cx="415.75194"
+     inkscape:cy="719.37985"
      inkscape:window-width="2560"
      inkscape:window-height="1378"
      inkscape:window-x="0"
@@ -2939,6 +2939,11 @@
        position="308.75241,1035.713"
        orientation="0.91648546,-0.40006801"
        id="guide35720"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="395.53004,588.11082"
+       orientation="0.75882483,0.65129477"
+       id="guide1164"
        inkscape:locked="false" />
   </sodipodi:namedview>
   <g
@@ -2975,7 +2980,7 @@
   <g
      class="cardinality"
      text-anchor="middle"
-     transform="matrix(1.0790196,0,0,1.0790196,660.11214,1089.5737)"
+     transform="matrix(1.0790196,0,0,1.0790196,710.94301,1059.3761)"
      style="font-size:10px"
      id="g1721">
     <path
@@ -3332,7 +3337,7 @@
   </g>
   <path
      style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.15804px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.23706px;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker391);stop-color:#000000;stop-opacity:1"
-     d="m 766.73997,983.75102 71.76752,-71.65196"
+     d="m 803.79243,977.7258 41.87806,-59.60152"
      id="path22476"
      inkscape:connector-type="polyline"
      inkscape:connector-curvature="0"
@@ -3366,7 +3371,7 @@
    class="text"
    x="0.25799853"
    style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
-   id="tspan16272"></tspan></tspan><tspan
+   id="tspan16272" /></tspan><tspan
          sodipodi:role="line"
          x="0.25799853"
          y="9.0240002"
@@ -3575,6 +3580,14 @@
          style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
          id="tspan3128">AdditionPolymer</tspan></text>
   </g>
+  <path
+     style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.15804px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.23706px;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker391);stop-color:#000000;stop-opacity:1"
+     d="M 738.36863,980.31494 406.10442,579.03219"
+     id="path1117"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#1"
+     inkscape:connection-end="#91" />
   <g
      class="node"
      id="91"
@@ -3692,7 +3705,7 @@
   </g>
   <path
      style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#6699cc;stroke-width:2.15804px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker276);stop-color:#000000;stop-opacity:1"
-     d="M 426.10456,1179.4648 680.71519,1046.7991"
+     d="M 427.22309,1181.7413 723.81211,1044.5225"
      id="path30162"
      inkscape:connector-type="polyline"
      inkscape:connector-curvature="0"
@@ -3701,7 +3714,7 @@
   <g
      class="node"
      id="1"
-     transform="matrix(1.0790196,0,0,1.0790196,722.86424,1043.4487)">
+     transform="matrix(1.0790196,0,0,1.0790196,767.07969,1043.4487)">
     <circle
        class="class"
        r="50"
@@ -4017,7 +4030,7 @@
   <g
      class="node"
      id="95"
-     transform="matrix(1.0790196,0,0,1.0790196,426.72728,678.98382)">
+     transform="matrix(1.0790196,0,0,1.0790196,395.53004,676.31398)">
     <circle
        class="class"
        r="50"
@@ -4043,7 +4056,7 @@
   <g
      class="node"
      id="10"
-     transform="matrix(1.0790196,0,0,1.0790196,618.98124,893.96381)">
+     transform="matrix(1.0790196,0,0,1.0790196,599.27184,913.69396)">
     <circle
        class="class"
        r="50"
@@ -4069,7 +4082,7 @@
   <g
      class="node"
      id="26"
-     transform="matrix(1.0790196,0,0,1.0790196,503.59004,811.50452)">
+     transform="matrix(1.0790196,0,0,1.0790196,501.28715,792.36621)">
     <circle
        class="class"
        r="50"
@@ -4291,7 +4304,7 @@
      inkscape:connection-end="#2" />
   <path
      style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.15804px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.23706px;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker391);stop-color:#000000;stop-opacity:1"
-     d="m 572.19608,920.82917 -66.39602,38.12648"
+     d="m 551.32419,938.42576 -44.26863,22.83413"
      id="path18681"
      inkscape:connector-type="polyline"
      inkscape:connector-curvature="0"
@@ -4346,7 +4359,7 @@
   </g>
   <path
      style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.15804px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.23706px;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker391);stop-color:#000000;stop-opacity:1"
-     d="m 489.34239,863.53948 -18.68283,68.233"
+     d="m 488.93278,844.88302 -20.31797,86.36907"
      id="path19520"
      inkscape:connector-type="polyline"
      inkscape:connector-curvature="0"
@@ -4354,7 +4367,7 @@
      inkscape:connection-end="#171" />
   <path
      style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.15804px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.23706px;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker391);stop-color:#000000;stop-opacity:1"
-     d="M 536.12051,768.46509 653.44104,613.24416"
+     d="M 535.74715,750.85588 651.35714,611.59273"
      id="path19534"
      inkscape:connector-type="polyline"
      inkscape:connector-curvature="0"
@@ -4362,7 +4375,7 @@
      inkscape:connection-end="#422" />
   <path
      style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.15804px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.23706px;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker391);stop-color:#000000;stop-opacity:1"
-     d="M 630.20497,841.19351 676.45232,623.7535"
+     d="M 612.72044,861.4471 674.04945,623.18818"
      id="path19574"
      inkscape:connector-type="polyline"
      inkscape:connector-curvature="0"
@@ -4370,7 +4383,7 @@
      inkscape:connection-start="#10" />
   <path
      style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.15804px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.23706px;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker391);stop-color:#000000;stop-opacity:1"
-     d="M 476.31588,657.73114 635.01825,589.71447"
+     d="M 446.06462,657.42198 633.99659,587.16493"
      id="path19588"
      inkscape:connector-type="polyline"
      inkscape:connector-curvature="0"
@@ -4378,7 +4391,7 @@
      inkscape:connection-end="#422" />
   <path
      style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.15804px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.23706px;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker391);stop-color:#000000;stop-opacity:1"
-     d="m 450.01345,817.84108 -70.50379,8.33856"
+     d="m 448.66748,804.27531 -70.19129,15.88598"
      id="path21900"
      inkscape:connector-type="polyline"
      inkscape:connector-curvature="0"
@@ -4386,7 +4399,7 @@
      inkscape:connection-end="#283" />
   <path
      style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.15804px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.23706px;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker391);stop-color:#000000;stop-opacity:1"
-     d="m 396.32452,723.55181 -41.84259,61.33788"
+     d="M 372.52295,725.11298 346.49461,780.3202"
      id="path21914"
      inkscape:connector-type="polyline"
      inkscape:connector-curvature="0"
@@ -4442,7 +4455,7 @@
      inkscape:connection-end="#38" />
   <g
      class="labelGroup"
-     transform="matrix(1.0790196,0,0,1.0790196,493.84181,1147.2926)"
+     transform="matrix(1.0790196,0,0,1.0790196,508.63419,1140.6534)"
      id="g1968">
     <g
        class="label"
@@ -4861,7 +4874,10 @@
      text-anchor="middle"
      transform="matrix(1.0790196,0,0,1.0790196,852.09444,174.09812)"
      style="font-size:10px"
-     id="g34830">
+     id="g34830"
+     inkscape:export-filename="polymer_taxonomy.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
     <path
        class="cardinality"
        d="M -5.5788451,-8.0958763 H 5.2960917 v 8.34681523 l -9.5707468,0.040132 9.5707468,-0.040132 V 8.6780113 H -5.6189737"
@@ -4869,4 +4885,15 @@
        transform="matrix(0.5,0,0,0.5,0.5,0.5)"
        id="path34828" />
   </g>
+  <path
+     style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.15804px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.23706px;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker391);stop-color:#000000;stop-opacity:1"
+     d="M 726.99491,993.32601 645.0527,942.23715"
+     id="path3735"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0"
+     inkscape:connection-start="#1"
+     inkscape:connection-end="#10"
+     inkscape:export-filename="polymer_taxonomy.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
 </svg>

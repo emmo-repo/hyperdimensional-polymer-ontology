@@ -969,6 +969,8 @@ hpo:CoverToolLength rdf:type owl:Class ;
 
 hpo:Resin rdf:type owl:Class ;
     rdfs:subClassOf emmo:Material ;
+    rdfs:subClassOf hpo:CrosslinkedPolymer ;
+    rdfs:subClassOf hpo:SyntheticPolymer ;
     rdfs:subClassOf hpo:ThermosettingPolymer ;
     emmo:elucidation "Soft solid or highly viscous substance, usually containing prepolymers with reactive groups."@en ;
     rdfs:comment "Soft solid or highly viscous substance, usually containing prepolymers with reactive groups."@en ;
@@ -1325,13 +1327,17 @@ hpo:CouplingPolymer rdf:type owl:Class ;
 
 hpo:ChemicalAddition rdf:type owl:Class ;
     rdfs:subClassOf emmo:MaterialSynthesis ;
+    rdfs:label "ChemicalAddition" ;
     skos:prefLabel "ChemicalAddition" ;
-    emmo:elucidation "In organic chemistry, an addition reaction is an organic reaction in which two or more molecules combine to form a larger molecule called the adduct. An addition reaction is limited to chemical compounds that have multiple bonds."@en .
+    emmo:elucidation "In organic chemistry, an addition reaction is an organic reaction in which two or more molecules combine to form a larger molecule called the adduct. An addition reaction is limited to chemical compounds that have multiple bonds."@en ;
+    rdfs:comment "In organic chemistry, an addition reaction is an organic reaction in which two or more molecules combine to form a larger molecule called the adduct. An addition reaction is limited to chemical compounds that have multiple bonds."@en .
 
 hpo:ChemicalCondensation rdf:type owl:Class ;
     rdfs:subClassOf emmo:MaterialSynthesis ;
+    rdfs:label "ChemicalCondensation" ;
     skos:prefLabel "ChemicalCondensation" ;
-    emmo:elucidation "Condensation is a type of chemical reaction where two or more molecules combine to form a larger molecule with the elimination of a small molecule."@en .
+    emmo:elucidation "Condensation is a type of chemical reaction where two or more molecules combine to form a larger molecule with the elimination of a small molecule."@en ;
+    rdfs:comment "Condensation is a type of chemical reaction where two or more molecules combine to form a larger molecule with the elimination of a small molecule."@en .
 
 # The original COMPEVO ontology also refers to prepolymers in the elucidation of resin. Check with Gerhard whether to replace them with hpo:Monomer.
 
