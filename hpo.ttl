@@ -14,10 +14,10 @@
 
 <http://w3id.org/emmo-hpo/hpo> rdf:type owl:Ontology ;
 	owl:versionIRI <http://w3id.org/emmo-hpo/1.0.0-beta1/hpo> ;
-    owl:imports <https://w3id.org/emmo/domain/characterisation-methodology/chameo> ,
-    			<https://w3id.org/emmo/disciplines/chemistry> ,
-                <https://w3id.org/emmo/perspectives/perceptual> ,
-                <https://w3id.org/emmo/perspectives/physicalistic> ;
+    owl:imports <https://w3id.org/emmo/domain/domain-chameo/chameo> ,
+                <https://w3id.org/emmo/1.0.0-rc3/disciplines/chemistry> ,
+                <https://w3id.org/emmo/1.0.0-rc3/disciplines/perceptual> ,
+                <https://w3id.org/emmo/1.0.0-rc3/reference/physicalistic> ;
 
 	dcterms:abstract "The Hyperdimensional Polymer Ontology (HPO) is an ontology meant to capture the staggering diversity of polymeric materials and their applications."@en ;
 	dcterms:bibliographicCitation "Work under review - not available yet" ;
