@@ -2925,9 +2925,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="1.0078125"
-     inkscape:cx="415.75194"
-     inkscape:cy="719.37985"
+     inkscape:zoom="0.71263105"
+     inkscape:cx="1041.212"
+     inkscape:cy="566.91327"
      inkscape:window-width="2560"
      inkscape:window-height="1378"
      inkscape:window-x="0"
@@ -3086,14 +3086,14 @@
       </rect>
       <text
          class="text"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
+         style="font-size:14.82827559px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
          text-anchor="middle"
          y="-4.6338363"
          id="text1932"><tspan
            class="text"
            x="0"
            dy="12"
-           style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+           style="font-family:Helvetica, Arial, sans-serif;font-size:14.82827559px"
            id="tspan1930">hasParticipant</tspan></text>
     </g>
   </g>
@@ -3117,14 +3117,14 @@
       </rect>
       <text
          class="text"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
+         style="font-size:14.82827559px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
          text-anchor="middle"
          y="-4.6338363"
          id="text2130"><tspan
            class="text"
            x="0"
            dy="12"
-           style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+           style="font-family:Helvetica, Arial, sans-serif;font-size:14.82827559px"
            id="tspan2128">hasBehaviour</tspan></text>
     </g>
   </g>
@@ -3148,14 +3148,14 @@
       </rect>
       <text
          class="text"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
+         style="font-size:14.82827559px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
          text-anchor="middle"
          y="-4.6338363"
          id="text2328"><tspan
            class="text"
            x="0"
            dy="12"
-           style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+           style="font-family:Helvetica, Arial, sans-serif;font-size:14.82827559px"
            id="tspan2326">hasBehaviour</tspan></text>
     </g>
   </g>
@@ -3187,14 +3187,14 @@
       </rect>
       <text
          class="text"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
+         style="font-size:14.82827559px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
          text-anchor="middle"
          y="-4.6338363"
          id="text2339"><tspan
            class="text"
            x="0"
            dy="12"
-           style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+           style="font-family:Helvetica, Arial, sans-serif;font-size:14.82827559px"
            id="tspan2337">hasBehaviour</tspan></text>
     </g>
   </g>
@@ -3224,13 +3224,13 @@
     </g>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
+       style="font-size:14.82827559px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
        text-anchor="middle"
        y="-7.7820001"
        id="text2479"><tspan
          class="text"
          x="0"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+         style="font-family:Helvetica, Arial, sans-serif;font-size:14.82827559px"
          id="tspan2475"
          dy="12">Behaviour</tspan></text>
   </g>
@@ -3260,15 +3260,27 @@
     </g>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
+       style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
        text-anchor="middle"
-       y="-8.8199997"
-       id="text2494"><tspan
-         class="text"
-         x="0"
-         dy="12"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
-         id="tspan2490">TotalComposition</tspan></text>
+       y="-5.4790568"
+       id="text2494"
+       x="0.15569347"><tspan
+         sodipodi:role="line"
+         id="tspan1931"
+         x="0.15569341"
+         y="-5.4790568"><tspan
+           class="text"
+           x="0.15569347"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+           id="tspan2490">Total</tspan></tspan><tspan
+         sodipodi:role="line"
+         id="tspan1933"
+         x="0.15569448"
+         y="13.056318"><tspan
+           class="text"
+           x="0.15569347"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+           id="tspan1935">Composition</tspan></tspan></text>
   </g>
   <g
      class="node"
@@ -3296,17 +3308,18 @@
     </g>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
+       style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
        text-anchor="middle"
-       y="-4.3200002"
-       id="text2560"><tspan
+       y="-5.3381882"
+       id="text2560"
+       x="-0.1705263"><tspan
          sodipodi:role="line"
-         x="0"
-         y="-4.3200002"
+         x="-0.17052503"
+         y="-5.3381882"
          id="tspan24986">Chemical</tspan><tspan
          sodipodi:role="line"
-         x="0"
-         y="10.68"
+         x="-0.17052491"
+         y="13.197188"
          id="tspan24990">Representation</tspan></text>
   </g>
   <g
@@ -3325,14 +3338,14 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.82827559px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
        y="-4.6338363"
        id="text2683"><tspan
          class="text"
          x="0"
          dy="12"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+         style="font-family:Helvetica, Arial, sans-serif;font-size:14.82827559px"
          id="tspan2681">Elasticity</tspan></text>
   </g>
   <path
@@ -3359,57 +3372,27 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;line-height:1;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.8283px;line-height:1;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
-       y="-2.9760001"
+       y="0.029656637"
        id="text2743"
-       x="0.25799853"><tspan
+       x="0.31880656"><tspan
          sodipodi:role="line"
          id="tspan16270"
-         x="0.25799853"
-         y="-2.9760001">Thermosetting<tspan
+         x="0.31880578"
+         y="0.029656637">Thermosetting<tspan
    class="text"
-   x="0.25799853"
-   style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+   x="0.31880656"
+   style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
    id="tspan16272" /></tspan><tspan
          sodipodi:role="line"
-         x="0.25799853"
-         y="9.0240002"
+         x="0.31880695"
+         y="14.857958"
          id="tspan16277"><tspan
            class="text"
-           x="0.25799853"
-           style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+           x="0.31880656"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
            id="tspan16279">Polymer</tspan></tspan></text>
-  </g>
-  <g
-     class="node"
-     id="84"
-     transform="matrix(1.0790196,0,0,1.0790196,763.58974,277.9139)">
-    <circle
-       class="class"
-       r="50"
-       style="fill:#aaccff;stroke:#000000;stroke-width:2px"
-       id="circle2829"
-       cx="0"
-       cy="0">
-      <title
-         id="title2827">CondensationPolymer</title>
-    </circle>
-    <text
-       class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
-       text-anchor="middle"
-       y="-4.362"
-       id="text2833"
-       x="0.12599854"><tspan
-         sodipodi:role="line"
-         id="tspan16291"
-         x="0.12599854"
-         y="-4.362">Condensation</tspan><tspan
-         sodipodi:role="line"
-         x="0.12599854"
-         y="10.638"
-         id="tspan16296"> Polymer</tspan></text>
   </g>
   <g
      class="node"
@@ -3427,14 +3410,14 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.82827559px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
        y="-4.6338363"
        id="text2887"><tspan
          class="text"
          x="0"
          dy="12"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+         style="font-family:Helvetica, Arial, sans-serif;font-size:14.82827559px"
          id="tspan2885">HomoPolymer</tspan></text>
   </g>
   <g
@@ -3453,14 +3436,14 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.82827559px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
        y="-4.6338363"
        id="text2923"><tspan
          class="text"
          x="0"
          dy="12"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+         style="font-family:Helvetica, Arial, sans-serif;font-size:14.82827559px"
          id="tspan2921">ResinMixer</tspan></text>
   </g>
   <g
@@ -3479,14 +3462,14 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.82827559px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
        y="-4.6338363"
        id="text2932"><tspan
          class="text"
          x="0"
          dy="12"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+         style="font-family:Helvetica, Arial, sans-serif;font-size:14.82827559px"
          id="tspan2930">Crosslinked</tspan></text>
   </g>
   <g
@@ -3505,14 +3488,14 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.82827559px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
        y="-4.6338363"
        id="text3022"><tspan
          class="text"
          x="0"
          dy="12"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+         style="font-family:Helvetica, Arial, sans-serif;font-size:14.82827559px"
          id="tspan3020">CoPolymer</tspan></text>
   </g>
   <g
@@ -3541,44 +3524,18 @@
     </g>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
+       style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
        text-anchor="middle"
-       y="-3.2219999"
+       y="-3.9813919"
        id="text3070"><tspan
          sodipodi:role="line"
          id="tspan24992"
-         x="0"
-         y="-3.2219999">Manufacturing</tspan><tspan
+         x="-1.9133222e-06"
+         y="-3.9813919">Manufacturing</tspan><tspan
          sodipodi:role="line"
          id="tspan24994"
-         x="0"
-         y="11.778">Device</tspan></text>
-  </g>
-  <g
-     class="node"
-     id="80"
-     transform="matrix(1.0790196,0,0,1.0790196,659.81074,328.69895)">
-    <circle
-       class="class"
-       r="50"
-       style="fill:#aaccff;stroke:#000000;stroke-width:2px"
-       id="circle3126"
-       cx="0"
-       cy="0">
-      <title
-         id="title3124">AdditionPolymer</title>
-    </circle>
-    <text
-       class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
-       text-anchor="middle"
-       y="-4.6338363"
-       id="text3130"><tspan
-         class="text"
-         x="0"
-         dy="12"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
-         id="tspan3128">AdditionPolymer</tspan></text>
+         x="7.3833326e-07"
+         y="14.553953">Device</tspan></text>
   </g>
   <path
      style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.15804px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.23706px;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker391);stop-color:#000000;stop-opacity:1"
@@ -3604,25 +3561,26 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
-       y="-4.6338363"
-       id="text3337"><tspan
+       y="-5.3900871"
+       id="text3337"
+       x="0.096384563"><tspan
          sodipodi:role="line"
          id="tspan16282"
-         x="0"
-         y="-4.6338363"><tspan
+         x="0.09638454"
+         y="-5.3900871"><tspan
            class="text"
-           x="0"
-           style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+           x="0.096384563"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
            id="tspan3335">Crosslinked</tspan></tspan><tspan
          sodipodi:role="line"
          id="tspan16284"
-         x="0"
-         y="10.366163"><tspan
+         x="0.096384935"
+         y="13.145288"><tspan
            class="text"
-           x="0"
-           style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+           x="0.096384563"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
            id="tspan16286">Polymer</tspan></tspan></text>
   </g>
   <g
@@ -3641,15 +3599,27 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
-       y="-4.6338363"
-       id="text3472"><tspan
-         class="text"
-         x="0"
-         dy="12"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
-         id="tspan3470">SkeletalFormula</tspan></text>
+       y="-3.9146714"
+       id="text3472"
+       x="-0.4448497"><tspan
+         sodipodi:role="line"
+         id="tspan1784"
+         x="-0.4448491"
+         y="-3.9146714"><tspan
+           class="text"
+           x="-0.4448497"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+           id="tspan3470">Skeletal</tspan></tspan><tspan
+         sodipodi:role="line"
+         id="tspan1786"
+         x="-0.44484979"
+         y="14.620704"><tspan
+           class="text"
+           x="-0.4448497"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+           id="tspan1788">Formula</tspan></tspan></text>
   </g>
   <g
      class="node"
@@ -3667,14 +3637,14 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.82827559px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
        y="-4.6338363"
        id="text3499"><tspan
          class="text"
          x="0"
          dy="12"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+         style="font-family:Helvetica, Arial, sans-serif;font-size:14.82827559px"
          id="tspan3497">Branched</tspan></text>
   </g>
   <g
@@ -3693,14 +3663,14 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.82827559px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
        y="-4.6338363"
        id="text3730"><tspan
          class="text"
          x="0"
          dy="12"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+         style="font-family:Helvetica, Arial, sans-serif;font-size:14.82827559px"
          id="tspan3728">Elastomer</tspan></text>
   </g>
   <path
@@ -3718,7 +3688,7 @@
     <circle
        class="class"
        r="50"
-       style="fill:#aaccff;stroke:#000000;stroke-width:2px"
+       style="fill:#c4ffaa;stroke:#000000;stroke-width:2px;fill-opacity:1"
        id="circle2610"
        cx="5.2789426"
        cy="-19.999178">
@@ -3727,7 +3697,7 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.82827559px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
        y="-27.781178"
        id="text2614"
@@ -3735,7 +3705,7 @@
          class="text"
          x="5.1409411"
          dy="12"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+         style="font-family:Helvetica, Arial, sans-serif;font-size:14.82827559px"
          id="tspan2612">Resin</tspan></text>
   </g>
   <g
@@ -3754,14 +3724,14 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.82827559px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
        y="-4.6338363"
        id="text3793"><tspan
          class="text"
          x="0"
          dy="12"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+         style="font-family:Helvetica, Arial, sans-serif;font-size:14.82827559px"
          id="tspan3791">Stiffness</tspan></text>
   </g>
   <g
@@ -3790,14 +3760,26 @@
     </g>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
+       style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
        text-anchor="middle"
-       y="3.0239999"
+       y="-4.0555401"
        id="text3808"><tspan
-         class="text"
-         x="0"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
-         id="tspan3806">PolymericMaterial</tspan></text>
+         sodipodi:role="line"
+         id="tspan1829"
+         x="1.037828e-06"
+         y="-4.0555401"><tspan
+           class="text"
+           x="0"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+           id="tspan3806">Polymeric</tspan></tspan><tspan
+         sodipodi:role="line"
+         id="tspan1831"
+         x="1.2808596e-06"
+         y="14.479836"><tspan
+           class="text"
+           x="0"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+           id="tspan1833">Material</tspan></tspan></text>
   </g>
   <g
      class="node"
@@ -3815,15 +3797,26 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
        y="-4.6338363"
        id="text3895"><tspan
-         class="text"
-         x="0"
-         dy="12"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
-         id="tspan3893">CouplingPolymer</tspan></text>
+         sodipodi:role="line"
+         id="tspan1923"
+         x="8.0402242e-07"
+         y="-4.6338363"><tspan
+           class="text"
+           x="0"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+           id="tspan3893">Coupling</tspan></tspan><tspan
+         sodipodi:role="line"
+         id="tspan1925"
+         x="3.7402788e-07"
+         y="13.901539"><tspan
+           class="text"
+           x="0"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+           id="tspan1927">Polymer</tspan></tspan></text>
   </g>
   <g
      class="node"
@@ -3841,14 +3834,14 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.82827559px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
        y="-4.6338363"
        id="text3922"><tspan
          class="text"
          x="0"
          dy="12"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+         style="font-family:Helvetica, Arial, sans-serif;font-size:14.82827559px"
          id="tspan3920">Plasticity</tspan></text>
   </g>
   <g
@@ -3867,15 +3860,26 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
        y="-4.6338363"
        id="text3958"><tspan
-         class="text"
-         x="0"
-         dy="12"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
-         id="tspan3956">ResinPreparation</tspan></text>
+         sodipodi:role="line"
+         id="tspan1945"
+         x="-8.6019281e-07"
+         y="-4.6338363"><tspan
+           class="text"
+           x="0"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+           id="tspan3956">Resin</tspan></tspan><tspan
+         sodipodi:role="line"
+         id="tspan1947"
+         x="1.9493236e-06"
+         y="13.901539"><tspan
+           class="text"
+           x="0"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+           id="tspan1949">Preparation</tspan></tspan></text>
   </g>
   <g
      class="node"
@@ -3893,7 +3897,7 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.82827559px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
        y="-4.6338363"
        id="text3994"><tspan
@@ -3903,7 +3907,7 @@
          y="-4.6338363"><tspan
            class="text"
            x="0"
-           style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+           style="font-family:Helvetica, Arial, sans-serif;font-size:14.82827559px"
            id="tspan3992">Thermal</tspan></tspan><tspan
          sodipodi:role="line"
          id="tspan16311"
@@ -3911,7 +3915,7 @@
          y="10.366163"><tspan
            class="text"
            x="0"
-           style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+           style="font-family:Helvetica, Arial, sans-serif;font-size:14.82827559px"
            id="tspan16313">Behaviour</tspan></tspan></text>
   </g>
   <g
@@ -3930,15 +3934,27 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
-       y="-4.6338363"
-       id="text4003"><tspan
-         class="text"
-         x="0"
-         dy="12"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
-         id="tspan4001">LinearPolymer</tspan></text>
+       y="-5.5309563"
+       id="text4003"
+       x="-0.63020116"><tspan
+         sodipodi:role="line"
+         id="tspan1791"
+         x="-0.63020164"
+         y="-5.5309563"><tspan
+           class="text"
+           x="-0.63020116"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+           id="tspan4001">Linear</tspan></tspan><tspan
+         sodipodi:role="line"
+         id="tspan1793"
+         x="-0.6302008"
+         y="13.004419"><tspan
+           class="text"
+           x="-0.63020116"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+           id="tspan1795">Polymer</tspan></tspan></text>
   </g>
   <g
      class="node"
@@ -3956,14 +3972,14 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.82827559px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
        y="-4.6338363"
        id="text4012"><tspan
          class="text"
          x="0"
          dy="12"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+         style="font-family:Helvetica, Arial, sans-serif;font-size:14.82827559px"
          id="tspan4010">Linear</tspan></text>
   </g>
   <g
@@ -3982,15 +3998,23 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
-       y="-4.6338363"
-       id="text4021"><tspan
-         class="text"
-         x="0"
-         dy="12"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
-         id="tspan4019">BranchedPolymer</tspan></text>
+       y="-5.5309563"
+       id="text4021"
+       x="-0.12604158"><tspan
+         sodipodi:role="line"
+         x="-0.12604132"
+         y="-5.5309563"
+         id="tspan1808">Branched<tspan
+   class="text"
+   x="-0.12604158"
+   style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+   id="tspan4019" /></tspan><tspan
+         sodipodi:role="line"
+         x="-0.1260412"
+         y="13.004419"
+         id="tspan1814">Polymer</tspan></text>
   </g>
   <g
      class="node"
@@ -4018,14 +4042,27 @@
     </g>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
+       style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
        text-anchor="middle"
-       y="4.2179999"
-       id="text4036"><tspan
-         class="text"
-         x="0"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
-         id="tspan4034">NaturalMaterial</tspan></text>
+       y="-4.0555401"
+       id="text4036"
+       x="-0.044484846"><tspan
+         sodipodi:role="line"
+         id="tspan1938"
+         x="-0.04448561"
+         y="-4.0555401"><tspan
+           class="text"
+           x="-0.044484846"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+           id="tspan4034">Natural</tspan></tspan><tspan
+         sodipodi:role="line"
+         id="tspan1940"
+         x="-0.044483565"
+         y="14.479836"><tspan
+           class="text"
+           x="-0.044484846"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+           id="tspan1942">Material</tspan></tspan></text>
   </g>
   <g
      class="node"
@@ -4043,15 +4080,23 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
-       y="-4.6338363"
-       id="text4045"><tspan
-         class="text"
-         x="0"
-         dy="12"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
-         id="tspan4043">NaturalPolymer</tspan></text>
+       y="-5.5309563"
+       id="text4045"
+       x="-0.63020116"><tspan
+         sodipodi:role="line"
+         id="tspan1824"
+         x="-0.63020194"
+         y="-5.5309563"><tspan
+           class="text"
+           x="-0.63020116"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+           id="tspan4043">Natural</tspan></tspan><tspan
+         sodipodi:role="line"
+         id="tspan1826"
+         x="-0.6302008"
+         y="13.004419">Polymer</tspan></text>
   </g>
   <g
      class="node"
@@ -4069,15 +4114,26 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
        y="-4.6338363"
        id="text4054"><tspan
-         class="text"
-         x="0"
-         dy="12"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
-         id="tspan4052">SyntheticPolymer</tspan></text>
+         sodipodi:role="line"
+         id="tspan1952"
+         x="1.5887781e-07"
+         y="-4.6338363"><tspan
+           class="text"
+           x="0"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+           id="tspan4052">Synthetic</tspan></tspan><tspan
+         sodipodi:role="line"
+         id="tspan1954"
+         x="3.7402788e-07"
+         y="13.901539"><tspan
+           class="text"
+           x="0"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+           id="tspan1956">Polymer</tspan></tspan></text>
   </g>
   <g
      class="node"
@@ -4095,23 +4151,23 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
-       y="-4.362"
+       y="-1.6830091"
        id="text4063"
-       x="-0.156"><tspan
+       x="-0.19276763"><tspan
          sodipodi:role="line"
          id="tspan16304"
-         x="-0.156"
-         y="-4.362"><tspan
+         x="-0.192766"
+         y="-1.6830091"><tspan
            class="text"
-           x="-0.156"
-           style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+           x="-0.19276763"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
            id="tspan4061">SemiSynthetic</tspan></tspan><tspan
          sodipodi:role="line"
          id="tspan16306"
-         x="-0.156"
-         y="10.638">Polymer</tspan></text>
+         x="-0.19276726"
+         y="16.852365">Polymer</tspan></text>
   </g>
   <g
      class="node"
@@ -4139,22 +4195,23 @@
     </g>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
+       style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
        text-anchor="middle"
-       y="-3.2219999"
-       id="text4078"><tspan
+       y="-3.9813919"
+       id="text4078"
+       x="-0.11863027"><tspan
          sodipodi:role="line"
          id="tspan18622"
-         x="0"
-         y="-3.2219999"><tspan
+         x="-0.11862907"
+         y="-3.9813919"><tspan
            class="text"
-           x="0"
-           style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+           x="-0.11863027"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
            id="tspan4076">Manufactured</tspan></tspan><tspan
          sodipodi:role="line"
          id="tspan18624"
-         x="0"
-         y="11.778">Material</tspan></text>
+         x="-0.11862899"
+         y="14.553984">Material</tspan></text>
   </g>
   <g
      class="node"
@@ -4172,14 +4229,14 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.82827559px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
        y="-4.6338363"
        id="text4087"><tspan
          class="text"
          x="0"
          dy="12"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+         style="font-family:Helvetica, Arial, sans-serif;font-size:14.82827559px"
          id="tspan4085">Thermosetting</tspan></text>
   </g>
   <g
@@ -4198,14 +4255,14 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.82827559px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
        y="-4.6338363"
        id="text4096"><tspan
          class="text"
          x="0"
          dy="12"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+         style="font-family:Helvetica, Arial, sans-serif;font-size:14.82827559px"
          id="tspan4094">Inelasticity</tspan></text>
   </g>
   <g
@@ -4224,14 +4281,14 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.82827559px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
        y="-4.6338363"
        id="text4105"><tspan
          class="text"
          x="0"
          dy="12"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+         style="font-family:Helvetica, Arial, sans-serif;font-size:14.82827559px"
          id="tspan4103">Thermoplastic</tspan></text>
   </g>
   <g
@@ -4250,23 +4307,23 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
-       y="-4.4759998"
+       y="-2.6224654"
        id="text4114"
        x="0.054000001"><tspan
          sodipodi:role="line"
          id="tspan16299"
-         x="0.054000001"
-         y="-4.4759998"><tspan
+         x="0.053998988"
+         y="-2.6224654"><tspan
            class="text"
            x="0.054000001"
-           style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
            id="tspan4112">Thermoplastic</tspan></tspan><tspan
          sodipodi:role="line"
          id="tspan16301"
-         x="0.054000001"
-         y="10.524">Polymer</tspan></text>
+         x="0.053999443"
+         y="15.91288">Polymer</tspan></text>
   </g>
   <g
      class="node"
@@ -4284,14 +4341,14 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.82827559px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
        y="-4.6338363"
        id="text4123"><tspan
          class="text"
          x="0"
          dy="12"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+         style="font-family:Helvetica, Arial, sans-serif;font-size:14.82827559px"
          id="tspan4121">Fibre</tspan></text>
   </g>
   <path
@@ -4346,14 +4403,14 @@
       </rect>
       <text
          class="text"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
+         style="font-size:14.82827559px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
          text-anchor="middle"
          y="-4.6338363"
          id="text2427"><tspan
            class="text"
            x="0"
            dy="12"
-           style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+           style="font-family:Helvetica, Arial, sans-serif;font-size:14.82827559px"
            id="tspan2425">hasBehaviour</tspan></text>
     </g>
   </g>
@@ -4473,14 +4530,14 @@
       </rect>
       <text
          class="text"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
+         style="font-size:14.82827559px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
          text-anchor="middle"
          y="-4.6338363"
          id="text1965"><tspan
            class="text"
            x="0"
            dy="12"
-           style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+           style="font-family:Helvetica, Arial, sans-serif;font-size:14.82827559px"
            id="tspan1963">hasInput</tspan></text>
     </g>
   </g>
@@ -4590,7 +4647,7 @@
      inkscape:connection-start="#18" />
   <path
      style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.15804px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.23706px;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker391);stop-color:#000000;stop-opacity:1"
-     d="M 666.28206,382.25975 681.58491,508.9159"
+     d="m 645.52364,376.82452 30.17057,133.11194"
      id="path27609"
      inkscape:connector-type="polyline"
      inkscape:connector-curvature="0"
@@ -4686,14 +4743,26 @@
     </g>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
+       style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
        text-anchor="middle"
        y="3.138"
        id="text34517"><tspan
-         class="text"
-         x="0"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
-         id="tspan34515">MaterialSynthesis</tspan></text>
+         sodipodi:role="line"
+         id="tspan1916"
+         x="1.2808596e-06"
+         y="3.138"><tspan
+           class="text"
+           x="0"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+           id="tspan34515">Material</tspan></tspan><tspan
+         sodipodi:role="line"
+         id="tspan1918"
+         x="5.8897422e-07"
+         y="21.673376"><tspan
+           class="text"
+           x="0"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+           id="tspan1920">Synthesis</tspan></tspan></text>
   </g>
   <g
      class="cardinality"
@@ -4716,14 +4785,81 @@
      inkscape:connector-curvature="0"
      inkscape:connection-end="#g34691"
      inkscape:connection-start="#84" />
+  <g
+     class="node"
+     id="84"
+     transform="matrix(1.0790196,0,0,1.0790196,763.58974,277.9139)">
+    <circle
+       class="class"
+       r="50"
+       style="fill:#aaccff;stroke:#000000;stroke-width:2px"
+       id="circle2829"
+       cx="0"
+       cy="0">
+      <title
+         id="title2827">CondensationPolymer</title>
+    </circle>
+    <text
+       class="text"
+       style="font-size:14.82827559px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       text-anchor="middle"
+       y="-4.362"
+       id="text2833"
+       x="0.12599854"><tspan
+         sodipodi:role="line"
+         id="tspan16291"
+         x="0.12599854"
+         y="-4.362">Condensation</tspan><tspan
+         sodipodi:role="line"
+         x="0.12599854"
+         y="10.638"
+         id="tspan16296"> Polymer</tspan></text>
+  </g>
   <path
      style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#6699cc;stroke-width:2.15804px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#marker276);stop-color:#000000;stop-opacity:1"
-     d="M 637.40425,279.62128 587.81043,170.99426"
+     d="M 616.36397,273.08542 582.63793,173.03985"
      id="path34643"
      inkscape:connector-type="polyline"
      inkscape:connector-curvature="0"
      inkscape:connection-end="#g34665"
      inkscape:connection-start="#80" />
+  <g
+     class="node"
+     id="80"
+     transform="matrix(1.0790196,0,0,1.0790196,633.59796,324.20868)">
+    <circle
+       class="class"
+       r="50"
+       style="fill:#aaccff;stroke:#000000;stroke-width:2px"
+       id="circle3126"
+       cx="0"
+       cy="0">
+      <title
+         id="title3124">AdditionPolymer</title>
+    </circle>
+    <text
+       class="text"
+       style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       text-anchor="middle"
+       y="-4.6338363"
+       id="text3130"><tspan
+         sodipodi:role="line"
+         id="tspan1902"
+         x="1.5887781e-07"
+         y="-4.6338363"><tspan
+           class="text"
+           x="0"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+           id="tspan3128">Addition</tspan></tspan><tspan
+         sodipodi:role="line"
+         id="tspan1904"
+         x="3.7402788e-07"
+         y="13.901539"><tspan
+           class="text"
+           x="0"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+           id="tspan1906">Polymer</tspan></tspan></text>
+  </g>
   <g
      class="labelGroup"
      transform="matrix(1.0790196,0,0,1.0790196,629.33264,243.25469)"
@@ -4733,10 +4869,10 @@
        id="g34547">
       <rect
          class="somevaluesfromproperty property object"
-         x="-51.411053"
-         y="-13.477837"
-         width="90.225052"
-         height="26.699799"
+         x="-63.806278"
+         y="-13.477869"
+         width="102.62026"
+         height="26.699831"
          style="fill:#3366cc"
          id="rect34541">
         <title
@@ -4744,14 +4880,14 @@
       </rect>
       <text
          class="text"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
+         style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
          text-anchor="middle"
          y="-4.6338363"
          id="text34545"
-         x="-6.4545283"><tspan
+         x="-12.688917"><tspan
            class="text"
-           x="-6.4545283"
-           style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+           x="-12.688917"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
            id="tspan34543"
            dy="12">holisticOverlap</tspan></text>
     </g>
@@ -4772,15 +4908,26 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
        y="4.3080001"
        id="text34663"><tspan
-         class="text"
-         x="0"
-         dy="0 0 0 0 0 0 0 0"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
-         id="tspan34661">ChemicalAddition</tspan></text>
+         sodipodi:role="line"
+         id="tspan1909"
+         x="1.262204e-06"
+         y="4.3080001"><tspan
+           class="text"
+           x="0"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+           id="tspan34661">Chemical</tspan></tspan><tspan
+         sodipodi:role="line"
+         id="tspan1911"
+         x="1.5887781e-07"
+         y="22.843376"><tspan
+           class="text"
+           x="0"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+           id="tspan1913">Addition</tspan></tspan></text>
   </g>
   <g
      class="node"
@@ -4798,26 +4945,27 @@
     </circle>
     <text
        class="text"
-       style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
+       style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif;fill:#000000"
        text-anchor="middle"
-       y="-3.1919999"
-       id="text34689"><tspan
+       y="-3.9443278"
+       id="text34689"
+       x="0.1556873"><tspan
          sodipodi:role="line"
          id="tspan34706"
-         x="0"
-         y="-3.1919999"><tspan
+         x="0.15568857"
+         y="-3.9443278"><tspan
            class="text"
-           x="0"
+           x="0.1556873"
            dy="0 0 0 0 0 0 0 0"
-           style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
            id="tspan34687">Chemical</tspan></tspan><tspan
          sodipodi:role="line"
          id="tspan34708"
-         x="0"
-         y="11.808001"><tspan
+         x="0.15568657"
+         y="14.591048"><tspan
            class="text"
-           x="0"
-           style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
+           x="0.1556873"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
            id="tspan34710">Condensation</tspan></tspan></text>
   </g>
   <path
@@ -4836,39 +4984,6 @@
      inkscape:connector-curvature="0"
      inkscape:connection-start="#g34691"
      inkscape:connection-end="#g34519" />
-  <g
-     class="labelGroup"
-     transform="matrix(1.0790196,0,0,1.0790196,817.17194,199.88076)"
-     id="g34814">
-    <g
-       class="label"
-       id="g34812"
-       transform="translate(4.9369521,-1.4895391)">
-      <rect
-         class="somevaluesfromproperty property object"
-         x="-51.411053"
-         y="-13.477837"
-         width="90.225052"
-         height="26.699799"
-         style="fill:#3366cc"
-         id="rect34806">
-        <title
-           id="title34804">hasInput</title>
-      </rect>
-      <text
-         class="text"
-         style="font-size:12px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
-         text-anchor="middle"
-         y="-4.6338363"
-         id="text34810"
-         x="-6.4545283"><tspan
-           class="text"
-           x="-6.4545283"
-           style="font-size:12px;font-family:Helvetica, Arial, sans-serif"
-           id="tspan34808"
-           dy="12">holisticOverlap</tspan></text>
-    </g>
-  </g>
   <g
      class="cardinality"
      text-anchor="middle"
@@ -4896,4 +5011,39 @@
      inkscape:export-filename="polymer_taxonomy.png"
      inkscape:export-xdpi="96"
      inkscape:export-ydpi="96" />
+  <g
+     class="labelGroup"
+     transform="matrix(1.0790196,0,0,1.0790196,833.83002,199.8509)"
+     id="g1899"
+     inkscape:export-filename="polymer_taxonomy.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
+    <g
+       class="label"
+       id="g1897">
+      <rect
+         class="somevaluesfromproperty property object"
+         x="-63.806278"
+         y="-13.477869"
+         width="102.62026"
+         height="26.699831"
+         style="fill:#3366cc"
+         id="rect1891">
+        <title
+           id="title1889">hasInput</title>
+      </rect>
+      <text
+         class="text"
+         style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif;fill:#ffffff"
+         text-anchor="middle"
+         y="-4.6338363"
+         id="text1895"
+         x="-12.688917"><tspan
+           class="text"
+           x="-12.688917"
+           style="font-size:14.8283px;font-family:Helvetica, Arial, sans-serif"
+           id="tspan1893"
+           dy="12">holisticOverlap</tspan></text>
+    </g>
+  </g>
 </svg>
