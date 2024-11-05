@@ -13,1230 +13,1225 @@
 @base <http://w3id.org/emmo-hpo/hpo> .
 
 <http://w3id.org/emmo-hpo/hpo> rdf:type owl:Ontology ;
-	owl:versionIRI <http://w3id.org/emmo-hpo/1.0.0-beta1/hpo> ;
+    owl:versionIRI <http://w3id.org/emmo-hpo/1.0.0-beta1/hpo> ;
     owl:imports <https://w3id.org/emmo/domain/domain-chameo/chameo> ,
                 <https://w3id.org/emmo/1.0.0-rc3/disciplines/chemistry> ,
                 <https://w3id.org/emmo/1.0.0-rc3/disciplines/perceptual> ,
                 <https://w3id.org/emmo/1.0.0-rc3/reference/physicalistic> ;
 
-	dcterms:abstract "The Hyperdimensional Polymer Ontology (HPO) is an ontology meant to capture the staggering diversity of polymeric materials and their applications."@en ;
-	dcterms:bibliographicCitation "Work under review - not available yet" ;
-	dcterms:contributor <https://orcid.org/0000-0002-9668-6961>, <https://orcid.org/0000-0002-5174-8508>, <https://orcid.org/0000-0002-4181-2852>, <https://orcid.org/0000-0001-7815-6636> ;
-	dcterms:creator <https://orcid.org/0000-0002-9668-6961>, <https://orcid.org/0000-0002-5174-8508>, <https://orcid.org/0000-0002-4181-2852>, <https://orcid.org/0000-0001-7815-6636> ;
-	dcterms:created "2023-12-22" ;
-	dcterms:description "An ontology to capture the staggering diversity of polymeric materials and their applications."@en ;
-	dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode" ;
-	dcterms:publisher "EMMC ASBL" ;
-	dcterms:title "Hyperdimensional Polymer Ontology"@en ;
-	dcterms:modified "2024-04-12" ;
-	dcterms:source "" ;
-	dcterms:issued "2024-04-12" ;
-	<http://purl.org/vocab/vann/preferredNamespacePrefix> "hpo"@en ;
-	<http://purl.org/vocab/vann/preferredNamespaceUri> "http://w3id.org/emmo-hpo/hpo" ;
-	rdfs:comment """Contacts:
-	Gerhard Goldbeck
-	Goldbeck Consulting Ltd (UK)
-	email: gerhard@goldbeck-consulting.com"""@en ;
-	owl:backwardCompatibleWith "" ;
-	owl:priorVersion "" ;
-	foaf:logo "" ;
-	<http://purl.org/ontology/bibo/status> "" ;
-	<http://purl.org/ontology/bibo/doi> "" ;
-	owl:versionInfo "1.0.0" .
-	
+    dcterms:abstract "The Hyperdimensional Polymer Ontology (HPO) is an ontology meant to capture the staggering diversity of polymeric materials and their applications."@en ;
+    dcterms:bibliographicCitation "Work under review - not available yet" ;
+    dcterms:contributor <https://orcid.org/0000-0002-9668-6961>, <https://orcid.org/0000-0002-5174-8508>, <https://orcid.org/0000-0002-4181-2852>, <https://orcid.org/0000-0001-7815-6636> ;
+    dcterms:creator <https://orcid.org/0000-0002-9668-6961>, <https://orcid.org/0000-0002-5174-8508>, <https://orcid.org/0000-0002-4181-2852>, <https://orcid.org/0000-0001-7815-6636> ;
+    dcterms:created "2023-12-22" ;
+    dcterms:description "An ontology to capture the staggering diversity of polymeric materials and their applications."@en ;
+    dcterms:license "https://creativecommons.org/licenses/by/4.0/legalcode" ;
+    dcterms:publisher "EMMC ASBL" ;
+    dcterms:title "Hyperdimensional Polymer Ontology"@en ;
+    dcterms:modified "2024-04-12" ;
+    dcterms:source "" ;
+    dcterms:issued "2024-04-12" ;
+    <http://purl.org/vocab/vann/preferredNamespacePrefix> "hpo"@en ;
+    <http://purl.org/vocab/vann/preferredNamespaceUri> "http://w3id.org/emmo-hpo/hpo" ;
+    rdfs:comment """Contacts:
+    Gerhard Goldbeck
+    Goldbeck Consulting Ltd (UK)
+    email: gerhard@goldbeck-consulting.com"""@en ;
+    owl:backwardCompatibleWith "" ;
+    owl:priorVersion "" ;
+    foaf:logo "" ;
+    <http://purl.org/ontology/bibo/status> "" ;
+    <http://purl.org/ontology/bibo/doi> "" ;
+    owl:versionInfo "1.0.0" .
+    
 <https://orcid.org/0000-0002-9668-6961> a foaf:Person ;
-	rdfs:label "Daniele Toti" ;
-	skos:prefLabel "Daniele Toti" ;
-	foaf:name "Daniele Toti" ;
-	rdfs:comment "" .
-	
+    rdfs:label "Daniele Toti" ;
+    skos:prefLabel "Daniele Toti" ;
+    foaf:name "Daniele Toti" ;
+    rdfs:comment "" .
+    
 <https://orcid.org/0000-0002-5174-8508> a foaf:Person ;
-	rdfs:label "Pierluigi Del Nostro" ;
-	skos:prefLabel "Pierluigi Del Nostro" ;
-	foaf:name "Pierluigi Del Nostro" ;
-	rdfs:comment "" .
-	
+    rdfs:label "Pierluigi Del Nostro" ;
+    skos:prefLabel "Pierluigi Del Nostro" ;
+    foaf:name "Pierluigi Del Nostro" ;
+    rdfs:comment "" .
+    
 <https://orcid.org/0000-0002-4181-2852> a foaf:Person ;
-	rdfs:label "Gerhard Goldbeck" ;
-	skos:prefLabel "Gerhard Goldbeck" ;
-	foaf:name "Gerhard Goldbeck" ;
-	rdfs:comment "" .
+    rdfs:label "Gerhard Goldbeck" ;
+    skos:prefLabel "Gerhard Goldbeck" ;
+    foaf:name "Gerhard Goldbeck" ;
+    rdfs:comment "" .
 
 <https://orcid.org/0000-0001-7815-6636> a foaf:Person ;
-	rdfs:label "Otello Maria Roscioni" ;
-	skos:prefLabel "Otello Maria Roscioni" ;
-	foaf:name "Otello Maria Roscioni" ;
-	rdfs:comment "" .
+    rdfs:label "Otello Maria Roscioni" ;
+    skos:prefLabel "Otello Maria Roscioni" ;
+    foaf:name "Otello Maria Roscioni" ;
+    rdfs:comment "" .
 
 hpo:PrepregWaterDiffusionCoefficient rdf:type owl:Class ;
-	rdfs:subClassOf hpo:PrepregProperty ;
-	emmo:elucidation "Effective and anisotropic proportionality constant between the molar (or mass) flux due to molecular diffusion (out of the prepreg specimen)."@en ;
-	rdfs:comment "Effective and anisotropic proportionality constant between the molar (or mass) flux due to molecular diffusion (out of the prepreg specimen)."@en ;
-	rdfs:label "PrepregWaterDiffusionCoefficient"@en ;
-	skos:prefLabel "PrepregWaterDiffusionCoefficient"@en .
+    rdfs:subClassOf hpo:PrepregProperty ;
+    emmo:elucidation "Effective and anisotropic proportionality constant between the molar (or mass) flux due to molecular diffusion (out of the prepreg specimen)."@en ;
+    rdfs:comment "Effective and anisotropic proportionality constant between the molar (or mass) flux due to molecular diffusion (out of the prepreg specimen)."@en ;
+    rdfs:label "PrepregWaterDiffusionCoefficient"@en ;
+    skos:prefLabel "PrepregWaterDiffusionCoefficient"@en .
 
 hpo:Composite rdf:type owl:Class ;
-	rdfs:subClassOf emmo:ManufacturedMaterial ;
-	emmo:elucidation "A material made up of resin and reinforcement (usually fibre)."@en ;
-	rdfs:comment "A material made up of resin and reinforcement (usually fibre)."@en ;
-	rdfs:isDefinedBy "https://compositesuk.co.uk/composite-materials/glossary-terms"^^xsd:anyURI ;
-	rdfs:label "Composite"@en ;
-	skos:prefLabel "Composite"@en .
+    rdfs:subClassOf emmo:ManufacturedMaterial ;
+    emmo:elucidation "A material made up of resin and reinforcement (usually fibre)."@en ;
+    rdfs:comment "A material made up of resin and reinforcement (usually fibre)."@en ;
+    rdfs:isDefinedBy "https://compositesuk.co.uk/composite-materials/glossary-terms"^^xsd:anyURI ;
+    rdfs:label "Composite"@en ;
+    skos:prefLabel "Composite"@en .
 
 hpo:ComponentManufacturing rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Manufacturing ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasParticipant ;
-	owl:someValuesFrom hpo:ComponentManufacturingLine
-	] ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasStage ;
-	owl:someValuesFrom hpo:ShapingAndCuring
-	] ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasStage ;
-	owl:someValuesFrom hpo:Stacking
-	] ;
-	emmo:elucidation "The manufacturing of a component made of a composite material."@en ;
-	rdfs:comment "The manufacturing of a component made of a composite material."@en ;
-	rdfs:label "ComponentManufacturing"@en ;
-	skos:prefLabel "ComponentManufacturing"@en .
+    rdfs:subClassOf emmo:Manufacturing ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasParticipant ;
+    owl:someValuesFrom hpo:ComponentManufacturingLine
+    ] ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasStage ;
+    owl:someValuesFrom hpo:ShapingAndCuring
+    ] ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasStage ;
+    owl:someValuesFrom hpo:Stacking
+    ] ;
+    emmo:elucidation "The manufacturing of a component made of a composite material."@en ;
+    rdfs:comment "The manufacturing of a component made of a composite material."@en ;
+    rdfs:label "ComponentManufacturing"@en ;
+    skos:prefLabel "ComponentManufacturing"@en .
 
 hpo:CoverToolProperty rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Objective ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty [ owl:inverseOf emmo:hasProperty
-	] ;
-	owl:allValuesFrom hpo:CoverTool
-	] ;
-	rdfs:comment "" ;
-	rdfs:label "CoverToolProperty"@en ;
-	skos:prefLabel "CoverToolProperty"@en .
+    rdfs:subClassOf emmo:Objective ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty [ owl:inverseOf emmo:hasProperty
+    ] ;
+    owl:allValuesFrom hpo:CoverTool
+    ] ;
+    rdfs:comment "" ;
+    rdfs:label "CoverToolProperty"@en ;
+    skos:prefLabel "CoverToolProperty"@en .
 
 hpo:CatalystViscosity rdf:type owl:Class ;
-	rdfs:subClassOf hpo:CatalystProperty ;
-	rdfs:subClassOf emmo:DynamicViscosity ;
-	emmo:elucidation "Catalyst viscosity at 25°C."@en ;
-	rdfs:comment "Catalyst viscosity at 25°C."@en ;
-	rdfs:label "CatalystViscosity"@en ;
-	skos:prefLabel "CatalystViscosity"@en .
+    rdfs:subClassOf hpo:CatalystProperty ;
+    rdfs:subClassOf emmo:DynamicViscosity ;
+    emmo:elucidation "Catalyst viscosity at 25°C."@en ;
+    rdfs:comment "Catalyst viscosity at 25°C."@en ;
+    rdfs:label "CatalystViscosity"@en ;
+    skos:prefLabel "CatalystViscosity"@en .
 
 hpo:CompositeLaminateProperty rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Objective ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty [ owl:inverseOf emmo:hasProperty
-	] ;
-	owl:allValuesFrom hpo:CompositeLaminate
-	] ;
-	rdfs:comment "" ;
-	rdfs:label "CompositeLaminateProperty"@en ;
-	skos:prefLabel "CompositeLaminateProperty"@en .
+    rdfs:subClassOf emmo:Objective ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty [ owl:inverseOf emmo:hasProperty
+    ] ;
+    owl:allValuesFrom hpo:CompositeLaminate
+    ] ;
+    rdfs:comment "" ;
+    rdfs:label "CompositeLaminateProperty"@en ;
+    skos:prefLabel "CompositeLaminateProperty"@en .
 
 hpo:FlexuralStrength rdf:type owl:Class ;
-	rdfs:subClassOf hpo:CompositeLaminateProperty ;
-	emmo:elucidation "Maximum value of the stress-strain curve under flexural stress."@en ;
-	rdfs:comment "Maximum value of the stress-strain curve under flexural stress."@en ;
-	rdfs:label "FlexuralStrength"@en ;
-	skos:prefLabel "FlexuralStrength"@en .
+    rdfs:subClassOf hpo:CompositeLaminateProperty ;
+    emmo:elucidation "Maximum value of the stress-strain curve under flexural stress."@en ;
+    rdfs:comment "Maximum value of the stress-strain curve under flexural stress."@en ;
+    rdfs:label "FlexuralStrength"@en ;
+    skos:prefLabel "FlexuralStrength"@en .
 
 hpo:FlexualModulus rdf:type owl:Class ;
-	rdfs:subClassOf hpo:CompositeLaminateProperty ;
-	emmo:elucidation "Tangent of the stress-strain curve under flexural stress."@en ;
-	rdfs:comment "Tangent of the stress-strain curve under flexural stress."@en ;
-	rdfs:label "FlexualModulus"@en ;
-	skos:prefLabel "FlexualModulus"@en .
+    rdfs:subClassOf hpo:CompositeLaminateProperty ;
+    emmo:elucidation "Tangent of the stress-strain curve under flexural stress."@en ;
+    rdfs:comment "Tangent of the stress-strain curve under flexural stress."@en ;
+    rdfs:label "FlexualModulus"@en ;
+    skos:prefLabel "FlexualModulus"@en .
 
 hpo:TextileFabricProperty rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Objective ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty [ owl:inverseOf emmo:hasProperty
-	] ;
-	owl:allValuesFrom hpo:TextileFabric
-	] ;
-	emmo:elucidation "A collection of the properties of textile fabrics."@en ;
-	rdfs:comment "A collection of the properties of textile fabrics."@en ;
-	rdfs:label "TextileFabricProperty"@en ;
-	skos:prefLabel "TextileFabricProperty"@en .
+    rdfs:subClassOf emmo:Objective ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty [ owl:inverseOf emmo:hasProperty
+    ] ;
+    owl:allValuesFrom hpo:TextileFabric
+    ] ;
+    emmo:elucidation "A collection of the properties of textile fabrics."@en ;
+    rdfs:comment "A collection of the properties of textile fabrics."@en ;
+    rdfs:label "TextileFabricProperty"@en ;
+    skos:prefLabel "TextileFabricProperty"@en .
 
 hpo:ResinIngredient rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Material ;
-	emmo:elucidation "Intermediate mixture to make a formulation that allows formulated resin differentiation."@en ;
-	rdfs:comment "Intermediate mixture to make a formulation that allows formulated resin differentiation."@en ;
-	rdfs:label "ResinIngredient"@en ;
-	skos:prefLabel "ResinIngredient"@en .
+    rdfs:subClassOf emmo:Material ;
+    emmo:elucidation "Intermediate mixture to make a formulation that allows formulated resin differentiation."@en ;
+    rdfs:comment "Intermediate mixture to make a formulation that allows formulated resin differentiation."@en ;
+    rdfs:label "ResinIngredient"@en ;
+    skos:prefLabel "ResinIngredient"@en .
 
 hpo:StackedPrepregNominalThickness rdf:type owl:Class ;
-	rdfs:subClassOf hpo:StackedPrepregProperty ;
-	rdfs:subClassOf emmo:Thickness ;
-	emmo:elucidation "Sum of the thicknesses of prepreg layer."@en ;
-	rdfs:comment "Sum of the thicknesses of prepreg layer."@en ;
-	rdfs:label "StackedPrepregNominalThickness"@en ;
-	skos:prefLabel "StackedPrepregNominalThickness"@en .
+    rdfs:subClassOf hpo:StackedPrepregProperty ;
+    rdfs:subClassOf emmo:Thickness ;
+    emmo:elucidation "Sum of the thicknesses of prepreg layer."@en ;
+    rdfs:comment "Sum of the thicknesses of prepreg layer."@en ;
+    rdfs:label "StackedPrepregNominalThickness"@en ;
+    skos:prefLabel "StackedPrepregNominalThickness"@en .
 
 hpo:CatalystCommercialName rdf:type owl:Class ;
-	rdfs:subClassOf hpo:CatalystProperty ;
-	emmo:elucidation "Catalyst suppliers trade name for the purchased catalyst formulation."@en ;
-	rdfs:comment "Catalyst suppliers trade name for the purchased catalyst formulation."@en ;
-	rdfs:label "CatalystCommercialName"@en ;
-	skos:prefLabel "CatalystCommercialName"@en .
+    rdfs:subClassOf hpo:CatalystProperty ;
+    emmo:elucidation "Catalyst suppliers trade name for the purchased catalyst formulation."@en ;
+    rdfs:comment "Catalyst suppliers trade name for the purchased catalyst formulation."@en ;
+    rdfs:label "CatalystCommercialName"@en ;
+    skos:prefLabel "CatalystCommercialName"@en .
 
 hpo:ResinViscosity rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ResinProperty ;
-	rdfs:subClassOf emmo:DynamicViscosity ;
-	emmo:elucidation "Viscosity at 25°C."@en ;
-	rdfs:comment "Viscosity at 25°C."@en ;
-	rdfs:label "ResinViscosity"@en ;
-	skos:prefLabel "ResinViscosity"@en .
+    rdfs:subClassOf hpo:ResinProperty ;
+    rdfs:subClassOf emmo:DynamicViscosity ;
+    emmo:elucidation "Viscosity at 25°C."@en ;
+    rdfs:comment "Viscosity at 25°C."@en ;
+    rdfs:label "ResinViscosity"@en ;
+    skos:prefLabel "ResinViscosity"@en .
 
 hpo:PrepregFibreVolumeContent rdf:type owl:Class ;
-	rdfs:subClassOf hpo:PrepregProperty ;
-	emmo:elucidation "Ratio between the volume of fibre and the volume of the composite."@en ;
-	rdfs:comment "Ratio between the volume of fibre and the volume of the composite."@en ;
-	rdfs:label "PrepregFibreVolumeContent"@en ;
-	skos:prefLabel "PrepregFibreVolumeContent"@en .
+    rdfs:subClassOf hpo:PrepregProperty ;
+    emmo:elucidation "Ratio between the volume of fibre and the volume of the composite."@en ;
+    rdfs:comment "Ratio between the volume of fibre and the volume of the composite."@en ;
+    rdfs:label "PrepregFibreVolumeContent"@en ;
+    skos:prefLabel "PrepregFibreVolumeContent"@en .
 
 hpo:MouldToolLength rdf:type owl:Class ;
-	rdfs:subClassOf hpo:MouldToolProperty ;
-	rdfs:subClassOf emmo:Length ;
-	emmo:elucidation "Length (contributing to the size of the tool)."@en ;
-	rdfs:comment "Length (contributing to the size of the tool)."@en ;
-	rdfs:label "MouldToolLength"@en ;
-	skos:prefLabel "MouldToolLength"@en .
+    rdfs:subClassOf hpo:MouldToolProperty ;
+    rdfs:subClassOf emmo:Length ;
+    emmo:elucidation "Length (contributing to the size of the tool)."@en ;
+    rdfs:comment "Length (contributing to the size of the tool)."@en ;
+    rdfs:label "MouldToolLength"@en ;
+    skos:prefLabel "MouldToolLength"@en .
 
 hpo:FormulatedResinGlassTransitionTemperature rdf:type owl:Class ;
-	rdfs:subClassOf hpo:FormulatedResinProperty ;
-	rdfs:subClassOf emmo:ThermodynamicTemperature ;
-	emmo:elucidation "Process in which a polymer melt changes on cooling to a polymer glass or a polymer glass changes on heating to a polymer melt."@en ;
-	rdfs:comment "Process in which a polymer melt changes on cooling to a polymer glass or a polymer glass changes on heating to a polymer melt."@en ;
-	rdfs:label "FormulatedResinGlassTransitionTemperature"@en ;
-	skos:prefLabel "FormulatedResinGlassTransitionTemperature"@en .
+    rdfs:subClassOf hpo:FormulatedResinProperty ;
+    rdfs:subClassOf emmo:ThermodynamicTemperature ;
+    emmo:elucidation "Process in which a polymer melt changes on cooling to a polymer glass or a polymer glass changes on heating to a polymer melt."@en ;
+    rdfs:comment "Process in which a polymer melt changes on cooling to a polymer glass or a polymer glass changes on heating to a polymer melt."@en ;
+    rdfs:label "FormulatedResinGlassTransitionTemperature"@en ;
+    skos:prefLabel "FormulatedResinGlassTransitionTemperature"@en .
 
 hpo:ComponentManufacturingLine rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ManufacturingLine ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasConstituent ;
-	owl:someValuesFrom hpo:MouldReleaseLayer
-	] ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasConstituent ;
-	owl:someValuesFrom hpo:MouldTool
-	] ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasConstituent ;
-	owl:someValuesFrom hpo:CoverReleaseLayer
-	] ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasConstituent ;
-	owl:someValuesFrom hpo:CoverTool
-	] ;
-	emmo:elucidation "A manufacturing line processing a composite material into a component."@en ;
-	rdfs:comment "A manufacturing line processing a composite material into a component."@en ;
-	rdfs:label "ComponentManufacturingLine"@en ;
-	skos:prefLabel "ComponentManufacturingLine"@en .
+    rdfs:subClassOf hpo:ManufacturingLine ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasConstituent ;
+    owl:someValuesFrom hpo:MouldReleaseLayer
+    ] ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasConstituent ;
+    owl:someValuesFrom hpo:MouldTool
+    ] ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasConstituent ;
+    owl:someValuesFrom hpo:CoverReleaseLayer
+    ] ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasConstituent ;
+    owl:someValuesFrom hpo:CoverTool
+    ] ;
+    emmo:elucidation "A manufacturing line processing a composite material into a component."@en ;
+    rdfs:comment "A manufacturing line processing a composite material into a component."@en ;
+    rdfs:label "ComponentManufacturingLine"@en ;
+    skos:prefLabel "ComponentManufacturingLine"@en .
 
 hpo:FormulatedResinCuringTime rdf:type owl:Class ;
-	rdfs:subClassOf hpo:FormulatedResinProperty ;
-	emmo:elucidation "Time at which the curing temperature must be held to achieve a certain level of cure."@en ;
-	rdfs:comment "Time at which the curing temperature must be held to achieve a certain level of cure."@en ;
-	rdfs:label "FormulatedResinCuringTime"@en ;
-	skos:prefLabel "FormulatedResinCuringTime"@en .
+    rdfs:subClassOf hpo:FormulatedResinProperty ;
+    emmo:elucidation "Time at which the curing temperature must be held to achieve a certain level of cure."@en ;
+    rdfs:comment "Time at which the curing temperature must be held to achieve a certain level of cure."@en ;
+    rdfs:label "FormulatedResinCuringTime"@en ;
+    skos:prefLabel "FormulatedResinCuringTime"@en .
 
 hpo:MouldReleaseLayerIdentifier rdf:type owl:Class ;
-	rdfs:subClassOf hpo:MouldReleaseLayerProperty ;
-	emmo:elucidation "Commercial name of the applied consumable (product), differentiating available product providers and product lots."@en ;
-	rdfs:comment "Commercial name of the applied consumable (product), differentiating available product providers and product lots."@en ;
-	rdfs:label "MouldReleaseLayerIdentifier"@en ;
-	skos:prefLabel "MouldReleaseLayerIdentifier"@en .
+    rdfs:subClassOf hpo:MouldReleaseLayerProperty ;
+    emmo:elucidation "Commercial name of the applied consumable (product), differentiating available product providers and product lots."@en ;
+    rdfs:comment "Commercial name of the applied consumable (product), differentiating available product providers and product lots."@en ;
+    rdfs:label "MouldReleaseLayerIdentifier"@en ;
+    skos:prefLabel "MouldReleaseLayerIdentifier"@en .
 
 hpo:ResinPreparation rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Manufacturing ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasManufacturedOutput ;
-	owl:someValuesFrom hpo:FormulatedResin
-	] ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasParticipant ;
-	owl:someValuesFrom hpo:ResinMixer
-	] ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasInput ;
-	owl:someValuesFrom hpo:Additive
-	] ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasInput ;
-	owl:someValuesFrom hpo:Catalyst
-	] ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasInput ;
-	owl:someValuesFrom hpo:Resin
-	] ;
-	emmo:elucidation "Preparing a resin involves mixing the precursor (monomers) with a hardener or a catalyst, fillers, and additives."@en ;
-	rdfs:comment "Preparing a resin involves mixing the precursor (monomers) with a hardener or a catalyst, fillers, and additives."@en ;
-	rdfs:label "ResinPreparation"@en ;
-	skos:prefLabel "ResinPreparation"@en .
+    rdfs:subClassOf emmo:Manufacturing ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasManufacturedOutput ;
+    owl:someValuesFrom hpo:FormulatedResin
+    ] ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasParticipant ;
+    owl:someValuesFrom hpo:ResinMixer
+    ] ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasInput ;
+    owl:someValuesFrom hpo:Additive
+    ] ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasInput ;
+    owl:someValuesFrom hpo:Catalyst
+    ] ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasInput ;
+    owl:someValuesFrom hpo:Resin
+    ] ;
+    emmo:elucidation "Preparing a resin involves mixing the precursor (monomers) with a hardener or a catalyst, fillers, and additives."@en ;
+    rdfs:comment "Preparing a resin involves mixing the precursor (monomers) with a hardener or a catalyst, fillers, and additives."@en ;
+    rdfs:label "ResinPreparation"@en ;
+    skos:prefLabel "ResinPreparation"@en .
 
 hpo:FormulatedResinViscosity rdf:type owl:Class ;
-	rdfs:subClassOf hpo:FormulatedResinProperty ;
-	rdfs:subClassOf emmo:DynamicViscosity ;
-	emmo:elucidation "Dynamic viscosity of the resin."@en ;
-	rdfs:comment "Dynamic viscosity of the resin."@en ;
-	rdfs:label "FormulatedResinViscosity"@en ;
-	skos:prefLabel "FormulatedResinViscosity"@en .
+    rdfs:subClassOf hpo:FormulatedResinProperty ;
+    rdfs:subClassOf emmo:DynamicViscosity ;
+    emmo:elucidation "Dynamic viscosity of the resin."@en ;
+    rdfs:comment "Dynamic viscosity of the resin."@en ;
+    rdfs:label "FormulatedResinViscosity"@en ;
+    skos:prefLabel "FormulatedResinViscosity"@en .
 
 hpo:StepDuration rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ComponentManufacturingProperty ;
-	rdfs:subClassOf emmo:Duration ;
-	emmo:elucidation "Step duration"@en ;
-	rdfs:comment "Step duration"@en ;
-	rdfs:label "StepDuration"@en ;
-	skos:prefLabel "StepDuration"@en .
+    rdfs:subClassOf hpo:ComponentManufacturingProperty ;
+    rdfs:subClassOf emmo:Duration ;
+    emmo:elucidation "Step duration"@en ;
+    rdfs:comment "Step duration"@en ;
+    rdfs:label "StepDuration"@en ;
+    skos:prefLabel "StepDuration"@en .
 
 hpo:PrepregExpectedTensileModulus rdf:type owl:Class ;
-	rdfs:subClassOf hpo:PrepregProperty ;
-	emmo:elucidation "EXPECTED Tangent of the stress-strain curve under tensile stress AFTER CURING."@en ;
-	rdfs:comment "EXPECTED Tangent of the stress-strain curve under tensile stress AFTER CURING."@en ;
-	rdfs:label "PrepregExpectedTensileModulus"@en ;
-	skos:prefLabel "PrepregExpectedTensileModulus"@en .
+    rdfs:subClassOf hpo:PrepregProperty ;
+    emmo:elucidation "EXPECTED Tangent of the stress-strain curve under tensile stress AFTER CURING."@en ;
+    rdfs:comment "EXPECTED Tangent of the stress-strain curve under tensile stress AFTER CURING."@en ;
+    rdfs:label "PrepregExpectedTensileModulus"@en ;
+    skos:prefLabel "PrepregExpectedTensileModulus"@en .
 
 hpo:PrepregRoll rdf:type owl:Class ;
-	rdfs:subClassOf hpo:Prepreg ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty [ owl:inverseOf emmo:hasNext
-	] ;
-	owl:someValuesFrom hpo:TextileFabric
-	] ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty [ owl:inverseOf emmo:hasNext
-	] ;
-	owl:someValuesFrom hpo:FormulatedResin
-	] ;
-	emmo:elucidation "A roll of prepreg material."@en ;
-	rdfs:comment "A roll of prepreg material."@en ;
-	rdfs:label "PrepregRoll"@en ;
-	skos:prefLabel "PrepregRoll"@en .
+    rdfs:subClassOf hpo:Prepreg ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty [ owl:inverseOf emmo:hasNext
+    ] ;
+    owl:someValuesFrom hpo:TextileFabric
+    ] ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty [ owl:inverseOf emmo:hasNext
+    ] ;
+    owl:someValuesFrom hpo:FormulatedResin
+    ] ;
+    emmo:elucidation "A roll of prepreg material."@en ;
+    rdfs:comment "A roll of prepreg material."@en ;
+    rdfs:label "PrepregRoll"@en ;
+    skos:prefLabel "PrepregRoll"@en .
 
 hpo:StackedPrepregWidth rdf:type owl:Class ;
-	rdfs:subClassOf hpo:StackedPrepregProperty ;
-	rdfs:subClassOf emmo:Width ;
-	emmo:elucidation "Width (contributing to the size of the object)."@en ;
-	rdfs:comment "Width (contributing to the size of the object)."@en ;
-	rdfs:label "StackedPrepregWidth"@en ;
-	skos:prefLabel "StackedPrepregWidth"@en .
+    rdfs:subClassOf hpo:StackedPrepregProperty ;
+    rdfs:subClassOf emmo:Width ;
+    emmo:elucidation "Width (contributing to the size of the object)."@en ;
+    rdfs:comment "Width (contributing to the size of the object)."@en ;
+    rdfs:label "StackedPrepregWidth"@en ;
+    skos:prefLabel "StackedPrepregWidth"@en .
 
 hpo:FibreDensity rdf:type owl:Class ;
-	rdfs:subClassOf hpo:TextileFabricProperty ;
-	rdfs:subClassOf emmo:Density ;
-	emmo:elucidation "Mass per unit volume of the facbric."@en ;
-	rdfs:comment "Mass per unit volume of the facbric."@en ;
-	rdfs:label "FibreDensity"@en ;
-	skos:prefLabel "FibreDensity"@en .
+    rdfs:subClassOf hpo:TextileFabricProperty ;
+    rdfs:subClassOf emmo:Density ;
+    emmo:elucidation "Mass per unit volume of the facbric."@en ;
+    rdfs:comment "Mass per unit volume of the facbric."@en ;
+    rdfs:label "FibreDensity"@en ;
+    skos:prefLabel "FibreDensity"@en .
 
 hpo:DegassingStepDuration rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ComponentManufacturingProperty ;
-	rdfs:subClassOf emmo:Duration ;
-	emmo:elucidation "Duration of the degassing."@en ;
-	rdfs:comment "Duration of the degassing."@en ;
-	rdfs:label "DegassingStepDuration"@en ;
-	skos:prefLabel "DegassingStepDuration"@en .
+    rdfs:subClassOf hpo:ComponentManufacturingProperty ;
+    rdfs:subClassOf emmo:Duration ;
+    emmo:elucidation "Duration of the degassing."@en ;
+    rdfs:comment "Duration of the degassing."@en ;
+    rdfs:label "DegassingStepDuration"@en ;
+    skos:prefLabel "DegassingStepDuration"@en .
 
 hpo:CoverToolWidth rdf:type owl:Class ;
-	rdfs:subClassOf hpo:CoverToolProperty ;
-	rdfs:subClassOf emmo:Width ;
-	emmo:elucidation "Width (contributing to the size of the tool)."@en ;
-	rdfs:comment "Width (contributing to the size of the tool)."@en ;
-	rdfs:label "CoverToolWidth"@en ;
-	skos:prefLabel "CoverToolWidth"@en .
+    rdfs:subClassOf hpo:CoverToolProperty ;
+    rdfs:subClassOf emmo:Width ;
+    emmo:elucidation "Width (contributing to the size of the tool)."@en ;
+    rdfs:comment "Width (contributing to the size of the tool)."@en ;
+    rdfs:label "CoverToolWidth"@en ;
+    skos:prefLabel "CoverToolWidth"@en .
 
 hpo:Additive rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ResinIngredient ;
-	emmo:elucidation "A term used for a large number of specialist chemicals which are added to compounds to impart specific properties."@en ;
-	rdfs:comment "A term used for a large number of specialist chemicals which are added to compounds to impart specific properties."@en ;
-	emmo:example "An additive can provide flame retardancy and UV resistance properties to a resin."@en ;
-	rdfs:isDefinedBy "https://compositesuk.co.uk/composite-materials/glossary-terms"^^xsd:anyURI ;
-	rdfs:label "Additive"@en ;
-	skos:prefLabel "Additive"@en .
+    rdfs:subClassOf hpo:ResinIngredient ;
+    emmo:elucidation "A term used for a large number of specialist chemicals which are added to compounds to impart specific properties."@en ;
+    rdfs:comment "A term used for a large number of specialist chemicals which are added to compounds to impart specific properties."@en ;
+    emmo:example "An additive can provide flame retardancy and UV resistance properties to a resin."@en ;
+    rdfs:isDefinedBy "https://compositesuk.co.uk/composite-materials/glossary-terms"^^xsd:anyURI ;
+    rdfs:label "Additive"@en ;
+    skos:prefLabel "Additive"@en .
 
 hpo:HeatingRateDuringStep rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ComponentManufacturingProperty ;
-	emmo:elucidation "Heating rate during step."@en ;
-	rdfs:comment "Heating rate during step."@en ;
-	rdfs:label "HeatingRateDuringStep"@en ;
-	skos:prefLabel "HeatingRateDuringStep"@en .
+    rdfs:subClassOf hpo:ComponentManufacturingProperty ;
+    emmo:elucidation "Heating rate during step."@en ;
+    rdfs:comment "Heating rate during step."@en ;
+    rdfs:label "HeatingRateDuringStep"@en ;
+    skos:prefLabel "HeatingRateDuringStep"@en .
 
 hpo:MouldReleaseLayer rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ReleaseLayer ;
-	emmo:elucidation "A lubricant used to prevent a part from sticking to a mold surface."@en ;
-	rdfs:comment "A lubricant used to prevent a part from sticking to a mold surface."@en ;
-	rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
-	rdfs:label "MouldReleaseLayer"@en ;
-	skos:prefLabel "MouldReleaseLayer"@en .
+    rdfs:subClassOf hpo:ReleaseLayer ;
+    emmo:elucidation "A lubricant used to prevent a part from sticking to a mold surface."@en ;
+    rdfs:comment "A lubricant used to prevent a part from sticking to a mold surface."@en ;
+    rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
+    rdfs:label "MouldReleaseLayer"@en ;
+    skos:prefLabel "MouldReleaseLayer"@en .
 
 hpo:MouldToolWidth rdf:type owl:Class ;
-	rdfs:subClassOf hpo:MouldToolProperty ;
-	rdfs:subClassOf emmo:Width ;
-	emmo:elucidation "Width (contributing to the size of the tool)."@en ;
-	rdfs:comment "Width (contributing to the size of the tool)."@en ;
-	rdfs:label "MouldToolWidth"@en ;
-	skos:prefLabel "MouldToolWidth"@en .
+    rdfs:subClassOf hpo:MouldToolProperty ;
+    rdfs:subClassOf emmo:Width ;
+    emmo:elucidation "Width (contributing to the size of the tool)."@en ;
+    rdfs:comment "Width (contributing to the size of the tool)."@en ;
+    rdfs:label "MouldToolWidth"@en ;
+    skos:prefLabel "MouldToolWidth"@en .
 
 hpo:StackedPrepregProperty rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Objective ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty [ owl:inverseOf emmo:hasProperty
-	] ;
-	owl:allValuesFrom hpo:StackedPrepreg
-	] ;
-	emmo:elucidation "A collection of the properties of stacked prepregs."@en ;
-	rdfs:comment "A collection of the properties of stacked prepregs."@en ;
-	rdfs:label "StackedPrepregProperty"@en ;
-	skos:prefLabel "StackedPrepregProperty"@en .
+    rdfs:subClassOf emmo:Objective ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty [ owl:inverseOf emmo:hasProperty
+    ] ;
+    owl:allValuesFrom hpo:StackedPrepreg
+    ] ;
+    emmo:elucidation "A collection of the properties of stacked prepregs."@en ;
+    rdfs:comment "A collection of the properties of stacked prepregs."@en ;
+    rdfs:label "StackedPrepregProperty"@en ;
+    skos:prefLabel "StackedPrepregProperty"@en .
 
 hpo:PrepregGlassTransitionTemperature rdf:type owl:Class ;
-	rdfs:subClassOf hpo:PrepregProperty ;
-	rdfs:subClassOf emmo:ThermodynamicTemperature ;
-	emmo:elucidation "Characteristic temperature (range) of the process in which a polymer melt changes on cooling to a polymer glass or a polymer glass changes on heating to a polymer melt."@en ;
-	rdfs:comment "Characteristic temperature (range) of the process in which a polymer melt changes on cooling to a polymer glass or a polymer glass changes on heating to a polymer melt."@en ;
-	rdfs:label "PrepregGlassTransitionTemperature"@en ;
-	skos:prefLabel "PrepregGlassTransitionTemperature"@en .
+    rdfs:subClassOf hpo:PrepregProperty ;
+    rdfs:subClassOf emmo:ThermodynamicTemperature ;
+    emmo:elucidation "Characteristic temperature (range) of the process in which a polymer melt changes on cooling to a polymer glass or a polymer glass changes on heating to a polymer melt."@en ;
+    rdfs:comment "Characteristic temperature (range) of the process in which a polymer melt changes on cooling to a polymer glass or a polymer glass changes on heating to a polymer melt."@en ;
+    rdfs:label "PrepregGlassTransitionTemperature"@en ;
+    skos:prefLabel "PrepregGlassTransitionTemperature"@en .
 
 hpo:PrepregExpectedElongationAtBreak rdf:type owl:Class ;
-	rdfs:subClassOf hpo:PrepregProperty ;
-	emmo:elucidation "EXPECTED ratio between increased length and initial length after breakage AFTER CURING."@en ;
-	rdfs:comment "EXPECTED ratio between increased length and initial length after breakage AFTER CURING."@en ;
-	rdfs:label "PrepregExpectedElongationAtBreak"@en ;
-	skos:prefLabel "PrepregExpectedElongationAtBreak"@en .
+    rdfs:subClassOf hpo:PrepregProperty ;
+    emmo:elucidation "EXPECTED ratio between increased length and initial length after breakage AFTER CURING."@en ;
+    rdfs:comment "EXPECTED ratio between increased length and initial length after breakage AFTER CURING."@en ;
+    rdfs:label "PrepregExpectedElongationAtBreak"@en ;
+    skos:prefLabel "PrepregExpectedElongationAtBreak"@en .
 
 hpo:StackedPrepregStackingSequence rdf:type owl:Class ;
-	rdfs:subClassOf hpo:StackedPrepregProperty ;
-	emmo:elucidation "List of the orientation (degreees) of each prepreg layer."@en ;
-	rdfs:comment "List of the orientation (degreees) of each prepreg layer."@en ;
-	rdfs:label "StackedPrepregStackingSequence"@en ;
-	skos:prefLabel "StackedPrepregStackingSequence"@en .
+    rdfs:subClassOf hpo:StackedPrepregProperty ;
+    emmo:elucidation "List of the orientation (degreees) of each prepreg layer."@en ;
+    rdfs:comment "List of the orientation (degreees) of each prepreg layer."@en ;
+    rdfs:label "StackedPrepregStackingSequence"@en ;
+    skos:prefLabel "StackedPrepregStackingSequence"@en .
 
 hpo:CompositeLaminate rdf:type owl:Class ;
-	rdfs:subClassOf emmo:ManufacturedProduct ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty [ owl:inverseOf emmo:hasNext
-	] ;
-	owl:someValuesFrom hpo:StackedPrepreg
-	] ;
-	rdfs:comment "" ;
-	rdfs:label "CompositeLaminate"@en ;
-	skos:prefLabel "CompositeLaminate"@en .
+    rdfs:subClassOf emmo:ManufacturedProduct ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty [ owl:inverseOf emmo:hasNext
+    ] ;
+    owl:someValuesFrom hpo:StackedPrepreg
+    ] ;
+    owl:equivalentClass [
+        owl:intersectionOf ( hpo:Composite hpo:Laminate ) ;
+        rdf:type owl:Class
+    ] ;
+    rdfs:label "CompositeLaminate"@en ;
+    skos:prefLabel "CompositeLaminate"@en .
 
 hpo:ResinReactivity rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ResinProperty ;
-	emmo:elucidation "Maximum amount of energy released in case of complete conversion."@en ;
-	rdfs:comment "Maximum amount of energy released in case of complete conversion."@en ;
-	rdfs:label "ResinReactivity"@en ;
-	skos:prefLabel "ResinReactivity"@en .
+    rdfs:subClassOf hpo:ResinProperty ;
+    emmo:elucidation "Maximum amount of energy released in case of complete conversion."@en ;
+    rdfs:comment "Maximum amount of energy released in case of complete conversion."@en ;
+    rdfs:label "ResinReactivity"@en ;
+    skos:prefLabel "ResinReactivity"@en .
 
 hpo:ResinpH rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ResinProperty ;
-	rdfs:subClassOf emmo:PH ;
-	emmo:elucidation "pH of the resin."@en ;
-	rdfs:comment "pH of the resin."@en ;
-	rdfs:label "ResinpH"@en ;
-	skos:prefLabel "ResinpH"@en .
-
-hpo:CompositeLaminate rdf:type owl:Class ;
-	owl:equivalentClass [ owl:intersectionOf ( hpo:Composite
-	hpo:Laminate
-	) ;
-	rdf:type owl:Class
-	] ;
-	rdfs:label "CompositeLaminate"@en ;
-	skos:prefLabel "CompositeLaminate"@en .
+    rdfs:subClassOf hpo:ResinProperty ;
+    rdfs:subClassOf emmo:PH ;
+    emmo:elucidation "pH of the resin."@en ;
+    rdfs:comment "pH of the resin."@en ;
+    rdfs:label "ResinpH"@en ;
+    skos:prefLabel "ResinpH"@en .
 
 hpo:Catalyst rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ResinIngredient ;
-	emmo:elucidation "A substance that increases the rate of a reaction without modifying the overall standard Gibbs energy change in the reaction."@en ;
-	rdfs:comment "A substance that increases the rate of a reaction without modifying the overall standard Gibbs energy change in the reaction."@en ;
-	rdfs:seeAlso "https://doi.org/10.1351/goldbook.C00876"@en ;
-	rdfs:label "Catalyst"@en ;
-	skos:prefLabel "Catalyst"@en .
+    rdfs:subClassOf hpo:ResinIngredient ;
+    emmo:elucidation "A substance that increases the rate of a reaction without modifying the overall standard Gibbs energy change in the reaction."@en ;
+    rdfs:comment "A substance that increases the rate of a reaction without modifying the overall standard Gibbs energy change in the reaction."@en ;
+    rdfs:seeAlso "https://doi.org/10.1351/goldbook.C00876"@en ;
+    rdfs:label "Catalyst"@en ;
+    skos:prefLabel "Catalyst"@en .
 
 hpo:PrepregDensity rdf:type owl:Class ;
-	rdfs:subClassOf hpo:PrepregProperty ;
-	rdfs:subClassOf emmo:Density ;
-	emmo:elucidation "Mass per unit volume of the prepreg."@en ;
-	rdfs:comment "Mass per unit volume of the prepreg."@en ;
-	rdfs:label "PrepregDensity"@en ;
-	skos:prefLabel "PrepregDensity"@en .
+    rdfs:subClassOf hpo:PrepregProperty ;
+    rdfs:subClassOf emmo:Density ;
+    emmo:elucidation "Mass per unit volume of the prepreg."@en ;
+    rdfs:comment "Mass per unit volume of the prepreg."@en ;
+    rdfs:label "PrepregDensity"@en ;
+    skos:prefLabel "PrepregDensity"@en .
 
 hpo:ResinMixer rdf:type owl:Class ;
-	rdfs:subClassOf emmo:ManufacturingDevice ;
-	emmo:elucidation "A batch resin mixer."@en ;
-	rdfs:comment "A batch resin mixer."@en ;
-	rdfs:label "ResinMixer"@en ;
-	skos:prefLabel "ResinMixer"@en .
+    rdfs:subClassOf emmo:ManufacturingDevice ;
+    emmo:elucidation "A batch resin mixer."@en ;
+    rdfs:comment "A batch resin mixer."@en ;
+    rdfs:label "ResinMixer"@en ;
+    skos:prefLabel "ResinMixer"@en .
 
 hpo:PrepregSpecificCondensateFormation rdf:type owl:Class ;
-	rdfs:subClassOf hpo:PrepregProperty ;
-	emmo:elucidation "Mass of water released per mass of prepreg throughout the applied chemical (curing) reaction."@en ;
-	rdfs:comment "Mass of water released per mass of prepreg throughout the applied chemical (curing) reaction."@en ;
-	rdfs:label "PrepregSpecificCondensateFormation"@en ;
-	skos:prefLabel "PrepregSpecificCondensateFormation"@en .
+    rdfs:subClassOf hpo:PrepregProperty ;
+    emmo:elucidation "Mass of water released per mass of prepreg throughout the applied chemical (curing) reaction."@en ;
+    rdfs:comment "Mass of water released per mass of prepreg throughout the applied chemical (curing) reaction."@en ;
+    rdfs:label "PrepregSpecificCondensateFormation"@en ;
+    skos:prefLabel "PrepregSpecificCondensateFormation"@en .
 
 hpo:PrepregPiece rdf:type owl:Class ;
-	rdfs:subClassOf hpo:Prepreg ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty [ owl:inverseOf emmo:hasNext
-	] ;
-	owl:someValuesFrom hpo:PrepregRoll
-	] ;
-	emmo:elucidation "A prepreg a piece cut from a prepreg roll, which can be stacked."@en ;
-	rdfs:comment "A prepreg a piece cut from a prepreg roll, which can be stacked."@en ;
-	skos:altLabel "Ply"@en ;
-	skos:altLabel "PrepregPart"@en ;
-	rdfs:label "PrepregPiece"@en ;
-	skos:prefLabel "PrepregPiece"@en .
+    rdfs:subClassOf hpo:Prepreg ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty [ owl:inverseOf emmo:hasNext
+    ] ;
+    owl:someValuesFrom hpo:PrepregRoll
+    ] ;
+    emmo:elucidation "A prepreg a piece cut from a prepreg roll, which can be stacked."@en ;
+    rdfs:comment "A prepreg a piece cut from a prepreg roll, which can be stacked."@en ;
+    skos:altLabel "Ply"@en ;
+    skos:altLabel "PrepregPart"@en ;
+    rdfs:label "PrepregPiece"@en ;
+    skos:prefLabel "PrepregPiece"@en .
 
 hpo:ComponentManufacturingProperty rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Objective ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty [ owl:inverseOf emmo:hasProperty
-	] ;
-	owl:allValuesFrom hpo:ComponentManufacturing
-	] ;
-	rdfs:comment "" ;
-	rdfs:label "ComponentManufacturingProperty"@en ;
-	skos:prefLabel "ComponentManufacturingProperty"@en .
+    rdfs:subClassOf emmo:Objective ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty [ owl:inverseOf emmo:hasProperty
+    ] ;
+    owl:allValuesFrom hpo:ComponentManufacturing
+    ] ;
+    rdfs:comment "" ;
+    rdfs:label "ComponentManufacturingProperty"@en ;
+    skos:prefLabel "ComponentManufacturingProperty"@en .
 
 hpo:TextileFabricWidth rdf:type owl:Class ;
-	rdfs:subClassOf hpo:TextileFabricProperty ;
-	rdfs:subClassOf emmo:Width ;
-	emmo:elucidation "Width of the fabric."@en ;
-	rdfs:comment "Width of the fabric."@en ;
-	rdfs:label "TextileFabricWidth"@en ;
-	skos:prefLabel "TextileFabricWidth"@en .
+    rdfs:subClassOf hpo:TextileFabricProperty ;
+    rdfs:subClassOf emmo:Width ;
+    emmo:elucidation "Width of the fabric."@en ;
+    rdfs:comment "Width of the fabric."@en ;
+    rdfs:label "TextileFabricWidth"@en ;
+    skos:prefLabel "TextileFabricWidth"@en .
 
 hpo:InitialStepPressure rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ComponentManufacturingProperty ;
-	rdfs:subClassOf emmo:Pressure ;
-	emmo:elucidation "Pressure during step."@en ;
-	rdfs:comment "Pressure during step."@en ;
-	rdfs:label "InitialStepPressure"@en ;
-	skos:prefLabel "InitialStepPressure"@en .
+    rdfs:subClassOf hpo:ComponentManufacturingProperty ;
+    rdfs:subClassOf emmo:Pressure ;
+    emmo:elucidation "Pressure during step."@en ;
+    rdfs:comment "Pressure during step."@en ;
+    rdfs:label "InitialStepPressure"@en ;
+    skos:prefLabel "InitialStepPressure"@en .
 
 hpo:CoverToolSizeOfHoles rdf:type owl:Class ;
-	rdfs:subClassOf hpo:CoverToolProperty ;
-	rdfs:subClassOf emmo:Diameter ;
-	emmo:elucidation "Average diameter of holes."@en ;
-	rdfs:comment "Average diameter of holes."@en ;
-	rdfs:label "CoverToolSizeOfHoles"@en ;
-	skos:prefLabel "CoverToolSizeOfHoles"@en .
+    rdfs:subClassOf hpo:CoverToolProperty ;
+    rdfs:subClassOf emmo:Diameter ;
+    emmo:elucidation "Average diameter of holes."@en ;
+    rdfs:comment "Average diameter of holes."@en ;
+    rdfs:label "CoverToolSizeOfHoles"@en ;
+    skos:prefLabel "CoverToolSizeOfHoles"@en .
 
 hpo:FibreIdentifier rdf:type owl:Class ;
-	rdfs:subClassOf hpo:TextileFabricProperty ;
-	emmo:elucidation "Commercial name of the applied consumable (product), differentiating available product providers and product lots."@en ;
-	rdfs:comment "Commercial name of the applied consumable (product), differentiating available product providers and product lots."@en ;
-	rdfs:label "FibreIdentifier"@en ;
-	skos:prefLabel "FibreIdentifier"@en .
+    rdfs:subClassOf hpo:TextileFabricProperty ;
+    emmo:elucidation "Commercial name of the applied consumable (product), differentiating available product providers and product lots."@en ;
+    rdfs:comment "Commercial name of the applied consumable (product), differentiating available product providers and product lots."@en ;
+    rdfs:label "FibreIdentifier"@en ;
+    skos:prefLabel "FibreIdentifier"@en .
 
 hpo:ShapingAndCuring rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Manufacturing ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasManufacturedOutput ;
-	owl:someValuesFrom hpo:CompositeLaminate
-	] ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasParticipant ;
-	owl:someValuesFrom hpo:MouldReleaseLayer
-	] ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasParticipant ;
-	owl:someValuesFrom hpo:MouldTool
-	] ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasParticipant ;
-	owl:someValuesFrom hpo:CoverReleaseLayer
-	] ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasParticipant ;
-	owl:someValuesFrom hpo:CoverTool
-	] ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasInput ;
-	owl:someValuesFrom hpo:StackedPrepreg
-	] ;
-	emmo:elucidation "The process of shaping composite materials into a solid mass of prescribed shape and size, using a mold or tool."@en ;
-	rdfs:comment "The process of shaping composite materials into a solid mass of prescribed shape and size, using a mold or tool."@en ;
-	rdfs:isDefinedBy "https://www.compositesworld.com/glossary"@en ;
-	skos:altLabel "Moulding"@en ;
-	rdfs:label "ShapingAndCuring"@en ;
-	skos:prefLabel "ShapingAndCuring"@en .
+    rdfs:subClassOf emmo:Manufacturing ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasManufacturedOutput ;
+    owl:someValuesFrom hpo:CompositeLaminate
+    ] ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasParticipant ;
+    owl:someValuesFrom hpo:MouldReleaseLayer
+    ] ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasParticipant ;
+    owl:someValuesFrom hpo:MouldTool
+    ] ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasParticipant ;
+    owl:someValuesFrom hpo:CoverReleaseLayer
+    ] ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasParticipant ;
+    owl:someValuesFrom hpo:CoverTool
+    ] ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasInput ;
+    owl:someValuesFrom hpo:StackedPrepreg
+    ] ;
+    emmo:elucidation "The process of shaping composite materials into a solid mass of prescribed shape and size, using a mold or tool."@en ;
+    rdfs:comment "The process of shaping composite materials into a solid mass of prescribed shape and size, using a mold or tool."@en ;
+    rdfs:isDefinedBy "https://www.compositesworld.com/glossary"@en ;
+    skos:altLabel "Moulding"@en ;
+    rdfs:label "ShapingAndCuring"@en ;
+    skos:prefLabel "ShapingAndCuring"@en .
 
 hpo:Curing rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Manufacturing ;
-	emmo:elucidation "The curing process involves the treatement of a polymer with a catalyst and/or thermal treatement that results in the formation of chemical bonds that link the polymer chains together, creating an insoluble network."@en ;
-	rdfs:comment "The curing process involves the treatement of a polymer with a catalyst and/or thermal treatement that results in the formation of chemical bonds that link the polymer chains together, creating an insoluble network."@en ;
-	rdfs:label "Curing"@en ;
-	skos:prefLabel "Curing"@en .
+    rdfs:subClassOf emmo:Manufacturing ;
+    emmo:elucidation "The curing process involves the treatement of a polymer with a catalyst and/or thermal treatement that results in the formation of chemical bonds that link the polymer chains together, creating an insoluble network."@en ;
+    rdfs:comment "The curing process involves the treatement of a polymer with a catalyst and/or thermal treatement that results in the formation of chemical bonds that link the polymer chains together, creating an insoluble network."@en ;
+    rdfs:label "Curing"@en ;
+    skos:prefLabel "Curing"@en .
 
 hpo:PrepregExpectedFlexuralStrength rdf:type owl:Class ;
-	rdfs:subClassOf hpo:PrepregProperty ;
-	emmo:elucidation "EXPECTED Maximum value of the stress-strain curve under flexural stress AFTER CURING."@en ;
-	rdfs:comment "EXPECTED Maximum value of the stress-strain curve under flexural stress AFTER CURING."@en ;
-	rdfs:label "PrepregExpectedFlexuralStrength"@en ;
-	skos:prefLabel "PrepregExpectedFlexuralStrength"@en .
+    rdfs:subClassOf hpo:PrepregProperty ;
+    emmo:elucidation "EXPECTED Maximum value of the stress-strain curve under flexural stress AFTER CURING."@en ;
+    rdfs:comment "EXPECTED Maximum value of the stress-strain curve under flexural stress AFTER CURING."@en ;
+    rdfs:label "PrepregExpectedFlexuralStrength"@en ;
+    skos:prefLabel "PrepregExpectedFlexuralStrength"@en .
 
 hpo:CoverToolHoleDistance rdf:type owl:Class ;
-	rdfs:subClassOf hpo:CoverToolProperty ;
-	emmo:elucidation "Average distance between holes."@en ;
-	rdfs:comment "Average distance between holes."@en ;
-	rdfs:label "CoverToolHoleDistance"@en ;
-	skos:prefLabel "CoverToolHoleDistance"@en .
+    rdfs:subClassOf hpo:CoverToolProperty ;
+    emmo:elucidation "Average distance between holes."@en ;
+    rdfs:comment "Average distance between holes."@en ;
+    rdfs:label "CoverToolHoleDistance"@en ;
+    skos:prefLabel "CoverToolHoleDistance"@en .
 
 hpo:MouldTool rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Tool ;
-	emmo:elucidation "An enclosed cavity or open form from which a composite component takes its shape, size and exterior surface appearance (also known as a tool)."@en ;
-	rdfs:comment "An enclosed cavity or open form from which a composite component takes its shape, size and exterior surface appearance (also known as a tool)."@en ;
-	rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
-	rdfs:label "MouldTool"@en ;
-	skos:prefLabel "MouldTool"@en .
+    rdfs:subClassOf emmo:Tool ;
+    emmo:elucidation "An enclosed cavity or open form from which a composite component takes its shape, size and exterior surface appearance (also known as a tool)."@en ;
+    rdfs:comment "An enclosed cavity or open form from which a composite component takes its shape, size and exterior surface appearance (also known as a tool)."@en ;
+    rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
+    rdfs:label "MouldTool"@en ;
+    skos:prefLabel "MouldTool"@en .
 
 hpo:InitialStepTemperature rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ComponentManufacturingProperty ;
-	rdfs:subClassOf emmo:ThermodynamicTemperature ;
-	emmo:elucidation "Initial temperature of the container during step."@en ;
-	rdfs:comment "Initial temperature of the container during step."@en ;
-	rdfs:label "InitialStepTemperature"@en ;
-	skos:prefLabel "InitialStepTemperature"@en .
+    rdfs:subClassOf hpo:ComponentManufacturingProperty ;
+    rdfs:subClassOf emmo:ThermodynamicTemperature ;
+    emmo:elucidation "Initial temperature of the container during step."@en ;
+    rdfs:comment "Initial temperature of the container during step."@en ;
+    rdfs:label "InitialStepTemperature"@en ;
+    skos:prefLabel "InitialStepTemperature"@en .
 
 hpo:GlassTransitionTemperature rdf:type owl:Class ;
-	rdfs:subClassOf hpo:CompositeLaminateProperty ;
-	rdfs:subClassOf emmo:ThermodynamicTemperature ;
-	emmo:elucidation "Temperature for transition from glassy state into a viscous one."@en ;
-	rdfs:comment "Temperature for transition from glassy state into a viscous one."@en ;
-	rdfs:label "GlassTransitionTemperature"@en ;
-	skos:prefLabel "GlassTransitionTemperature"@en .
+    rdfs:subClassOf hpo:CompositeLaminateProperty ;
+    rdfs:subClassOf emmo:ThermodynamicTemperature ;
+    emmo:elucidation "Temperature for transition from glassy state into a viscous one."@en ;
+    rdfs:comment "Temperature for transition from glassy state into a viscous one."@en ;
+    rdfs:label "GlassTransitionTemperature"@en ;
+    skos:prefLabel "GlassTransitionTemperature"@en .
 
 hpo:StorageModulus rdf:type owl:Class ;
-	rdfs:subClassOf hpo:CompositeLaminateProperty ;
-	emmo:elucidation "The storage modulus in viscoelastic materials measure the stored energy representing the elastic portion."@en ;
-	rdfs:comment "The storage modulus in viscoelastic materials measure the stored energy representing the elastic portion."@en ;
-	rdfs:label "StorageModulus"@en ;
-	skos:prefLabel "StorageModulus"@en .
+    rdfs:subClassOf hpo:CompositeLaminateProperty ;
+    emmo:elucidation "The storage modulus in viscoelastic materials measure the stored energy representing the elastic portion."@en ;
+    rdfs:comment "The storage modulus in viscoelastic materials measure the stored energy representing the elastic portion."@en ;
+    rdfs:label "StorageModulus"@en ;
+    skos:prefLabel "StorageModulus"@en .
 
 hpo:Stacking rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Manufacturing ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasManufacturedOutput ;
-	owl:someValuesFrom hpo:StackedPrepreg
-	] ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasParticipant ;
-	owl:someValuesFrom hpo:PrepregPiece
-	] ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasInput ;
-	owl:someValuesFrom hpo:PrepregRoll
-	] ;
-	emmo:elucidation "An arrangement of prepreg parts (ply) orientations and material components in a laminate specified with respect to some reference direction."@en ;
-	rdfs:comment "An arrangement of prepreg parts (ply) orientations and material components in a laminate specified with respect to some reference direction."@en ;
-	rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
-	rdfs:label "Stacking"@en ;
-	skos:prefLabel "Stacking"@en .
+    rdfs:subClassOf emmo:Manufacturing ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasManufacturedOutput ;
+    owl:someValuesFrom hpo:StackedPrepreg
+    ] ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasParticipant ;
+    owl:someValuesFrom hpo:PrepregPiece
+    ] ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasInput ;
+    owl:someValuesFrom hpo:PrepregRoll
+    ] ;
+    emmo:elucidation "An arrangement of prepreg parts (ply) orientations and material components in a laminate specified with respect to some reference direction."@en ;
+    rdfs:comment "An arrangement of prepreg parts (ply) orientations and material components in a laminate specified with respect to some reference direction."@en ;
+    rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
+    rdfs:label "Stacking"@en ;
+    skos:prefLabel "Stacking"@en .
 
 hpo:MouldReleaseLayerProperty rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Objective ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty [ owl:inverseOf emmo:hasProperty
-	] ;
-	owl:allValuesFrom hpo:MouldReleaseLayer
-	] ;
-	emmo:elucidation "A collection of the properties of the release layer of a mould or tool."@en ;
-	rdfs:comment "A collection of the properties of the release layer of a mould or tool."@en ;
-	rdfs:label "MouldReleaseLayerProperty"@en ;
-	skos:prefLabel "MouldReleaseLayerProperty"@en .
+    rdfs:subClassOf emmo:Objective ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty [ owl:inverseOf emmo:hasProperty
+    ] ;
+    owl:allValuesFrom hpo:MouldReleaseLayer
+    ] ;
+    emmo:elucidation "A collection of the properties of the release layer of a mould or tool."@en ;
+    rdfs:comment "A collection of the properties of the release layer of a mould or tool."@en ;
+    rdfs:label "MouldReleaseLayerProperty"@en ;
+    skos:prefLabel "MouldReleaseLayerProperty"@en .
 
 hpo:PrepregWaterContent rdf:type owl:Class ;
-	rdfs:subClassOf hpo:PrepregProperty ;
-	emmo:elucidation "Weight percentage of water in the prepreg (that can be dried and is not formed during the curing reaction)."@en ;
-	rdfs:comment "Weight percentage of water in the prepreg (that can be dried and is not formed during the curing reaction)."@en ;
-	rdfs:label "PrepregWaterContent"@en ;
-	skos:prefLabel "PrepregWaterContent"@en .
+    rdfs:subClassOf hpo:PrepregProperty ;
+    emmo:elucidation "Weight percentage of water in the prepreg (that can be dried and is not formed during the curing reaction)."@en ;
+    rdfs:comment "Weight percentage of water in the prepreg (that can be dried and is not formed during the curing reaction)."@en ;
+    rdfs:label "PrepregWaterContent"@en ;
+    skos:prefLabel "PrepregWaterContent"@en .
 
 hpo:StackedPrepregNumberOfLayers rdf:type owl:Class ;
-	rdfs:subClassOf hpo:StackedPrepregProperty ;
-	emmo:elucidation "Number of stacked prepreg layers"@en ;
-	rdfs:comment "Number of stacked prepreg layers"@en ;
-	rdfs:label "StackedPrepregNumberOfLayers"@en ;
-	skos:prefLabel "StackedPrepregNumberOfLayers"@en .
+    rdfs:subClassOf hpo:StackedPrepregProperty ;
+    emmo:elucidation "Number of stacked prepreg layers"@en ;
+    rdfs:comment "Number of stacked prepreg layers"@en ;
+    rdfs:label "StackedPrepregNumberOfLayers"@en ;
+    skos:prefLabel "StackedPrepregNumberOfLayers"@en .
 
 hpo:ResinMolecularWeight rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ResinProperty ;
-	emmo:elucidation "Average molecular weight of the main resin molecular consituents."@en ;
-	rdfs:comment "Average molecular weight of the main resin molecular consituents."@en ;
-	rdfs:label "ResinMolecularWeight"@en ;
-	skos:prefLabel "ResinMolecularWeight"@en .
+    rdfs:subClassOf hpo:ResinProperty ;
+    emmo:elucidation "Average molecular weight of the main resin molecular consituents."@en ;
+    rdfs:comment "Average molecular weight of the main resin molecular consituents."@en ;
+    rdfs:label "ResinMolecularWeight"@en ;
+    skos:prefLabel "ResinMolecularWeight"@en .
 
 hpo:ResinProperty rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Objective ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty [ owl:inverseOf emmo:hasProperty
-	] ;
-	owl:allValuesFrom hpo:Resin
-	] ;
-	emmo:elucidation "A collection of the properties of resins."@en ;
-	rdfs:comment "A collection of the properties of resins."@en ;
-	rdfs:label "ResinProperty"@en ;
-	skos:prefLabel "ResinProperty"@en .
+    rdfs:subClassOf emmo:Objective ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty [ owl:inverseOf emmo:hasProperty
+    ] ;
+    owl:allValuesFrom hpo:Resin
+    ] ;
+    emmo:elucidation "A collection of the properties of resins."@en ;
+    rdfs:comment "A collection of the properties of resins."@en ;
+    rdfs:label "ResinProperty"@en ;
+    skos:prefLabel "ResinProperty"@en .
 
 hpo:CatalystMolecularWeight rdf:type owl:Class ;
-	rdfs:subClassOf hpo:CatalystProperty ;
-	emmo:elucidation "Average molecular weight of the catalyst molecular consituents."@en ;
-	rdfs:comment "Average molecular weight of the catalyst molecular consituents."@en ;
-	rdfs:label "CatalystMolecularWeight"@en ;
-	skos:prefLabel "CatalystMolecularWeight"@en .
+    rdfs:subClassOf hpo:CatalystProperty ;
+    emmo:elucidation "Average molecular weight of the catalyst molecular consituents."@en ;
+    rdfs:comment "Average molecular weight of the catalyst molecular consituents."@en ;
+    rdfs:label "CatalystMolecularWeight"@en ;
+    skos:prefLabel "CatalystMolecularWeight"@en .
 
 hpo:CompositeLaminateBulkPorosity rdf:type owl:Class ;
-	rdfs:subClassOf hpo:CompositeLaminateProperty ;
-	emmo:elucidation "After performing a cross-cut perpendicular to the specimen surface, based on a light microscopy image, the apparent surface area fraction occupied by pores is evaluated."@en ;
-	rdfs:comment "After performing a cross-cut perpendicular to the specimen surface, based on a light microscopy image, the apparent surface area fraction occupied by pores is evaluated."@en ;
-	rdfs:label "CompositeLaminateBulkPorosity"@en ;
-	skos:prefLabel "CompositeLaminateBulkPorosity"@en .
+    rdfs:subClassOf hpo:CompositeLaminateProperty ;
+    emmo:elucidation "After performing a cross-cut perpendicular to the specimen surface, based on a light microscopy image, the apparent surface area fraction occupied by pores is evaluated."@en ;
+    rdfs:comment "After performing a cross-cut perpendicular to the specimen surface, based on a light microscopy image, the apparent surface area fraction occupied by pores is evaluated."@en ;
+    rdfs:label "CompositeLaminateBulkPorosity"@en ;
+    skos:prefLabel "CompositeLaminateBulkPorosity"@en .
 
 hpo:FinalStepTemperature rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ComponentManufacturingProperty ;
-	rdfs:subClassOf emmo:ThermodynamicTemperature ;
-	emmo:elucidation "Final temperature of the container during step."@en ;
-	rdfs:comment "Final temperature of the container during step."@en ;
-	rdfs:label "FinalStepTemperature"@en ;
-	skos:prefLabel "FinalStepTemperature"@en .
+    rdfs:subClassOf hpo:ComponentManufacturingProperty ;
+    rdfs:subClassOf emmo:ThermodynamicTemperature ;
+    emmo:elucidation "Final temperature of the container during step."@en ;
+    rdfs:comment "Final temperature of the container during step."@en ;
+    rdfs:label "FinalStepTemperature"@en ;
+    skos:prefLabel "FinalStepTemperature"@en .
 
 hpo:Prepregging rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Manufacturing ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasManufacturedOutput ;
-	owl:someValuesFrom hpo:PrepregRoll
-	] ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasParticipant ;
-	owl:someValuesFrom hpo:PrepregLine
-	] ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasInput ;
-	owl:someValuesFrom hpo:TextileFabric
-	] ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:hasInput ;
-	owl:someValuesFrom hpo:FormulatedResin
-	] ;
-	emmo:elucidation "The process of prepreg manufacturing."@en ;
-	rdfs:comment "The process of prepreg manufacturing."@en ;
-	rdfs:label "Prepregging"@en ;
-	skos:prefLabel "Prepregging"@en .
+    rdfs:subClassOf emmo:Manufacturing ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasManufacturedOutput ;
+    owl:someValuesFrom hpo:PrepregRoll
+    ] ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasParticipant ;
+    owl:someValuesFrom hpo:PrepregLine
+    ] ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasInput ;
+    owl:someValuesFrom hpo:TextileFabric
+    ] ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:hasInput ;
+    owl:someValuesFrom hpo:FormulatedResin
+    ] ;
+    emmo:elucidation "The process of prepreg manufacturing."@en ;
+    rdfs:comment "The process of prepreg manufacturing."@en ;
+    rdfs:label "Prepregging"@en ;
+    skos:prefLabel "Prepregging"@en .
 
 hpo:ResinComposition rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ResinProperty ;
-	emmo:elucidation "Total composition of the resin."@en ;
-	rdfs:comment "Total composition of the resin."@en ;
-	rdfs:label "ResinComposition"@en ;
-	skos:prefLabel "ResinComposition"@en .
+    rdfs:subClassOf hpo:ResinProperty ;
+    emmo:elucidation "Total composition of the resin."@en ;
+    rdfs:comment "Total composition of the resin."@en ;
+    rdfs:label "ResinComposition"@en ;
+    skos:prefLabel "ResinComposition"@en .
 
 hpo:PrepregExpectedFlexualModulus rdf:type owl:Class ;
-	rdfs:subClassOf hpo:PrepregProperty ;
-	emmo:elucidation "EXPECTED Tangent of the stress-strain curve under flexural stress AFTER CURING."@en ;
-	rdfs:comment "EXPECTED Tangent of the stress-strain curve under flexural stress AFTER CURING."@en ;
-	rdfs:label "PrepregExpectedFlexualModulus"@en ;
-	skos:prefLabel "PrepregExpectedFlexualModulus"@en .
+    rdfs:subClassOf hpo:PrepregProperty ;
+    emmo:elucidation "EXPECTED Tangent of the stress-strain curve under flexural stress AFTER CURING."@en ;
+    rdfs:comment "EXPECTED Tangent of the stress-strain curve under flexural stress AFTER CURING."@en ;
+    rdfs:label "PrepregExpectedFlexualModulus"@en ;
+    skos:prefLabel "PrepregExpectedFlexualModulus"@en .
 
 hpo:PrepregThickness rdf:type owl:Class ;
-	rdfs:subClassOf hpo:PrepregProperty ;
-	rdfs:subClassOf emmo:Thickness ;
-	emmo:elucidation "Thickness of the prepreg."@en ;
-	rdfs:comment "Thickness of the prepreg."@en ;
-	rdfs:label "PrepregThickness"@en ;
-	skos:prefLabel "PrepregThickness"@en .
+    rdfs:subClassOf hpo:PrepregProperty ;
+    rdfs:subClassOf emmo:Thickness ;
+    emmo:elucidation "Thickness of the prepreg."@en ;
+    rdfs:comment "Thickness of the prepreg."@en ;
+    rdfs:label "PrepregThickness"@en ;
+    skos:prefLabel "PrepregThickness"@en .
 
 hpo:ResinDensity rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ResinProperty ;
-	rdfs:subClassOf emmo:Density ;
-	emmo:elucidation "Mass density of the resin."@en ;
-	rdfs:comment "Mass density of the resin."@en ;
-	rdfs:label "ResinDensity"@en ;
-	skos:prefLabel "ResinDensity"@en .
+    rdfs:subClassOf hpo:ResinProperty ;
+    rdfs:subClassOf emmo:Density ;
+    emmo:elucidation "Mass density of the resin."@en ;
+    rdfs:comment "Mass density of the resin."@en ;
+    rdfs:label "ResinDensity"@en ;
+    skos:prefLabel "ResinDensity"@en .
 
 hpo:CompositeLaminateSurfaceRegionPorosity rdf:type owl:Class ;
-	rdfs:subClassOf hpo:CompositeLaminateProperty ;
-	emmo:elucidation "Based on a light microscopy image of the smoother surface (i.e. the one visible to a user) of the composite laminate, the apparent surface area fraction occupied by pores is evaluated."@en ;
-	rdfs:comment "Based on a light microscopy image of the smoother surface (i.e. the one visible to a user) of the composite laminate, the apparent surface area fraction occupied by pores is evaluated."@en ;
-	rdfs:label "CompositeLaminateSurfaceRegionPorosity"@en ;
-	skos:prefLabel "CompositeLaminateSurfaceRegionPorosity"@en .
+    rdfs:subClassOf hpo:CompositeLaminateProperty ;
+    emmo:elucidation "Based on a light microscopy image of the smoother surface (i.e. the one visible to a user) of the composite laminate, the apparent surface area fraction occupied by pores is evaluated."@en ;
+    rdfs:comment "Based on a light microscopy image of the smoother surface (i.e. the one visible to a user) of the composite laminate, the apparent surface area fraction occupied by pores is evaluated."@en ;
+    rdfs:label "CompositeLaminateSurfaceRegionPorosity"@en ;
+    skos:prefLabel "CompositeLaminateSurfaceRegionPorosity"@en .
 
 hpo:CatalystDensity rdf:type owl:Class ;
-	rdfs:subClassOf hpo:CatalystProperty ;
-	rdfs:subClassOf emmo:Density ;
-	emmo:elucidation "Mass density of the catalyst."@en ;
-	rdfs:comment "Mass density of the catalyst."@en ;
-	rdfs:label "CatalystDensity"@en ;
-	skos:prefLabel "CatalystDensity"@en .
+    rdfs:subClassOf hpo:CatalystProperty ;
+    rdfs:subClassOf emmo:Density ;
+    emmo:elucidation "Mass density of the catalyst."@en ;
+    rdfs:comment "Mass density of the catalyst."@en ;
+    rdfs:label "CatalystDensity"@en ;
+    skos:prefLabel "CatalystDensity"@en .
 
 hpo:FormulatedResinProperty rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Objective ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty [ owl:inverseOf emmo:hasProperty
-	] ;
-	owl:allValuesFrom hpo:FormulatedResin
-	] ;
-	emmo:elucidation "A collection of the properties of formulated resins."@en ;
-	rdfs:comment "A collection of the properties of formulated resins."@en ;
-	rdfs:label "FormulatedResinProperty"@en ;
-	skos:prefLabel "FormulatedResinProperty"@en .
+    rdfs:subClassOf emmo:Objective ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty [ owl:inverseOf emmo:hasProperty
+    ] ;
+    owl:allValuesFrom hpo:FormulatedResin
+    ] ;
+    emmo:elucidation "A collection of the properties of formulated resins."@en ;
+    rdfs:comment "A collection of the properties of formulated resins."@en ;
+    rdfs:label "FormulatedResinProperty"@en ;
+    skos:prefLabel "FormulatedResinProperty"@en .
 
 hpo:PrepregProperty rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Objective ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty [ owl:inverseOf emmo:hasProperty
-	] ;
-	owl:allValuesFrom hpo:Prepreg
-	] ;
-	emmo:elucidation "A collection of the properties of prepregs."@en ;
-	rdfs:comment "A collection of the properties of prepregs."@en ;
-	rdfs:label "PrepregProperty"@en ;
-	skos:prefLabel "PrepregProperty"@en .
+    rdfs:subClassOf emmo:Objective ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty [ owl:inverseOf emmo:hasProperty
+    ] ;
+    owl:allValuesFrom hpo:Prepreg
+    ] ;
+    emmo:elucidation "A collection of the properties of prepregs."@en ;
+    rdfs:comment "A collection of the properties of prepregs."@en ;
+    rdfs:label "PrepregProperty"@en ;
+    skos:prefLabel "PrepregProperty"@en .
 
 hpo:DSCAnalysis rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Measurement ;
-	emmo:elucidation "Experimental procedure for resin reactivity measurement."@en ;
-	rdfs:comment "Experimental procedure for resin reactivity measurement."@en ;
-	rdfs:label "DSCAnalysis"@en ;
-	skos:prefLabel "DSCAnalysis"@en .
+    rdfs:subClassOf emmo:Measurement ;
+    emmo:elucidation "Experimental procedure for resin reactivity measurement."@en ;
+    rdfs:comment "Experimental procedure for resin reactivity measurement."@en ;
+    rdfs:label "DSCAnalysis"@en ;
+    skos:prefLabel "DSCAnalysis"@en .
 
 hpo:CompositeLaminateVisualSurfaceFinish rdf:type owl:Class ;
-	rdfs:subClassOf hpo:CompositeLaminateProperty ;
-	emmo:elucidation "Using a (set of) specimen illumination settings, the appearance is compared with the appearance of a specified set of (reference) specimens."@en ;
-	rdfs:comment "Using a (set of) specimen illumination settings, the appearance is compared with the appearance of a specified set of (reference) specimens."@en ;
-	rdfs:label "CompositeLaminateVisualSurfaceFinish"@en ;
-	skos:prefLabel "CompositeLaminateVisualSurfaceFinish"@en .
+    rdfs:subClassOf hpo:CompositeLaminateProperty ;
+    emmo:elucidation "Using a (set of) specimen illumination settings, the appearance is compared with the appearance of a specified set of (reference) specimens."@en ;
+    rdfs:comment "Using a (set of) specimen illumination settings, the appearance is compared with the appearance of a specified set of (reference) specimens."@en ;
+    rdfs:label "CompositeLaminateVisualSurfaceFinish"@en ;
+    skos:prefLabel "CompositeLaminateVisualSurfaceFinish"@en .
 
 hpo:StackedPrepregLength rdf:type owl:Class ;
-	rdfs:subClassOf hpo:StackedPrepregProperty ;
-	rdfs:subClassOf emmo:Length ;
-	emmo:elucidation "Length (contributing to the size of the object)."@en ;
-	rdfs:comment "Length (contributing to the size of the object)."@en ;
-	rdfs:label "StackedPrepregLength"@en ;
-	skos:prefLabel "StackedPrepregLength"@en .
+    rdfs:subClassOf hpo:StackedPrepregProperty ;
+    rdfs:subClassOf emmo:Length ;
+    emmo:elucidation "Length (contributing to the size of the object)."@en ;
+    rdfs:comment "Length (contributing to the size of the object)."@en ;
+    rdfs:label "StackedPrepregLength"@en ;
+    skos:prefLabel "StackedPrepregLength"@en .
 
 hpo:CoverReleaseLayerProperty rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Objective ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty [ owl:inverseOf emmo:hasProperty
-	] ;
-	owl:allValuesFrom hpo:CoverReleaseLayer
-	] ;
-	rdfs:comment "" ;
-	rdfs:label "CoverReleaseLayerProperty"@en ;
-	skos:prefLabel "CoverReleaseLayerProperty"@en .
+    rdfs:subClassOf emmo:Objective ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty [ owl:inverseOf emmo:hasProperty
+    ] ;
+    owl:allValuesFrom hpo:CoverReleaseLayer
+    ] ;
+    rdfs:comment "" ;
+    rdfs:label "CoverReleaseLayerProperty"@en ;
+    skos:prefLabel "CoverReleaseLayerProperty"@en .
 
 hpo:PorosityInferredFromDensity rdf:type owl:Class ;
-	rdfs:subClassOf hpo:CompositeLaminateProperty ;
-	emmo:elucidation "After cutting a test sample out of the specimen to be tested, gravimetric and volumetric findings are used to calculate an (average) density that is compared to the density of a qualified (reference) “in order (i.o.)” specimen."@en ;
-	rdfs:comment "After cutting a test sample out of the specimen to be tested, gravimetric and volumetric findings are used to calculate an (average) density that is compared to the density of a qualified (reference) “in order (i.o.)” specimen."@en ;
-	rdfs:label "PorosityInferredFromDensity"@en ;
-	skos:prefLabel "PorosityInferredFromDensity"@en .
+    rdfs:subClassOf hpo:CompositeLaminateProperty ;
+    emmo:elucidation "After cutting a test sample out of the specimen to be tested, gravimetric and volumetric findings are used to calculate an (average) density that is compared to the density of a qualified (reference) “in order (i.o.)” specimen."@en ;
+    rdfs:comment "After cutting a test sample out of the specimen to be tested, gravimetric and volumetric findings are used to calculate an (average) density that is compared to the density of a qualified (reference) “in order (i.o.)” specimen."@en ;
+    rdfs:label "PorosityInferredFromDensity"@en ;
+    skos:prefLabel "PorosityInferredFromDensity"@en .
 
 hpo:PartsTurnover rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ComponentManufacturingProperty ;
-	emmo:elucidation "Parts manufactured per minute."@en ;
-	rdfs:comment "Parts manufactured per minute."@en ;
-	rdfs:label "PartsTurnover"@en ;
-	skos:prefLabel "PartsTurnover"@en .
+    rdfs:subClassOf hpo:ComponentManufacturingProperty ;
+    emmo:elucidation "Parts manufactured per minute."@en ;
+    rdfs:comment "Parts manufactured per minute."@en ;
+    rdfs:label "PartsTurnover"@en ;
+    skos:prefLabel "PartsTurnover"@en .
 
 hpo:TensileStrength rdf:type owl:Class ;
-	rdfs:subClassOf hpo:CompositeLaminateProperty ;
-	emmo:elucidation "Maximum value of the stress-strain curve under tensile stress."@en ;
-	rdfs:comment "Maximum value of the stress-strain curve under tensile stress."@en ;
-	rdfs:label "TensileStrength"@en ;
-	skos:prefLabel "TensileStrength"@en .
+    rdfs:subClassOf hpo:CompositeLaminateProperty ;
+    emmo:elucidation "Maximum value of the stress-strain curve under tensile stress."@en ;
+    rdfs:comment "Maximum value of the stress-strain curve under tensile stress."@en ;
+    rdfs:label "TensileStrength"@en ;
+    skos:prefLabel "TensileStrength"@en .
 
 hpo:TextileFabricWeaveStyle rdf:type owl:Class ;
-	rdfs:subClassOf hpo:TextileFabricProperty ;
-	emmo:elucidation "Pattern of fibre weaving."@en ;
-	rdfs:comment "Pattern of fibre weaving."@en ;
-	skos:altLabel "TextileConstruction"@en ;
-	rdfs:label "TextileFabricWeaveStyle"@en ;
-	skos:prefLabel "TextileFabricWeaveStyle"@en .
+    rdfs:subClassOf hpo:TextileFabricProperty ;
+    emmo:elucidation "Pattern of fibre weaving."@en ;
+    rdfs:comment "Pattern of fibre weaving."@en ;
+    skos:altLabel "TextileConstruction"@en ;
+    rdfs:label "TextileFabricWeaveStyle"@en ;
+    skos:prefLabel "TextileFabricWeaveStyle"@en .
 
 hpo:Prepreg rdf:type owl:Class ;
-	rdfs:subClassOf emmo:ManufacturedProduct ;
-	emmo:elucidation "A factory-made combination of reactive resins and reinforcing fibres, plus other necessary additive chemicals, ready to be moulded."@en ;
-	rdfs:comment "A factory-made combination of reactive resins and reinforcing fibres, plus other necessary additive chemicals, ready to be moulded."@en ;
-	rdfs:isDefinedBy "https://compositesuk.co.uk/composite-materials/glossary-terms"^^xsd:anyURI ;
-	rdfs:label "Prepreg"@en ;
-	skos:prefLabel "Prepreg"@en .
+    rdfs:subClassOf emmo:ManufacturedProduct ;
+    emmo:elucidation "A factory-made combination of reactive resins and reinforcing fibres, plus other necessary additive chemicals, ready to be moulded."@en ;
+    rdfs:comment "A factory-made combination of reactive resins and reinforcing fibres, plus other necessary additive chemicals, ready to be moulded."@en ;
+    rdfs:isDefinedBy "https://compositesuk.co.uk/composite-materials/glossary-terms"^^xsd:anyURI ;
+    rdfs:label "Prepreg"@en ;
+    skos:prefLabel "Prepreg"@en .
 
 hpo:CoverReleaseLayer rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ReleaseLayer ;
-	emmo:elucidation "A release layer applied to a cover placed over the laminate."@en ;
-	rdfs:comment "A release layer applied to a cover placed over the laminate."@en ;
-	rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
-	rdfs:label "CoverReleaseLayer"@en ;
-	skos:prefLabel "CoverReleaseLayer"@en .
+    rdfs:subClassOf hpo:ReleaseLayer ;
+    emmo:elucidation "A release layer applied to a cover placed over the laminate."@en ;
+    rdfs:comment "A release layer applied to a cover placed over the laminate."@en ;
+    rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
+    rdfs:label "CoverReleaseLayer"@en ;
+    skos:prefLabel "CoverReleaseLayer"@en .
 
 hpo:FibreVolumeContent rdf:type owl:Class ;
-	rdfs:subClassOf hpo:CompositeLaminateProperty ;
-	emmo:elucidation "Ratio between the volume of fibre and the volume of the composite laminate."@en ;
-	rdfs:comment "Ratio between the volume of fibre and the volume of the composite laminate."@en ;
-	rdfs:label "FibreVolumeContent"@en ;
-	skos:prefLabel "FibreVolumeContent"@en .
+    rdfs:subClassOf hpo:CompositeLaminateProperty ;
+    emmo:elucidation "Ratio between the volume of fibre and the volume of the composite laminate."@en ;
+    rdfs:comment "Ratio between the volume of fibre and the volume of the composite laminate."@en ;
+    rdfs:label "FibreVolumeContent"@en ;
+    skos:prefLabel "FibreVolumeContent"@en .
 
 hpo:PrepregCuringDegree rdf:type owl:Class ;
-	rdfs:subClassOf hpo:PrepregProperty ;
-	emmo:elucidation "Percentage of the (feasible) curing (that is no more available for cross-linking reaction(s))"@en ;
-	rdfs:comment "Percentage of the (feasible) curing (that is no more available for cross-linking reaction(s))"@en ;
-	rdfs:label "PrepregCuringDegree"@en ;
-	skos:prefLabel "PrepregCuringDegree"@en .
+    rdfs:subClassOf hpo:PrepregProperty ;
+    emmo:elucidation "Percentage of the (feasible) curing (that is no more available for cross-linking reaction(s))"@en ;
+    rdfs:comment "Percentage of the (feasible) curing (that is no more available for cross-linking reaction(s))"@en ;
+    rdfs:label "PrepregCuringDegree"@en ;
+    skos:prefLabel "PrepregCuringDegree"@en .
 
 hpo:InterlaminarShearStrength rdf:type owl:Class ;
-	rdfs:subClassOf hpo:CompositeLaminateProperty ;
-	emmo:elucidation "Mechanical property associated with the matrix-fibre interaction."@en ;
-	rdfs:comment "Mechanical property associated with the matrix-fibre interaction."@en ;
-	rdfs:label "InterlaminarShearStrength"@en ;
-	skos:prefLabel "InterlaminarShearStrength"@en .
+    rdfs:subClassOf hpo:CompositeLaminateProperty ;
+    emmo:elucidation "Mechanical property associated with the matrix-fibre interaction."@en ;
+    rdfs:comment "Mechanical property associated with the matrix-fibre interaction."@en ;
+    rdfs:label "InterlaminarShearStrength"@en ;
+    skos:prefLabel "InterlaminarShearStrength"@en .
 
 hpo:FinalStepPressure rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ComponentManufacturingProperty ;
-	rdfs:subClassOf emmo:Pressure ;
-	emmo:elucidation "Final pressure of the container during step."@en ;
-	rdfs:comment "Final pressure of the container during step."@en ;
-	rdfs:label "FinalStepPressure"@en ;
-	skos:prefLabel "FinalStepPressure"@en .
+    rdfs:subClassOf hpo:ComponentManufacturingProperty ;
+    rdfs:subClassOf emmo:Pressure ;
+    emmo:elucidation "Final pressure of the container during step."@en ;
+    rdfs:comment "Final pressure of the container during step."@en ;
+    rdfs:label "FinalStepPressure"@en ;
+    skos:prefLabel "FinalStepPressure"@en .
 
 hpo:Laminate rdf:type owl:Class ;
-	rdfs:subClassOf emmo:ManufacturedMaterial ;
-	emmo:elucidation "The structure resulting from the curing of multiple stacked prepreg plies."@en ;
-	rdfs:comment "The structure resulting from the curing of multiple stacked prepreg plies."@en ;
-	rdfs:isDefinedBy "https://compositesuk.co.uk/composite-materials/glossary-terms"^^xsd:anyURI ;
-	rdfs:label "Laminate"@en ;
-	skos:prefLabel "Laminate"@en .
+    rdfs:subClassOf emmo:ManufacturedMaterial ;
+    emmo:elucidation "The structure resulting from the curing of multiple stacked prepreg plies."@en ;
+    rdfs:comment "The structure resulting from the curing of multiple stacked prepreg plies."@en ;
+    rdfs:isDefinedBy "https://compositesuk.co.uk/composite-materials/glossary-terms"^^xsd:anyURI ;
+    rdfs:label "Laminate"@en ;
+    skos:prefLabel "Laminate"@en .
 
 hpo:CoverToolNumberOfHoles rdf:type owl:Class ;
-	rdfs:subClassOf hpo:CoverToolProperty ;
-	emmo:elucidation "Amount of holes."@en ;
-	rdfs:comment "Amount of holes."@en ;
-	rdfs:label "CoverToolNumberOfHoles"@en ;
-	skos:prefLabel "CoverToolNumberOfHoles"@en .
+    rdfs:subClassOf hpo:CoverToolProperty ;
+    emmo:elucidation "Amount of holes."@en ;
+    rdfs:comment "Amount of holes."@en ;
+    rdfs:label "CoverToolNumberOfHoles"@en ;
+    skos:prefLabel "CoverToolNumberOfHoles"@en .
 
 hpo:CoverTool rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Tool ;
-	emmo:elucidation "The mold, either one- or two-sided and either open or closed, in or upon which composite material is placed in order to make a part."@en ;
-	rdfs:comment "The mold, either one- or two-sided and either open or closed, in or upon which composite material is placed in order to make a part."@en ;
-	rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
-	rdfs:label "CoverTool"@en ;
-	skos:prefLabel "CoverTool"@en .
+    rdfs:subClassOf emmo:Tool ;
+    emmo:elucidation "The mold, either one- or two-sided and either open or closed, in or upon which composite material is placed in order to make a part."@en ;
+    rdfs:comment "The mold, either one- or two-sided and either open or closed, in or upon which composite material is placed in order to make a part."@en ;
+    rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
+    rdfs:label "CoverTool"@en ;
+    skos:prefLabel "CoverTool"@en .
 
 hpo:PrepregExpectedTensileStrength rdf:type owl:Class ;
-	rdfs:subClassOf hpo:PrepregProperty ;
-	emmo:elucidation "EXPECTED Maximum value of the stress-strain curve under tensile stress AFTER CURING."@en ;
-	rdfs:comment "EXPECTED Maximum value of the stress-strain curve under tensile stress AFTER CURING."@en ;
-	rdfs:label "PrepregExpectedTensileStrength"@en ;
-	skos:prefLabel "PrepregExpectedTensileStrength"@en .
+    rdfs:subClassOf hpo:PrepregProperty ;
+    emmo:elucidation "EXPECTED Maximum value of the stress-strain curve under tensile stress AFTER CURING."@en ;
+    rdfs:comment "EXPECTED Maximum value of the stress-strain curve under tensile stress AFTER CURING."@en ;
+    rdfs:label "PrepregExpectedTensileStrength"@en ;
+    skos:prefLabel "PrepregExpectedTensileStrength"@en .
 
 hpo:TextileFabric rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Material ,
-	emmo:ManufacturedProduct ;
-	emmo:elucidation "A planar textile constructed with fibres (or yarns), which can be either woven (interlaced using a weaving process) or non-woven (not interlaced)."@en ;
-	rdfs:comment "A planar textile constructed with fibres (or yarns), which can be either woven (interlaced using a weaving process) or non-woven (not interlaced)."@en ;
-	rdfs:label "TextileFabric"@en ;
-	skos:prefLabel "TextileFabric"@en .
+    rdfs:subClassOf emmo:Material ,
+    emmo:ManufacturedProduct ;
+    emmo:elucidation "A planar textile constructed with fibres (or yarns), which can be either woven (interlaced using a weaving process) or non-woven (not interlaced)."@en ;
+    rdfs:comment "A planar textile constructed with fibres (or yarns), which can be either woven (interlaced using a weaving process) or non-woven (not interlaced)."@en ;
+    rdfs:label "TextileFabric"@en ;
+    skos:prefLabel "TextileFabric"@en .
 
 hpo:ElongationAtBreak rdf:type owl:Class ;
-	rdfs:subClassOf hpo:CompositeLaminateProperty ;
-	emmo:elucidation "Ratio between increased length and initial length after breakage."@en ;
-	rdfs:comment "Ratio between increased length and initial length after breakage."@en ;
-	rdfs:label "ElongationAtBreak"@en ;
-	skos:prefLabel "ElongationAtBreak"@en .
+    rdfs:subClassOf hpo:CompositeLaminateProperty ;
+    emmo:elucidation "Ratio between increased length and initial length after breakage."@en ;
+    rdfs:comment "Ratio between increased length and initial length after breakage."@en ;
+    rdfs:label "ElongationAtBreak"@en ;
+    skos:prefLabel "ElongationAtBreak"@en .
 
 hpo:ManufacturingLine rdf:type owl:Class ;
-	rdfs:subClassOf emmo:ManufacturingSystem ;
-	emmo:elucidation "A manufacturing line is a set of sequential operations in a factory where materials are processed, assembled, and/or refined to produce a finished product or an intermediate product for further processing."@en ;
-	rdfs:comment "A manufacturing line is a set of sequential operations in a factory where materials are processed, assembled, and/or refined to produce a finished product or an intermediate product for further processing."@en ;
-	rdfs:label "ManufacturingLine"@en ;
-	skos:prefLabel "ManufacturingLine"@en .
+    rdfs:subClassOf emmo:ManufacturingSystem ;
+    emmo:elucidation "A manufacturing line is a set of sequential operations in a factory where materials are processed, assembled, and/or refined to produce a finished product or an intermediate product for further processing."@en ;
+    rdfs:comment "A manufacturing line is a set of sequential operations in a factory where materials are processed, assembled, and/or refined to produce a finished product or an intermediate product for further processing."@en ;
+    rdfs:label "ManufacturingLine"@en ;
+    skos:prefLabel "ManufacturingLine"@en .
 
 hpo:PrepregWidth rdf:type owl:Class ;
-	rdfs:subClassOf hpo:PrepregProperty ;
-	rdfs:subClassOf emmo:Width ;
-	emmo:elucidation "Width of the prepreg."@en ;
-	rdfs:comment "Width of the prepreg."@en ;
-	rdfs:label "PrepregWidth"@en ;
-	skos:prefLabel "PrepregWidth"@en .
+    rdfs:subClassOf hpo:PrepregProperty ;
+    rdfs:subClassOf emmo:Width ;
+    emmo:elucidation "Width of the prepreg."@en ;
+    rdfs:comment "Width of the prepreg."@en ;
+    rdfs:label "PrepregWidth"@en ;
+    skos:prefLabel "PrepregWidth"@en .
 
 hpo:CoverToolLength rdf:type owl:Class ;
-	rdfs:subClassOf hpo:CoverToolProperty ;
-	rdfs:subClassOf emmo:Length ;
-	emmo:elucidation "Length (contributing to the size of the tool)."@en ;
-	rdfs:comment "Length (contributing to the size of the tool)."@en ;
-	rdfs:label "CoverToolLength"@en ;
-	skos:prefLabel "CoverToolLength"@en .
+    rdfs:subClassOf hpo:CoverToolProperty ;
+    rdfs:subClassOf emmo:Length ;
+    emmo:elucidation "Length (contributing to the size of the tool)."@en ;
+    rdfs:comment "Length (contributing to the size of the tool)."@en ;
+    rdfs:label "CoverToolLength"@en ;
+    skos:prefLabel "CoverToolLength"@en .
 
 hpo:Resin rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Material ;
-	rdfs:subClassOf hpo:ThermosettingPolymer ;
-	emmo:elucidation "Soft solid or highly viscous substance, usually containing prepolymers with reactive groups."@en ;
-	rdfs:comment "Soft solid or highly viscous substance, usually containing prepolymers with reactive groups."@en ;
-	rdfs:seeAlso "https://doi.org/10.1351/goldbook.RT07166"@en ;
-	rdfs:label "Resin"@en ;
-	skos:prefLabel "Resin"@en .
+    rdfs:subClassOf emmo:Material ;
+    rdfs:subClassOf hpo:ThermosettingPolymer ;
+    emmo:elucidation "Soft solid or highly viscous substance, usually containing prepolymers with reactive groups."@en ;
+    rdfs:comment "Soft solid or highly viscous substance, usually containing prepolymers with reactive groups."@en ;
+    rdfs:seeAlso "https://doi.org/10.1351/goldbook.RT07166"@en ;
+    rdfs:label "Resin"@en ;
+    skos:prefLabel "Resin"@en .
 
 hpo:ReleaseLayer rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Material ,
-	emmo:ManufacturedProduct ;
-	emmo:elucidation "A specially formulated material placed between the mold and uncured resin/fiber (usually sprayed or painted on the mold surface) to prevent permanent bonding between the two during cure and facilitates demolding after cure."@en ;
-	rdfs:comment "A specially formulated material placed between the mold and uncured resin/fiber (usually sprayed or painted on the mold surface) to prevent permanent bonding between the two during cure and facilitates demolding after cure."@en ;
-	rdfs:isDefinedBy "https://compositesuk.co.uk/composite-materials/glossary-terms"^^xsd:anyURI ;
-	rdfs:label "ReleaseLayer"@en ;
-	skos:prefLabel "ReleaseLayer"@en .
+    rdfs:subClassOf emmo:Material ,
+    emmo:ManufacturedProduct ;
+    emmo:elucidation "A specially formulated material placed between the mold and uncured resin/fiber (usually sprayed or painted on the mold surface) to prevent permanent bonding between the two during cure and facilitates demolding after cure."@en ;
+    rdfs:comment "A specially formulated material placed between the mold and uncured resin/fiber (usually sprayed or painted on the mold surface) to prevent permanent bonding between the two during cure and facilitates demolding after cure."@en ;
+    rdfs:isDefinedBy "https://compositesuk.co.uk/composite-materials/glossary-terms"^^xsd:anyURI ;
+    rdfs:label "ReleaseLayer"@en ;
+    skos:prefLabel "ReleaseLayer"@en .
 
 hpo:FormulatedResinCuringTemperature rdf:type owl:Class ;
-	rdfs:subClassOf hpo:FormulatedResinProperty ;
-	rdfs:subClassOf emmo:ThermodynamicTemperature ;
-	emmo:elucidation "Temperature required to start the process of cure of the resin."@en ;
-	rdfs:comment "Temperature required to start the process of cure of the resin."@en ;
-	rdfs:label "FormulatedResinCuringTemperature"@en ;
-	skos:prefLabel "FormulatedResinCuringTemperature"@en .
+    rdfs:subClassOf hpo:FormulatedResinProperty ;
+    rdfs:subClassOf emmo:ThermodynamicTemperature ;
+    emmo:elucidation "Temperature required to start the process of cure of the resin."@en ;
+    rdfs:comment "Temperature required to start the process of cure of the resin."@en ;
+    rdfs:label "FormulatedResinCuringTemperature"@en ;
+    skos:prefLabel "FormulatedResinCuringTemperature"@en .
 
 hpo:ResinWaterContent rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ResinProperty ;
-	emmo:elucidation "Percentage of water in the base resin."@en ;
-	rdfs:comment "Percentage of water in the base resin."@en ;
-	rdfs:label "ResinWaterContent"@en ;
-	skos:prefLabel "ResinWaterContent"@en .
+    rdfs:subClassOf hpo:ResinProperty ;
+    emmo:elucidation "Percentage of water in the base resin."@en ;
+    rdfs:comment "Percentage of water in the base resin."@en ;
+    rdfs:label "ResinWaterContent"@en ;
+    skos:prefLabel "ResinWaterContent"@en .
 
 hpo:CoverReleaseLayerIdentifier rdf:type owl:Class ;
-	rdfs:subClassOf hpo:CoverReleaseLayerProperty ;
-	emmo:elucidation "Commercial name of the applied consumable (product), differentiating available product providers and product lots."@en ;
-	rdfs:comment "Commercial name of the applied consumable (product), differentiating available product providers and product lots."@en ;
-	rdfs:label "CoverReleaseLayerIdentifier"@en ;
-	skos:prefLabel "CoverReleaseLayerIdentifier"@en .
+    rdfs:subClassOf hpo:CoverReleaseLayerProperty ;
+    emmo:elucidation "Commercial name of the applied consumable (product), differentiating available product providers and product lots."@en ;
+    rdfs:comment "Commercial name of the applied consumable (product), differentiating available product providers and product lots."@en ;
+    rdfs:label "CoverReleaseLayerIdentifier"@en ;
+    skos:prefLabel "CoverReleaseLayerIdentifier"@en .
 
 # Replace inverse(hasNext) with hasSpacialTile?
 hpo:FormulatedResin rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Mixture ,
-	emmo:ManufacturedMaterial ,
-	hpo:Resin ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty [ owl:inverseOf emmo:hasNext
-	] ;
-	owl:someValuesFrom hpo:Additive
-	] ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty [ owl:inverseOf emmo:hasNext
-	] ;
-	owl:someValuesFrom hpo:Catalyst
-	] ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty [ owl:inverseOf emmo:hasNext
-	] ;
-	owl:someValuesFrom hpo:Resin
-	] ;
-	emmo:elucidation "A manufactured mixture of a resin and ingredients."@en ;
-	rdfs:comment "A manufactured mixture of a resin and ingredients."@en ;
-	rdfs:label "FormulatedResin"@en ;
-	skos:prefLabel "FormulatedResin"@en .
+    rdfs:subClassOf emmo:Mixture ,
+    emmo:ManufacturedMaterial ,
+    hpo:Resin ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty [ owl:inverseOf emmo:hasNext
+    ] ;
+    owl:someValuesFrom hpo:Additive
+    ] ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty [ owl:inverseOf emmo:hasNext
+    ] ;
+    owl:someValuesFrom hpo:Catalyst
+    ] ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty [ owl:inverseOf emmo:hasNext
+    ] ;
+    owl:someValuesFrom hpo:Resin
+    ] ;
+    emmo:elucidation "A manufactured mixture of a resin and ingredients."@en ;
+    rdfs:comment "A manufactured mixture of a resin and ingredients."@en ;
+    rdfs:label "FormulatedResin"@en ;
+    skos:prefLabel "FormulatedResin"@en .
 
 hpo:FormulatedResinWaterContent rdf:type owl:Class ;
-	rdfs:subClassOf hpo:FormulatedResinProperty ;
-	emmo:elucidation "Weight percentage of (dissolved and freezable) water in the base resin."@en ;
-	rdfs:comment "Weight percentage of (dissolved and freezable) water in the base resin."@en ;
-	rdfs:label "FormulatedResinWaterContent"@en ;
-	skos:prefLabel "FormulatedResinWaterContent"@en .
+    rdfs:subClassOf hpo:FormulatedResinProperty ;
+    emmo:elucidation "Weight percentage of (dissolved and freezable) water in the base resin."@en ;
+    rdfs:comment "Weight percentage of (dissolved and freezable) water in the base resin."@en ;
+    rdfs:label "FormulatedResinWaterContent"@en ;
+    skos:prefLabel "FormulatedResinWaterContent"@en .
 
 hpo:WorkingStepsOrder rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ComponentManufacturingProperty ;
-	emmo:elucidation "List of steps for the mixing process."@en ;
-	rdfs:comment "List of steps for the mixing process."@en ;
-	rdfs:label "WorkingStepsOrder"@en ;
-	skos:prefLabel "WorkingStepsOrder"@en .
+    rdfs:subClassOf hpo:ComponentManufacturingProperty ;
+    emmo:elucidation "List of steps for the mixing process."@en ;
+    rdfs:comment "List of steps for the mixing process."@en ;
+    rdfs:label "WorkingStepsOrder"@en ;
+    skos:prefLabel "WorkingStepsOrder"@en .
 
 hpo:PrepregLine rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ManufacturingLine ;
-	emmo:elucidation "A manufacturing line processing a prepreg for later use."@en ;
-	rdfs:comment "A manufacturing line processing a prepreg for later use."@en ;
-	rdfs:label "PrepregLine"@en ;
-	skos:prefLabel "PrepregLine"@en .
+    rdfs:subClassOf hpo:ManufacturingLine ;
+    emmo:elucidation "A manufacturing line processing a prepreg for later use."@en ;
+    rdfs:comment "A manufacturing line processing a prepreg for later use."@en ;
+    rdfs:label "PrepregLine"@en ;
+    skos:prefLabel "PrepregLine"@en .
 
 hpo:TextileFabricThickness rdf:type owl:Class ;
-	rdfs:subClassOf hpo:TextileFabricProperty ;
-	rdfs:subClassOf emmo:Thickness ;
-	emmo:elucidation "Textile fabric thickness"@en ;
-	rdfs:comment "Textile fabric thickness"@en ;
-	rdfs:label "TextileFabricThickness"@en ;
-	skos:prefLabel "TextileFabricThickness"@en .
+    rdfs:subClassOf hpo:TextileFabricProperty ;
+    rdfs:subClassOf emmo:Thickness ;
+    emmo:elucidation "Textile fabric thickness"@en ;
+    rdfs:comment "Textile fabric thickness"@en ;
+    rdfs:label "TextileFabricThickness"@en ;
+    skos:prefLabel "TextileFabricThickness"@en .
 
 hpo:MouldToolProperty rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Objective ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty [ owl:inverseOf emmo:hasProperty
-	] ;
-	owl:allValuesFrom hpo:MouldTool
-	] ;
-	emmo:elucidation "A collection of the properties of moulds or tools."@en ;
-	rdfs:comment "A collection of the properties of moulds or tools."@en ;
-	rdfs:label "MouldToolProperty"@en ;
-	skos:prefLabel "MouldToolProperty"@en .
+    rdfs:subClassOf emmo:Objective ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty [ owl:inverseOf emmo:hasProperty
+    ] ;
+    owl:allValuesFrom hpo:MouldTool
+    ] ;
+    emmo:elucidation "A collection of the properties of moulds or tools."@en ;
+    rdfs:comment "A collection of the properties of moulds or tools."@en ;
+    rdfs:label "MouldToolProperty"@en ;
+    skos:prefLabel "MouldToolProperty"@en .
 
 hpo:CatalystProperty rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Objective ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty [ owl:inverseOf emmo:hasProperty
-	] ;
-	owl:allValuesFrom hpo:Catalyst
-	] ;
-	rdfs:comment "" ;
-	rdfs:label "CatalystProperty"@en ;
-	skos:prefLabel "CatalystProperty"@en .
+    rdfs:subClassOf emmo:Objective ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty [ owl:inverseOf emmo:hasProperty
+    ] ;
+    owl:allValuesFrom hpo:Catalyst
+    ] ;
+    rdfs:comment "" ;
+    rdfs:label "CatalystProperty"@en ;
+    skos:prefLabel "CatalystProperty"@en .
 
 hpo:MouldToolSurfaceRoughness rdf:type owl:Class ;
-	rdfs:subClassOf hpo:MouldToolProperty ;
-	emmo:elucidation "Arithmetic average of the absolute values of the profile height deviations from the mean line, recorded within the evaluation length."@en ;
-	rdfs:comment "Arithmetic average of the absolute values of the profile height deviations from the mean line, recorded within the evaluation length."@en ;
-	rdfs:label "MouldToolSurfaceRoughness"@en ;
-	skos:prefLabel "MouldToolSurfaceRoughness"@en .
+    rdfs:subClassOf hpo:MouldToolProperty ;
+    emmo:elucidation "Arithmetic average of the absolute values of the profile height deviations from the mean line, recorded within the evaluation length."@en ;
+    rdfs:comment "Arithmetic average of the absolute values of the profile height deviations from the mean line, recorded within the evaluation length."@en ;
+    rdfs:label "MouldToolSurfaceRoughness"@en ;
+    skos:prefLabel "MouldToolSurfaceRoughness"@en .
 
 hpo:TensileModulus rdf:type owl:Class ;
-	rdfs:subClassOf hpo:CompositeLaminateProperty ;
-	emmo:elucidation "Tangent of the stress-strain curve under tensile stress."@en ;
-	rdfs:comment "Tangent of the stress-strain curve under tensile stress."@en ;
-	rdfs:label "TensileModulus"@en ;
-	skos:prefLabel "TensileModulus"@en .
+    rdfs:subClassOf hpo:CompositeLaminateProperty ;
+    emmo:elucidation "Tangent of the stress-strain curve under tensile stress."@en ;
+    rdfs:comment "Tangent of the stress-strain curve under tensile stress."@en ;
+    rdfs:label "TensileModulus"@en ;
+    skos:prefLabel "TensileModulus"@en .
 
 hpo:FibreDiameter rdf:type owl:Class ;
-	rdfs:subClassOf hpo:TextileFabricProperty ;
-	rdfs:subClassOf emmo:Diameter ;
-	emmo:elucidation "Diameter of the fibre composing the fabric."@en ;
-	rdfs:comment "Diameter of the fibre composing the fabric."@en ;
-	rdfs:label "FibreDiameter"@en ;
-	skos:prefLabel "FibreDiameter"@en .
+    rdfs:subClassOf hpo:TextileFabricProperty ;
+    rdfs:subClassOf emmo:Diameter ;
+    emmo:elucidation "Diameter of the fibre composing the fabric."@en ;
+    rdfs:comment "Diameter of the fibre composing the fabric."@en ;
+    rdfs:label "FibreDiameter"@en ;
+    skos:prefLabel "FibreDiameter"@en .
 
 hpo:FormulatedResinSpecificCondensateFormation rdf:type owl:Class ;
-	rdfs:subClassOf hpo:FormulatedResinProperty ;
-	emmo:elucidation "Mass of water released per mass of resin throughout the applied chemical (curing) reaction."@en ;
-	rdfs:comment "Mass of water released per mass of resin throughout the applied chemical (curing) reaction."@en ;
-	rdfs:label "FormulatedResinSpecificCondensateFormation"@en ;
-	skos:prefLabel "FormulatedResinSpecificCondensateFormation"@en .
+    rdfs:subClassOf hpo:FormulatedResinProperty ;
+    emmo:elucidation "Mass of water released per mass of resin throughout the applied chemical (curing) reaction."@en ;
+    rdfs:comment "Mass of water released per mass of resin throughout the applied chemical (curing) reaction."@en ;
+    rdfs:label "FormulatedResinSpecificCondensateFormation"@en ;
+    skos:prefLabel "FormulatedResinSpecificCondensateFormation"@en .
 
 hpo:StackedPrepreg rdf:type owl:Class ;
-	rdfs:subClassOf emmo:ManufacturedProduct ,
-	[ rdf:type owl:Restriction ;
-	owl:onProperty emmo:contacts ;
-	owl:someValuesFrom hpo:PrepregPiece
-	] ;
-	emmo:elucidation "Arrangement of ply prepregs in a laminate."@en ;
-	rdfs:comment "Arrangement of ply prepregs in a laminate."@en ;
-	rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
-	rdfs:label "StackedPrepreg"@en ;
-	skos:prefLabel "StackedPrepreg"@en .
+    rdfs:subClassOf emmo:ManufacturedProduct ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:contacts ;
+    owl:someValuesFrom hpo:PrepregPiece
+    ] ;
+    emmo:elucidation "Arrangement of ply prepregs in a laminate."@en ;
+    rdfs:comment "Arrangement of ply prepregs in a laminate."@en ;
+    rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
+    rdfs:label "StackedPrepreg"@en ;
+    skos:prefLabel "StackedPrepreg"@en .
 
 hpo:Filler rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ResinIngredient ;
-	emmo:elucidation "A material (usually low cost) added to a resin to extend it, or give special properties"@en ;
-	rdfs:comment "A material (usually low cost) added to a resin to extend it, or give special properties"@en ;
-	rdfs:isDefinedBy "https://compositesuk.co.uk/composite-materials/glossary-of-terms/"^^xsd:anyURI ;
-	rdfs:label "Filler"@en ;
-	skos:prefLabel "Filler"@en .
+    rdfs:subClassOf hpo:ResinIngredient ;
+    emmo:elucidation "A material (usually low cost) added to a resin to extend it, or give special properties"@en ;
+    rdfs:comment "A material (usually low cost) added to a resin to extend it, or give special properties"@en ;
+    rdfs:isDefinedBy "https://compositesuk.co.uk/composite-materials/glossary-of-terms/"^^xsd:anyURI ;
+    rdfs:label "Filler"@en ;
+    skos:prefLabel "Filler"@en .
 
 hpo:Volatile rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ResinIngredient ;
-	emmo:elucidation "Solvents, such as water and alcohol, in a sizing or resin formulation that can be vaporized at ambient or slightly elevated temperatures."@en ;
-	rdfs:comment "Solvents, such as water and alcohol, in a sizing or resin formulation that can be vaporized at ambient or slightly elevated temperatures."@en ;
-	rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
-	skos:altLabel "Solvent"@en ;
-	rdfs:label "Volatile"@en ;
-	skos:prefLabel "Volatile"@en .
+    rdfs:subClassOf hpo:ResinIngredient ;
+    emmo:elucidation "Solvents, such as water and alcohol, in a sizing or resin formulation that can be vaporized at ambient or slightly elevated temperatures."@en ;
+    rdfs:comment "Solvents, such as water and alcohol, in a sizing or resin formulation that can be vaporized at ambient or slightly elevated temperatures."@en ;
+    rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
+    skos:altLabel "Solvent"@en ;
+    rdfs:label "Volatile"@en ;
+    skos:prefLabel "Volatile"@en .
 
 hpo:Monomer rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ResinIngredient ;
-	emmo:elucidation "A single molecule that reacts with like or unlike molecules to form a polymer. "@en ;
-	rdfs:comment "A single molecule that reacts with like or unlike molecules to form a polymer. "@en ;
-	rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
-	rdfs:label "Monomer"@en ;
-	skos:prefLabel "Monomer"@en .
+    rdfs:subClassOf hpo:ResinIngredient ;
+    emmo:elucidation "A single molecule that reacts with like or unlike molecules to form a polymer. "@en ;
+    rdfs:comment "A single molecule that reacts with like or unlike molecules to form a polymer. "@en ;
+    rdfs:isDefinedBy "https://www.compositesworld.com/glossary"^^xsd:anyURI ;
+    rdfs:label "Monomer"@en ;
+    skos:prefLabel "Monomer"@en .
 
 # Polymer classification:
 # Based on origin of source.
 
 hpo:NaturalPolymer rdf:type owl:Class ;
-	rdfs:subClassOf emmo:PolymericMaterial ;
-	rdfs:subClassOf emmo:NaturalMaterial ;
-	emmo:elucidation "A naturally occurring polymer produced by living organisms."@en ;
-	rdfs:comment "A naturally occurring polymer produced by living organisms."@en ;
-	emmo:example "DNA, cellulose."@en ;
-	rdfs:label "NaturalPolymer"@en ;
-	skos:prefLabel "NaturalPolymer"@en .
+    rdfs:subClassOf emmo:PolymericMaterial ;
+    rdfs:subClassOf emmo:NaturalMaterial ;
+    emmo:elucidation "A naturally occurring polymer produced by living organisms."@en ;
+    rdfs:comment "A naturally occurring polymer produced by living organisms."@en ;
+    emmo:example "DNA, cellulose."@en ;
+    rdfs:label "NaturalPolymer"@en ;
+    skos:prefLabel "NaturalPolymer"@en .
 
 hpo:SemiSyntheticPolymer rdf:type owl:Class ;
-	rdfs:subClassOf emmo:PolymericMaterial ;
-	rdfs:subClassOf emmo:NaturalMaterial ;
-	rdfs:subClassOf emmo:ManufacturedMaterial ;
-	emmo:elucidation "A polymer synthesised from biomass sources."@en ;
-	rdfs:comment "A polymer synthesised from biomass sources."@en ;
-	emmo:example "Polylactic acid, celluloid."@en ;
-	skos:altLabel "Bioplastics"@en ;
-	rdfs:label "SemiSyntheticPolymer"@en ;
-	skos:prefLabel "SemiSyntheticPolymer"@en .
+    rdfs:subClassOf emmo:PolymericMaterial ;
+    rdfs:subClassOf emmo:NaturalMaterial ;
+    rdfs:subClassOf emmo:ManufacturedMaterial ;
+    emmo:elucidation "A polymer synthesised from biomass sources."@en ;
+    rdfs:comment "A polymer synthesised from biomass sources."@en ;
+    emmo:example "Polylactic acid, celluloid."@en ;
+    skos:altLabel "Bioplastics"@en ;
+    rdfs:label "SemiSyntheticPolymer"@en ;
+    skos:prefLabel "SemiSyntheticPolymer"@en .
 
 hpo:SyntheticPolymer rdf:type owl:Class ;
-	rdfs:subClassOf emmo:PolymericMaterial ;
-	rdfs:subClassOf emmo:ManufacturedMaterial ;
-	emmo:elucidation "A polymer synthesised from other manufactured chemicals."@en ;
-	rdfs:comment "A polymer synthesised from other manufactured chemicals."@en ;
-	emmo:example "Polyethylene, polystyrene."@en ;
-	rdfs:label "SyntheticPolymer"@en ;
-	skos:prefLabel "SyntheticPolymer"@en .
+    rdfs:subClassOf emmo:PolymericMaterial ;
+    rdfs:subClassOf emmo:ManufacturedMaterial ;
+    emmo:elucidation "A polymer synthesised from other manufactured chemicals."@en ;
+    rdfs:comment "A polymer synthesised from other manufactured chemicals."@en ;
+    emmo:example "Polyethylene, polystyrene."@en ;
+    rdfs:label "SyntheticPolymer"@en ;
+    skos:prefLabel "SyntheticPolymer"@en .
 
 # Based on structure.
 # Which EMMO-relation can be used to connect the following three claasses to emmo:StructuralFormula? hasSign?
 
 hpo:LinearPolymer rdf:type owl:Class ;
-	rdfs:subClassOf emmo:PolymericMaterial ;
-	rdfs:subClassOf hpo:Linear ;
-	emmo:elucidation "A polymer whose molecular structure is characterised by a linear chain of repeating units."@en ;
-	rdfs:comment "A polymer whose molecular structure is characterised by a linear chain of repeating units."@en ;
-	emmo:example "Polyethylene, polystyrene."@en ;
-	rdfs:label "LinearPolymer"@en ;
-	skos:prefLabel "LinearPolymer"@en .
+    rdfs:subClassOf emmo:PolymericMaterial ;
+    rdfs:subClassOf hpo:Linear ;
+    emmo:elucidation "A polymer whose molecular structure is characterised by a linear chain of repeating units."@en ;
+    rdfs:comment "A polymer whose molecular structure is characterised by a linear chain of repeating units."@en ;
+    emmo:example "Polyethylene, polystyrene."@en ;
+    rdfs:label "LinearPolymer"@en ;
+    skos:prefLabel "LinearPolymer"@en .
 
 hpo:BranchedPolymer rdf:type owl:Class ;
-	rdfs:subClassOf emmo:PolymericMaterial ;
-	rdfs:subClassOf hpo:Branched ;
-	emmo:elucidation "A polymer whose molecular structure is characterised by a regular or irregular attachment of side chains to the main backbone chain. ."@en ;
-	rdfs:comment "A polymer whose molecular structure is characterised by a regular or irregular attachment of side chains to the main backbone chain. ."@en ;
-	emmo:example "Glycogen, Star-polymers."@en ;
-	rdfs:label "BranchedPolymer"@en ;
-	skos:prefLabel "BranchedPolymer"@en .
+    rdfs:subClassOf emmo:PolymericMaterial ;
+    rdfs:subClassOf hpo:Branched ;
+    emmo:elucidation "A polymer whose molecular structure is characterised by a regular or irregular attachment of side chains to the main backbone chain. ."@en ;
+    rdfs:comment "A polymer whose molecular structure is characterised by a regular or irregular attachment of side chains to the main backbone chain. ."@en ;
+    emmo:example "Glycogen, Star-polymers."@en ;
+    rdfs:label "BranchedPolymer"@en ;
+    skos:prefLabel "BranchedPolymer"@en .
 
 hpo:CrosslinkedPolymer rdf:type owl:Class ;
-	rdfs:subClassOf emmo:PolymericMaterial ;
-	rdfs:subClassOf hpo:Crosslinked ;
-	emmo:elucidation "A polymer whose molecular structure is characterised by additional covalent bonds connecting several chains together."@en ;
-	rdfs:comment "A polymer whose molecular structure is characterised by additional covalent bonds connecting several chains together."@en ;
-	emmo:example "Bakelite, vulcanised rubber."@en ;
-	rdfs:label "CrosslinkedPolymer"@en ;
-	skos:prefLabel "CrosslinkedPolymer"@en .
+    rdfs:subClassOf emmo:PolymericMaterial ;
+    rdfs:subClassOf hpo:Crosslinked ;
+    emmo:elucidation "A polymer whose molecular structure is characterised by additional covalent bonds connecting several chains together."@en ;
+    rdfs:comment "A polymer whose molecular structure is characterised by additional covalent bonds connecting several chains together."@en ;
+    emmo:example "Bakelite, vulcanised rubber."@en ;
+    rdfs:label "CrosslinkedPolymer"@en ;
+    skos:prefLabel "CrosslinkedPolymer"@en .
 
 # Sometimes the name NetworkPolymer is used to refer to ThermosettingPolymer and/or CrosslinkedPolymer. Use skos:AltLabel?
 
 # Based on TotalComposition (a subclass of emmo:ChemicalComposition).
 
 hpo:HomoPolymer rdf:type owl:Class ;
-	rdfs:subClassOf emmo:PolymericMaterial ;
-	rdfs:subClassOf emmo:TotalComposition ;
-	emmo:elucidation "A polymer derived from the polymerisation of one kind of monomer."@en ;
-	rdfs:comment "A polymer derived from the polymerisation of one kind of monomer."@en ;
-	rdfs:label "HomoPolymer"@en ;
-	skos:prefLabel "HomoPolymer"@en .
+    rdfs:subClassOf emmo:PolymericMaterial ;
+    rdfs:subClassOf emmo:TotalComposition ;
+    emmo:elucidation "A polymer derived from the polymerisation of one kind of monomer."@en ;
+    rdfs:comment "A polymer derived from the polymerisation of one kind of monomer."@en ;
+    rdfs:label "HomoPolymer"@en ;
+    skos:prefLabel "HomoPolymer"@en .
 
 hpo:CoPolymer rdf:type owl:Class ;
-	rdfs:subClassOf emmo:PolymericMaterial ;
-	rdfs:subClassOf emmo:TotalComposition ;
-	emmo:elucidation "A polymer derived from the polymerisation of more than one species of monomer."@en ;
-	rdfs:comment "A polymer derived from the polymerisation of more than one species of monomer."@en ;
-	rdfs:label "CoPolymer"@en ;
-	skos:prefLabel "CoPolymer"@en .
+    rdfs:subClassOf emmo:PolymericMaterial ;
+    rdfs:subClassOf emmo:TotalComposition ;
+    emmo:elucidation "A polymer derived from the polymerisation of more than one species of monomer."@en ;
+    rdfs:comment "A polymer derived from the polymerisation of more than one species of monomer."@en ;
+    rdfs:label "CoPolymer"@en ;
+    skos:altLabel "HeteroPolymer" ;
+    skos:prefLabel "CoPolymer"@en .
 
 # Based on behaviour/mechanical properties (due to differences in molecular forces).
 # Here I have used a restriction like "emmo:hasBehaviour only hpo:SomeBehaviour" to
@@ -1245,52 +1240,52 @@ hpo:CoPolymer rdf:type owl:Class ;
 # in a separate group.
 
 hpo:Elastomer rdf:type owl:Class ;
-	rdfs:subClassOf emmo:PolymericMaterial ,
-	[ rdf:type owl:Restriction ;
+    rdfs:subClassOf emmo:PolymericMaterial ,
+    [ rdf:type owl:Restriction ;
     owl:onProperty emmo:hasBehaviour ;
     owl:allValuesFrom hpo:Elasticity
     ] ;
-	emmo:elucidation "A polymer characterised by weak intermolecular forces and viscoelasticity."@en ;
-	rdfs:comment "A polymer characterised by weak intermolecular forces and viscoelasticity."@en ;
-	emmo:example "Neoprene, rubber."@en ;
-	rdfs:label "Elastomer"@en ;
-	skos:prefLabel "Elastomer"@en .
+    emmo:elucidation "A polymer characterised by weak intermolecular forces and viscoelasticity."@en ;
+    rdfs:comment "A polymer characterised by weak intermolecular forces and viscoelasticity."@en ;
+    emmo:example "Neoprene, rubber."@en ;
+    rdfs:label "Elastomer"@en ;
+    skos:prefLabel "Elastomer"@en .
 
 hpo:Fibre rdf:type owl:Class ;
-	rdfs:subClassOf emmo:PolymericMaterial ,
-	[ rdf:type owl:Restriction ;
+    rdfs:subClassOf emmo:PolymericMaterial ,
+    [ rdf:type owl:Restriction ;
     owl:onProperty emmo:hasBehaviour ;
     owl:allValuesFrom hpo:Inelasticity
     ] ;
-	emmo:elucidation "A polymer characterised by strong intermolecular forces and high tensile strength."@en ;
-	rdfs:comment "A polymer characterised by strong intermolecular forces and high tensile strength."@en ;
-	emmo:example "Cotton, Nylon."@en ;
-	rdfs:label "Fibre"@en ;
-	skos:prefLabel "Fibre"@en .
+    emmo:elucidation "A polymer characterised by strong intermolecular forces and high tensile strength."@en ;
+    rdfs:comment "A polymer characterised by strong intermolecular forces and high tensile strength."@en ;
+    emmo:example "Cotton, Nylon."@en ;
+    rdfs:label "Fibre"@en ;
+    skos:prefLabel "Fibre"@en .
 
 hpo:ThermoplasticPolymer rdf:type owl:Class ;
-	rdfs:subClassOf emmo:PolymericMaterial ,
-	[ rdf:type owl:Restriction ;
+    rdfs:subClassOf emmo:PolymericMaterial ,
+    [ rdf:type owl:Restriction ;
     owl:onProperty emmo:hasBehaviour ;
     owl:allValuesFrom hpo:Thermoplastic
     ] ;
-	emmo:elucidation "A polymer that becomes pliable and mouldable (i.e. plastic) above a certain temperature, and that reversibly solidifies upon cooling. Thermoplastics typically have linear chains and high molecular weight, increasing the strength of intermolecular interactions."@en ;
-	rdfs:comment "A polymer that becomes pliable and mouldable (i.e. plastic) above a certain temperature, and that reversibly solidifies upon cooling. Thermoplastics typically have linear chains and high molecular weight, increasing the strength of intermolecular interactions."@en ;
-	emmo:example "Polyacrylic acids, Polylactic acid, Polycarbonate."@en ;
-	rdfs:label "ThermoplasticPolymer"@en ;
-	skos:prefLabel "ThermoplasticPolymer"@en .
+    emmo:elucidation "A polymer that becomes pliable and mouldable (i.e. plastic) above a certain temperature, and that reversibly solidifies upon cooling. Thermoplastics typically have linear chains and high molecular weight, increasing the strength of intermolecular interactions."@en ;
+    rdfs:comment "A polymer that becomes pliable and mouldable (i.e. plastic) above a certain temperature, and that reversibly solidifies upon cooling. Thermoplastics typically have linear chains and high molecular weight, increasing the strength of intermolecular interactions."@en ;
+    emmo:example "Polyacrylic acids, Polylactic acid, Polycarbonate."@en ;
+    rdfs:label "ThermoplasticPolymer"@en ;
+    skos:prefLabel "ThermoplasticPolymer"@en .
 
 hpo:ThermosettingPolymer rdf:type owl:Class ;
-	rdfs:subClassOf emmo:PolymericMaterial ,
-	[ rdf:type owl:Restriction ;
+    rdfs:subClassOf emmo:PolymericMaterial ,
+    [ rdf:type owl:Restriction ;
     owl:onProperty emmo:hasBehaviour ;
     owl:allValuesFrom hpo:Thermosetting
     ] ;
-	emmo:elucidation "A polymer that becomes irreversibly hard by creating an extensive network of cross-linking between the individual chains."@en ;
-	rdfs:comment "A polymer that becomes irreversibly hard by creating an extensive network of cross-linking between the individual chains."@en ;
-	emmo:example "Epoxy resins, Polyurethanes."@en ;
-	rdfs:label "ThermosettingPolymer"@en ;
-	skos:prefLabel "ThermosettingPolymer"@en .
+    emmo:elucidation "A polymer that becomes irreversibly hard by creating an extensive network of cross-linking between the individual chains."@en ;
+    rdfs:comment "A polymer that becomes irreversibly hard by creating an extensive network of cross-linking between the individual chains."@en ;
+    emmo:example "Epoxy resins, Polyurethanes."@en ;
+    rdfs:label "ThermosettingPolymer"@en ;
+    skos:prefLabel "ThermosettingPolymer"@en .
 
 # OrganicSemiconductorPolymer could be seen as a polymer with a behaviour.
 # Conjugated Polymers as well?
@@ -1300,107 +1295,125 @@ hpo:ThermosettingPolymer rdf:type owl:Class ;
 # subclasses of ChemicalReaction. Those classes should be added to the EMMO-Chemistry module.
 
 hpo:AdditionPolymer rdf:type owl:Class ;
-	rdfs:subClassOf emmo:PolymericMaterial ;
-	emmo:elucidation "A polymer obtained through an addition reaction, that is, a reaction involving the creation of a single bond between the atoms of different molecules which are involved in a double or triple bond."@en ;
-	rdfs:comment "A polymer obtained through an addition reaction, that is, a reaction involving the creation of a single bond between the atoms of different molecules which are involved in a double or triple bond."@en ;
-	rdfs:label "AdditionPolymer"@en ;
-	skos:prefLabel "AdditionPolymer"@en .
+    rdfs:subClassOf emmo:PolymericMaterial ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:holisticOverlaps ;
+    owl:someValuesFrom hpo:ChemicalAddition
+    ] ;
+    emmo:elucidation "A polymer obtained through an addition reaction, that is, a reaction involving the creation of a single bond between the atoms of different molecules which are involved in a double or triple bond."@en ;
+    rdfs:comment "A polymer obtained through an addition reaction, that is, a reaction involving the creation of a single bond between the atoms of different molecules which are involved in a double or triple bond."@en ;
+    rdfs:label "AdditionPolymer"@en ;
+    skos:prefLabel "AdditionPolymer"@en .
 
 hpo:CondensationPolymer rdf:type owl:Class ;
-	rdfs:subClassOf emmo:PolymericMaterial ;
-	emmo:elucidation "A polymer obtained through a condensation reaction, that is, where two molecules form a chemical bond by eliminating a small molecule such as water."@en ;
-	rdfs:comment "A polymer obtained through a condensation reaction, that is, where two molecules form a chemical bond by eliminating a small molecule such as water."@en ;
-	rdfs:label "CondensationPolymer"@en ;
-	skos:prefLabel "CondensationPolymer"@en .
+    rdfs:subClassOf emmo:PolymericMaterial ,
+    [ rdf:type owl:Restriction ;
+    owl:onProperty emmo:holisticOverlaps ;
+    owl:someValuesFrom hpo:ChemicalCondensation
+    ] ;
+    emmo:elucidation "A polymer obtained through a condensation reaction, that is, where two molecules form a chemical bond by eliminating a small molecule such as water."@en ;
+    rdfs:comment "A polymer obtained through a condensation reaction, that is, where two molecules form a chemical bond by eliminating a small molecule such as water."@en ;
+    rdfs:label "CondensationPolymer"@en ;
+    skos:prefLabel "CondensationPolymer"@en .
 
 hpo:CouplingPolymer rdf:type owl:Class ;
-	rdfs:subClassOf hpo:CondensationPolymer ;
-	emmo:elucidation "A polymer obtained through a coupling reaction, that is, where two molecules form a chemical bond usually with a transition metal catalysing the reaction."@en ;
-	rdfs:comment "A polymer obtained through a coupling reaction, that is, where two molecules form a chemical bond usually with a transition metal catalysing the reaction."@en ;
-	rdfs:label "CouplingPolymer"@en ;
-	skos:prefLabel "CouplingPolymer"@en .
+    rdfs:subClassOf hpo:CondensationPolymer ;
+    emmo:elucidation "A polymer obtained through a coupling reaction, that is, where two molecules form a chemical bond usually with a transition metal catalysing the reaction."@en ;
+    rdfs:comment "A polymer obtained through a coupling reaction, that is, where two molecules form a chemical bond usually with a transition metal catalysing the reaction."@en ;
+    rdfs:label "CouplingPolymer"@en ;
+    skos:prefLabel "CouplingPolymer"@en .
+
+hpo:ChemicalAddition rdf:type owl:Class ;
+    rdfs:subClassOf emmo:MaterialSynthesis ;
+    skos:prefLabel "ChemicalAddition" ;
+    emmo:elucidation "In organic chemistry, an addition reaction is an organic reaction in which two or more molecules combine to form a larger molecule called the adduct. An addition reaction is limited to chemical compounds that have multiple bonds."@en .
+
+hpo:ChemicalCondensation rdf:type owl:Class ;
+    rdfs:subClassOf emmo:MaterialSynthesis ;
+    skos:prefLabel "ChemicalCondensation" ;
+    emmo:elucidation "Condensation is a type of chemical reaction where two or more molecules combine to form a larger molecule with the elimination of a small molecule."@en .
 
 # The original COMPEVO ontology also refers to prepolymers in the elucidation of resin. Check with Gerhard whether to replace them with hpo:Monomer.
 
 # Type of structures.
 hpo:SkeletalFormula rdf:type owl:Class ;
-	rdfs:subClassOf emmo:ChemicalRepresentation ;
-	emmo:elucidation "A 2-dimensional representation of chemical structures of organic compounds, showing the chemical bonds as lines, carbon atoms as vertices, and hetero atoms with labels. Hydrogen atoms are omitted in the representation since their presence can be derived from the valence of carbon atoms."@en ;
-	rdfs:comment "A 2-dimensional representation of chemical structures of organic compounds, showing the chemical bonds as lines, carbon atoms as vertices, and hetero atoms with labels. Hydrogen atoms are omitted in the representation since their presence can be derived from the valence of carbon atoms."@en ;
-	rdfs:label "SkeletalFormula"@en ;
-	skos:prefLabel "SkeletalFormula"@en .
+    rdfs:subClassOf emmo:ChemicalRepresentation ;
+    emmo:elucidation "A 2-dimensional representation of chemical structures of organic compounds, showing the chemical bonds as lines, carbon atoms as vertices, and hetero atoms with labels. Hydrogen atoms are omitted in the representation since their presence can be derived from the valence of carbon atoms."@en ;
+    rdfs:comment "A 2-dimensional representation of chemical structures of organic compounds, showing the chemical bonds as lines, carbon atoms as vertices, and hetero atoms with labels. Hydrogen atoms are omitted in the representation since their presence can be derived from the valence of carbon atoms."@en ;
+    rdfs:label "SkeletalFormula"@en ;
+    skos:prefLabel "SkeletalFormula"@en .
 
 hpo:Linear rdf:type owl:Class ;
-	rdfs:subClassOf hpo:SkeletalFormula ;
-	emmo:elucidation "A class of structures characterised by a linear skeleton."@en ;
-	rdfs:comment "A class of structures characterised by a linear skeleton."@en ;
-	rdfs:label "Linear"@en ;
-	skos:prefLabel "Linear"@en .
+    rdfs:subClassOf hpo:SkeletalFormula ;
+    emmo:elucidation "A class of structures characterised by a linear skeleton."@en ;
+    rdfs:comment "A class of structures characterised by a linear skeleton."@en ;
+    rdfs:label "Linear"@en ;
+    skos:prefLabel "Linear"@en .
 
 hpo:Branched rdf:type owl:Class ;
-	rdfs:subClassOf hpo:SkeletalFormula ;
-	emmo:elucidation "A class of structures characterised by a branched skeleton."@en ;
-	rdfs:comment "A class of structures characterised by a branched skeleton."@en ;
-	rdfs:label "Branched"@en ;
-	skos:prefLabel "Branched"@en .
+    rdfs:subClassOf hpo:SkeletalFormula ;
+    emmo:elucidation "A class of structures characterised by a branched skeleton."@en ;
+    rdfs:comment "A class of structures characterised by a branched skeleton."@en ;
+    rdfs:label "Branched"@en ;
+    skos:prefLabel "Branched"@en .
 
 hpo:Crosslinked rdf:type owl:Class ;
-	rdfs:subClassOf hpo:SkeletalFormula ;
-	emmo:elucidation "A class of structures characterised by a bond or a short sequence of bonds connecting different macromolecules."@en ;
-	rdfs:comment "A class of structures characterised by a bond or a short sequence of bonds connecting different macromolecules."@en ;
-	rdfs:label "Crosslinked"@en ;
-	skos:prefLabel "Crosslinked"@en .
+    rdfs:subClassOf hpo:SkeletalFormula ;
+    emmo:elucidation "A class of structures characterised by a bond or a short sequence of bonds connecting different macromolecules."@en ;
+    rdfs:comment "A class of structures characterised by a bond or a short sequence of bonds connecting different macromolecules."@en ;
+    rdfs:label "Crosslinked"@en ;
+    skos:prefLabel "Crosslinked"@en .
 
 # Behaviour of materials.
 hpo:ThermalBehaviour rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Behaviour ;
-	emmo:elucidation "The response of a material as a function of its temperature."@en ;
-	rdfs:comment "The response of a material as a function of its temperature."@en ;
-	rdfs:label "ThermalBehaviour"@en ;
-	skos:prefLabel "ThermalBehaviour"@en .
+    rdfs:subClassOf emmo:Behaviour ;
+    emmo:elucidation "The response of a material as a function of its temperature."@en ;
+    rdfs:comment "The response of a material as a function of its temperature."@en ;
+    rdfs:label "ThermalBehaviour"@en ;
+    skos:prefLabel "ThermalBehaviour"@en .
 
 hpo:Thermoplastic rdf:type owl:Class ;
-	rdfs:subClassOf hpo:Plasticity ;
-	rdfs:subClassOf hpo:ThermalBehaviour ;
-	emmo:elucidation "It is the ability of a material to exibit plasticity when its temperature exceeds a given value."@en ;
-	rdfs:comment "It is the ability of a material to exibit plasticity when its temperature exceeds a given value."@en ;
-	rdfs:label "Thermoplastic"@en ;
-	skos:prefLabel "Thermoplastic"@en .
+    rdfs:subClassOf hpo:Plasticity ;
+    rdfs:subClassOf hpo:ThermalBehaviour ;
+    emmo:elucidation "It is the ability of a material to exibit plasticity when its temperature exceeds a given value."@en ;
+    rdfs:comment "It is the ability of a material to exibit plasticity when its temperature exceeds a given value."@en ;
+    rdfs:label "Thermoplastic"@en ;
+    skos:prefLabel "Thermoplastic"@en .
 
 hpo:Thermosetting rdf:type owl:Class ;
-	rdfs:subClassOf hpo:ThermalBehaviour ;
-	emmo:elucidation "It is a process by which a material becomes irreversibly rigid when heated. "@en ;
-	rdfs:comment "It is a process by which a material becomes irreversibly rigid when heated. "@en ;
-	rdfs:label "Thermosetting"@en ;
-	skos:prefLabel "Thermosetting"@en .
+    rdfs:subClassOf hpo:ThermalBehaviour ;
+    emmo:elucidation "It is a process by which a material becomes irreversibly rigid when heated. "@en ;
+    rdfs:comment "It is a process by which a material becomes irreversibly rigid when heated. "@en ;
+    rdfs:label "Thermosetting"@en ;
+    skos:prefLabel "Thermosetting"@en .
 
 hpo:Elasticity rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Behaviour ;
-	emmo:elucidation "It is the ability of an object or material to return to its original shape after being deformed by a force."@en ;
-	rdfs:comment "It is the ability of an object or material to return to its original shape after being deformed by a force."@en ;
-	rdfs:label "Elasticity"@en ;
-	skos:prefLabel "Elasticity"@en .
+    rdfs:subClassOf emmo:Behaviour ;
+    emmo:elucidation "It is the ability of an object or material to return to its original shape after being deformed by a force."@en ;
+    rdfs:comment "It is the ability of an object or material to return to its original shape after being deformed by a force."@en ;
+    rdfs:label "Elasticity"@en ;
+    skos:prefLabel "Elasticity"@en .
 
 hpo:Inelasticity rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Behaviour ;
-	emmo:elucidation "It is the inability of an object or material to stretch in response to an applied force."@en ;
-	rdfs:comment "It is the inability of an object or material to stretch in response to an applied force."@en ;
-	rdfs:label "Inelasticity"@en ;
-	skos:prefLabel "Inelasticity"@en .
+    rdfs:subClassOf emmo:Behaviour ;
+    emmo:elucidation "It is the inability of an object or material to stretch in response to an applied force."@en ;
+    rdfs:comment "It is the inability of an object or material to stretch in response to an applied force."@en ;
+    rdfs:label "Inelasticity"@en ;
+    skos:prefLabel "Inelasticity"@en .
 
 hpo:Plasticity rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Behaviour ;
-	emmo:elucidation "It is the capacity of an object or material to retain a permanent deformation when an applied force exceeds a certain limit."@en ;
-	rdfs:comment "It is the capacity of an object or material to retain a permanent deformation when an applied force exceeds a certain limit."@en ;
-	rdfs:label "Plasticity"@en ;
-	skos:prefLabel "Plasticity"@en .
+    rdfs:subClassOf emmo:Behaviour ;
+    emmo:elucidation "It is the capacity of an object or material to retain a permanent deformation when an applied force exceeds a certain limit."@en ;
+    rdfs:comment "It is the capacity of an object or material to retain a permanent deformation when an applied force exceeds a certain limit."@en ;
+    rdfs:label "Plasticity"@en ;
+    skos:prefLabel "Plasticity"@en .
 
 hpo:Stiffness rdf:type owl:Class ;
-	rdfs:subClassOf emmo:Behaviour ;
-	emmo:elucidation "It is the capacity of an object or material to retain a permanent deformation when an applied force exceeds a certain limit."@en ;
-	rdfs:comment "It is the capacity of an object or material to retain a permanent deformation when an applied force exceeds a certain limit."@en ;
-	rdfs:label "Stiffness"@en ;
-	skos:prefLabel "Stiffness"@en .
+    rdfs:subClassOf emmo:Behaviour ;
+    emmo:elucidation "It is the capacity of an object or material to retain a permanent deformation when an applied force exceeds a certain limit."@en ;
+    rdfs:comment "It is the capacity of an object or material to retain a permanent deformation when an applied force exceeds a certain limit."@en ;
+    rdfs:label "Stiffness"@en ;
+    skos:prefLabel "Stiffness"@en .
 
 #########################################
 ### Equivalent classes and properties ###
@@ -1408,115 +1421,121 @@ hpo:Stiffness rdf:type owl:Class ;
 
 ### Classes:
 emmo:Behaviour a owl:Class ;
-	owl:equivalentClass emmo:EMMO_210e7e99_c1cf_44cc_87c7_310a10ff068b .
+    owl:equivalentClass emmo:EMMO_210e7e99_c1cf_44cc_87c7_310a10ff068b .
 ### emmo:ChemicalRepresentation                          -> disciplines-chemistry               EMMO_ecc4efe9_77a2_47e3_8190_f9a883d54ac6
 emmo:ChemicalRepresentation a owl:Class;
-	owl:equivalentClass emmo:EMMO_ecc4efe9_77a2_47e3_8190_f9a883d54ac6 .
+    owl:equivalentClass emmo:EMMO_ecc4efe9_77a2_47e3_8190_f9a883d54ac6 .
 ### emmo:Density                                         -> disciplines-isq                     EMMO_06448f64_8db6_4304_8b2c_e785dba82044
 emmo:Density a owl:Class;
-	owl:equivalentClass emmo:EMMO_06448f64_8db6_4304_8b2c_e785dba82044 .
+    owl:equivalentClass emmo:EMMO_06448f64_8db6_4304_8b2c_e785dba82044 .
 ### emmo:Diameter                                        -> disciplines-isq                     EMMO_c1c8ac3c_8a1c_4777_8e0b_14c1f9f9b0c6
 emmo:Diameter a owl:Class;
-	owl:equivalentClass emmo:EMMO_c1c8ac3c_8a1c_4777_8e0b_14c1f9f9b0c6 .
+    owl:equivalentClass emmo:EMMO_c1c8ac3c_8a1c_4777_8e0b_14c1f9f9b0c6 .
 ### emmo:Duration                                        -> disciplines-isq                     EMMO_0adabf6f_7404_44cb_9f65_32d83d8101a3
 emmo:Duration a owl:Class;
-	owl:equivalentClass emmo:EMMO_0adabf6f_7404_44cb_9f65_32d83d8101a3 .
+    owl:equivalentClass emmo:EMMO_0adabf6f_7404_44cb_9f65_32d83d8101a3 .
 ### emmo:DynamicViscosity                                -> disciplines-isq                     EMMO_908da3d5_775e_425e_af96_33914618eb66
 emmo:DynamicViscosity a owl:Class;
-	owl:equivalentClass emmo:EMMO_908da3d5_775e_425e_af96_33914618eb66 .
+    owl:equivalentClass emmo:EMMO_908da3d5_775e_425e_af96_33914618eb66 .
 ### emmo:Length                                          -> disciplines-isq                     EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac
 emmo:Length a owl:Class;
-	owl:equivalentClass emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac .
+    owl:equivalentClass emmo:EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac .
 ### emmo:ManufacturedMaterial                            -> disciplines-manufacturing           EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356
 emmo:ManufacturedMaterial a owl:Class;
-	owl:equivalentClass emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 .
+    owl:equivalentClass emmo:EMMO_ec7464a9_d99d_45f8_965b_4e9230ea8356 .
 ### emmo:ManufacturedProduct                             -> disciplines-manufacturing           EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad
 emmo:ManufacturedProduct a owl:Class;
-	owl:equivalentClass emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad .
+    owl:equivalentClass emmo:EMMO_86ca9b93_1183_4b65_81b8_c0fcd3bba5ad .
 ### emmo:Manufacturing                                   -> disciplines-manufacturing           EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b
 emmo:Manufacturing a owl:Class;
-	owl:equivalentClass emmo:EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b .
+    owl:equivalentClass emmo:EMMO_a4d66059_5dd3_4b90_b4cb_10960559441b .
 ### emmo:ManufacturingDevice                             -> disciplines-manufacturing           EMMO_86a305d1_7644_48be_b84c_1f976679b904
 emmo:ManufacturingDevice a owl:Class;
-	owl:equivalentClass emmo:EMMO_86a305d1_7644_48be_b84c_1f976679b904 .
+    owl:equivalentClass emmo:EMMO_86a305d1_7644_48be_b84c_1f976679b904 .
 ### emmo:ManufacturingSystem                             -> disciplines-manufacturing           EMMO_16cc6deb_d9f8_4ede_900a_a17cc86e57c4
 emmo:ManufacturingSystem a owl:Class;
-	owl:equivalentClass emmo:EMMO_16cc6deb_d9f8_4ede_900a_a17cc86e57c4 .
+    owl:equivalentClass emmo:EMMO_16cc6deb_d9f8_4ede_900a_a17cc86e57c4 .
 ### emmo:Material                                        -> perspectives-physicalistic          EMMO_4207e895_8b83_4318_996a_72cfb32acd94
 emmo:Material a owl:Class;
-	owl:equivalentClass emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94 .
+    owl:equivalentClass emmo:EMMO_4207e895_8b83_4318_996a_72cfb32acd94 .
+### emmo:MaterialSynthesis
+emmo:MaterialSynthesis a owl:Class;
+    owl:equivalentClass emmo:EMMO_fa9cfc5d_9c3c_4856_a708_28be3858917e .
 ### emmo:Measurement                                     -> disciplines-metrology               EMMO_463bcfda_867b_41d9_a967_211d4d437cfb
 emmo:Measurement a owl:Class;
-	owl:equivalentClass emmo:EMMO_463bcfda_867b_41d9_a967_211d4d437cfb .
+    owl:equivalentClass emmo:EMMO_463bcfda_867b_41d9_a967_211d4d437cfb .
 ### emmo:Mixture                                         -> perspectives-physicalistic          EMMO_ec2c8ac8_98c5_4c74_b85b_ff8e8ca6655c
 emmo:Mixture a owl:Class;
-	owl:equivalentClass emmo:EMMO_ec2c8ac8_98c5_4c74_b85b_ff8e8ca6655c .
+    owl:equivalentClass emmo:EMMO_ec2c8ac8_98c5_4c74_b85b_ff8e8ca6655c .
 ### emmo:NaturalMaterial                                 -> disciplines-materials               EMMO_75fe4fd1_0f7e_429b_b91d_59d248561bae
 emmo:NaturalMaterial a owl:Class;
-	owl:equivalentClass emmo:EMMO_75fe4fd1_0f7e_429b_b91d_59d248561bae .
+    owl:equivalentClass emmo:EMMO_75fe4fd1_0f7e_429b_b91d_59d248561bae .
 ### emmo:Objective                                       -> perspectives-semiotics              EMMO_2a888cdf_ec4a_4ec5_af1c_0343372fc978
 emmo:Objective a owl:Class;
-	owl:equivalentClass emmo:EMMO_2a888cdf_ec4a_4ec5_af1c_0343372fc978 .
+    owl:equivalentClass emmo:EMMO_2a888cdf_ec4a_4ec5_af1c_0343372fc978 .
 ### emmo:PH                                              -> disciplines-isq                     EMMO_80fe82d4_f4c1_43a1_98dc_ee5fc7927e19
 emmo:PH a owl:Class;
-	owl:equivalentClass emmo:EMMO_80fe82d4_f4c1_43a1_98dc_ee5fc7927e19 .
+    owl:equivalentClass emmo:EMMO_80fe82d4_f4c1_43a1_98dc_ee5fc7927e19 .
 ### emmo:PolymericMaterial                               -> disciplines-materials               EMMO_fb27e6d6_159e_48a6_9c29_76dc31d8a860
 emmo:PolymericMaterial a owl:Class;
-	owl:equivalentClass emmo:EMMO_fb27e6d6_159e_48a6_9c29_76dc31d8a860 .
+    owl:equivalentClass emmo:EMMO_fb27e6d6_159e_48a6_9c29_76dc31d8a860 .
 ### emmo:Pressure                                        -> disciplines-isq                     EMMO_50a44256_9dc5_434b_bad4_74a4d9a29989
 emmo:Pressure a owl:Class;
-	owl:equivalentClass emmo:EMMO_50a44256_9dc5_434b_bad4_74a4d9a29989 .
+    owl:equivalentClass emmo:EMMO_50a44256_9dc5_434b_bad4_74a4d9a29989 .
 ### emmo:ThermodynamicTemperature                        -> disciplines-isq                     EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f
 emmo:ThermodynamicTemperature a owl:Class;
-	owl:equivalentClass emmo:EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f .
+    owl:equivalentClass emmo:EMMO_affe07e4_e9bc_4852_86c6_69e26182a17f .
 ### emmo:Thickness                                       -> disciplines-isq                     EMMO_43003c86_9d15_433b_9789_ee2940920656
 emmo:Thickness a owl:Class;
-	owl:equivalentClass emmo:EMMO_43003c86_9d15_433b_9789_ee2940920656 .
+    owl:equivalentClass emmo:EMMO_43003c86_9d15_433b_9789_ee2940920656 .
 ### emmo:Tool                                            -> disciplines-manufacturing           EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe
 emmo:Tool a owl:Class;
-	owl:equivalentClass emmo:EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe .
+    owl:equivalentClass emmo:EMMO_5c68497d_2544_4cd4_897b_1ea783c9f6fe .
 ### emmo:TotalComposition                                -> disciplines-chemistry               EMMO_0eabfde6_c6c5_4b1f_bf10_e4e0e06e9b2e
 emmo:TotalComposition a owl:Class;
-	owl:equivalentClass emmo:EMMO_0eabfde6_c6c5_4b1f_bf10_e4e0e06e9b2e .
+    owl:equivalentClass emmo:EMMO_0eabfde6_c6c5_4b1f_bf10_e4e0e06e9b2e .
 ### emmo:Width                                           -> disciplines-isq                     EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0
 emmo:Width a owl:Class;
-	owl:equivalentClass emmo:EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0 .
+    owl:equivalentClass emmo:EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0 .
 
 ### ObjectProperties:
 ### emmo:contacts                                        -> mereocausality-mereocausality       EMMO_8785be5a_2493_4b12_8f39_31907ab11748
 emmo:contacts a owl:ObjectProperty ;
-	owl:equivalentProperty emmo:EMMO_8785be5a_2493_4b12_8f39_31907ab11748 .
+    owl:equivalentProperty emmo:EMMO_8785be5a_2493_4b12_8f39_31907ab11748 .
 ### emmo:hasBehaviour                                    -> multiperspective-persholistic       EMMO_ebc8c324_8e7a_4b09_bcb5_306e0c461d24
 emmo:hasBehaviour a owl:ObjectProperty ;
-	owl:equivalentProperty emmo:EMMO_ebc8c324_8e7a_4b09_bcb5_306e0c461d24 .
+    owl:equivalentProperty emmo:EMMO_ebc8c324_8e7a_4b09_bcb5_306e0c461d24 .
 ### emmo:hasConstituent                                  -> multiperspective-persholistic       EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec
 emmo:hasConstituent a owl:ObjectProperty ;
-	owl:equivalentProperty emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec .
+    owl:equivalentProperty emmo:EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec .
 ### emmo:hasInput                                        -> multiperspective-persholistic       EMMO_36e69413_8c59_4799_946c_10b05d266e22
 emmo:hasInput a owl:ObjectProperty ;
-	owl:equivalentProperty emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 .
+    owl:equivalentProperty emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 .
 ### emmo:hasManufacturedOutput                           -> disciplines-manufacturing           EMMO_0e86a108_9d4d_4582_8126_f0c527d81901
 emmo:hasManufacturedOutput a owl:ObjectProperty ;
-	owl:equivalentProperty emmo:EMMO_0e86a108_9d4d_4582_8126_f0c527d81901 .
+    owl:equivalentProperty emmo:EMMO_0e86a108_9d4d_4582_8126_f0c527d81901 .
 ### emmo:hasNext                                         -> mereocausality-mereocausality       EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d
 emmo:hasNext a owl:ObjectProperty ;
-	owl:equivalentProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d .
+    owl:equivalentProperty emmo:EMMO_499e24a5_5072_4c83_8625_fe3f96ae4a8d .
 ### emmo:hasParticipant                                  -> multiperspective-persholistic       EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a
 emmo:hasParticipant a owl:ObjectProperty ;
-	owl:equivalentProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a .
+    owl:equivalentProperty emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a .
 ### emmo:hasProperty                                     -> perspectives-semiotics              EMMO_e1097637_70d2_4895_973f_2396f04fa204
 emmo:hasProperty a owl:ObjectProperty ;
-	owl:equivalentProperty emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 .
+    owl:equivalentProperty emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 .
 ### emmo:hasStage                                        -> multiperspective-persholistic       EMMO_f22abf74_4538_4f50_ab85_09908cdda707
 emmo:hasStage a owl:ObjectProperty ;
-	owl:equivalentProperty emmo:EMMO_f22abf74_4538_4f50_ab85_09908cdda707 .
+    owl:equivalentProperty emmo:EMMO_f22abf74_4538_4f50_ab85_09908cdda707 .
+### emmo:holisticOverlaps
+emmo:holisticOverlaps a owl:ObjectProperty ;
+    owl:equivalentProperty emmo:EMMO_53e5b1e1_6026_4ddc_8a4a_3aaaa5fdbdb7 .
 
 ### DatatypeProperties:
 
 ### AnnotationProperties:
 ### emmo:elucidation                                     -> mereocausality-mereocausality       EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9
 emmo:elucidation a owl:AnnotationProperty ;
-	owl:equivalentProperty emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 .
+    owl:equivalentProperty emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 .
 ### emmo:example                                         -> mereocausality-mereocausality       EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a
 emmo:example a owl:AnnotationProperty ;
-	owl:equivalentProperty emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a .
+    owl:equivalentProperty emmo:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a .
