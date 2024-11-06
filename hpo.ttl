@@ -424,6 +424,7 @@ hpo:CompositeLaminate rdf:type owl:Class ;
         owl:intersectionOf ( hpo:Composite hpo:Laminate ) ;
         rdf:type owl:Class
     ] ;
+    rdfs:comment "" ;
     rdfs:label "CompositeLaminate"@en ;
     skos:prefLabel "CompositeLaminate"@en .
 
